@@ -1,0 +1,82 @@
+[
+    {
+        "machine_type_id": "MT001",
+        "machine_type": "CNC Machine",
+        "department": "Manufacturing",
+        "expected_life_years": 15,
+        "power_rating_kw": 22,
+        "maintenance_interval_days": 30
+    },
+    {
+        "machine_type_id": "MT002",
+        "machine_type": "Lathe Machine",
+        "department": "Manufacturing",
+        "expected_life_years": 18,
+        "power_rating_kw": 18,
+        "maintenance_interval_days": 45
+    },
+    {
+        "machine_type_id": "MT003",
+        "machine_type": "Milling Machine",
+        "department": "Manufacturing",
+        "expected_life_years": 16,
+        "power_rating_kw": 20,
+        "maintenance_interval_days": 30
+    },
+    {
+        "machine_type_id": "MT004",
+        "machine_type": "Grinding Machine",
+        "department": "Manufacturing",
+        "expected_life_years": 15,
+        "power_rating_kw": 15,
+        "maintenance_interval_days": 30
+    },
+    {
+        "machine_type_id": "MT005",
+        "machine_type": "Drilling Machine",
+        "department": "Manufacturing",
+        "expected_life_years": 14,
+        "power_rating_kw": 12,
+        "maintenance_interval_days": 30
+    },
+    {
+        "machine_type_id": "MT006",
+        "machine_type": "Hydraulic Press",
+        "department": "Manufacturing",
+        "expected_life_years": 20,
+        "power_rating_kw": 40,
+        "maintenance_interval_days": 60
+    },
+    {
+        "machine_type_id": "MT007",
+        "machine_type": "Assembly Station",
+        "department": "Manufacturing",
+        "expected_life_years": 12,
+        "power_rating_kw": 8,
+        "maintenance_interval_days": 30
+    },
+    {
+        "machine_type_id": "MT008",
+        "machine_type": "Industrial Robot Arm",
+        "department": "Manufacturing",
+        "expected_life_years": 15,
+        "power_rating_kw": 25,
+        "maintenance_interval_days": 45
+    },
+    {
+        "machine_type_id": "MT009",
+        "machine_type": "Inspection Station",
+        "department": "Quality Assurance",
+        "expected_life_years": 10,
+        "power_rating_kw": 6,
+        "maintenance_interval_days": 30
+    },
+    {
+        "machine_type_id": "MT010",
+        "machine_type": "Laser Cutting Machine",
+        "department": "Manufacturing",
+        "expected_life_years": 15,
+        "power_rating_kw": 30,
+        "maintenance_interval_days": 30
+    }
+]

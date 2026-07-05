@@ -1,0 +1,148 @@
+[
+    {
+        "department_id": "D001",
+        "department_name": "Manufacturing",
+        "manager_role": "Production Manager",
+        "factory_assignment": [
+            "F001",
+            "F002"
+        ],
+        "description": "Responsible for manufacturing engine components and assemblies."
+    },
+    {
+        "department_id": "D002",
+        "department_name": "Production Planning",
+        "manager_role": "Production Planning Manager",
+        "factory_assignment": [
+            "F001",
+            "F002"
+        ],
+        "description": "Plans daily and weekly production schedules."
+    },
+    {
+        "department_id": "D003",
+        "department_name": "Quality Assurance",
+        "manager_role": "Quality Manager",
+        "factory_assignment": [
+            "F001",
+            "F002"
+        ],
+        "description": "Ensures products meet quality standards."
+    },
+    {
+        "department_id": "D004",
+        "department_name": "Supply Chain",
+        "manager_role": "Supply Chain Manager",
+        "factory_assignment": [
+            "F001",
+            "F002"
+        ],
+        "description": "Manages inbound and outbound logistics."
+    },
+    {
+        "department_id": "D005",
+        "department_name": "Procurement",
+        "manager_role": "Procurement Manager",
+        "factory_assignment": [
+            "F001"
+        ],
+        "description": "Handles supplier selection and purchasing."
+    },
+    {
+        "department_id": "D006",
+        "department_name": "Warehouse Operations",
+        "manager_role": "Warehouse Manager",
+        "factory_assignment": [
+            "F001",
+            "F002"
+        ],
+        "description": "Manages raw material and finished goods warehouses."
+    },
+    {
+        "department_id": "D007",
+        "department_name": "Maintenance",
+        "manager_role": "Maintenance Manager",
+        "factory_assignment": [
+            "F001",
+            "F002"
+        ],
+        "description": "Maintains production equipment and machinery."
+    },
+    {
+        "department_id": "D008",
+        "department_name": "Industrial Engineering",
+        "manager_role": "Industrial Engineering Manager",
+        "factory_assignment": [
+            "F001"
+        ],
+        "description": "Improves manufacturing processes and efficiency."
+    },
+    {
+        "department_id": "D009",
+        "department_name": "Energy Management",
+        "manager_role": "Energy Manager",
+        "factory_assignment": [
+            "F001",
+            "F002"
+        ],
+        "description": "Monitors and optimizes plant energy usage."
+    },
+    {
+        "department_id": "D010",
+        "department_name": "Environment, Health & Safety",
+        "manager_role": "EHS Manager",
+        "factory_assignment": [
+            "F001",
+            "F002"
+        ],
+        "description": "Ensures workplace safety and environmental compliance."
+    },
+    {
+        "department_id": "D011",
+        "department_name": "Research & Development",
+        "manager_role": "R&D Manager",
+        "factory_assignment": [
+            "F001"
+        ],
+        "description": "Develops new products and manufacturing improvements."
+    },
+    {
+        "department_id": "D012",
+        "department_name": "Information Technology",
+        "manager_role": "IT Manager",
+        "factory_assignment": [
+            "F001",
+            "F002"
+        ],
+        "description": "Supports enterprise systems and infrastructure."
+    },
+    {
+        "department_id": "D013",
+        "department_name": "Human Resources",
+        "manager_role": "HR Manager",
+        "factory_assignment": [
+            "F001",
+            "F002"
+        ],
+        "description": "Manages recruitment, payroll and employee development."
+    },
+    {
+        "department_id": "D014",
+        "department_name": "Finance",
+        "manager_role": "Finance Manager",
+        "factory_assignment": [
+            "F001"
+        ],
+        "description": "Manages budgeting, accounting and financial reporting."
+    },
+    {
+        "department_id": "D015",
+        "department_name": "Operations Excellence",
+        "manager_role": "Operations Excellence Manager",
+        "factory_assignment": [
+            "F001",
+            "F002"
+        ],
+        "description": "Drives continuous improvement initiatives across plants."
+    }
+]

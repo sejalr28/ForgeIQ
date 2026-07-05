@@ -1,0 +1,66 @@
+{
+    "factories": [
+        {
+            "factory_id": "F001",
+            "factory_name": "ForgeIQ Pune Plant",
+            "city": "Pune",
+            "production_lines": [
+                {
+                    "line_id": "PL001",
+                    "line_name": "Engine Block Line",
+                    "product": "Engine Block",
+                    "daily_capacity": 450,
+                    "operators": 22,
+                    "supervisors": 2
+                },
+                {
+                    "line_id": "PL002",
+                    "line_name": "Crankshaft Line",
+                    "product": "Crankshaft",
+                    "daily_capacity": 380,
+                    "operators": 18,
+                    "supervisors": 2
+                },
+                {
+                    "line_id": "PL003",
+                    "line_name": "Cylinder Head Line",
+                    "product": "Cylinder Head",
+                    "daily_capacity": 420,
+                    "operators": 20,
+                    "supervisors": 2
+                }
+            ]
+        },
+        {
+            "factory_id": "F002",
+            "factory_name": "ForgeIQ Nashik Plant",
+            "city": "Nashik",
+            "production_lines": [
+                {
+                    "line_id": "PL004",
+                    "line_name": "Fuel Pump Line",
+                    "product": "Fuel Pump",
+                    "daily_capacity": 500,
+                    "operators": 24,
+                    "supervisors": 2
+                },
+                {
+                    "line_id": "PL005",
+                    "line_name": "Hydraulic Pump Line",
+                    "product": "Hydraulic Pump",
+                    "daily_capacity": 340,
+                    "operators": 18,
+                    "supervisors": 2
+                },
+                {
+                    "line_id": "PL006",
+                    "line_name": "Transmission Housing Line",
+                    "product": "Transmission Housing",
+                    "daily_capacity": 300,
+                    "operators": 16,
+                    "supervisors": 2
+                }
+            ]
+        }
+    ]
+}

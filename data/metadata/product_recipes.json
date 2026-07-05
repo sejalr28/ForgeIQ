@@ -1,0 +1,136 @@
+{
+    "products": [
+        {
+            "product_id": "P001",
+            "product_name": "Engine Block",
+            "production_line": "PL001",
+            "cycle_time_minutes": 18,
+            "scrap_rate_percent": 1.5,
+            "materials": [
+                {
+                    "material_id": "M001",
+                    "material_name": "Cast Iron",
+                    "quantity": 45,
+                    "unit": "Kg"
+                },
+                {
+                    "material_id": "M010",
+                    "material_name": "Lubricating Oil",
+                    "quantity": 0.4,
+                    "unit": "Litre"
+                },
+                {
+                    "material_id": "M011",
+                    "material_name": "Industrial Coolant",
+                    "quantity": 0.8,
+                    "unit": "Litre"
+                }
+            ]
+        },
+        {
+            "product_id": "P002",
+            "product_name": "Crankshaft",
+            "production_line": "PL002",
+            "cycle_time_minutes": 15,
+            "scrap_rate_percent": 1.2,
+            "materials": [
+                {
+                    "material_id": "M002",
+                    "material_name": "Forged Steel",
+                    "quantity": 22,
+                    "unit": "Kg"
+                },
+                {
+                    "material_id": "M010",
+                    "material_name": "Lubricating Oil",
+                    "quantity": 0.3,
+                    "unit": "Litre"
+                }
+            ]
+        },
+        {
+            "product_id": "P003",
+            "product_name": "Cylinder Head",
+            "production_line": "PL003",
+            "cycle_time_minutes": 16,
+            "scrap_rate_percent": 1.8,
+            "materials": [
+                {
+                    "material_id": "M004",
+                    "material_name": "Aluminium Alloy",
+                    "quantity": 16,
+                    "unit": "Kg"
+                },
+                {
+                    "material_id": "M011",
+                    "material_name": "Industrial Coolant",
+                    "quantity": 0.5,
+                    "unit": "Litre"
+                }
+            ]
+        },
+        {
+            "product_id": "P004",
+            "product_name": "Fuel Pump",
+            "production_line": "PL004",
+            "cycle_time_minutes": 12,
+            "scrap_rate_percent": 1.0,
+            "materials": [
+                {
+                    "material_id": "M003",
+                    "material_name": "Stainless Steel",
+                    "quantity": 8,
+                    "unit": "Kg"
+                },
+                {
+                    "material_id": "M012",
+                    "material_name": "Electronic Sensors",
+                    "quantity": 2,
+                    "unit": "Piece"
+                }
+            ]
+        },
+        {
+            "product_id": "P005",
+            "product_name": "Hydraulic Pump",
+            "production_line": "PL005",
+            "cycle_time_minutes": 14,
+            "scrap_rate_percent": 1.4,
+            "materials": [
+                {
+                    "material_id": "M002",
+                    "material_name": "Forged Steel",
+                    "quantity": 12,
+                    "unit": "Kg"
+                },
+                {
+                    "material_id": "M014",
+                    "material_name": "Hydraulic Fluid",
+                    "quantity": 1.2,
+                    "unit": "Litre"
+                }
+            ]
+        },
+        {
+            "product_id": "P006",
+            "product_name": "Transmission Housing",
+            "production_line": "PL006",
+            "cycle_time_minutes": 20,
+            "scrap_rate_percent": 2.0,
+            "materials": [
+                {
+                    "material_id": "M001",
+                    "material_name": "Cast Iron",
+                    "quantity": 28,
+                    "unit": "Kg"
+                },
+                {
+                    "material_id": "M015",
+                    "material_name": "Protective Coating",
+                    "quantity": 0.6,
+                    "unit": "Litre"
+                }
+            ]
+        }
+    ]
+}

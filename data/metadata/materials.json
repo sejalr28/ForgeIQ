@@ -1,0 +1,137 @@
+[
+    {
+        "material_id": "M001",
+        "material_name": "Cast Iron",
+        "category": "Metal",
+        "unit": "Kg",
+        "average_unit_cost": 68,
+        "supplier_type": "Metal Supplier",
+        "criticality": "High"
+    },
+    {
+        "material_id": "M002",
+        "material_name": "Forged Steel",
+        "category": "Metal",
+        "unit": "Kg",
+        "average_unit_cost": 92,
+        "supplier_type": "Metal Supplier",
+        "criticality": "High"
+    },
+    {
+        "material_id": "M003",
+        "material_name": "Stainless Steel",
+        "category": "Metal",
+        "unit": "Kg",
+        "average_unit_cost": 118,
+        "supplier_type": "Metal Supplier",
+        "criticality": "High"
+    },
+    {
+        "material_id": "M004",
+        "material_name": "Aluminium Alloy",
+        "category": "Metal",
+        "unit": "Kg",
+        "average_unit_cost": 145,
+        "supplier_type": "Metal Supplier",
+        "criticality": "Medium"
+    },
+    {
+        "material_id": "M005",
+        "material_name": "Copper",
+        "category": "Electrical",
+        "unit": "Kg",
+        "average_unit_cost": 760,
+        "supplier_type": "Electrical Supplier",
+        "criticality": "High"
+    },
+    {
+        "material_id": "M006",
+        "material_name": "Industrial Plastic",
+        "category": "Polymer",
+        "unit": "Kg",
+        "average_unit_cost": 185,
+        "supplier_type": "Plastic Supplier",
+        "criticality": "Medium"
+    },
+    {
+        "material_id": "M007",
+        "material_name": "Rubber Seal",
+        "category": "Rubber",
+        "unit": "Piece",
+        "average_unit_cost": 42,
+        "supplier_type": "Rubber Supplier",
+        "criticality": "Medium"
+    },
+    {
+        "material_id": "M008",
+        "material_name": "Bearing Steel",
+        "category": "Metal",
+        "unit": "Kg",
+        "average_unit_cost": 158,
+        "supplier_type": "Metal Supplier",
+        "criticality": "High"
+    },
+    {
+        "material_id": "M009",
+        "material_name": "Industrial Fasteners",
+        "category": "Hardware",
+        "unit": "Box",
+        "average_unit_cost": 980,
+        "supplier_type": "Hardware Supplier",
+        "criticality": "Medium"
+    },
+    {
+        "material_id": "M010",
+        "material_name": "Lubricating Oil",
+        "category": "Chemical",
+        "unit": "Litre",
+        "average_unit_cost": 310,
+        "supplier_type": "Chemical Supplier",
+        "criticality": "High"
+    },
+    {
+        "material_id": "M011",
+        "material_name": "Industrial Coolant",
+        "category": "Chemical",
+        "unit": "Litre",
+        "average_unit_cost": 225,
+        "supplier_type": "Chemical Supplier",
+        "criticality": "Medium"
+    },
+    {
+        "material_id": "M012",
+        "material_name": "Electronic Sensors",
+        "category": "Electronics",
+        "unit": "Piece",
+        "average_unit_cost": 580,
+        "supplier_type": "Electronics Supplier",
+        "criticality": "High"
+    },
+    {
+        "material_id": "M013",
+        "material_name": "Wiring Harness",
+        "category": "Electrical",
+        "unit": "Piece",
+        "average_unit_cost": 340,
+        "supplier_type": "Electrical Supplier",
+        "criticality": "Medium"
+    },
+    {
+        "material_id": "M014",
+        "material_name": "Hydraulic Fluid",
+        "category": "Chemical",
+        "unit": "Litre",
+        "average_unit_cost": 275,
+        "supplier_type": "Chemical Supplier",
+        "criticality": "Medium"
+    },
+    {
+        "material_id": "M015",
+        "material_name": "Protective Coating",
+        "category": "Chemical",
+        "unit": "Litre",
+        "average_unit_cost": 420,
+        "supplier_type": "Chemical Supplier",
+        "criticality": "Low"
+    }
+]

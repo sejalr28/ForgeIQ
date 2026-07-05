@@ -1,0 +1,7 @@
+product_id,product_name,production_line,cycle_time_minutes,scrap_rate_percent
+P001,Engine Block,PL001,18,1.5
+P002,Crankshaft,PL002,15,1.2
+P003,Cylinder Head,PL003,16,1.8
+P004,Fuel Pump,PL004,12,1.0
+P005,Hydraulic Pump,PL005,14,1.4
+P006,Transmission Housing,PL006,20,2.0

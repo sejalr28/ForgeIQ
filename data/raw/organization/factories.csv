@@ -1,0 +1,3 @@
+factory_id,factory_name,city,country,plant_type,status
+F001,ForgeIQ Pune Plant,Pune,India,Manufacturing,Active
+F002,ForgeIQ Nashik Plant,Nashik,India,Manufacturing,Active

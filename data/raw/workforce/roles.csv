@@ -1,0 +1,21 @@
+role_id,role_name,department,level,employment_type
+R001,Plant Director,Operations Excellence,Executive,Full-Time
+R002,Factory Manager,Operations Excellence,Senior Management,Full-Time
+R003,Production Manager,Manufacturing,Management,Full-Time
+R004,Production Supervisor,Manufacturing,Supervisor,Full-Time
+R005,Machine Operator,Manufacturing,Operator,Full-Time
+R006,Maintenance Engineer,Maintenance,Engineer,Full-Time
+R007,Quality Engineer,Quality Assurance,Engineer,Full-Time
+R008,Industrial Engineer,Industrial Engineering,Engineer,Full-Time
+R009,Supply Chain Analyst,Supply Chain,Analyst,Full-Time
+R010,Procurement Officer,Procurement,Officer,Full-Time
+R011,Warehouse Executive,Warehouse Operations,Executive,Full-Time
+R012,Energy Engineer,Energy Management,Engineer,Full-Time
+R013,Data Analyst,Information Technology,Analyst,Full-Time
+R014,Data Engineer,Information Technology,Engineer,Full-Time
+R015,AI Engineer,Research & Development,Engineer,Full-Time
+R016,HR Executive,Human Resources,Executive,Full-Time
+R017,Finance Executive,Finance,Executive,Full-Time
+R018,Safety Officer,"Environment, Health & Safety",Officer,Full-Time
+R019,IT Administrator,Information Technology,Administrator,Full-Time
+R020,Business Intelligence Analyst,Operations Excellence,Analyst,Full-Time

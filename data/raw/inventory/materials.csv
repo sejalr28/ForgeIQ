@@ -1,0 +1,16 @@
+material_id,material_name,category,unit,average_unit_cost,supplier_type,criticality
+M001,Cast Iron,Metal,Kg,68,Metal Supplier,High
+M002,Forged Steel,Metal,Kg,92,Metal Supplier,High
+M003,Stainless Steel,Metal,Kg,118,Metal Supplier,High
+M004,Aluminium Alloy,Metal,Kg,145,Metal Supplier,Medium
+M005,Copper,Electrical,Kg,760,Electrical Supplier,High
+M006,Industrial Plastic,Polymer,Kg,185,Plastic Supplier,Medium
+M007,Rubber Seal,Rubber,Piece,42,Rubber Supplier,Medium
+M008,Bearing Steel,Metal,Kg,158,Metal Supplier,High
+M009,Industrial Fasteners,Hardware,Box,980,Hardware Supplier,Medium
+M010,Lubricating Oil,Chemical,Litre,310,Chemical Supplier,High
+M011,Industrial Coolant,Chemical,Litre,225,Chemical Supplier,Medium
+M012,Electronic Sensors,Electronics,Piece,580,Electronics Supplier,High
+M013,Wiring Harness,Electrical,Piece,340,Electrical Supplier,Medium
+M014,Hydraulic Fluid,Chemical,Litre,275,Chemical Supplier,Medium
+M015,Protective Coating,Chemical,Litre,420,Chemical Supplier,Low

@@ -1,0 +1,7 @@
+line_id,factory_id,line_name,product_family,daily_capacity,operators,supervisors,shift_pattern,status
+PL001,F001,Engine Block Line,Engine Block,450,22,2,A/B/C,Active
+PL002,F001,Crankshaft Line,Crankshaft,380,18,2,A/B/C,Active
+PL003,F001,Cylinder Head Line,Cylinder Head,420,20,2,A/B/C,Active
+PL004,F002,Fuel Pump Line,Fuel Pump,500,24,2,A/B/C,Active
+PL005,F002,Hydraulic Pump Line,Hydraulic Pump,340,18,2,A/B/C,Active
+PL006,F002,Transmission Housing Line,Transmission Housing,300,16,2,A/B/C,Active

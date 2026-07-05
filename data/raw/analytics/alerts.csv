@@ -1,0 +1,501 @@
+alert_id,alert_type,priority,status
+ALT00001,Low Inventory,High,Resolved
+ALT00002,High Energy Consumption,High,Resolved
+ALT00003,Low Inventory,Low,Resolved
+ALT00004,Quality Issue,Low,Open
+ALT00005,Low Inventory,High,Open
+ALT00006,Quality Issue,High,Open
+ALT00007,Production Delay,Low,Resolved
+ALT00008,Quality Issue,Medium,Open
+ALT00009,Low Inventory,High,Open
+ALT00010,High Energy Consumption,Medium,Open
+ALT00011,Quality Issue,High,Resolved
+ALT00012,Quality Issue,High,Open
+ALT00013,Quality Issue,High,Resolved
+ALT00014,Production Delay,Low,Open
+ALT00015,Production Delay,Medium,Open
+ALT00016,High Energy Consumption,Medium,Open
+ALT00017,Quality Issue,Low,Open
+ALT00018,Quality Issue,High,Open
+ALT00019,Quality Issue,High,Resolved
+ALT00020,Production Delay,Medium,Resolved
+ALT00021,Low Inventory,Medium,Resolved
+ALT00022,Production Delay,Low,Resolved
+ALT00023,High Energy Consumption,High,Resolved
+ALT00024,Low Inventory,High,Open
+ALT00025,Low Inventory,Low,Open
+ALT00026,Production Delay,Low,Open
+ALT00027,Low Inventory,Medium,Resolved
+ALT00028,Quality Issue,Low,Open
+ALT00029,Low Inventory,High,Resolved
+ALT00030,Quality Issue,Medium,Open
+ALT00031,Low Inventory,High,Open
+ALT00032,Low Inventory,Low,Open
+ALT00033,Quality Issue,Medium,Resolved
+ALT00034,Production Delay,Medium,Resolved
+ALT00035,Low Inventory,High,Open
+ALT00036,High Energy Consumption,Medium,Open
+ALT00037,Low Inventory,High,Resolved
+ALT00038,Production Delay,Medium,Open
+ALT00039,High Energy Consumption,High,Open
+ALT00040,Quality Issue,Medium,Open
+ALT00041,High Energy Consumption,Medium,Open
+ALT00042,Quality Issue,Medium,Resolved
+ALT00043,High Energy Consumption,Low,Resolved
+ALT00044,Production Delay,High,Resolved
+ALT00045,Production Delay,Medium,Resolved
+ALT00046,Quality Issue,High,Resolved
+ALT00047,High Energy Consumption,Low,Resolved
+ALT00048,Quality Issue,High,Open
+ALT00049,Quality Issue,Low,Open
+ALT00050,Quality Issue,Medium,Resolved
+ALT00051,Production Delay,High,Resolved
+ALT00052,Quality Issue,Medium,Open
+ALT00053,Low Inventory,High,Resolved
+ALT00054,Production Delay,Medium,Open
+ALT00055,Production Delay,High,Open
+ALT00056,High Energy Consumption,High,Resolved
+ALT00057,High Energy Consumption,Medium,Open
+ALT00058,High Energy Consumption,Low,Open
+ALT00059,High Energy Consumption,Medium,Open
+ALT00060,Production Delay,Medium,Resolved
+ALT00061,High Energy Consumption,Low,Open
+ALT00062,Low Inventory,High,Open
+ALT00063,High Energy Consumption,High,Open
+ALT00064,Quality Issue,Low,Resolved
+ALT00065,High Energy Consumption,Medium,Open
+ALT00066,Quality Issue,High,Resolved
+ALT00067,Production Delay,Medium,Resolved
+ALT00068,High Energy Consumption,Medium,Open
+ALT00069,High Energy Consumption,High,Resolved
+ALT00070,High Energy Consumption,Medium,Open
+ALT00071,Quality Issue,Medium,Resolved
+ALT00072,Production Delay,Medium,Open
+ALT00073,High Energy Consumption,Medium,Resolved
+ALT00074,Low Inventory,Medium,Open
+ALT00075,Low Inventory,Medium,Resolved
+ALT00076,High Energy Consumption,Medium,Open
+ALT00077,Low Inventory,High,Resolved
+ALT00078,High Energy Consumption,High,Open
+ALT00079,High Energy Consumption,High,Open
+ALT00080,Quality Issue,Medium,Resolved
+ALT00081,High Energy Consumption,High,Resolved
+ALT00082,Quality Issue,Low,Resolved
+ALT00083,Quality Issue,High,Open
+ALT00084,High Energy Consumption,Medium,Open
+ALT00085,High Energy Consumption,Low,Resolved
+ALT00086,Low Inventory,High,Resolved
+ALT00087,High Energy Consumption,High,Resolved
+ALT00088,High Energy Consumption,Medium,Resolved
+ALT00089,Production Delay,High,Resolved
+ALT00090,High Energy Consumption,Medium,Resolved
+ALT00091,Quality Issue,Low,Open
+ALT00092,Low Inventory,Medium,Open
+ALT00093,Low Inventory,High,Open
+ALT00094,Production Delay,Low,Resolved
+ALT00095,Production Delay,Medium,Open
+ALT00096,Low Inventory,Low,Open
+ALT00097,Quality Issue,Low,Resolved
+ALT00098,Low Inventory,High,Open
+ALT00099,Quality Issue,High,Resolved
+ALT00100,Quality Issue,Low,Resolved
+ALT00101,Production Delay,Low,Open
+ALT00102,Production Delay,Medium,Open
+ALT00103,High Energy Consumption,Medium,Resolved
+ALT00104,High Energy Consumption,High,Open
+ALT00105,Production Delay,Medium,Open
+ALT00106,Low Inventory,Low,Resolved
+ALT00107,Low Inventory,Low,Resolved
+ALT00108,High Energy Consumption,High,Resolved
+ALT00109,Low Inventory,High,Resolved
+ALT00110,High Energy Consumption,Medium,Open
+ALT00111,Quality Issue,High,Open
+ALT00112,Quality Issue,Low,Resolved
+ALT00113,High Energy Consumption,High,Resolved
+ALT00114,Production Delay,Low,Resolved
+ALT00115,Quality Issue,Low,Open
+ALT00116,Production Delay,High,Open
+ALT00117,High Energy Consumption,Medium,Open
+ALT00118,Production Delay,Medium,Resolved
+ALT00119,High Energy Consumption,High,Resolved
+ALT00120,High Energy Consumption,Low,Open
+ALT00121,Low Inventory,Low,Open
+ALT00122,Production Delay,Medium,Resolved
+ALT00123,Quality Issue,High,Open
+ALT00124,Quality Issue,High,Resolved
+ALT00125,High Energy Consumption,Medium,Resolved
+ALT00126,High Energy Consumption,Medium,Open
+ALT00127,Low Inventory,Medium,Open
+ALT00128,Production Delay,Medium,Resolved
+ALT00129,Quality Issue,Low,Open
+ALT00130,Quality Issue,Low,Open
+ALT00131,High Energy Consumption,High,Open
+ALT00132,High Energy Consumption,Medium,Open
+ALT00133,Production Delay,Low,Resolved
+ALT00134,Low Inventory,Medium,Open
+ALT00135,Production Delay,Medium,Resolved
+ALT00136,Quality Issue,Low,Resolved
+ALT00137,Quality Issue,Low,Resolved
+ALT00138,High Energy Consumption,High,Resolved
+ALT00139,High Energy Consumption,Low,Open
+ALT00140,Production Delay,High,Open
+ALT00141,High Energy Consumption,Medium,Resolved
+ALT00142,Production Delay,Medium,Resolved
+ALT00143,High Energy Consumption,Low,Resolved
+ALT00144,Quality Issue,Medium,Open
+ALT00145,Quality Issue,Medium,Open
+ALT00146,Quality Issue,Low,Resolved
+ALT00147,High Energy Consumption,High,Resolved
+ALT00148,Production Delay,Medium,Open
+ALT00149,Production Delay,Low,Open
+ALT00150,High Energy Consumption,Medium,Open
+ALT00151,Low Inventory,High,Resolved
+ALT00152,Production Delay,Medium,Open
+ALT00153,High Energy Consumption,High,Open
+ALT00154,High Energy Consumption,Medium,Resolved
+ALT00155,Low Inventory,Medium,Open
+ALT00156,High Energy Consumption,High,Open
+ALT00157,Low Inventory,Low,Open
+ALT00158,High Energy Consumption,High,Resolved
+ALT00159,Low Inventory,High,Resolved
+ALT00160,Production Delay,Medium,Resolved
+ALT00161,Production Delay,High,Open
+ALT00162,Low Inventory,Low,Resolved
+ALT00163,Low Inventory,Medium,Open
+ALT00164,Production Delay,Medium,Open
+ALT00165,Low Inventory,Low,Resolved
+ALT00166,Quality Issue,High,Resolved
+ALT00167,Low Inventory,High,Resolved
+ALT00168,Quality Issue,Medium,Resolved
+ALT00169,Quality Issue,Medium,Resolved
+ALT00170,High Energy Consumption,Low,Open
+ALT00171,High Energy Consumption,Medium,Open
+ALT00172,High Energy Consumption,Medium,Open
+ALT00173,High Energy Consumption,High,Open
+ALT00174,Production Delay,Medium,Open
+ALT00175,Low Inventory,Low,Open
+ALT00176,Production Delay,Low,Open
+ALT00177,High Energy Consumption,High,Open
+ALT00178,Quality Issue,Medium,Open
+ALT00179,Low Inventory,Medium,Open
+ALT00180,High Energy Consumption,High,Resolved
+ALT00181,Quality Issue,Low,Resolved
+ALT00182,Low Inventory,High,Resolved
+ALT00183,High Energy Consumption,High,Open
+ALT00184,Low Inventory,Low,Open
+ALT00185,Low Inventory,Medium,Resolved
+ALT00186,Production Delay,Medium,Open
+ALT00187,Low Inventory,High,Open
+ALT00188,Low Inventory,Medium,Open
+ALT00189,Production Delay,High,Open
+ALT00190,High Energy Consumption,High,Open
+ALT00191,Low Inventory,High,Resolved
+ALT00192,High Energy Consumption,Medium,Open
+ALT00193,Production Delay,Low,Open
+ALT00194,Low Inventory,High,Open
+ALT00195,Quality Issue,Medium,Resolved
+ALT00196,High Energy Consumption,Medium,Resolved
+ALT00197,Quality Issue,Medium,Open
+ALT00198,Production Delay,High,Open
+ALT00199,High Energy Consumption,Low,Open
+ALT00200,Production Delay,Low,Open
+ALT00201,Quality Issue,Low,Resolved
+ALT00202,Low Inventory,High,Open
+ALT00203,Low Inventory,High,Open
+ALT00204,Quality Issue,Medium,Open
+ALT00205,Production Delay,High,Open
+ALT00206,Low Inventory,High,Open
+ALT00207,Production Delay,Medium,Resolved
+ALT00208,Low Inventory,High,Open
+ALT00209,High Energy Consumption,High,Resolved
+ALT00210,High Energy Consumption,Low,Open
+ALT00211,Quality Issue,Low,Resolved
+ALT00212,Production Delay,Medium,Open
+ALT00213,Production Delay,Medium,Resolved
+ALT00214,Low Inventory,Low,Open
+ALT00215,Quality Issue,Low,Open
+ALT00216,Production Delay,Medium,Open
+ALT00217,Low Inventory,Low,Open
+ALT00218,Quality Issue,Low,Resolved
+ALT00219,Production Delay,Low,Resolved
+ALT00220,Quality Issue,Low,Resolved
+ALT00221,High Energy Consumption,Low,Open
+ALT00222,Low Inventory,Low,Resolved
+ALT00223,Quality Issue,Medium,Open
+ALT00224,Quality Issue,Medium,Resolved
+ALT00225,Quality Issue,High,Open
+ALT00226,Low Inventory,Medium,Open
+ALT00227,High Energy Consumption,Medium,Resolved
+ALT00228,Quality Issue,Medium,Open
+ALT00229,Low Inventory,High,Resolved
+ALT00230,Low Inventory,High,Open
+ALT00231,High Energy Consumption,Medium,Open
+ALT00232,Quality Issue,Medium,Open
+ALT00233,Production Delay,High,Open
+ALT00234,Low Inventory,High,Open
+ALT00235,Production Delay,Low,Open
+ALT00236,Quality Issue,High,Resolved
+ALT00237,Quality Issue,High,Resolved
+ALT00238,Low Inventory,Medium,Resolved
+ALT00239,Low Inventory,Low,Open
+ALT00240,Low Inventory,Low,Open
+ALT00241,Quality Issue,Low,Resolved
+ALT00242,High Energy Consumption,Low,Resolved
+ALT00243,Production Delay,Low,Open
+ALT00244,Low Inventory,Medium,Resolved
+ALT00245,Quality Issue,Medium,Resolved
+ALT00246,Quality Issue,Low,Resolved
+ALT00247,High Energy Consumption,Low,Open
+ALT00248,Production Delay,Medium,Resolved
+ALT00249,Production Delay,Low,Resolved
+ALT00250,Low Inventory,High,Resolved
+ALT00251,Production Delay,Low,Open
+ALT00252,Low Inventory,Low,Resolved
+ALT00253,Low Inventory,Low,Resolved
+ALT00254,Quality Issue,High,Resolved
+ALT00255,Low Inventory,High,Open
+ALT00256,Production Delay,Medium,Open
+ALT00257,Quality Issue,Medium,Resolved
+ALT00258,Quality Issue,Medium,Resolved
+ALT00259,Quality Issue,Low,Open
+ALT00260,Quality Issue,High,Resolved
+ALT00261,Production Delay,Low,Open
+ALT00262,Quality Issue,Medium,Resolved
+ALT00263,High Energy Consumption,High,Resolved
+ALT00264,Quality Issue,High,Resolved
+ALT00265,High Energy Consumption,Medium,Resolved
+ALT00266,Low Inventory,Medium,Resolved
+ALT00267,Quality Issue,Low,Resolved
+ALT00268,Production Delay,High,Open
+ALT00269,Quality Issue,High,Resolved
+ALT00270,Quality Issue,Medium,Resolved
+ALT00271,Production Delay,High,Resolved
+ALT00272,High Energy Consumption,Medium,Open
+ALT00273,Low Inventory,Low,Open
+ALT00274,High Energy Consumption,Medium,Open
+ALT00275,Low Inventory,Low,Open
+ALT00276,Quality Issue,High,Resolved
+ALT00277,High Energy Consumption,High,Resolved
+ALT00278,Production Delay,High,Open
+ALT00279,Low Inventory,Low,Resolved
+ALT00280,Quality Issue,High,Resolved
+ALT00281,High Energy Consumption,Low,Open
+ALT00282,Production Delay,Medium,Open
+ALT00283,High Energy Consumption,Medium,Resolved
+ALT00284,High Energy Consumption,Low,Resolved
+ALT00285,Quality Issue,Low,Open
+ALT00286,Low Inventory,Medium,Open
+ALT00287,Low Inventory,High,Resolved
+ALT00288,Quality Issue,Low,Resolved
+ALT00289,High Energy Consumption,High,Resolved
+ALT00290,Low Inventory,High,Resolved
+ALT00291,Low Inventory,High,Open
+ALT00292,Quality Issue,Low,Resolved
+ALT00293,Production Delay,Medium,Resolved
+ALT00294,Low Inventory,Low,Open
+ALT00295,Low Inventory,Medium,Resolved
+ALT00296,Quality Issue,Medium,Open
+ALT00297,High Energy Consumption,Low,Open
+ALT00298,Low Inventory,High,Open
+ALT00299,Production Delay,High,Open
+ALT00300,High Energy Consumption,High,Resolved
+ALT00301,Production Delay,Medium,Open
+ALT00302,Low Inventory,Low,Open
+ALT00303,High Energy Consumption,Low,Resolved
+ALT00304,Low Inventory,High,Open
+ALT00305,High Energy Consumption,High,Open
+ALT00306,Quality Issue,Low,Resolved
+ALT00307,Low Inventory,High,Open
+ALT00308,Low Inventory,High,Resolved
+ALT00309,Quality Issue,Low,Open
+ALT00310,Quality Issue,Low,Resolved
+ALT00311,Low Inventory,Medium,Open
+ALT00312,Low Inventory,Low,Open
+ALT00313,Quality Issue,High,Open
+ALT00314,Quality Issue,Low,Open
+ALT00315,Quality Issue,High,Open
+ALT00316,Low Inventory,High,Open
+ALT00317,Production Delay,Low,Resolved
+ALT00318,Quality Issue,Medium,Open
+ALT00319,Production Delay,Medium,Resolved
+ALT00320,High Energy Consumption,Low,Resolved
+ALT00321,Low Inventory,Low,Resolved
+ALT00322,Production Delay,High,Resolved
+ALT00323,High Energy Consumption,Medium,Open
+ALT00324,Production Delay,High,Open
+ALT00325,Production Delay,High,Resolved
+ALT00326,High Energy Consumption,High,Open
+ALT00327,Quality Issue,Low,Resolved
+ALT00328,Low Inventory,Medium,Open
+ALT00329,High Energy Consumption,Medium,Open
+ALT00330,Low Inventory,Medium,Resolved
+ALT00331,High Energy Consumption,Medium,Open
+ALT00332,High Energy Consumption,Medium,Resolved
+ALT00333,High Energy Consumption,High,Resolved
+ALT00334,Quality Issue,Low,Open
+ALT00335,Production Delay,Medium,Open
+ALT00336,Low Inventory,Medium,Open
+ALT00337,Quality Issue,Medium,Resolved
+ALT00338,Production Delay,High,Open
+ALT00339,Production Delay,Medium,Open
+ALT00340,Production Delay,Low,Resolved
+ALT00341,Quality Issue,Low,Open
+ALT00342,Low Inventory,Low,Resolved
+ALT00343,High Energy Consumption,Medium,Open
+ALT00344,Production Delay,Low,Open
+ALT00345,High Energy Consumption,Low,Resolved
+ALT00346,Quality Issue,Medium,Open
+ALT00347,Production Delay,Low,Resolved
+ALT00348,High Energy Consumption,Medium,Open
+ALT00349,High Energy Consumption,High,Open
+ALT00350,High Energy Consumption,Low,Resolved
+ALT00351,Quality Issue,Low,Resolved
+ALT00352,Quality Issue,Low,Open
+ALT00353,Quality Issue,High,Resolved
+ALT00354,High Energy Consumption,Low,Resolved
+ALT00355,Quality Issue,Medium,Open
+ALT00356,Quality Issue,Medium,Open
+ALT00357,Low Inventory,Medium,Open
+ALT00358,Quality Issue,High,Resolved
+ALT00359,High Energy Consumption,Low,Open
+ALT00360,Low Inventory,High,Resolved
+ALT00361,High Energy Consumption,Medium,Resolved
+ALT00362,High Energy Consumption,Low,Resolved
+ALT00363,Low Inventory,Medium,Resolved
+ALT00364,High Energy Consumption,Medium,Open
+ALT00365,Low Inventory,Low,Resolved
+ALT00366,Production Delay,Medium,Open
+ALT00367,Low Inventory,Low,Resolved
+ALT00368,Quality Issue,Medium,Resolved
+ALT00369,Quality Issue,Low,Resolved
+ALT00370,Quality Issue,Medium,Resolved
+ALT00371,Quality Issue,Low,Resolved
+ALT00372,Low Inventory,Medium,Resolved
+ALT00373,Production Delay,High,Resolved
+ALT00374,High Energy Consumption,High,Resolved
+ALT00375,Production Delay,Medium,Open
+ALT00376,High Energy Consumption,Medium,Open
+ALT00377,Production Delay,High,Resolved
+ALT00378,Low Inventory,High,Resolved
+ALT00379,High Energy Consumption,High,Resolved
+ALT00380,Low Inventory,High,Resolved
+ALT00381,Quality Issue,High,Open
+ALT00382,Quality Issue,High,Open
+ALT00383,Quality Issue,Medium,Resolved
+ALT00384,Quality Issue,High,Resolved
+ALT00385,Quality Issue,Medium,Resolved
+ALT00386,High Energy Consumption,Medium,Resolved
+ALT00387,Low Inventory,High,Resolved
+ALT00388,High Energy Consumption,Medium,Resolved
+ALT00389,Quality Issue,High,Open
+ALT00390,High Energy Consumption,Medium,Open
+ALT00391,Low Inventory,Low,Resolved
+ALT00392,High Energy Consumption,Medium,Open
+ALT00393,High Energy Consumption,Low,Resolved
+ALT00394,Quality Issue,Medium,Resolved
+ALT00395,Quality Issue,Medium,Open
+ALT00396,Quality Issue,High,Resolved
+ALT00397,Low Inventory,Medium,Open
+ALT00398,Production Delay,Low,Open
+ALT00399,Production Delay,Medium,Open
+ALT00400,Low Inventory,Medium,Resolved
+ALT00401,High Energy Consumption,Medium,Open
+ALT00402,Quality Issue,Low,Resolved
+ALT00403,Production Delay,Low,Resolved
+ALT00404,High Energy Consumption,Medium,Open
+ALT00405,Quality Issue,Medium,Resolved
+ALT00406,Low Inventory,High,Resolved
+ALT00407,High Energy Consumption,Low,Resolved
+ALT00408,High Energy Consumption,Medium,Open
+ALT00409,High Energy Consumption,Low,Resolved
+ALT00410,High Energy Consumption,Medium,Open
+ALT00411,High Energy Consumption,Low,Resolved
+ALT00412,High Energy Consumption,Medium,Open
+ALT00413,Low Inventory,Low,Open
+ALT00414,Production Delay,Low,Open
+ALT00415,Low Inventory,Medium,Open
+ALT00416,Quality Issue,Low,Resolved
+ALT00417,Quality Issue,Medium,Resolved
+ALT00418,Quality Issue,Medium,Resolved
+ALT00419,Production Delay,Low,Resolved
+ALT00420,Quality Issue,Low,Open
+ALT00421,High Energy Consumption,Low,Open
+ALT00422,Production Delay,High,Resolved
+ALT00423,Low Inventory,High,Open
+ALT00424,Low Inventory,Medium,Resolved
+ALT00425,Production Delay,Low,Resolved
+ALT00426,Low Inventory,Low,Resolved
+ALT00427,Low Inventory,High,Resolved
+ALT00428,Quality Issue,High,Open
+ALT00429,Production Delay,Medium,Open
+ALT00430,Low Inventory,High,Resolved
+ALT00431,Quality Issue,High,Open
+ALT00432,Quality Issue,Low,Resolved
+ALT00433,High Energy Consumption,Low,Open
+ALT00434,Production Delay,Low,Open
+ALT00435,High Energy Consumption,Low,Resolved
+ALT00436,High Energy Consumption,Medium,Resolved
+ALT00437,Quality Issue,High,Open
+ALT00438,Low Inventory,Medium,Resolved
+ALT00439,Quality Issue,Medium,Resolved
+ALT00440,Quality Issue,Low,Open
+ALT00441,Production Delay,High,Resolved
+ALT00442,High Energy Consumption,Medium,Open
+ALT00443,Quality Issue,Medium,Open
+ALT00444,Production Delay,High,Resolved
+ALT00445,Production Delay,High,Resolved
+ALT00446,Low Inventory,Low,Resolved
+ALT00447,Production Delay,Low,Open
+ALT00448,Quality Issue,Medium,Open
+ALT00449,Low Inventory,High,Open
+ALT00450,Production Delay,Medium,Open
+ALT00451,Production Delay,Low,Resolved
+ALT00452,Production Delay,Low,Resolved
+ALT00453,Low Inventory,Low,Resolved
+ALT00454,Low Inventory,High,Open
+ALT00455,Low Inventory,Low,Open
+ALT00456,Quality Issue,High,Resolved
+ALT00457,Production Delay,Medium,Resolved
+ALT00458,Production Delay,Low,Resolved
+ALT00459,Low Inventory,High,Resolved
+ALT00460,Low Inventory,Low,Resolved
+ALT00461,Low Inventory,Low,Open
+ALT00462,Production Delay,Low,Resolved
+ALT00463,Quality Issue,Low,Resolved
+ALT00464,Low Inventory,High,Open
+ALT00465,Low Inventory,High,Open
+ALT00466,High Energy Consumption,Low,Open
+ALT00467,High Energy Consumption,Medium,Resolved
+ALT00468,High Energy Consumption,High,Open
+ALT00469,Low Inventory,Medium,Resolved
+ALT00470,Low Inventory,Low,Open
+ALT00471,Production Delay,High,Resolved
+ALT00472,Low Inventory,Medium,Open
+ALT00473,Quality Issue,Low,Open
+ALT00474,Quality Issue,Medium,Resolved
+ALT00475,Quality Issue,High,Resolved
+ALT00476,Low Inventory,High,Resolved
+ALT00477,Quality Issue,High,Open
+ALT00478,Production Delay,Medium,Open
+ALT00479,Production Delay,Medium,Open
+ALT00480,Production Delay,Low,Resolved
+ALT00481,Production Delay,Medium,Open
+ALT00482,Low Inventory,Low,Open
+ALT00483,Low Inventory,High,Resolved
+ALT00484,Quality Issue,Medium,Resolved
+ALT00485,Production Delay,High,Resolved
+ALT00486,Low Inventory,High,Open
+ALT00487,Quality Issue,High,Open
+ALT00488,High Energy Consumption,Low,Resolved
+ALT00489,Quality Issue,Medium,Resolved
+ALT00490,Quality Issue,Medium,Open
+ALT00491,Quality Issue,Low,Open
+ALT00492,Quality Issue,Low,Open
+ALT00493,Production Delay,Low,Resolved
+ALT00494,Quality Issue,Low,Open
+ALT00495,Low Inventory,Low,Open
+ALT00496,Quality Issue,Medium,Resolved
+ALT00497,Low Inventory,High,Open
+ALT00498,Production Delay,Low,Open
+ALT00499,Production Delay,Medium,Open
+ALT00500,Quality Issue,Medium,Open

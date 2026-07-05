@@ -1,0 +1,16 @@
+department_id,department_name,manager_role,factory_assignment,description
+D001,Manufacturing,Production Manager,"['F001', 'F002']",Responsible for manufacturing engine components and assemblies.
+D002,Production Planning,Production Planning Manager,"['F001', 'F002']",Plans daily and weekly production schedules.
+D003,Quality Assurance,Quality Manager,"['F001', 'F002']",Ensures products meet quality standards.
+D004,Supply Chain,Supply Chain Manager,"['F001', 'F002']",Manages inbound and outbound logistics.
+D005,Procurement,Procurement Manager,['F001'],Handles supplier selection and purchasing.
+D006,Warehouse Operations,Warehouse Manager,"['F001', 'F002']",Manages raw material and finished goods warehouses.
+D007,Maintenance,Maintenance Manager,"['F001', 'F002']",Maintains production equipment and machinery.
+D008,Industrial Engineering,Industrial Engineering Manager,['F001'],Improves manufacturing processes and efficiency.
+D009,Energy Management,Energy Manager,"['F001', 'F002']",Monitors and optimizes plant energy usage.
+D010,"Environment, Health & Safety",EHS Manager,"['F001', 'F002']",Ensures workplace safety and environmental compliance.
+D011,Research & Development,R&D Manager,['F001'],Develops new products and manufacturing improvements.
+D012,Information Technology,IT Manager,"['F001', 'F002']",Supports enterprise systems and infrastructure.
+D013,Human Resources,HR Manager,"['F001', 'F002']","Manages recruitment, payroll and employee development."
+D014,Finance,Finance Manager,['F001'],"Manages budgeting, accounting and financial reporting."
+D015,Operations Excellence,Operations Excellence Manager,"['F001', 'F002']",Drives continuous improvement initiatives across plants.

@@ -1,0 +1,5 @@
+warehouse_id,warehouse_name,factory_id,warehouse_type
+WH001,Pune Raw Material Warehouse,F001,Raw Material
+WH002,Pune Finished Goods Warehouse,F001,Finished Goods
+WH003,Nashik Raw Material Warehouse,F002,Raw Material
+WH004,Nashik Finished Goods Warehouse,F002,Finished Goods

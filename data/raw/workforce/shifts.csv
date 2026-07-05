@@ -1,0 +1,4 @@
+shift_code,name,start,end
+S1,Morning,06:00,14:00
+S2,Evening,14:00,22:00
+S3,Night,22:00,06:00

@@ -1,0 +1,62 @@
+[
+  {
+    "defect_category_id": "DC001",
+    "defect_name": "Surface Crack",
+    "severity": "High",
+    "inspection_department": "Quality Assurance"
+  },
+  {
+    "defect_category_id": "DC002",
+    "defect_name": "Dimension Mismatch",
+    "severity": "High",
+    "inspection_department": "Quality Assurance"
+  },
+  {
+    "defect_category_id": "DC003",
+    "defect_name": "Scratch",
+    "severity": "Medium",
+    "inspection_department": "Quality Assurance"
+  },
+  {
+    "defect_category_id": "DC004",
+    "defect_name": "Dent",
+    "severity": "Medium",
+    "inspection_department": "Quality Assurance"
+  },
+  {
+    "defect_category_id": "DC005",
+    "defect_name": "Porosity",
+    "severity": "High",
+    "inspection_department": "Quality Assurance"
+  },
+  {
+    "defect_category_id": "DC006",
+    "defect_name": "Misalignment",
+    "severity": "High",
+    "inspection_department": "Quality Assurance"
+  },
+  {
+    "defect_category_id": "DC007",
+    "defect_name": "Assembly Error",
+    "severity": "Medium",
+    "inspection_department": "Quality Assurance"
+  },
+  {
+    "defect_category_id": "DC008",
+    "defect_name": "Coating Defect",
+    "severity": "Low",
+    "inspection_department": "Quality Assurance"
+  },
+  {
+    "defect_category_id": "DC009",
+    "defect_name": "Material Defect",
+    "severity": "High",
+    "inspection_department": "Quality Assurance"
+  },
+  {
+    "defect_category_id": "DC010",
+    "defect_name": "Incomplete Machining",
+    "severity": "Medium",
+    "inspection_department": "Quality Assurance"
+  }
+]

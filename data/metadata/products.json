@@ -1,0 +1,102 @@
+[
+  {
+    "product_id": "P001",
+    "product_name": "Diesel Engine Block",
+    "category": "Engine Components",
+    "unit": "Piece",
+    "production_line": "Engine Components",
+    "standard_production_time_minutes": 180,
+    "unit_price": 18500,
+    "status": "Active"
+  },
+  {
+    "product_id": "P002",
+    "product_name": "Cylinder Head",
+    "category": "Engine Components",
+    "unit": "Piece",
+    "production_line": "Engine Components",
+    "standard_production_time_minutes": 95,
+    "unit_price": 9600,
+    "status": "Active"
+  },
+  {
+    "product_id": "P003",
+    "product_name": "Crankshaft",
+    "category": "Engine Components",
+    "unit": "Piece",
+    "production_line": "Engine Components",
+    "standard_production_time_minutes": 130,
+    "unit_price": 14200,
+    "status": "Active"
+  },
+  {
+    "product_id": "P004",
+    "product_name": "Connecting Rod",
+    "category": "Engine Components",
+    "unit": "Piece",
+    "production_line": "Engine Components",
+    "standard_production_time_minutes": 70,
+    "unit_price": 5200,
+    "status": "Active"
+  },
+  {
+    "product_id": "P005",
+    "product_name": "Fuel Injector Assembly",
+    "category": "Fuel System",
+    "unit": "Piece",
+    "production_line": "Fuel Systems",
+    "standard_production_time_minutes": 60,
+    "unit_price": 4800,
+    "status": "Active"
+  },
+  {
+    "product_id": "P006",
+    "product_name": "Turbocharger Housing",
+    "category": "Engine Components",
+    "unit": "Piece",
+    "production_line": "Engine Components",
+    "standard_production_time_minutes": 110,
+    "unit_price": 11300,
+    "status": "Active"
+  },
+  {
+    "product_id": "P007",
+    "product_name": "Oil Pump Assembly",
+    "category": "Engine Components",
+    "unit": "Piece",
+    "production_line": "Engine Components",
+    "standard_production_time_minutes": 75,
+    "unit_price": 6200,
+    "status": "Active"
+  },
+  {
+    "product_id": "P008",
+    "product_name": "Camshaft",
+    "category": "Engine Components",
+    "unit": "Piece",
+    "production_line": "Engine Components",
+    "standard_production_time_minutes": 90,
+    "unit_price": 8400,
+    "status": "Active"
+  },
+  {
+    "product_id": "P009",
+    "product_name": "Flywheel",
+    "category": "Transmission Components",
+    "unit": "Piece",
+    "production_line": "Transmission",
+    "standard_production_time_minutes": 100,
+    "unit_price": 9500,
+    "status": "Active"
+  },
+  {
+    "product_id": "P010",
+    "product_name": "Hydraulic Pump Housing",
+    "category": "Hydraulic Components",
+    "unit": "Piece",
+    "production_line": "Hydraulics",
+    "standard_production_time_minutes": 85,
+    "unit_price": 7300,
+    "status": "Active"
+  }
+]

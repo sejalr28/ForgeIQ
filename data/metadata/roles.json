@@ -1,0 +1,142 @@
+[
+    {
+        "role_id": "R001",
+        "role_name": "Plant Director",
+        "department": "Operations Excellence",
+        "level": "Executive",
+        "employment_type": "Full-Time"
+    },
+    {
+        "role_id": "R002",
+        "role_name": "Factory Manager",
+        "department": "Operations Excellence",
+        "level": "Senior Management",
+        "employment_type": "Full-Time"
+    },
+    {
+        "role_id": "R003",
+        "role_name": "Production Manager",
+        "department": "Manufacturing",
+        "level": "Management",
+        "employment_type": "Full-Time"
+    },
+    {
+        "role_id": "R004",
+        "role_name": "Production Supervisor",
+        "department": "Manufacturing",
+        "level": "Supervisor",
+        "employment_type": "Full-Time"
+    },
+    {
+        "role_id": "R005",
+        "role_name": "Machine Operator",
+        "department": "Manufacturing",
+        "level": "Operator",
+        "employment_type": "Full-Time"
+    },
+    {
+        "role_id": "R006",
+        "role_name": "Maintenance Engineer",
+        "department": "Maintenance",
+        "level": "Engineer",
+        "employment_type": "Full-Time"
+    },
+    {
+        "role_id": "R007",
+        "role_name": "Quality Engineer",
+        "department": "Quality Assurance",
+        "level": "Engineer",
+        "employment_type": "Full-Time"
+    },
+    {
+        "role_id": "R008",
+        "role_name": "Industrial Engineer",
+        "department": "Industrial Engineering",
+        "level": "Engineer",
+        "employment_type": "Full-Time"
+    },
+    {
+        "role_id": "R009",
+        "role_name": "Supply Chain Analyst",
+        "department": "Supply Chain",
+        "level": "Analyst",
+        "employment_type": "Full-Time"
+    },
+    {
+        "role_id": "R010",
+        "role_name": "Procurement Officer",
+        "department": "Procurement",
+        "level": "Officer",
+        "employment_type": "Full-Time"
+    },
+    {
+        "role_id": "R011",
+        "role_name": "Warehouse Executive",
+        "department": "Warehouse Operations",
+        "level": "Executive",
+        "employment_type": "Full-Time"
+    },
+    {
+        "role_id": "R012",
+        "role_name": "Energy Engineer",
+        "department": "Energy Management",
+        "level": "Engineer",
+        "employment_type": "Full-Time"
+    },
+    {
+        "role_id": "R013",
+        "role_name": "Data Analyst",
+        "department": "Information Technology",
+        "level": "Analyst",
+        "employment_type": "Full-Time"
+    },
+    {
+        "role_id": "R014",
+        "role_name": "Data Engineer",
+        "department": "Information Technology",
+        "level": "Engineer",
+        "employment_type": "Full-Time"
+    },
+    {
+        "role_id": "R015",
+        "role_name": "AI Engineer",
+        "department": "Research & Development",
+        "level": "Engineer",
+        "employment_type": "Full-Time"
+    },
+    {
+        "role_id": "R016",
+        "role_name": "HR Executive",
+        "department": "Human Resources",
+        "level": "Executive",
+        "employment_type": "Full-Time"
+    },
+    {
+        "role_id": "R017",
+        "role_name": "Finance Executive",
+        "department": "Finance",
+        "level": "Executive",
+        "employment_type": "Full-Time"
+    },
+    {
+        "role_id": "R018",
+        "role_name": "Safety Officer",
+        "department": "Environment, Health & Safety",
+        "level": "Officer",
+        "employment_type": "Full-Time"
+    },
+    {
+        "role_id": "R019",
+        "role_name": "IT Administrator",
+        "department": "Information Technology",
+        "level": "Administrator",
+        "employment_type": "Full-Time"
+    },
+    {
+        "role_id": "R020",
+        "role_name": "Business Intelligence Analyst",
+        "department": "Operations Excellence",
+        "level": "Analyst",
+        "employment_type": "Full-Time"
+    }
+]

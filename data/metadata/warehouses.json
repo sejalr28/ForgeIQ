@@ -1,0 +1,50 @@
+[
+  {
+    "warehouse_id": "W001",
+    "warehouse_name": "Raw Material Warehouse - Pune",
+    "factory_id": "F001",
+    "warehouse_type": "Raw Material",
+    "capacity_tons": 5000,
+    "status": "Active"
+  },
+  {
+    "warehouse_id": "W002",
+    "warehouse_name": "Finished Goods Warehouse - Pune",
+    "factory_id": "F001",
+    "warehouse_type": "Finished Goods",
+    "capacity_tons": 3500,
+    "status": "Active"
+  },
+  {
+    "warehouse_id": "W003",
+    "warehouse_name": "Spare Parts Warehouse - Pune",
+    "factory_id": "F001",
+    "warehouse_type": "Spare Parts",
+    "capacity_tons": 1200,
+    "status": "Active"
+  },
+  {
+    "warehouse_id": "W004",
+    "warehouse_name": "Raw Material Warehouse - Nashik",
+    "factory_id": "F002",
+    "warehouse_type": "Raw Material",
+    "capacity_tons": 4000,
+    "status": "Active"
+  },
+  {
+    "warehouse_id": "W005",
+    "warehouse_name": "Finished Goods Warehouse - Nashik",
+    "factory_id": "F002",
+    "warehouse_type": "Finished Goods",
+    "capacity_tons": 2800,
+    "status": "Active"
+  },
+  {
+    "warehouse_id": "W006",
+    "warehouse_name": "Spare Parts Warehouse - Nashik",
+    "factory_id": "F002",
+    "warehouse_type": "Spare Parts",
+    "capacity_tons": 1000,
+    "status": "Active"
+  }
+]

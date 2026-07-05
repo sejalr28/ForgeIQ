@@ -1,0 +1,166 @@
+{
+    "production_lines": [
+        {
+            "line_id": "PL001",
+            "line_name": "Engine Block Line",
+            "machines": [
+                {
+                    "machine_id": "M001",
+                    "machine_name": "CNC-01",
+                    "machine_type": "CNC Machine",
+                    "power_kw": 22,
+                    "maintenance_interval_hours": 500
+                },
+                {
+                    "machine_id": "M002",
+                    "machine_name": "CNC-02",
+                    "machine_type": "CNC Machine",
+                    "power_kw": 22,
+                    "maintenance_interval_hours": 500
+                },
+                {
+                    "machine_id": "M003",
+                    "machine_name": "Inspection-01",
+                    "machine_type": "Inspection Station",
+                    "power_kw": 6,
+                    "maintenance_interval_hours": 1000
+                }
+            ]
+        },
+        {
+            "line_id": "PL002",
+            "line_name": "Crankshaft Line",
+            "machines": [
+                {
+                    "machine_id": "M004",
+                    "machine_name": "Lathe-01",
+                    "machine_type": "Lathe Machine",
+                    "power_kw": 18,
+                    "maintenance_interval_hours": 600
+                },
+                {
+                    "machine_id": "M005",
+                    "machine_name": "Grinding-01",
+                    "machine_type": "Grinding Machine",
+                    "power_kw": 15,
+                    "maintenance_interval_hours": 450
+                },
+                {
+                    "machine_id": "M006",
+                    "machine_name": "Inspection-02",
+                    "machine_type": "Inspection Station",
+                    "power_kw": 6,
+                    "maintenance_interval_hours": 1000
+                }
+            ]
+        },
+        {
+            "line_id": "PL003",
+            "line_name": "Cylinder Head Line",
+            "machines": [
+                {
+                    "machine_id": "M007",
+                    "machine_name": "Milling-01",
+                    "machine_type": "Milling Machine",
+                    "power_kw": 20,
+                    "maintenance_interval_hours": 500
+                },
+                {
+                    "machine_id": "M008",
+                    "machine_name": "Drilling-01",
+                    "machine_type": "Drilling Machine",
+                    "power_kw": 12,
+                    "maintenance_interval_hours": 400
+                },
+                {
+                    "machine_id": "M009",
+                    "machine_name": "Inspection-03",
+                    "machine_type": "Inspection Station",
+                    "power_kw": 6,
+                    "maintenance_interval_hours": 1000
+                }
+            ]
+        },
+        {
+            "line_id": "PL004",
+            "line_name": "Fuel Pump Line",
+            "machines": [
+                {
+                    "machine_id": "M010",
+                    "machine_name": "Assembly-01",
+                    "machine_type": "Assembly Station",
+                    "power_kw": 8,
+                    "maintenance_interval_hours": 500
+                },
+                {
+                    "machine_id": "M011",
+                    "machine_name": "Robot-01",
+                    "machine_type": "Industrial Robot Arm",
+                    "power_kw": 25,
+                    "maintenance_interval_hours": 700
+                },
+                {
+                    "machine_id": "M012",
+                    "machine_name": "Inspection-04",
+                    "machine_type": "Inspection Station",
+                    "power_kw": 6,
+                    "maintenance_interval_hours": 1000
+                }
+            ]
+        },
+        {
+            "line_id": "PL005",
+            "line_name": "Hydraulic Pump Line",
+            "machines": [
+                {
+                    "machine_id": "M013",
+                    "machine_name": "HydraulicPress-01",
+                    "machine_type": "Hydraulic Press",
+                    "power_kw": 40,
+                    "maintenance_interval_hours": 800
+                },
+                {
+                    "machine_id": "M014",
+                    "machine_name": "Assembly-02",
+                    "machine_type": "Assembly Station",
+                    "power_kw": 8,
+                    "maintenance_interval_hours": 500
+                },
+                {
+                    "machine_id": "M015",
+                    "machine_name": "Inspection-05",
+                    "machine_type": "Inspection Station",
+                    "power_kw": 6,
+                    "maintenance_interval_hours": 1000
+                }
+            ]
+        },
+        {
+            "line_id": "PL006",
+            "line_name": "Transmission Housing Line",
+            "machines": [
+                {
+                    "machine_id": "M016",
+                    "machine_name": "Laser-01",
+                    "machine_type": "Laser Cutting Machine",
+                    "power_kw": 30,
+                    "maintenance_interval_hours": 600
+                },
+                {
+                    "machine_id": "M017",
+                    "machine_name": "CNC-03",
+                    "machine_type": "CNC Machine",
+                    "power_kw": 22,
+                    "maintenance_interval_hours": 500
+                },
+                {
+                    "machine_id": "M018",
+                    "machine_name": "Inspection-06",
+                    "machine_type": "Inspection Station",
+                    "power_kw": 6,
+                    "maintenance_interval_hours": 1000
+                }
+            ]
+        }
+    ]
+}

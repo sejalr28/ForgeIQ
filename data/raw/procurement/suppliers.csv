@@ -1,0 +1,11 @@
+supplier_id,supplier_name,city,state,material_category,lead_time_days,rating
+S001,Precision Metals Pvt. Ltd.,Pune,Maharashtra,Metal,5,4.8
+S002,SteelTech Industries,Nashik,Maharashtra,Metal,7,4.6
+S003,Prime Castings,Aurangabad,Maharashtra,Casting,6,4.5
+S004,Industrial Plastics India,Pune,Maharashtra,Polymer,4,4.7
+S005,National Bearings Ltd.,Mumbai,Maharashtra,Bearings,8,4.4
+S006,Dynamic Hydraulics,Chennai,Tamil Nadu,Hydraulics,9,4.6
+S007,Alpha Fasteners,Pune,Maharashtra,Hardware,3,4.9
+S008,Power Motion Systems,Bengaluru,Karnataka,Electrical,10,4.5
+S009,Industrial Chemicals Ltd.,Vadodara,Gujarat,Chemical,6,4.3
+S010,Forge Components India,Kolhapur,Maharashtra,Forging,7,4.7

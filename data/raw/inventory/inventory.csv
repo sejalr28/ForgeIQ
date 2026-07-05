@@ -1,0 +1,16 @@
+inventory_id,material_id,material_name,warehouse_id,current_stock,minimum_stock,maximum_stock,reorder_level,unit
+INV0001,M001,Cast Iron,WH001,955,727,2181,908,Kg
+INV0002,M002,Forged Steel,WH003,1171,412,1236,515,Kg
+INV0003,M003,Stainless Steel,WH001,1041,540,1620,675,Kg
+INV0004,M004,Aluminium Alloy,WH003,799,514,1542,642,Kg
+INV0005,M005,Copper,WH001,986,777,2331,971,Kg
+INV0006,M006,Industrial Plastic,WH003,1862,746,2238,932,Kg
+INV0007,M007,Rubber Seal,WH001,1048,444,1332,555,Piece
+INV0008,M008,Bearing Steel,WH003,681,616,1848,770,Kg
+INV0009,M009,Industrial Fasteners,WH001,510,415,1245,518,Box
+INV0010,M010,Lubricating Oil,WH003,749,511,1533,638,Litre
+INV0011,M011,Industrial Coolant,WH001,1890,658,1974,822,Litre
+INV0012,M012,Electronic Sensors,WH003,987,413,1239,516,Piece
+INV0013,M013,Wiring Harness,WH001,1234,501,1503,626,Piece
+INV0014,M014,Hydraulic Fluid,WH003,2168,732,2196,915,Litre
+INV0015,M015,Protective Coating,WH001,1538,679,2037,848,Litre

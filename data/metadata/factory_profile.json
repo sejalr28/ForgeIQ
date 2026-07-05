@@ -1,0 +1,68 @@
+{
+    "company": {
+        "name": "ForgeTech Manufacturing Pvt. Ltd.",
+        "industry": "Industrial Machinery & Engine Components",
+        "headquarters": "Pune, Maharashtra, India",
+        "founded": 2018,
+        "currency": "INR",
+        "timezone": "Asia/Kolkata"
+    },
+    "factories": [
+        {
+            "factory_id": "F001",
+            "name": "Pune Manufacturing Plant",
+            "city": "Pune",
+            "state": "Maharashtra",
+            "specialization": "Engine Components",
+            "production_lines": 8,
+            "warehouses": 3
+        },
+        {
+            "factory_id": "F002",
+            "name": "Nashik Assembly Plant",
+            "city": "Nashik",
+            "state": "Maharashtra",
+            "specialization": "Assembly & Testing",
+            "production_lines": 6,
+            "warehouses": 3
+        }
+    ],
+    "operations": {
+        "working_days": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday"
+        ],
+        "shifts": [
+            {
+                "shift_code": "S1",
+                "name": "Morning",
+                "start": "06:00",
+                "end": "14:00"
+            },
+            {
+                "shift_code": "S2",
+                "name": "Evening",
+                "start": "14:00",
+                "end": "22:00"
+            },
+            {
+                "shift_code": "S3",
+                "name": "Night",
+                "start": "22:00",
+                "end": "06:00"
+            }
+        ]
+    },
+    "capacity": {
+        "employees": 650,
+        "machines": 220,
+        "products": 180,
+        "suppliers": 65,
+        "production_orders_per_day": 140,
+        "average_daily_output": 4200
+    }
+}

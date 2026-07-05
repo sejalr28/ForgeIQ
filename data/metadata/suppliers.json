@@ -1,0 +1,92 @@
+[
+    {
+        "supplier_id": "S001",
+        "supplier_name": "Precision Metals Pvt. Ltd.",
+        "city": "Pune",
+        "state": "Maharashtra",
+        "material_category": "Metal",
+        "lead_time_days": 5,
+        "rating": 4.8
+    },
+    {
+        "supplier_id": "S002",
+        "supplier_name": "SteelTech Industries",
+        "city": "Nashik",
+        "state": "Maharashtra",
+        "material_category": "Metal",
+        "lead_time_days": 7,
+        "rating": 4.6
+    },
+    {
+        "supplier_id": "S003",
+        "supplier_name": "Prime Castings",
+        "city": "Aurangabad",
+        "state": "Maharashtra",
+        "material_category": "Casting",
+        "lead_time_days": 6,
+        "rating": 4.5
+    },
+    {
+        "supplier_id": "S004",
+        "supplier_name": "Industrial Plastics India",
+        "city": "Pune",
+        "state": "Maharashtra",
+        "material_category": "Polymer",
+        "lead_time_days": 4,
+        "rating": 4.7
+    },
+    {
+        "supplier_id": "S005",
+        "supplier_name": "National Bearings Ltd.",
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "material_category": "Bearings",
+        "lead_time_days": 8,
+        "rating": 4.4
+    },
+    {
+        "supplier_id": "S006",
+        "supplier_name": "Dynamic Hydraulics",
+        "city": "Chennai",
+        "state": "Tamil Nadu",
+        "material_category": "Hydraulics",
+        "lead_time_days": 9,
+        "rating": 4.6
+    },
+    {
+        "supplier_id": "S007",
+        "supplier_name": "Alpha Fasteners",
+        "city": "Pune",
+        "state": "Maharashtra",
+        "material_category": "Hardware",
+        "lead_time_days": 3,
+        "rating": 4.9
+    },
+    {
+        "supplier_id": "S008",
+        "supplier_name": "Power Motion Systems",
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "material_category": "Electrical",
+        "lead_time_days": 10,
+        "rating": 4.5
+    },
+    {
+        "supplier_id": "S009",
+        "supplier_name": "Industrial Chemicals Ltd.",
+        "city": "Vadodara",
+        "state": "Gujarat",
+        "material_category": "Chemical",
+        "lead_time_days": 6,
+        "rating": 4.3
+    },
+    {
+        "supplier_id": "S010",
+        "supplier_name": "Forge Components India",
+        "city": "Kolhapur",
+        "state": "Maharashtra",
+        "material_category": "Forging",
+        "lead_time_days": 7,
+        "rating": 4.7
+    }
+]

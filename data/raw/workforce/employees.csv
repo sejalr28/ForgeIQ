@@ -1,0 +1,651 @@
+employee_id,employee_name,factory_id,department,role,production_line,joining_date,experience_years,skill_level
+EMP000001,Hardik Taneja,F001,Manufacturing,Operator,PL001,2019-07-26,2.8,Advanced
+EMP000002,Laban Basak,F001,Manufacturing,Senior Operator,PL003,2020-06-14,0.6,Intermediate
+EMP000003,Lavanya Banerjee,F001,Manufacturing,Production Manager,PL003,2024-02-11,1.5,Beginner
+EMP000004,Gabriel Aggarwal,F001,Manufacturing,Senior Operator,PL002,2018-01-27,4.1,Intermediate
+EMP000005,Neha Sarkar,F002,Manufacturing,Operator,PL005,2021-10-10,1.5,Intermediate
+EMP000006,Vritti Handa,F001,Manufacturing,Production Supervisor,PL002,2024-10-08,1.8,Beginner
+EMP000007,Ronith Apte,F001,Manufacturing,Operator,PL003,2022-03-31,1.1,Intermediate
+EMP000008,Mitesh Kapadia,F002,Manufacturing,Senior Operator,PL006,2024-06-22,4.4,Intermediate
+EMP000009,Yoshita Kibe,F001,Manufacturing,Senior Operator,PL001,2018-11-23,7.8,Advanced
+EMP000010,Mahika Purohit,F001,Manufacturing,Senior Operator,PL002,2022-02-03,3.4,Intermediate
+EMP000011,Ekaja Pandya,F002,Manufacturing,Senior Operator,PL005,2018-10-20,0.9,Beginner
+EMP000012,Amol Zacharia,F001,Manufacturing,Senior Operator,PL001,2024-03-31,1.7,Intermediate
+EMP000013,Yashica Kannan,F002,Manufacturing,Production Manager,PL004,2021-07-16,0.5,Beginner
+EMP000014,Girish Rastogi,F002,Manufacturing,Senior Operator,PL004,2021-07-12,1.9,Beginner
+EMP000015,Harish Mishra,F002,Manufacturing,Production Supervisor,PL005,2019-08-09,6.6,Advanced
+EMP000016,Baljiwan Ray,F001,Manufacturing,Production Manager,PL001,2024-07-22,5.6,Advanced
+EMP000017,Forum Bhat,F002,Manufacturing,Production Manager,PL005,2023-09-19,2.0,Beginner
+EMP000018,Oviya Upadhyay,F001,Manufacturing,Production Manager,PL001,2019-10-18,2.0,Advanced
+EMP000019,Wishi Srinivasan,F001,Manufacturing,Production Supervisor,PL002,2023-12-08,5.0,Intermediate
+EMP000020,Ranbir Bhardwaj,F001,Manufacturing,Production Supervisor,PL003,2024-01-09,7.0,Advanced
+EMP000021,Nathan Palan,F002,Manufacturing,Production Supervisor,PL004,2018-01-14,1.2,Intermediate
+EMP000022,Guneet Sastry,F001,Manufacturing,Senior Operator,PL003,2021-05-07,15.7,Expert
+EMP000023,Lucky Yohannan,F001,Manufacturing,Operator,PL002,2023-12-13,5.6,Advanced
+EMP000024,Karan Goel,F002,Manufacturing,Senior Operator,PL005,2021-06-13,1.9,Beginner
+EMP000025,Atharv Sharaf,F001,Manufacturing,Production Manager,PL001,2018-12-17,9.5,Advanced
+EMP000026,Devansh Dewan,F001,Manufacturing,Senior Operator,PL003,2023-05-01,1.7,Advanced
+EMP000027,Harinakshi Ranganathan,F002,Manufacturing,Senior Operator,PL006,2020-05-17,4.5,Advanced
+EMP000028,Krisha Mann,F002,Manufacturing,Production Manager,PL005,2022-11-30,11.9,Expert
+EMP000029,Aarna Chakraborty,F001,Manufacturing,Senior Operator,PL001,2024-08-06,1.0,Beginner
+EMP000030,Anmol Walla,F001,Manufacturing,Operator,PL001,2020-07-26,1.4,Beginner
+EMP000031,Ishanvi Sen,F001,Manufacturing,Senior Operator,PL002,2023-06-12,0.9,Beginner
+EMP000032,Tarak Sule,F001,Manufacturing,Senior Operator,PL003,2023-04-21,10.5,Expert
+EMP000033,Netra Kalla,F002,Manufacturing,Production Supervisor,PL005,2022-11-01,0.6,Beginner
+EMP000034,Wriddhish Toor,F002,Manufacturing,Operator,PL005,2019-02-08,3.8,Intermediate
+EMP000035,Odika Nayak,F002,Manufacturing,Senior Operator,PL006,2020-10-15,4.4,Intermediate
+EMP000036,Hredhaan Iyer,F001,Manufacturing,Production Manager,PL003,2021-02-14,2.4,Intermediate
+EMP000037,Mitesh Karpe,F001,Manufacturing,Operator,PL001,2024-03-04,4.4,Intermediate
+EMP000038,Arunima Doctor,F001,Manufacturing,Senior Operator,PL003,2019-01-18,15.1,Expert
+EMP000039,Panini Varghese,F001,Manufacturing,Operator,PL002,2022-07-01,1.5,Intermediate
+EMP000040,Max Sarkar,F001,Manufacturing,Production Supervisor,PL002,2023-02-07,1.1,Beginner
+EMP000041,Vanya Chakrabarti,F002,Manufacturing,Production Manager,PL006,2024-03-26,17.9,Expert
+EMP000042,Bhanumati Sharma,F001,Manufacturing,Operator,PL001,2024-06-30,4.9,Intermediate
+EMP000043,Ganga Hora,F002,Manufacturing,Senior Operator,PL004,2023-12-16,1.2,Beginner
+EMP000044,Xavier Parmar,F001,Manufacturing,Operator,PL003,2024-09-03,0.8,Beginner
+EMP000045,Nandini Raja,F001,Manufacturing,Operator,PL002,2020-10-05,1.8,Beginner
+EMP000046,Ria Ahluwalia,F001,Manufacturing,Production Supervisor,PL002,2021-07-19,5.9,Advanced
+EMP000047,Dhriti Ramanathan,F001,Manufacturing,Senior Operator,PL003,2022-06-10,2.8,Advanced
+EMP000048,Rishi Subramanian,F002,Manufacturing,Operator,PL005,2018-10-25,3.9,Intermediate
+EMP000049,Lakshit Sane,F002,Manufacturing,Senior Operator,PL006,2018-10-28,17.9,Expert
+EMP000050,Rayaan Karnik,F002,Manufacturing,Production Supervisor,PL004,2020-09-27,15.9,Expert
+EMP000051,Chandresh Bhandari,F002,Manufacturing,Operator,PL004,2021-05-24,2.9,Intermediate
+EMP000052,Amruta Pillai,F002,Manufacturing,Operator,PL006,2020-12-19,1.8,Beginner
+EMP000053,Indrajit Char,F001,Manufacturing,Senior Operator,PL003,2024-10-13,1.7,Intermediate
+EMP000054,Udarsh Sarraf,F002,Manufacturing,Production Manager,PL004,2023-09-02,8.6,Advanced
+EMP000055,Gaurika Nanda,F002,Manufacturing,Operator,PL004,2021-02-07,1.1,Beginner
+EMP000056,Pallavi Barman,F001,Manufacturing,Senior Operator,PL002,2020-12-08,6.6,Advanced
+EMP000057,Chaaya Dhar,F002,Manufacturing,Operator,PL006,2019-04-04,5.8,Advanced
+EMP000058,Harsh Kala,F001,Manufacturing,Senior Operator,PL003,2024-03-13,1.1,Beginner
+EMP000059,Anay Balay,F002,Manufacturing,Production Supervisor,PL004,2018-06-13,1.0,Beginner
+EMP000060,Divya Joshi,F001,Manufacturing,Production Manager,PL003,2024-04-12,0.7,Beginner
+EMP000061,Chakradhar Kadakia,F001,Manufacturing,Production Manager,PL001,2019-12-27,9.8,Advanced
+EMP000062,Aditya Zacharia,F001,Manufacturing,Senior Operator,PL001,2022-08-14,3.7,Advanced
+EMP000063,Aadhya Ratta,F002,Manufacturing,Production Manager,PL004,2018-06-08,1.5,Advanced
+EMP000064,Lakshmi Buch,F001,Manufacturing,Senior Operator,PL001,2021-06-04,4.9,Advanced
+EMP000065,Neel Chaudhry,F001,Manufacturing,Operator,PL001,2021-02-15,4.3,Advanced
+EMP000066,Yutika Thaman,F002,Manufacturing,Production Supervisor,PL005,2024-01-06,2.3,Intermediate
+EMP000067,Saanvi Bhasin,F001,Manufacturing,Production Supervisor,PL001,2024-07-06,3.0,Advanced
+EMP000068,Saanvi Sahota,F001,Manufacturing,Production Manager,PL001,2021-07-08,2.1,Intermediate
+EMP000069,Charita Tak,F001,Manufacturing,Production Manager,PL002,2018-07-01,2.3,Advanced
+EMP000070,Zaitra Rau,F001,Manufacturing,Production Supervisor,PL003,2020-03-18,9.9,Expert
+EMP000071,Aarnav Chawla,F002,Manufacturing,Operator,PL004,2021-07-09,16.6,Expert
+EMP000072,Gavin Chopra,F002,Manufacturing,Production Supervisor,PL006,2022-07-07,2.3,Intermediate
+EMP000073,Ridhi Balay,F001,Manufacturing,Production Supervisor,PL001,2019-12-14,4.7,Intermediate
+EMP000074,Abhimanyu Walia,F002,Manufacturing,Production Manager,PL006,2020-05-10,3.4,Advanced
+EMP000075,Riya Bains,F002,Manufacturing,Production Manager,PL005,2023-09-25,3.5,Intermediate
+EMP000076,Charvi Krishnamurthy,F001,Manufacturing,Operator,PL003,2021-10-04,1.3,Beginner
+EMP000077,Sachi Banerjee,F001,Manufacturing,Operator,PL003,2019-08-27,4.1,Intermediate
+EMP000078,Zinal Sachar,F001,Manufacturing,Production Manager,PL001,2018-10-26,11.2,Expert
+EMP000079,Zansi Dugar,F002,Manufacturing,Production Manager,PL006,2022-04-22,3.7,Intermediate
+EMP000080,Xalak Bansal,F002,Manufacturing,Production Manager,PL004,2019-03-13,1.5,Beginner
+EMP000081,Yochana Chahal,F001,Manufacturing,Operator,PL001,2023-03-18,7.1,Advanced
+EMP000082,Urishilla Vala,F001,Manufacturing,Production Supervisor,PL001,2023-12-16,4.1,Intermediate
+EMP000083,Jhalak Sarma,F002,Manufacturing,Production Manager,PL006,2022-10-14,9.0,Advanced
+EMP000084,Kashish Pillay,F001,Manufacturing,Production Supervisor,PL003,2020-10-09,4.8,Advanced
+EMP000085,Xalak Bal,F002,Manufacturing,Senior Operator,PL006,2021-03-16,1.2,Beginner
+EMP000086,Yashodhara Tak,F002,Manufacturing,Senior Operator,PL005,2019-07-21,2.9,Intermediate
+EMP000087,Yash Contractor,F001,Manufacturing,Production Manager,PL002,2018-09-21,7.2,Advanced
+EMP000088,Eshana Mody,F002,Manufacturing,Production Manager,PL005,2020-04-27,2.4,Intermediate
+EMP000089,Bhavya Radhakrishnan,F002,Manufacturing,Production Manager,PL006,2024-06-16,0.8,Expert
+EMP000090,Joshua Chad,F002,Manufacturing,Production Manager,PL004,2022-05-17,5.7,Expert
+EMP000091,Ojas Som,F001,Manufacturing,Production Manager,PL002,2018-04-29,1.2,Beginner
+EMP000092,Yoshita Arora,F002,Manufacturing,Production Manager,PL006,2019-11-08,4.3,Advanced
+EMP000093,Megha Madan,F001,Manufacturing,Operator,PL003,2024-08-21,4.6,Intermediate
+EMP000094,Warda Uppal,F001,Manufacturing,Operator,PL003,2020-01-15,4.4,Intermediate
+EMP000095,Wahab Ramesh,F002,Manufacturing,Production Manager,PL005,2021-10-14,2.5,Intermediate
+EMP000096,Nitara Sur,F002,Manufacturing,Operator,PL005,2018-03-21,0.9,Intermediate
+EMP000097,Bimala Kala,F002,Manufacturing,Operator,PL004,2018-06-14,7.9,Advanced
+EMP000098,Xavier Rana,F001,Manufacturing,Senior Operator,PL001,2020-09-04,6.4,Advanced
+EMP000099,Patrick Garg,F002,Manufacturing,Production Supervisor,PL006,2023-03-20,1.9,Beginner
+EMP000100,Chaman Sethi,F002,Manufacturing,Senior Operator,PL004,2019-04-15,4.8,Intermediate
+EMP000101,Vansha Golla,F002,Manufacturing,Production Manager,PL004,2024-06-16,4.7,Intermediate
+EMP000102,Unnati Dara,F002,Manufacturing,Operator,PL006,2020-09-21,1.4,Beginner
+EMP000103,Tripti Lad,F002,Manufacturing,Operator,PL006,2024-05-07,1.0,Intermediate
+EMP000104,Charvi Patla,F002,Manufacturing,Production Supervisor,PL006,2023-09-04,2.2,Intermediate
+EMP000105,Hiral Dube,F001,Manufacturing,Production Manager,PL002,2022-01-23,1.5,Advanced
+EMP000106,Bhanumati Borde,F001,Manufacturing,Production Manager,PL002,2021-01-11,1.3,Beginner
+EMP000107,Qarin Kade,F002,Manufacturing,Senior Operator,PL005,2021-08-13,6.1,Advanced
+EMP000108,Wahab Thakkar,F001,Manufacturing,Production Manager,PL002,2023-03-19,2.8,Advanced
+EMP000109,Amrita Raman,F002,Manufacturing,Senior Operator,PL004,2023-06-21,2.0,Intermediate
+EMP000110,Ridhi Kamdar,F002,Manufacturing,Operator,PL005,2021-02-05,4.5,Intermediate
+EMP000111,Pranav Badal,F001,Manufacturing,Senior Operator,PL001,2024-03-24,1.1,Beginner
+EMP000112,Akshay Srinivasan,F002,Manufacturing,Operator,PL006,2018-03-12,4.8,Advanced
+EMP000113,Vedhika Kamdar,F002,Manufacturing,Production Supervisor,PL004,2024-07-10,1.6,Intermediate
+EMP000114,Ishani Vaidya,F002,Manufacturing,Production Supervisor,PL006,2024-03-04,2.4,Intermediate
+EMP000115,Abhiram Raj,F002,Manufacturing,Operator,PL006,2020-08-02,1.9,Intermediate
+EMP000116,Oscar Mall,F001,Manufacturing,Senior Operator,PL002,2020-01-29,1.3,Beginner
+EMP000117,Isha Khurana,F001,Manufacturing,Production Supervisor,PL003,2023-11-19,3.8,Intermediate
+EMP000118,Tanveer Mannan,F001,Manufacturing,Operator,PL001,2021-05-23,2.1,Intermediate
+EMP000119,Pooja Dhar,F001,Manufacturing,Senior Operator,PL002,2021-04-11,0.6,Beginner
+EMP000120,Samesh Joshi,F002,Manufacturing,Production Manager,PL004,2023-04-07,6.0,Advanced
+EMP000121,Zayyan Lal,F002,Manufacturing,Operator,PL005,2023-05-11,0.6,Beginner
+EMP000122,Tanish Nanda,F001,Manufacturing,Senior Operator,PL002,2018-08-08,3.1,Intermediate
+EMP000123,Patrick Doctor,F001,Manufacturing,Operator,PL003,2020-10-13,2.0,Expert
+EMP000124,Krishna Sangha,F002,Manufacturing,Production Manager,PL006,2023-11-11,3.3,Intermediate
+EMP000125,Jeremiah Bhattacharyya,F002,Manufacturing,Production Supervisor,PL005,2022-10-23,3.1,Intermediate
+EMP000126,Urishilla Handa,F001,Manufacturing,Senior Operator,PL003,2020-05-01,2.2,Expert
+EMP000127,Advaith Chaudhuri,F002,Manufacturing,Operator,PL006,2024-03-10,0.9,Beginner
+EMP000128,Raghav Sarin,F001,Manufacturing,Production Supervisor,PL001,2023-04-09,3.6,Intermediate
+EMP000129,Mason Chatterjee,F001,Manufacturing,Operator,PL001,2023-02-03,1.8,Intermediate
+EMP000130,Abdul Morar,F001,Manufacturing,Production Manager,PL002,2020-03-21,6.4,Advanced
+EMP000131,Mugdha Pau,F001,Manufacturing,Senior Operator,PL003,2020-12-24,0.7,Beginner
+EMP000132,Yashodhara Verma,F001,Manufacturing,Production Supervisor,PL001,2024-05-20,1.0,Beginner
+EMP000133,Kashvi Sagar,F002,Manufacturing,Production Supervisor,PL004,2022-07-07,1.9,Intermediate
+EMP000134,Faras Ramaswamy,F002,Manufacturing,Production Supervisor,PL005,2022-11-05,0.6,Beginner
+EMP000135,Anita Bhatt,F002,Manufacturing,Operator,PL004,2024-06-14,1.9,Beginner
+EMP000136,Yash Hari,F002,Manufacturing,Production Manager,PL006,2023-04-12,1.6,Beginner
+EMP000137,Zansi Bobal,F002,Manufacturing,Operator,PL004,2023-07-08,8.1,Expert
+EMP000138,Benjamin Rau,F002,Manufacturing,Senior Operator,PL005,2019-03-05,1.9,Intermediate
+EMP000139,Lucky Varughese,F002,Manufacturing,Operator,PL005,2022-06-29,3.2,Advanced
+EMP000140,Ekiya Sharma,F002,Manufacturing,Operator,PL004,2022-07-14,2.0,Intermediate
+EMP000141,Nidhi Boase,F002,Manufacturing,Production Manager,PL005,2023-08-04,1.3,Beginner
+EMP000142,Girish Bhasin,F001,Manufacturing,Production Manager,PL001,2021-03-25,1.1,Intermediate
+EMP000143,Vanya Mand,F002,Manufacturing,Senior Operator,PL004,2020-09-07,1.4,Beginner
+EMP000144,Xavier Som,F002,Manufacturing,Operator,PL006,2020-07-09,1.1,Beginner
+EMP000145,Theodore Goda,F002,Manufacturing,Production Supervisor,PL004,2021-04-10,1.2,Intermediate
+EMP000146,Shivani More,F002,Manufacturing,Senior Operator,PL005,2024-03-07,4.8,Expert
+EMP000147,Lavanya Thaker,F002,Manufacturing,Operator,PL004,2019-07-14,9.4,Expert
+EMP000148,Vidhi Mangal,F002,Manufacturing,Operator,PL005,2020-12-30,4.0,Intermediate
+EMP000149,Osha Merchant,F002,Manufacturing,Senior Operator,PL006,2023-06-29,3.1,Intermediate
+EMP000150,Zayyan Ravi,F002,Manufacturing,Production Manager,PL006,2024-02-04,2.0,Intermediate
+EMP000151,Edhitha Dutt,F002,Manufacturing,Production Manager,PL005,2020-09-05,9.8,Advanced
+EMP000152,Abha Edwin,F001,Manufacturing,Production Manager,PL002,2022-04-11,1.6,Beginner
+EMP000153,Upkaar Chatterjee,F001,Manufacturing,Production Supervisor,PL002,2024-08-14,2.7,Expert
+EMP000154,Samar Pal,F001,Manufacturing,Senior Operator,PL002,2018-03-04,1.9,Beginner
+EMP000155,Rachit Sanghvi,F002,Manufacturing,Production Supervisor,PL006,2020-12-21,1.8,Expert
+EMP000156,Triveni Varma,F002,Manufacturing,Production Manager,PL006,2023-12-26,1.0,Beginner
+EMP000157,Darika Bora,F002,Manufacturing,Operator,PL006,2024-01-26,7.7,Advanced
+EMP000158,Manya Mander,F001,Manufacturing,Operator,PL001,2020-07-20,4.6,Intermediate
+EMP000159,Yatan Dugar,F002,Manufacturing,Production Manager,PL004,2019-02-16,7.2,Advanced
+EMP000160,Madhav Ghosh,F001,Manufacturing,Operator,PL003,2021-08-21,0.6,Intermediate
+EMP000161,Chandran Ramachandran,F002,Manufacturing,Production Manager,PL005,2023-12-16,1.2,Intermediate
+EMP000162,Onkar Date,F001,Manufacturing,Senior Operator,PL001,2022-04-16,1.4,Beginner
+EMP000163,Ekta Bhandari,F002,Manufacturing,Production Manager,PL006,2020-11-06,1.2,Beginner
+EMP000164,Yatan Nigam,F002,Manufacturing,Senior Operator,PL006,2021-03-24,1.7,Beginner
+EMP000165,Veda Shetty,F001,Manufacturing,Production Manager,PL002,2021-05-10,17.8,Expert
+EMP000166,Varenya Ratti,F002,Manufacturing,Production Manager,PL005,2022-04-25,2.4,Advanced
+EMP000167,Max Padmanabhan,F001,Manufacturing,Production Supervisor,PL001,2021-04-26,2.1,Intermediate
+EMP000168,Eta Gala,F001,Manufacturing,Production Manager,PL003,2018-07-20,0.5,Intermediate
+EMP000169,Owen Joshi,F002,Manufacturing,Production Supervisor,PL004,2020-02-18,2.1,Intermediate
+EMP000170,Zayan Dani,F001,Manufacturing,Production Supervisor,PL003,2018-06-11,1.4,Beginner
+EMP000171,Ati More,F002,Manufacturing,Production Supervisor,PL004,2019-01-05,3.8,Intermediate
+EMP000172,Falan Parmer,F002,Manufacturing,Production Supervisor,PL006,2024-01-19,1.4,Intermediate
+EMP000173,Eta More,F002,Manufacturing,Production Supervisor,PL004,2023-05-28,4.2,Intermediate
+EMP000174,Wriddhish Joshi,F002,Manufacturing,Production Manager,PL004,2020-07-13,0.8,Intermediate
+EMP000175,Agastya Bala,F002,Manufacturing,Operator,PL004,2024-01-07,0.6,Advanced
+EMP000176,Dipta Agate,F002,Manufacturing,Production Manager,PL005,2024-07-22,6.9,Advanced
+EMP000177,Dominic Muni,F002,Manufacturing,Production Supervisor,PL004,2024-04-18,5.0,Advanced
+EMP000178,Aayush Garde,F001,Manufacturing,Production Manager,PL003,2021-05-22,1.7,Beginner
+EMP000179,Kabir Saha,F001,Manufacturing,Operator,PL001,2023-07-11,0.6,Beginner
+EMP000180,Yahvi Prasad,F001,Manufacturing,Production Supervisor,PL001,2023-02-02,1.8,Advanced
+EMP000181,Gaurangi Wali,F002,Manufacturing,Operator,PL006,2022-08-27,2.0,Advanced
+EMP000182,Triveni Chopra,F002,Manufacturing,Production Supervisor,PL006,2018-05-15,4.8,Intermediate
+EMP000183,Yuvraj Minhas,F001,Manufacturing,Operator,PL002,2022-01-25,1.6,Intermediate
+EMP000184,Anthony Kohli,F002,Manufacturing,Production Manager,PL006,2018-09-06,11.8,Expert
+EMP000185,Mitesh Pal,F002,Manufacturing,Operator,PL004,2023-02-06,17.1,Expert
+EMP000186,Triya Bora,F001,Manufacturing,Production Supervisor,PL003,2018-07-27,4.9,Intermediate
+EMP000187,Siya Barad,F001,Manufacturing,Senior Operator,PL001,2024-03-20,2.4,Advanced
+EMP000188,Vasana Ratti,F001,Manufacturing,Operator,PL001,2024-09-07,1.2,Intermediate
+EMP000189,Nicholas Ganguly,F002,Manufacturing,Operator,PL004,2019-12-16,10.0,Expert
+EMP000190,Krishna Rai,F001,Manufacturing,Production Supervisor,PL001,2020-09-01,1.7,Beginner
+EMP000191,Balendra Ben,F001,Manufacturing,Operator,PL001,2022-09-21,1.1,Intermediate
+EMP000192,Faqid Mishra,F001,Manufacturing,Operator,PL002,2024-08-28,2.1,Intermediate
+EMP000193,Vansha Bassi,F002,Manufacturing,Production Supervisor,PL006,2023-11-06,1.4,Beginner
+EMP000194,Janaki Menon,F002,Manufacturing,Production Manager,PL006,2023-05-16,1.6,Expert
+EMP000195,Raghav Nayar,F002,Manufacturing,Operator,PL006,2022-12-22,1.6,Beginner
+EMP000196,Vasatika Mukhopadhyay,F001,Manufacturing,Production Supervisor,PL002,2021-01-31,0.8,Intermediate
+EMP000197,Sathvik Chanda,F002,Manufacturing,Production Manager,PL006,2024-10-15,2.5,Intermediate
+EMP000198,Ekalinga Upadhyay,F001,Manufacturing,Senior Operator,PL003,2024-03-08,1.5,Beginner
+EMP000199,Ria Palan,F002,Manufacturing,Production Manager,PL005,2023-02-01,4.4,Advanced
+EMP000200,Chaitaly Nayak,F002,Manufacturing,Production Supervisor,PL006,2020-11-10,1.1,Beginner
+EMP000201,Henry Sawhney,F001,Manufacturing,Operator,PL003,2018-12-16,1.7,Expert
+EMP000202,Janya Manne,F002,Manufacturing,Operator,PL004,2019-06-17,4.0,Advanced
+EMP000203,Indali Chakraborty,F002,Manufacturing,Operator,PL006,2022-09-29,1.0,Beginner
+EMP000204,Eta Narain,F002,Manufacturing,Senior Operator,PL006,2023-09-10,1.0,Intermediate
+EMP000205,Arunima Palla,F001,Manufacturing,Production Supervisor,PL003,2021-12-05,4.3,Intermediate
+EMP000206,Gautami Bhasin,F001,Manufacturing,Operator,PL002,2024-04-16,4.1,Intermediate
+EMP000207,Arunima Narang,F002,Manufacturing,Production Supervisor,PL004,2021-06-19,1.6,Beginner
+EMP000208,Gaurangi Mand,F002,Manufacturing,Operator,PL004,2022-06-30,0.7,Beginner
+EMP000209,Harshil Chaudhary,F001,Manufacturing,Senior Operator,PL003,2023-12-13,0.6,Intermediate
+EMP000210,Vyanjana Apte,F002,Manufacturing,Production Supervisor,PL005,2021-06-30,1.2,Intermediate
+EMP000211,Leena Palan,F001,Manufacturing,Operator,PL001,2018-07-23,1.6,Beginner
+EMP000212,Leela Date,F002,Manufacturing,Production Manager,PL005,2022-12-16,5.1,Advanced
+EMP000213,Watika Peri,F002,Manufacturing,Operator,PL004,2022-10-27,1.6,Advanced
+EMP000214,Chaaya Yohannan,F002,Manufacturing,Operator,PL006,2021-06-17,5.1,Advanced
+EMP000215,Girik Lad,F001,Manufacturing,Production Supervisor,PL002,2020-04-17,1.5,Expert
+EMP000216,Sachi Randhawa,F001,Manufacturing,Operator,PL001,2019-05-07,3.2,Advanced
+EMP000217,Benjamin Bath,F002,Manufacturing,Senior Operator,PL006,2023-12-22,1.1,Intermediate
+EMP000218,Ikbal D’Alia,F002,Manufacturing,Operator,PL004,2022-11-22,3.8,Intermediate
+EMP000219,Krish Bhardwaj,F002,Manufacturing,Production Manager,PL004,2024-06-06,6.0,Advanced
+EMP000220,Amol Pillai,F002,Manufacturing,Senior Operator,PL005,2021-08-23,0.5,Beginner
+EMP000221,Hemani Parmer,F002,Manufacturing,Senior Operator,PL006,2019-03-10,2.0,Expert
+EMP000222,Wakeeta Nagar,F002,Manufacturing,Production Supervisor,PL006,2021-06-24,0.9,Intermediate
+EMP000223,Mason Modi,F001,Manufacturing,Senior Operator,PL002,2019-04-13,1.2,Advanced
+EMP000224,Aarnav Peri,F002,Manufacturing,Senior Operator,PL005,2019-08-28,8.3,Advanced
+EMP000225,Shivansh Babu,F001,Manufacturing,Operator,PL001,2019-09-19,1.3,Intermediate
+EMP000226,Madhav Sinha,F001,Manufacturing,Production Manager,PL003,2024-07-01,3.9,Intermediate
+EMP000227,Lakshit Ranganathan,F002,Manufacturing,Production Manager,PL006,2023-04-05,2.5,Intermediate
+EMP000228,Praneel Swamy,F002,Manufacturing,Production Supervisor,PL005,2018-10-31,2.1,Intermediate
+EMP000229,Kashish Anand,F002,Manufacturing,Operator,PL005,2021-03-21,1.1,Beginner
+EMP000230,Upadhriti Panchal,F001,Manufacturing,Operator,PL003,2024-07-05,2.2,Intermediate
+EMP000231,Imaran Brahmbhatt,F002,Manufacturing,Senior Operator,PL006,2023-05-03,3.6,Advanced
+EMP000232,Alka Jhaveri,F001,Manufacturing,Operator,PL002,2021-11-07,1.8,Beginner
+EMP000233,Om Lad,F001,Manufacturing,Senior Operator,PL001,2022-12-05,1.2,Beginner
+EMP000234,Krisha Wagle,F002,Manufacturing,Operator,PL005,2021-10-17,7.3,Expert
+EMP000235,Tristan Kota,F002,Manufacturing,Production Supervisor,PL004,2022-05-03,3.0,Intermediate
+EMP000236,Qabil Sheth,F002,Manufacturing,Senior Operator,PL006,2024-10-04,9.7,Advanced
+EMP000237,Devika Babu,F002,Manufacturing,Production Supervisor,PL004,2021-12-03,1.1,Intermediate
+EMP000238,Jagrati Memon,F002,Manufacturing,Production Manager,PL004,2021-06-22,4.7,Intermediate
+EMP000239,Xalak Memon,F002,Manufacturing,Operator,PL004,2023-11-27,8.4,Advanced
+EMP000240,Mugdha Shan,F002,Manufacturing,Senior Operator,PL006,2020-01-09,2.1,Intermediate
+EMP000241,Dalaja Mody,F002,Manufacturing,Operator,PL005,2019-09-27,2.0,Beginner
+EMP000242,Ojasvi Oommen,F002,Manufacturing,Operator,PL004,2023-11-27,2.9,Intermediate
+EMP000243,Quincy Loke,F002,Manufacturing,Senior Operator,PL006,2019-10-27,1.1,Beginner
+EMP000244,Bishakha Sami,F001,Manufacturing,Production Manager,PL003,2020-08-30,2.3,Intermediate
+EMP000245,Noah Sane,F002,Manufacturing,Production Supervisor,PL006,2020-09-06,2.7,Advanced
+EMP000246,Aadhya Thakur,F002,Manufacturing,Production Manager,PL004,2022-12-10,4.8,Intermediate
+EMP000247,Reva Vala,F002,Manufacturing,Senior Operator,PL005,2019-10-26,2.4,Intermediate
+EMP000248,Chatresh Balasubramanian,F001,Manufacturing,Operator,PL002,2022-03-01,1.2,Beginner
+EMP000249,Devansh Nadkarni,F001,Manufacturing,Senior Operator,PL002,2023-01-15,0.7,Beginner
+EMP000250,Ati Kashyap,F002,Manufacturing,Production Supervisor,PL004,2023-01-22,4.4,Expert
+EMP000251,Manthan Kanda,F001,Manufacturing,Production Manager,PL002,2020-08-23,1.3,Beginner
+EMP000252,Ekansh Savant,F001,Manufacturing,Production Supervisor,PL002,2019-02-10,1.0,Beginner
+EMP000253,Chandran Shetty,F001,Manufacturing,Senior Operator,PL001,2023-04-20,1.9,Beginner
+EMP000254,Reyansh Chhabra,F002,Manufacturing,Production Supervisor,PL005,2018-03-19,4.6,Intermediate
+EMP000255,Qadim Mitter,F001,Manufacturing,Production Manager,PL001,2023-12-02,3.8,Intermediate
+EMP000256,Ekanta Baria,F001,Manufacturing,Production Manager,PL002,2020-09-03,0.7,Beginner
+EMP000257,Riya De,F002,Manufacturing,Operator,PL004,2024-09-10,1.9,Beginner
+EMP000258,Balhaar Upadhyay,F001,Manufacturing,Senior Operator,PL003,2021-12-16,1.1,Beginner
+EMP000259,Kritika Kakar,F002,Manufacturing,Operator,PL004,2022-01-17,1.3,Advanced
+EMP000260,Vamakshi Reddy,F001,Manufacturing,Production Supervisor,PL002,2022-05-04,0.9,Advanced
+EMP000261,Qabil Narayan,F002,Manufacturing,Senior Operator,PL006,2021-11-13,1.7,Beginner
+EMP000262,Suhani Garg,F001,Manufacturing,Production Supervisor,PL003,2018-07-01,3.7,Advanced
+EMP000263,Alka Mutti,F002,Manufacturing,Production Manager,PL006,2023-03-19,1.7,Beginner
+EMP000264,Jackson Chawla,F001,Manufacturing,Operator,PL001,2023-02-18,1.7,Beginner
+EMP000265,Faqid Ramakrishnan,F002,Manufacturing,Production Supervisor,PL004,2018-06-21,0.8,Beginner
+EMP000266,Gauri Hans,F002,Manufacturing,Production Supervisor,PL006,2023-04-24,4.2,Intermediate
+EMP000267,Maanav Guha,F001,Manufacturing,Production Supervisor,PL003,2018-07-15,1.0,Beginner
+EMP000268,Unnati Bose,F002,Manufacturing,Production Manager,PL004,2022-06-27,4.7,Advanced
+EMP000269,Chaitaly Sabharwal,F002,Manufacturing,Production Supervisor,PL005,2023-07-31,9.2,Expert
+EMP000270,Chakrika Iyengar,F002,Manufacturing,Senior Operator,PL004,2024-10-03,1.2,Advanced
+EMP000271,Garima Barman,F002,Manufacturing,Production Supervisor,PL005,2021-04-25,1.0,Beginner
+EMP000272,Meghana Ben,F002,Manufacturing,Production Supervisor,PL006,2022-12-24,2.1,Advanced
+EMP000273,Wishi Mistry,F002,Manufacturing,Production Supervisor,PL004,2022-11-17,9.2,Advanced
+EMP000274,Chaitanya Karan,F001,Manufacturing,Senior Operator,PL001,2023-10-03,4.4,Advanced
+EMP000275,Triya Rajagopalan,F001,Manufacturing,Operator,PL001,2022-11-30,6.9,Advanced
+EMP000276,Mahika Sarraf,F001,Manufacturing,Production Manager,PL001,2022-01-23,1.5,Beginner
+EMP000277,Gayathri Nagy,F001,Manufacturing,Production Supervisor,PL003,2022-02-28,1.2,Beginner
+EMP000278,Harish Sachdeva,F002,Manufacturing,Production Supervisor,PL004,2022-06-19,2.9,Intermediate
+EMP000279,Lucky Garde,F002,Manufacturing,Production Manager,PL004,2020-02-02,1.0,Expert
+EMP000280,Ayush Mannan,F002,Manufacturing,Senior Operator,PL006,2023-01-02,1.7,Beginner
+EMP000281,Ojasvi Memon,F002,Manufacturing,Senior Operator,PL006,2019-05-18,9.1,Expert
+EMP000282,Hemal Patla,F001,Manufacturing,Production Supervisor,PL002,2018-12-26,1.6,Beginner
+EMP000283,Zashil Gara,F002,Manufacturing,Senior Operator,PL006,2021-05-13,1.3,Beginner
+EMP000284,Madhavi Chowdhury,F001,Manufacturing,Senior Operator,PL002,2020-04-03,1.0,Intermediate
+EMP000285,Diya Ramakrishnan,F001,Manufacturing,Production Manager,PL002,2022-02-20,1.3,Beginner
+EMP000286,Aradhana Parikh,F001,Manufacturing,Production Manager,PL003,2022-06-19,1.1,Advanced
+EMP000287,Anusha Nigam,F002,Manufacturing,Operator,PL005,2021-07-22,1.2,Advanced
+EMP000288,Harini Kar,F002,Manufacturing,Senior Operator,PL005,2024-03-08,3.8,Advanced
+EMP000289,Balendra Mahajan,F001,Manufacturing,Senior Operator,PL002,2019-05-24,4.4,Intermediate
+EMP000290,Ayushman Sachdev,F002,Manufacturing,Production Supervisor,PL004,2020-07-12,1.9,Beginner
+EMP000291,Zinal Jhaveri,F002,Manufacturing,Production Supervisor,PL004,2024-03-06,3.4,Intermediate
+EMP000292,Gavin Rana,F001,Manufacturing,Senior Operator,PL003,2023-08-21,2.9,Intermediate
+EMP000293,Devansh Ganesh,F001,Manufacturing,Production Supervisor,PL001,2024-10-14,7.3,Advanced
+EMP000294,Hemal Bhardwaj,F001,Manufacturing,Production Supervisor,PL001,2024-06-20,1.9,Beginner
+EMP000295,Hemangini Dada,F001,Manufacturing,Production Supervisor,PL003,2023-08-02,3.4,Intermediate
+EMP000296,Megha Soman,F002,Manufacturing,Production Supervisor,PL005,2022-07-22,1.7,Beginner
+EMP000297,Anusha Yohannan,F002,Manufacturing,Production Manager,PL004,2022-08-30,2.0,Advanced
+EMP000298,Sanya Bhavsar,F002,Manufacturing,Production Supervisor,PL004,2021-07-31,1.1,Intermediate
+EMP000299,Nidra Zacharia,F002,Manufacturing,Production Supervisor,PL004,2019-03-11,5.4,Advanced
+EMP000300,Sara Kapadia,F001,Manufacturing,Operator,PL002,2019-08-01,1.2,Beginner
+EMP000301,Nirja Khurana,F001,Manufacturing,Senior Operator,PL002,2022-09-09,15.6,Expert
+EMP000302,Jagrati Master,F001,Manufacturing,Senior Operator,PL002,2020-02-17,13.1,Expert
+EMP000303,Yashvi Prabhu,F002,Manufacturing,Operator,PL006,2023-07-31,4.5,Intermediate
+EMP000304,Joshua Brar,F001,Manufacturing,Production Supervisor,PL002,2020-05-31,4.9,Intermediate
+EMP000305,Amol Walla,F001,Manufacturing,Production Supervisor,PL001,2023-04-12,3.2,Intermediate
+EMP000306,Oeshi Oza,F001,Manufacturing,Production Manager,PL001,2022-02-07,4.5,Intermediate
+EMP000307,Jagdish Tella,F002,Manufacturing,Production Supervisor,PL004,2020-03-08,3.1,Intermediate
+EMP000308,Anay Swaminathan,F002,Manufacturing,Production Supervisor,PL004,2024-03-02,2.5,Intermediate
+EMP000309,Chavvi Gupta,F001,Manufacturing,Production Supervisor,PL001,2021-10-20,7.4,Expert
+EMP000310,Dhruv Dara,F001,Manufacturing,Operator,PL001,2018-06-14,2.3,Intermediate
+EMP000311,Irya Hegde,F001,Manufacturing,Production Manager,PL001,2023-10-29,8.1,Advanced
+EMP000312,Kalpit Gill,F001,Manufacturing,Senior Operator,PL003,2021-07-28,1.8,Advanced
+EMP000313,Yug Cherian,F002,Manufacturing,Production Manager,PL006,2021-10-09,3.3,Advanced
+EMP000314,Mohammed Tank,F002,Manufacturing,Production Manager,PL005,2019-03-25,4.0,Advanced
+EMP000315,Priya Panchal,F002,Manufacturing,Production Manager,PL006,2024-09-10,6.5,Advanced
+EMP000316,Odika Iyer,F002,Manufacturing,Senior Operator,PL006,2024-06-23,7.9,Advanced
+EMP000317,Jalsa Comar,F001,Manufacturing,Senior Operator,PL003,2022-04-07,2.9,Intermediate
+EMP000318,Darpan Sangha,F001,Manufacturing,Operator,PL001,2020-02-21,3.7,Intermediate
+EMP000319,Osha Bose,F002,Manufacturing,Production Manager,PL005,2020-04-15,2.4,Intermediate
+EMP000320,Nicholas Misra,F002,Manufacturing,Senior Operator,PL006,2023-10-26,7.2,Advanced
+EMP000321,Aarna Pai,F002,Manufacturing,Production Manager,PL006,2019-12-11,2.2,Intermediate
+EMP000322,Balveer Sampath,F002,Manufacturing,Production Manager,PL006,2020-12-18,4.0,Intermediate
+EMP000323,Bina Sanghvi,F001,Manufacturing,Production Supervisor,PL001,2021-05-04,1.8,Intermediate
+EMP000324,Aarnav Lad,F001,Manufacturing,Production Supervisor,PL003,2021-11-29,3.5,Advanced
+EMP000325,Qadim Devi,F002,Manufacturing,Production Supervisor,PL004,2022-06-05,2.9,Intermediate
+EMP000326,Nidhi Date,F001,Manufacturing,Production Supervisor,PL002,2018-11-20,1.9,Beginner
+EMP000327,Balendra Devi,F002,Manufacturing,Production Supervisor,PL006,2020-04-07,2.7,Intermediate
+EMP000328,Advik Morar,F002,Manufacturing,Senior Operator,PL004,2020-09-07,1.6,Beginner
+EMP000329,Balendra Dhar,F001,Manufacturing,Operator,PL003,2020-08-11,4.4,Expert
+EMP000330,Vincent Menon,F001,Manufacturing,Operator,PL002,2019-07-18,2.6,Intermediate
+EMP000331,Quincy Mall,F001,Manufacturing,Production Manager,PL002,2023-05-03,8.9,Advanced
+EMP000332,Priya Lad,F001,Manufacturing,Senior Operator,PL002,2019-01-02,3.4,Intermediate
+EMP000333,Kritika Grover,F001,Manufacturing,Production Manager,PL001,2018-05-29,4.3,Intermediate
+EMP000334,Jyoti Sodhi,F002,Manufacturing,Operator,PL004,2021-03-31,17.3,Expert
+EMP000335,Arunima More,F001,Manufacturing,Production Supervisor,PL002,2021-10-04,1.0,Intermediate
+EMP000336,Nachiket Patla,F002,Manufacturing,Production Manager,PL006,2019-07-04,2.7,Intermediate
+EMP000337,Oscar Tripathi,F002,Manufacturing,Production Supervisor,PL004,2023-02-23,3.6,Advanced
+EMP000338,Nitesh Lala,F001,Manufacturing,Senior Operator,PL001,2024-05-14,8.0,Advanced
+EMP000339,Ekbal Kohli,F001,Manufacturing,Production Supervisor,PL003,2022-10-18,9.0,Advanced
+EMP000340,Mekhala Maharaj,F001,Manufacturing,Production Manager,PL002,2019-07-30,2.3,Advanced
+EMP000341,Sara Dube,F002,Manufacturing,Production Supervisor,PL004,2023-01-04,1.1,Beginner
+EMP000342,Lopa Sandal,F002,Manufacturing,Production Supervisor,PL005,2020-12-07,3.1,Intermediate
+EMP000343,Ranveer Keer,F001,Manufacturing,Production Manager,PL001,2019-10-17,4.9,Advanced
+EMP000344,Timothy Mallick,F002,Manufacturing,Production Supervisor,PL006,2021-04-23,1.9,Beginner
+EMP000345,Ria Mody,F001,Manufacturing,Production Supervisor,PL001,2023-02-07,8.9,Expert
+EMP000346,Lucky Gupta,F002,Manufacturing,Senior Operator,PL006,2024-01-11,2.6,Intermediate
+EMP000347,Nirja Randhawa,F001,Manufacturing,Production Manager,PL003,2018-12-02,8.8,Advanced
+EMP000348,Madhavi Dara,F002,Manufacturing,Senior Operator,PL004,2024-02-22,2.5,Expert
+EMP000349,Vasudha Lall,F001,Manufacturing,Senior Operator,PL001,2019-04-22,2.8,Intermediate
+EMP000350,Qushi Samra,F002,Manufacturing,Production Manager,PL004,2018-08-16,4.7,Advanced
+EMP000351,Vidhi Swaminathan,F001,Manufacturing,Production Manager,PL003,2024-04-07,3.0,Intermediate
+EMP000352,Jatin Patel,F002,Manufacturing,Senior Operator,PL006,2018-01-13,0.9,Beginner
+EMP000353,Charita Trivedi,F001,Manufacturing,Operator,PL001,2024-01-26,3.7,Intermediate
+EMP000354,Ria Chandra,F001,Manufacturing,Production Manager,PL002,2019-07-09,1.1,Beginner
+EMP000355,Gautami Mangat,F002,Manufacturing,Production Manager,PL005,2022-03-27,4.6,Intermediate
+EMP000356,Banjeet Ram,F001,Manufacturing,Production Supervisor,PL003,2019-06-29,15.8,Expert
+EMP000357,Tanish Batra,F001,Manufacturing,Senior Operator,PL001,2019-06-06,7.4,Expert
+EMP000358,Girik Chahal,F001,Manufacturing,Production Manager,PL001,2024-02-09,8.6,Expert
+EMP000359,Xiti Chauhan,F002,Manufacturing,Senior Operator,PL004,2021-02-03,1.0,Beginner
+EMP000360,Gavin Yohannan,F001,Manufacturing,Senior Operator,PL001,2018-03-06,4.5,Advanced
+EMP000361,Ishwar Deshpande,F001,Manufacturing,Operator,PL001,2024-09-14,0.6,Beginner
+EMP000362,Saksham Lal,F001,Manufacturing,Senior Operator,PL003,2024-01-20,1.2,Beginner
+EMP000363,Mason Borah,F001,Manufacturing,Production Supervisor,PL001,2024-06-17,1.8,Intermediate
+EMP000364,Advay Arora,F002,Manufacturing,Senior Operator,PL004,2023-11-06,1.1,Intermediate
+EMP000365,Upma Krishnamurthy,F002,Manufacturing,Senior Operator,PL005,2024-08-20,3.0,Intermediate
+EMP000366,Karan Sankar,F002,Manufacturing,Production Supervisor,PL006,2022-04-11,4.9,Intermediate
+EMP000367,Wyatt Mahajan,F002,Manufacturing,Production Manager,PL005,2024-01-13,1.1,Beginner
+EMP000368,Hardik Madan,F001,Manufacturing,Operator,PL001,2023-03-12,3.7,Intermediate
+EMP000369,Yashvi Sidhu,F002,Manufacturing,Production Supervisor,PL005,2020-09-21,1.1,Intermediate
+EMP000370,Unnati Gara,F001,Manufacturing,Operator,PL002,2022-02-28,4.7,Intermediate
+EMP000371,Idika Parikh,F001,Manufacturing,Operator,PL001,2024-10-05,3.5,Intermediate
+EMP000372,Vasatika Dayal,F001,Manufacturing,Senior Operator,PL001,2024-04-08,6.1,Advanced
+EMP000373,Lopa Sengupta,F002,Manufacturing,Senior Operator,PL004,2018-03-04,3.7,Advanced
+EMP000374,Chakradev Dua,F001,Manufacturing,Senior Operator,PL003,2023-05-16,2.0,Beginner
+EMP000375,Hemang Sheth,F001,Manufacturing,Production Manager,PL002,2021-03-05,10.2,Expert
+EMP000376,Advik Dada,F002,Manufacturing,Production Manager,PL006,2022-01-13,1.9,Intermediate
+EMP000377,Barkha Goda,F002,Manufacturing,Senior Operator,PL004,2021-08-04,7.4,Advanced
+EMP000378,Hitesh Parikh,F002,Manufacturing,Senior Operator,PL005,2020-06-25,3.0,Intermediate
+EMP000379,Saksham Loyal,F001,Manufacturing,Production Supervisor,PL002,2022-09-07,3.1,Intermediate
+EMP000380,Adya Krishnan,F001,Manufacturing,Production Manager,PL001,2020-10-03,2.2,Intermediate
+EMP000381,Kevin Palan,F002,Manufacturing,Production Manager,PL005,2023-07-03,5.1,Advanced
+EMP000382,Tanay Palla,F001,Manufacturing,Production Manager,PL003,2024-02-17,2.1,Advanced
+EMP000383,Fiyaz Bedi,F001,Manufacturing,Operator,PL003,2023-11-17,17.3,Expert
+EMP000384,Anirudh Lall,F001,Manufacturing,Senior Operator,PL003,2019-07-18,0.5,Beginner
+EMP000385,Ishwar Chakraborty,F001,Manufacturing,Production Supervisor,PL003,2023-02-11,0.8,Beginner
+EMP000386,Aashi Nadkarni,F001,Manufacturing,Production Manager,PL003,2023-06-03,4.7,Intermediate
+EMP000387,Anvi Raghavan,F001,Manufacturing,Production Supervisor,PL001,2018-03-10,2.4,Intermediate
+EMP000388,Luke Gokhale,F002,Manufacturing,Senior Operator,PL004,2022-10-30,3.6,Intermediate
+EMP000389,Matthew Date,F001,Manufacturing,Production Supervisor,PL001,2023-11-27,1.6,Intermediate
+EMP000390,Ati Chopra,F002,Manufacturing,Production Manager,PL005,2022-07-22,1.3,Advanced
+EMP000391,Ishani Mittal,F001,Manufacturing,Operator,PL003,2018-11-27,1.5,Beginner
+EMP000392,Xiti Samra,F001,Manufacturing,Operator,PL002,2018-08-18,3.0,Intermediate
+EMP000393,Abhiram Hans,F001,Manufacturing,Operator,PL001,2021-09-18,2.5,Intermediate
+EMP000394,Manan Gala,F001,Manufacturing,Production Manager,PL001,2024-05-10,1.8,Beginner
+EMP000395,Tanish Kar,F002,Manufacturing,Operator,PL004,2021-02-22,12.5,Expert
+EMP000396,Aryan Basu,F001,Manufacturing,Production Manager,PL002,2019-08-14,0.8,Beginner
+EMP000397,Triveni Viswanathan,F001,Manufacturing,Production Supervisor,PL002,2022-05-13,0.9,Beginner
+EMP000398,Pallavi Hayre,F002,Manufacturing,Production Supervisor,PL006,2018-11-18,2.0,Beginner
+EMP000399,Aadhya Raj,F001,Manufacturing,Production Manager,PL001,2021-10-27,4.3,Intermediate
+EMP000400,Lavanya Karpe,F002,Manufacturing,Production Manager,PL004,2023-01-20,4.0,Intermediate
+EMP000401,Arjun Srinivasan,F001,Manufacturing,Production Manager,PL002,2020-01-31,2.2,Intermediate
+EMP000402,Balhaar Pingle,F001,Manufacturing,Operator,PL003,2018-10-29,1.6,Intermediate
+EMP000403,Azaan Patla,F002,Manufacturing,Production Manager,PL004,2019-09-24,4.0,Intermediate
+EMP000404,Ijaya Sur,F002,Manufacturing,Production Manager,PL005,2021-06-16,0.5,Beginner
+EMP000405,Divya Kapadia,F002,Manufacturing,Production Manager,PL005,2022-11-01,0.6,Beginner
+EMP000406,Krish Brar,F002,Manufacturing,Production Supervisor,PL004,2019-01-17,1.0,Beginner
+EMP000407,Reva Cherian,F002,Manufacturing,Senior Operator,PL004,2018-12-13,2.2,Intermediate
+EMP000408,Ira Chowdhury,F001,Manufacturing,Production Supervisor,PL003,2021-05-18,1.1,Intermediate
+EMP000409,Yoshita Guha,F002,Manufacturing,Production Supervisor,PL004,2022-09-21,1.2,Beginner
+EMP000410,Hitesh Pandya,F002,Manufacturing,Senior Operator,PL004,2023-07-24,4.7,Intermediate
+EMP000411,Niharika Khurana,F002,Manufacturing,Production Supervisor,PL004,2022-06-09,0.5,Beginner
+EMP000412,Ikshita Khanna,F002,Manufacturing,Senior Operator,PL005,2024-08-31,2.4,Intermediate
+EMP000413,Jack Chahal,F002,Manufacturing,Production Supervisor,PL005,2023-05-17,3.6,Intermediate
+EMP000414,Jagat Apte,F001,Manufacturing,Senior Operator,PL002,2023-07-05,5.6,Expert
+EMP000415,Lekha Sankaran,F002,Manufacturing,Operator,PL005,2022-02-04,4.0,Intermediate
+EMP000416,Forum Roy,F001,Manufacturing,Operator,PL003,2024-03-03,3.6,Expert
+EMP000417,Bhavini Balan,F002,Manufacturing,Production Manager,PL006,2018-10-11,1.7,Beginner
+EMP000418,Lila Krishnan,F002,Manufacturing,Production Manager,PL004,2019-09-24,1.6,Intermediate
+EMP000419,Zaitra Choudhary,F002,Manufacturing,Production Manager,PL004,2024-07-12,3.2,Intermediate
+EMP000420,Adya Pandit,F002,Manufacturing,Operator,PL006,2024-01-09,2.0,Beginner
+EMP000421,Owen Prabhakar,F001,Quality Assurance,Quality Inspector,,2021-12-25,6.7,Advanced
+EMP000422,Diya Andra,F001,Quality Assurance,Quality Engineer,,2022-06-25,3.4,Intermediate
+EMP000423,Ayushman Parekh,F002,Quality Assurance,Quality Inspector,,2020-06-28,0.6,Beginner
+EMP000424,Tristan Karan,F002,Quality Assurance,Quality Inspector,,2024-08-07,2.6,Intermediate
+EMP000425,Jai Viswanathan,F002,Quality Assurance,Quality Engineer,,2021-04-25,8.9,Expert
+EMP000426,Hardik Chaudhari,F001,Quality Assurance,Quality Engineer,,2019-08-04,1.9,Beginner
+EMP000427,Zaitra Kale,F002,Quality Assurance,Quality Engineer,,2023-11-05,4.0,Intermediate
+EMP000428,Ekta Walla,F002,Quality Assurance,Quality Engineer,,2023-01-28,2.5,Intermediate
+EMP000429,Sathvik Issac,F001,Quality Assurance,Quality Inspector,,2019-04-17,4.1,Intermediate
+EMP000430,Harini Reddy,F002,Quality Assurance,Quality Inspector,,2019-11-05,3.5,Intermediate
+EMP000431,Warhi Agrawal,F001,Quality Assurance,Quality Engineer,,2022-10-13,2.0,Intermediate
+EMP000432,Ishani Samra,F001,Quality Assurance,Quality Engineer,,2020-02-03,6.5,Advanced
+EMP000433,Dev Hegde,F002,Quality Assurance,Quality Engineer,,2020-03-19,1.4,Beginner
+EMP000434,Advik Kapadia,F002,Quality Assurance,Quality Engineer,,2020-04-22,3.7,Intermediate
+EMP000435,Advaith Pandit,F001,Quality Assurance,Quality Inspector,,2024-01-09,4.1,Intermediate
+EMP000436,Gayathri Acharya,F002,Quality Assurance,Quality Engineer,,2020-12-10,2.6,Intermediate
+EMP000437,Unnati Chander,F002,Quality Assurance,Quality Inspector,,2024-08-01,3.3,Intermediate
+EMP000438,Hitesh Roy,F002,Quality Assurance,Quality Engineer,,2019-12-08,2.6,Intermediate
+EMP000439,Jason Bhasin,F001,Quality Assurance,Quality Engineer,,2020-09-04,3.5,Advanced
+EMP000440,Jack Sarna,F001,Quality Assurance,Quality Engineer,,2023-09-24,1.5,Beginner
+EMP000441,Charan Vohra,F002,Quality Assurance,Quality Inspector,,2022-09-29,3.1,Intermediate
+EMP000442,Dev Bava,F002,Quality Assurance,Quality Inspector,,2019-12-11,3.6,Intermediate
+EMP000443,Raksha Dixit,F002,Quality Assurance,Quality Inspector,,2023-01-22,1.3,Intermediate
+EMP000444,Luke Pai,F002,Quality Assurance,Quality Engineer,,2020-03-10,9.0,Expert
+EMP000445,Utkarsh Naidu,F002,Quality Assurance,Quality Engineer,,2022-12-24,2.7,Intermediate
+EMP000446,Suhani Jain,F001,Quality Assurance,Quality Engineer,,2020-06-22,0.5,Beginner
+EMP000447,Indali Mann,F001,Quality Assurance,Quality Engineer,,2019-11-20,2.9,Intermediate
+EMP000448,Nathan Chhabra,F002,Quality Assurance,Quality Engineer,,2019-04-13,1.0,Intermediate
+EMP000449,Varsha Grewal,F002,Quality Assurance,Quality Inspector,,2022-12-13,3.9,Intermediate
+EMP000450,Divya Sankar,F002,Quality Assurance,Quality Engineer,,2020-10-10,1.7,Beginner
+EMP000451,Manya Bose,F001,Quality Assurance,Quality Engineer,,2018-12-23,2.1,Intermediate
+EMP000452,Unnati Ratta,F001,Quality Assurance,Quality Engineer,,2024-08-05,2.8,Advanced
+EMP000453,Megha Ganesan,F002,Quality Assurance,Quality Inspector,,2020-04-26,0.7,Beginner
+EMP000454,Rudra Kakar,F001,Quality Assurance,Quality Inspector,,2024-09-10,2.9,Intermediate
+EMP000455,Sneha Prabhakar,F002,Quality Assurance,Quality Engineer,,2024-06-03,5.6,Expert
+EMP000456,Wyatt Kar,F001,Quality Assurance,Quality Inspector,,2022-08-13,1.6,Beginner
+EMP000457,Netra Anand,F002,Quality Assurance,Quality Inspector,,2019-06-28,1.7,Advanced
+EMP000458,Omkaar Divan,F001,Quality Assurance,Quality Engineer,,2022-05-28,8.4,Advanced
+EMP000459,Oeshi Seth,F001,Quality Assurance,Quality Engineer,,2022-08-24,1.7,Intermediate
+EMP000460,Eshana Vasa,F002,Quality Assurance,Quality Engineer,,2019-01-17,1.7,Beginner
+EMP000461,Kai Chhabra,F002,Quality Assurance,Quality Engineer,,2023-02-06,8.8,Advanced
+EMP000462,Zehaan Narayan,F002,Quality Assurance,Quality Engineer,,2019-01-17,4.4,Intermediate
+EMP000463,Aahana Narayan,F002,Quality Assurance,Quality Inspector,,2022-06-18,8.1,Advanced
+EMP000464,Ikbal Sharaf,F002,Quality Assurance,Quality Engineer,,2021-08-15,5.2,Advanced
+EMP000465,Jatin Ratti,F002,Quality Assurance,Quality Engineer,,2023-06-11,1.1,Intermediate
+EMP000466,Ekantika Kota,F001,Quality Assurance,Quality Inspector,,2023-02-26,1.4,Beginner
+EMP000467,Agastya Kohli,F001,Quality Assurance,Quality Inspector,,2023-02-13,3.3,Expert
+EMP000468,Ayushman Narula,F002,Quality Assurance,Quality Engineer,,2019-06-25,1.5,Beginner
+EMP000469,Ishita Bhagat,F001,Quality Assurance,Quality Engineer,,2019-01-18,8.8,Advanced
+EMP000470,Mekhala Sahni,F002,Quality Assurance,Quality Inspector,,2019-11-09,1.5,Beginner
+EMP000471,Ekaja Gola,F002,Quality Assurance,Quality Engineer,,2020-08-17,3.8,Intermediate
+EMP000472,Yash Mittal,F001,Quality Assurance,Quality Inspector,,2023-05-08,0.5,Advanced
+EMP000473,Yug Gulati,F001,Quality Assurance,Quality Inspector,,2022-12-28,2.8,Intermediate
+EMP000474,Fiyaz Prasad,F001,Quality Assurance,Quality Inspector,,2022-09-26,8.3,Advanced
+EMP000475,Isaac Som,F002,Quality Assurance,Quality Inspector,,2019-02-24,1.1,Beginner
+EMP000476,Sanya Mukherjee,F002,Quality Assurance,Quality Inspector,,2022-04-17,1.8,Intermediate
+EMP000477,Isaiah Khare,F001,Quality Assurance,Quality Inspector,,2024-11-04,1.3,Beginner
+EMP000478,Orinder Chandran,F002,Quality Assurance,Quality Engineer,,2019-09-13,1.5,Intermediate
+EMP000479,Anusha Balakrishnan,F002,Quality Assurance,Quality Inspector,,2019-02-16,1.3,Advanced
+EMP000480,Dhruv Aurora,F001,Quality Assurance,Quality Engineer,,2022-10-25,2.2,Intermediate
+EMP000481,Kai Amble,F001,Quality Assurance,Quality Engineer,,2020-10-13,1.5,Beginner
+EMP000482,Geetika Palla,F001,Quality Assurance,Quality Inspector,,2021-05-20,6.8,Advanced
+EMP000483,Tanmayi Ramanathan,F001,Quality Assurance,Quality Inspector,,2018-08-12,3.3,Advanced
+EMP000484,Nakul Keer,F002,Quality Assurance,Quality Inspector,,2024-08-29,1.6,Intermediate
+EMP000485,Hamsini Behl,F001,Quality Assurance,Quality Engineer,,2019-06-25,16.8,Expert
+EMP000486,Vinaya Mandal,F002,Quality Assurance,Quality Inspector,,2023-04-14,3.6,Intermediate
+EMP000487,Kiaan Narang,F001,Quality Assurance,Quality Inspector,,2020-06-02,0.6,Intermediate
+EMP000488,Ridhi Chad,F001,Quality Assurance,Quality Engineer,,2021-03-19,7.5,Expert
+EMP000489,Rishi Yadav,F002,Quality Assurance,Quality Inspector,,2024-01-07,1.3,Advanced
+EMP000490,Ekbal Suresh,F002,Quality Assurance,Quality Inspector,,2020-04-12,0.6,Beginner
+EMP000491,Aishani Parmer,F002,Maintenance,Maintenance Engineer,,2018-09-28,3.4,Intermediate
+EMP000492,Ati Sarin,F002,Maintenance,Maintenance Technician,,2018-08-26,8.5,Advanced
+EMP000493,Jhalak Gade,F001,Maintenance,Maintenance Technician,,2024-10-29,2.5,Expert
+EMP000494,Chakradev Lall,F002,Maintenance,Maintenance Technician,,2019-12-21,6.8,Advanced
+EMP000495,Manya Batra,F001,Maintenance,Maintenance Engineer,,2019-11-03,7.2,Advanced
+EMP000496,Ekbal Agrawal,F002,Maintenance,Maintenance Technician,,2020-11-27,4.0,Intermediate
+EMP000497,Amrita Minhas,F002,Maintenance,Maintenance Technician,,2021-01-05,1.7,Beginner
+EMP000498,Ishani Deshpande,F001,Maintenance,Maintenance Technician,,2023-11-16,2.4,Intermediate
+EMP000499,Deepa Gill,F002,Maintenance,Maintenance Engineer,,2018-11-12,6.0,Advanced
+EMP000500,Diya Sane,F002,Maintenance,Maintenance Technician,,2024-05-10,0.7,Intermediate
+EMP000501,Arya Desai,F002,Maintenance,Maintenance Technician,,2024-06-08,1.7,Beginner
+EMP000502,Aradhana Dara,F001,Maintenance,Maintenance Technician,,2018-02-20,0.5,Advanced
+EMP000503,Madhav Kurian,F001,Maintenance,Maintenance Technician,,2019-09-07,2.2,Intermediate
+EMP000504,Siddharth Kapoor,F001,Maintenance,Maintenance Technician,,2022-09-14,4.6,Intermediate
+EMP000505,Frederick Tandon,F002,Maintenance,Maintenance Engineer,,2021-08-03,1.9,Beginner
+EMP000506,Nidra Datta,F001,Maintenance,Maintenance Technician,,2018-08-04,1.0,Intermediate
+EMP000507,Mohammed Parsa,F001,Maintenance,Maintenance Technician,,2022-07-01,9.8,Advanced
+EMP000508,Shivansh Verma,F002,Maintenance,Maintenance Engineer,,2021-06-26,7.8,Advanced
+EMP000509,Noah Dara,F001,Maintenance,Maintenance Engineer,,2020-04-01,0.5,Intermediate
+EMP000510,Jagat Butala,F002,Maintenance,Maintenance Engineer,,2022-02-17,2.8,Advanced
+EMP000511,Vedant Raval,F001,Maintenance,Maintenance Technician,,2020-10-01,5.7,Advanced
+EMP000512,Ikbal Chawla,F001,Maintenance,Maintenance Engineer,,2024-01-28,0.9,Expert
+EMP000513,Rachit Batra,F001,Maintenance,Maintenance Engineer,,2022-03-22,0.5,Expert
+EMP000514,Vivaan Bose,F001,Maintenance,Maintenance Engineer,,2022-09-16,2.0,Beginner
+EMP000515,Aradhana Seth,F001,Maintenance,Maintenance Technician,,2021-02-20,3.0,Expert
+EMP000516,Jason Cherian,F001,Maintenance,Maintenance Engineer,,2023-10-30,16.2,Expert
+EMP000517,Shivansh Vora,F002,Maintenance,Maintenance Technician,,2024-07-06,3.9,Intermediate
+EMP000518,Simon Om,F001,Maintenance,Maintenance Technician,,2024-08-21,2.3,Intermediate
+EMP000519,Qarin Madan,F002,Maintenance,Maintenance Engineer,,2021-04-09,1.7,Advanced
+EMP000520,Rehaan Ramesh,F002,Maintenance,Maintenance Engineer,,2021-08-29,7.4,Expert
+EMP000521,Urvashi Mammen,F002,Maintenance,Maintenance Technician,,2020-04-10,0.8,Intermediate
+EMP000522,Adya Jaggi,F001,Maintenance,Maintenance Engineer,,2023-03-24,0.7,Beginner
+EMP000523,Utkarsh Kurian,F002,Maintenance,Maintenance Engineer,,2020-04-30,1.0,Beginner
+EMP000524,George Khare,F002,Maintenance,Maintenance Technician,,2019-01-06,4.3,Intermediate
+EMP000525,Ishita Sundaram,F002,Maintenance,Maintenance Technician,,2018-06-15,7.1,Advanced
+EMP000526,Shravya Kumer,F002,Maintenance,Maintenance Engineer,,2021-12-28,1.6,Beginner
+EMP000527,Jai Pandey,F001,Maintenance,Maintenance Technician,,2019-12-14,3.0,Advanced
+EMP000528,Chanakya Tripathi,F002,Maintenance,Maintenance Technician,,2024-03-03,5.8,Advanced
+EMP000529,Faqid Yohannan,F001,Maintenance,Maintenance Technician,,2019-07-27,4.1,Intermediate
+EMP000530,Dhriti Bedi,F001,Maintenance,Maintenance Technician,,2020-06-29,1.7,Beginner
+EMP000531,Zehaan Parikh,F001,Maintenance,Maintenance Engineer,,2018-12-11,4.0,Advanced
+EMP000532,Nathan Mital,F001,Maintenance,Maintenance Technician,,2022-12-22,0.6,Beginner
+EMP000533,Lucky Dada,F001,Maintenance,Maintenance Technician,,2021-09-20,15.0,Expert
+EMP000534,Abha Korpal,F001,Maintenance,Maintenance Engineer,,2024-06-08,1.4,Expert
+EMP000535,Janya Pingle,F002,Maintenance,Maintenance Technician,,2022-10-14,2.2,Intermediate
+EMP000536,Bishakha Aurora,F002,Maintenance,Maintenance Engineer,,2021-02-20,0.8,Beginner
+EMP000537,Chaitanya Savant,F001,Maintenance,Maintenance Engineer,,2020-10-03,1.4,Beginner
+EMP000538,Guneet Seshadri,F002,Maintenance,Maintenance Technician,,2018-09-07,3.0,Intermediate
+EMP000539,Rajata Shere,F002,Maintenance,Maintenance Technician,,2023-11-24,2.4,Intermediate
+EMP000540,Abeer Choudhury,F001,Maintenance,Maintenance Engineer,,2022-01-10,14.2,Expert
+EMP000541,Jairaj Sidhu,F002,Maintenance,Maintenance Engineer,,2021-08-10,3.0,Intermediate
+EMP000542,Ati Srinivas,F002,Maintenance,Maintenance Technician,,2020-06-16,1.0,Beginner
+EMP000543,Raagini Patel,F002,Maintenance,Maintenance Engineer,,2023-12-09,2.0,Beginner
+EMP000544,Oeshi Deshmukh,F001,Maintenance,Maintenance Engineer,,2020-09-14,2.3,Expert
+EMP000545,Arya Dass,F001,Maintenance,Maintenance Engineer,,2024-06-16,9.5,Advanced
+EMP000546,Eiravati Wable,F002,Inventory,Store Executive,,2019-12-13,17.9,Expert
+EMP000547,Xavier Raval,F001,Inventory,Store Executive,,2022-01-09,4.1,Intermediate
+EMP000548,Osha Walia,F002,Inventory,Store Executive,,2024-04-25,10.4,Expert
+EMP000549,Jack Dua,F002,Inventory,Store Executive,,2018-06-05,1.3,Intermediate
+EMP000550,Dayita Kumar,F001,Inventory,Warehouse Supervisor,,2023-11-27,0.8,Beginner
+EMP000551,Yutika Bhardwaj,F001,Inventory,Warehouse Supervisor,,2019-06-19,3.3,Intermediate
+EMP000552,Nathaniel Sampath,F001,Inventory,Store Executive,,2021-08-18,15.3,Expert
+EMP000553,Lopa Mand,F001,Inventory,Store Executive,,2019-08-04,1.6,Beginner
+EMP000554,Shivani Muni,F002,Inventory,Store Executive,,2022-06-09,7.0,Expert
+EMP000555,Adweta Subramaniam,F002,Inventory,Warehouse Supervisor,,2019-10-08,1.1,Intermediate
+EMP000556,Avni Keer,F002,Inventory,Warehouse Supervisor,,2024-04-20,1.3,Intermediate
+EMP000557,Aayush Nadig,F001,Inventory,Warehouse Supervisor,,2022-03-30,8.2,Advanced
+EMP000558,Priya Krish,F002,Inventory,Warehouse Supervisor,,2024-06-04,1.6,Beginner
+EMP000559,Rachana Batta,F001,Inventory,Store Executive,,2020-06-23,1.0,Beginner
+EMP000560,Darika Walia,F002,Inventory,Warehouse Supervisor,,2020-09-01,1.6,Beginner
+EMP000561,Chakradev Sehgal,F002,Inventory,Warehouse Supervisor,,2018-12-30,1.8,Beginner
+EMP000562,Ayushman Patil,F002,Inventory,Warehouse Supervisor,,2018-10-05,0.8,Beginner
+EMP000563,Ayush Garg,F002,Inventory,Warehouse Supervisor,,2018-07-17,7.3,Advanced
+EMP000564,Yutika Narayan,F002,Inventory,Warehouse Supervisor,,2022-08-23,9.7,Advanced
+EMP000565,Niharika Madan,F002,Inventory,Store Executive,,2023-05-18,2.2,Intermediate
+EMP000566,Amol Guha,F001,Inventory,Warehouse Supervisor,,2018-05-17,4.1,Intermediate
+EMP000567,Gabriel Thakur,F001,Inventory,Warehouse Supervisor,,2018-10-31,4.8,Intermediate
+EMP000568,Ekta Saxena,F001,Inventory,Store Executive,,2018-11-04,2.0,Advanced
+EMP000569,Joshua Sood,F002,Inventory,Store Executive,,2023-06-01,3.3,Intermediate
+EMP000570,Charita Agate,F002,Inventory,Store Executive,,2022-11-14,3.4,Expert
+EMP000571,Lila Agrawal,F001,Inventory,Warehouse Supervisor,,2020-02-18,0.8,Beginner
+EMP000572,Ranveer Ahluwalia,F002,Inventory,Store Executive,,2019-01-28,3.3,Advanced
+EMP000573,Vamakshi Grover,F002,Inventory,Store Executive,,2019-09-22,4.3,Intermediate
+EMP000574,Aarush Desai,F002,Inventory,Warehouse Supervisor,,2024-09-24,0.6,Beginner
+EMP000575,Agastya Kapadia,F001,Inventory,Store Executive,,2021-04-10,0.8,Beginner
+EMP000576,Chaaya Wagle,F002,Procurement,Procurement Executive,,2022-06-17,3.4,Advanced
+EMP000577,George Mannan,F002,Procurement,Procurement Executive,,2024-02-07,3.0,Advanced
+EMP000578,Anamika Goyal,F001,Procurement,Procurement Executive,,2020-02-04,2.2,Intermediate
+EMP000579,Ryan Kadakia,F001,Procurement,Procurement Executive,,2020-07-15,2.6,Intermediate
+EMP000580,Hritik Chad,F001,Procurement,Procurement Executive,,2019-02-01,1.5,Beginner
+EMP000581,Aradhana Bobal,F002,Procurement,Procurement Executive,,2024-08-12,4.4,Advanced
+EMP000582,Bhavini Jani,F001,Procurement,Procurement Executive,,2022-09-11,8.3,Advanced
+EMP000583,Damyanti Doshi,F001,Procurement,Procurement Executive,,2018-05-23,0.9,Intermediate
+EMP000584,Jatin Wali,F001,Procurement,Procurement Executive,,2019-11-16,8.4,Expert
+EMP000585,Saksham Khurana,F001,Procurement,Procurement Executive,,2022-11-19,1.1,Beginner
+EMP000586,Jyoti Ramanathan,F001,Procurement,Procurement Executive,,2018-10-02,2.9,Advanced
+EMP000587,Aarna Banik,F002,Procurement,Procurement Executive,,2021-02-05,3.0,Intermediate
+EMP000588,Guneet Sant,F001,Procurement,Procurement Executive,,2023-11-11,6.4,Advanced
+EMP000589,Deepa Gara,F001,Procurement,Procurement Executive,,2024-08-05,1.2,Intermediate
+EMP000590,Indali Chahal,F001,Procurement,Procurement Executive,,2021-03-17,1.0,Intermediate
+EMP000591,Tanmayi Memon,F002,Procurement,Procurement Executive,,2024-06-01,3.4,Intermediate
+EMP000592,Darsh Ganguly,F001,Procurement,Procurement Executive,,2024-10-29,1.1,Beginner
+EMP000593,Ekaja Patla,F001,Procurement,Procurement Executive,,2020-08-31,4.5,Intermediate
+EMP000594,Krishna Gera,F002,Procurement,Procurement Executive,,2018-03-24,16.2,Expert
+EMP000595,Hritik Prasad,F002,Procurement,Procurement Executive,,2019-02-07,4.3,Intermediate
+EMP000596,Chakradhar Randhawa,F001,Planning,Production Planner,,2021-08-07,3.8,Intermediate
+EMP000597,Nathan Kala,F002,Planning,Production Planner,,2022-12-15,0.9,Intermediate
+EMP000598,Ekta Keer,F002,Planning,Production Planner,,2022-03-12,7.7,Advanced
+EMP000599,Vasana Soman,F001,Planning,Production Planner,,2022-07-11,1.6,Beginner
+EMP000600,Darsh Kurian,F001,Planning,Production Planner,,2020-04-02,1.8,Beginner
+EMP000601,Ethan Prashad,F001,Planning,Production Planner,,2022-01-16,0.6,Beginner
+EMP000602,Kalpit Dora,F002,Planning,Production Planner,,2022-06-14,2.6,Intermediate
+EMP000603,Ranveer Mander,F001,Planning,Production Planner,,2023-01-02,1.2,Beginner
+EMP000604,Finn Din,F002,Planning,Production Planner,,2019-11-01,2.1,Intermediate
+EMP000605,Zilmil Mandal,F001,Planning,Production Planner,,2019-10-30,2.2,Intermediate
+EMP000606,Mitali Amble,F001,Planning,Production Planner,,2021-01-07,3.5,Intermediate
+EMP000607,Jairaj Biswas,F001,Planning,Production Planner,,2018-02-06,9.7,Advanced
+EMP000608,Indrajit Shan,F001,Planning,Production Planner,,2018-02-04,3.2,Intermediate
+EMP000609,Divya Chaudhry,F002,Planning,Production Planner,,2021-02-01,4.7,Intermediate
+EMP000610,Hemani Kar,F002,Planning,Production Planner,,2020-06-12,4.9,Advanced
+EMP000611,Raksha Uppal,F002,Engineering,Manufacturing Engineer,,2022-06-15,8.3,Advanced
+EMP000612,Om Tiwari,F001,Engineering,Manufacturing Engineer,,2022-03-13,3.5,Intermediate
+EMP000613,Sudiksha Gola,F002,Engineering,Manufacturing Engineer,,2021-10-09,5.1,Advanced
+EMP000614,Dominic Andra,F002,Engineering,Manufacturing Engineer,,2021-05-08,3.0,Advanced
+EMP000615,Garima Johal,F001,Engineering,Manufacturing Engineer,,2018-08-21,1.6,Intermediate
+EMP000616,Charvi Borah,F002,Engineering,Manufacturing Engineer,,2023-07-31,7.4,Advanced
+EMP000617,Rajeshri Lad,F002,Engineering,Manufacturing Engineer,,2018-05-25,7.6,Expert
+EMP000618,Mitesh Bhardwaj,F002,Engineering,Manufacturing Engineer,,2023-12-30,2.6,Advanced
+EMP000619,Avni Shukla,F002,Engineering,Manufacturing Engineer,,2024-04-05,4.3,Intermediate
+EMP000620,Harinakshi Shroff,F002,Engineering,Manufacturing Engineer,,2020-11-25,0.7,Beginner
+EMP000621,Alexander Barad,F002,Engineering,Manufacturing Engineer,,2020-07-03,2.6,Advanced
+EMP000622,Januja Dutta,F002,Engineering,Manufacturing Engineer,,2020-12-03,3.6,Advanced
+EMP000623,Sara Parekh,F002,Engineering,Manufacturing Engineer,,2024-07-18,5.0,Advanced
+EMP000624,Aarnav Chopra,F002,Engineering,Manufacturing Engineer,,2022-04-13,5.3,Advanced
+EMP000625,Dipta Hayer,F002,Engineering,Manufacturing Engineer,,2019-07-17,1.8,Beginner
+EMP000626,Vihaan Rajagopal,F002,Engineering,Manufacturing Engineer,,2023-02-18,3.1,Intermediate
+EMP000627,Varenya Gandhi,F002,Engineering,Manufacturing Engineer,,2018-11-28,2.2,Advanced
+EMP000628,Damyanti Dhillon,F002,Engineering,Manufacturing Engineer,,2018-08-26,1.3,Intermediate
+EMP000629,Aarnav Aurora,F002,Engineering,Manufacturing Engineer,,2019-11-22,3.9,Intermediate
+EMP000630,Gauri Goel,F002,Engineering,Manufacturing Engineer,,2019-06-15,7.9,Advanced
+EMP000631,Thomas Gopal,F002,Utilities,Utilities Engineer,,2022-04-20,4.8,Intermediate
+EMP000632,William Kala,F001,Utilities,Utilities Engineer,,2018-02-27,3.8,Intermediate
+EMP000633,Manthan Dhar,F001,Utilities,Utilities Engineer,,2020-10-16,0.5,Beginner
+EMP000634,Jason Ganesh,F002,Utilities,Utilities Engineer,,2023-08-24,1.0,Intermediate
+EMP000635,Siddharth Bhatia,F001,Utilities,Utilities Engineer,,2021-04-06,0.6,Beginner
+EMP000636,Samarth Chakraborty,F002,Utilities,Utilities Engineer,,2019-07-03,3.6,Intermediate
+EMP000637,Wridesh Nair,F002,Utilities,Utilities Engineer,,2022-07-11,1.3,Intermediate
+EMP000638,Ethan Joshi,F001,Utilities,Utilities Engineer,,2020-05-15,2.0,Beginner
+EMP000639,Harita Lalla,F001,Utilities,Utilities Engineer,,2018-06-03,1.6,Beginner
+EMP000640,Rayaan Sengupta,F002,Utilities,Utilities Engineer,,2024-08-29,6.4,Advanced
+EMP000641,Tristan Kala,F001,Human Resources,HR Executive,,2019-04-20,0.7,Advanced
+EMP000642,Frado Mody,F002,Human Resources,HR Executive,,2023-04-28,3.0,Intermediate
+EMP000643,Advaith Salvi,F001,Human Resources,HR Executive,,2021-05-18,6.5,Advanced
+EMP000644,Diya Pandit,F001,Human Resources,HR Executive,,2024-10-16,3.1,Advanced
+EMP000645,Tanish Patel,F002,Human Resources,HR Executive,,2019-04-28,1.5,Advanced
+EMP000646,Harini Kata,F001,Safety,Safety Officer,,2024-10-30,5.2,Advanced
+EMP000647,Ekalinga Swamy,F002,Safety,Safety Officer,,2022-01-06,9.7,Advanced
+EMP000648,Jairaj Bumb,F002,Safety,Safety Officer,,2020-04-30,1.3,Beginner
+EMP000649,Ishanvi Khalsa,F002,Safety,Safety Officer,,2018-12-31,0.5,Beginner
+EMP000650,Shravya Chandra,F002,Safety,Safety Officer,,2023-09-27,0.6,Beginner

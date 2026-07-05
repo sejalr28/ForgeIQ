@@ -1,0 +1,19 @@
+machine_id,machine_name,machine_type,production_line,power_kw,maintenance_interval_hours,status
+M001,CNC-01,CNC Machine,PL001,22,500,Running
+M002,CNC-02,CNC Machine,PL001,22,500,Running
+M003,Inspection-01,Inspection Station,PL001,6,1000,Running
+M004,Lathe-01,Lathe Machine,PL002,18,600,Running
+M005,Grinding-01,Grinding Machine,PL002,15,450,Running
+M006,Inspection-02,Inspection Station,PL002,6,1000,Running
+M007,Milling-01,Milling Machine,PL003,20,500,Running
+M008,Drilling-01,Drilling Machine,PL003,12,400,Running
+M009,Inspection-03,Inspection Station,PL003,6,1000,Running
+M010,Assembly-01,Assembly Station,PL004,8,500,Running
+M011,Robot-01,Industrial Robot Arm,PL004,25,700,Running
+M012,Inspection-04,Inspection Station,PL004,6,1000,Running
+M013,HydraulicPress-01,Hydraulic Press,PL005,40,800,Running
+M014,Assembly-02,Assembly Station,PL005,8,500,Running
+M015,Inspection-05,Inspection Station,PL005,6,1000,Running
+M016,Laser-01,Laser Cutting Machine,PL006,30,600,Running
+M017,CNC-03,CNC Machine,PL006,22,500,Running
+M018,Inspection-06,Inspection Station,PL006,6,1000,Running
