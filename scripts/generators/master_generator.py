@@ -26,13 +26,13 @@ print("=" * 60)
 for generator in generators:
 
     print(f"\nRunning {generator} ...")
-subprocess.run(
-    [
-        sys.executable,
-        "-m",
-        f"scripts.generators.{generator[:-3]}"
-    ],
-    check=True,
-)
+    subprocess.run(
+        [
+            sys.executable,
+            "-m",
+            f"scripts.generators.{generator[:-3]}"
+        ],
+        check=True,
+    )
 
 print("\nAll datasets generated successfully.")
