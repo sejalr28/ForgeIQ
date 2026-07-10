@@ -1,501 +1,705 @@
-alert_id,alert_type,priority,status
-ALT00001,Low Inventory,High,Resolved
-ALT00002,High Energy Consumption,High,Resolved
-ALT00003,Low Inventory,Low,Resolved
-ALT00004,Quality Issue,Low,Open
-ALT00005,Low Inventory,High,Open
-ALT00006,Quality Issue,High,Open
-ALT00007,Production Delay,Low,Resolved
-ALT00008,Quality Issue,Medium,Open
-ALT00009,Low Inventory,High,Open
-ALT00010,High Energy Consumption,Medium,Open
-ALT00011,Quality Issue,High,Resolved
-ALT00012,Quality Issue,High,Open
-ALT00013,Quality Issue,High,Resolved
-ALT00014,Production Delay,Low,Open
-ALT00015,Production Delay,Medium,Open
-ALT00016,High Energy Consumption,Medium,Open
-ALT00017,Quality Issue,Low,Open
-ALT00018,Quality Issue,High,Open
-ALT00019,Quality Issue,High,Resolved
-ALT00020,Production Delay,Medium,Resolved
-ALT00021,Low Inventory,Medium,Resolved
-ALT00022,Production Delay,Low,Resolved
-ALT00023,High Energy Consumption,High,Resolved
-ALT00024,Low Inventory,High,Open
-ALT00025,Low Inventory,Low,Open
-ALT00026,Production Delay,Low,Open
-ALT00027,Low Inventory,Medium,Resolved
-ALT00028,Quality Issue,Low,Open
-ALT00029,Low Inventory,High,Resolved
-ALT00030,Quality Issue,Medium,Open
-ALT00031,Low Inventory,High,Open
-ALT00032,Low Inventory,Low,Open
-ALT00033,Quality Issue,Medium,Resolved
-ALT00034,Production Delay,Medium,Resolved
-ALT00035,Low Inventory,High,Open
-ALT00036,High Energy Consumption,Medium,Open
-ALT00037,Low Inventory,High,Resolved
-ALT00038,Production Delay,Medium,Open
-ALT00039,High Energy Consumption,High,Open
-ALT00040,Quality Issue,Medium,Open
-ALT00041,High Energy Consumption,Medium,Open
-ALT00042,Quality Issue,Medium,Resolved
-ALT00043,High Energy Consumption,Low,Resolved
-ALT00044,Production Delay,High,Resolved
-ALT00045,Production Delay,Medium,Resolved
-ALT00046,Quality Issue,High,Resolved
-ALT00047,High Energy Consumption,Low,Resolved
-ALT00048,Quality Issue,High,Open
-ALT00049,Quality Issue,Low,Open
-ALT00050,Quality Issue,Medium,Resolved
-ALT00051,Production Delay,High,Resolved
-ALT00052,Quality Issue,Medium,Open
-ALT00053,Low Inventory,High,Resolved
-ALT00054,Production Delay,Medium,Open
-ALT00055,Production Delay,High,Open
-ALT00056,High Energy Consumption,High,Resolved
-ALT00057,High Energy Consumption,Medium,Open
-ALT00058,High Energy Consumption,Low,Open
-ALT00059,High Energy Consumption,Medium,Open
-ALT00060,Production Delay,Medium,Resolved
-ALT00061,High Energy Consumption,Low,Open
-ALT00062,Low Inventory,High,Open
-ALT00063,High Energy Consumption,High,Open
-ALT00064,Quality Issue,Low,Resolved
-ALT00065,High Energy Consumption,Medium,Open
-ALT00066,Quality Issue,High,Resolved
-ALT00067,Production Delay,Medium,Resolved
-ALT00068,High Energy Consumption,Medium,Open
-ALT00069,High Energy Consumption,High,Resolved
-ALT00070,High Energy Consumption,Medium,Open
-ALT00071,Quality Issue,Medium,Resolved
-ALT00072,Production Delay,Medium,Open
-ALT00073,High Energy Consumption,Medium,Resolved
-ALT00074,Low Inventory,Medium,Open
-ALT00075,Low Inventory,Medium,Resolved
-ALT00076,High Energy Consumption,Medium,Open
-ALT00077,Low Inventory,High,Resolved
-ALT00078,High Energy Consumption,High,Open
-ALT00079,High Energy Consumption,High,Open
-ALT00080,Quality Issue,Medium,Resolved
-ALT00081,High Energy Consumption,High,Resolved
-ALT00082,Quality Issue,Low,Resolved
-ALT00083,Quality Issue,High,Open
-ALT00084,High Energy Consumption,Medium,Open
-ALT00085,High Energy Consumption,Low,Resolved
-ALT00086,Low Inventory,High,Resolved
-ALT00087,High Energy Consumption,High,Resolved
-ALT00088,High Energy Consumption,Medium,Resolved
-ALT00089,Production Delay,High,Resolved
-ALT00090,High Energy Consumption,Medium,Resolved
-ALT00091,Quality Issue,Low,Open
-ALT00092,Low Inventory,Medium,Open
-ALT00093,Low Inventory,High,Open
-ALT00094,Production Delay,Low,Resolved
-ALT00095,Production Delay,Medium,Open
-ALT00096,Low Inventory,Low,Open
-ALT00097,Quality Issue,Low,Resolved
-ALT00098,Low Inventory,High,Open
-ALT00099,Quality Issue,High,Resolved
-ALT00100,Quality Issue,Low,Resolved
-ALT00101,Production Delay,Low,Open
-ALT00102,Production Delay,Medium,Open
-ALT00103,High Energy Consumption,Medium,Resolved
-ALT00104,High Energy Consumption,High,Open
-ALT00105,Production Delay,Medium,Open
-ALT00106,Low Inventory,Low,Resolved
-ALT00107,Low Inventory,Low,Resolved
-ALT00108,High Energy Consumption,High,Resolved
-ALT00109,Low Inventory,High,Resolved
-ALT00110,High Energy Consumption,Medium,Open
-ALT00111,Quality Issue,High,Open
-ALT00112,Quality Issue,Low,Resolved
-ALT00113,High Energy Consumption,High,Resolved
-ALT00114,Production Delay,Low,Resolved
-ALT00115,Quality Issue,Low,Open
-ALT00116,Production Delay,High,Open
-ALT00117,High Energy Consumption,Medium,Open
-ALT00118,Production Delay,Medium,Resolved
-ALT00119,High Energy Consumption,High,Resolved
-ALT00120,High Energy Consumption,Low,Open
-ALT00121,Low Inventory,Low,Open
-ALT00122,Production Delay,Medium,Resolved
-ALT00123,Quality Issue,High,Open
-ALT00124,Quality Issue,High,Resolved
-ALT00125,High Energy Consumption,Medium,Resolved
-ALT00126,High Energy Consumption,Medium,Open
-ALT00127,Low Inventory,Medium,Open
-ALT00128,Production Delay,Medium,Resolved
-ALT00129,Quality Issue,Low,Open
-ALT00130,Quality Issue,Low,Open
-ALT00131,High Energy Consumption,High,Open
-ALT00132,High Energy Consumption,Medium,Open
-ALT00133,Production Delay,Low,Resolved
-ALT00134,Low Inventory,Medium,Open
-ALT00135,Production Delay,Medium,Resolved
-ALT00136,Quality Issue,Low,Resolved
-ALT00137,Quality Issue,Low,Resolved
-ALT00138,High Energy Consumption,High,Resolved
-ALT00139,High Energy Consumption,Low,Open
-ALT00140,Production Delay,High,Open
-ALT00141,High Energy Consumption,Medium,Resolved
-ALT00142,Production Delay,Medium,Resolved
-ALT00143,High Energy Consumption,Low,Resolved
-ALT00144,Quality Issue,Medium,Open
-ALT00145,Quality Issue,Medium,Open
-ALT00146,Quality Issue,Low,Resolved
-ALT00147,High Energy Consumption,High,Resolved
-ALT00148,Production Delay,Medium,Open
-ALT00149,Production Delay,Low,Open
-ALT00150,High Energy Consumption,Medium,Open
-ALT00151,Low Inventory,High,Resolved
-ALT00152,Production Delay,Medium,Open
-ALT00153,High Energy Consumption,High,Open
-ALT00154,High Energy Consumption,Medium,Resolved
-ALT00155,Low Inventory,Medium,Open
-ALT00156,High Energy Consumption,High,Open
-ALT00157,Low Inventory,Low,Open
-ALT00158,High Energy Consumption,High,Resolved
-ALT00159,Low Inventory,High,Resolved
-ALT00160,Production Delay,Medium,Resolved
-ALT00161,Production Delay,High,Open
-ALT00162,Low Inventory,Low,Resolved
-ALT00163,Low Inventory,Medium,Open
-ALT00164,Production Delay,Medium,Open
-ALT00165,Low Inventory,Low,Resolved
-ALT00166,Quality Issue,High,Resolved
-ALT00167,Low Inventory,High,Resolved
-ALT00168,Quality Issue,Medium,Resolved
-ALT00169,Quality Issue,Medium,Resolved
-ALT00170,High Energy Consumption,Low,Open
-ALT00171,High Energy Consumption,Medium,Open
-ALT00172,High Energy Consumption,Medium,Open
-ALT00173,High Energy Consumption,High,Open
-ALT00174,Production Delay,Medium,Open
-ALT00175,Low Inventory,Low,Open
-ALT00176,Production Delay,Low,Open
-ALT00177,High Energy Consumption,High,Open
-ALT00178,Quality Issue,Medium,Open
-ALT00179,Low Inventory,Medium,Open
-ALT00180,High Energy Consumption,High,Resolved
-ALT00181,Quality Issue,Low,Resolved
-ALT00182,Low Inventory,High,Resolved
-ALT00183,High Energy Consumption,High,Open
-ALT00184,Low Inventory,Low,Open
-ALT00185,Low Inventory,Medium,Resolved
-ALT00186,Production Delay,Medium,Open
-ALT00187,Low Inventory,High,Open
-ALT00188,Low Inventory,Medium,Open
-ALT00189,Production Delay,High,Open
-ALT00190,High Energy Consumption,High,Open
-ALT00191,Low Inventory,High,Resolved
-ALT00192,High Energy Consumption,Medium,Open
-ALT00193,Production Delay,Low,Open
-ALT00194,Low Inventory,High,Open
-ALT00195,Quality Issue,Medium,Resolved
-ALT00196,High Energy Consumption,Medium,Resolved
-ALT00197,Quality Issue,Medium,Open
-ALT00198,Production Delay,High,Open
-ALT00199,High Energy Consumption,Low,Open
-ALT00200,Production Delay,Low,Open
-ALT00201,Quality Issue,Low,Resolved
-ALT00202,Low Inventory,High,Open
-ALT00203,Low Inventory,High,Open
-ALT00204,Quality Issue,Medium,Open
-ALT00205,Production Delay,High,Open
-ALT00206,Low Inventory,High,Open
-ALT00207,Production Delay,Medium,Resolved
-ALT00208,Low Inventory,High,Open
-ALT00209,High Energy Consumption,High,Resolved
-ALT00210,High Energy Consumption,Low,Open
-ALT00211,Quality Issue,Low,Resolved
-ALT00212,Production Delay,Medium,Open
-ALT00213,Production Delay,Medium,Resolved
-ALT00214,Low Inventory,Low,Open
-ALT00215,Quality Issue,Low,Open
-ALT00216,Production Delay,Medium,Open
-ALT00217,Low Inventory,Low,Open
-ALT00218,Quality Issue,Low,Resolved
-ALT00219,Production Delay,Low,Resolved
-ALT00220,Quality Issue,Low,Resolved
-ALT00221,High Energy Consumption,Low,Open
-ALT00222,Low Inventory,Low,Resolved
-ALT00223,Quality Issue,Medium,Open
-ALT00224,Quality Issue,Medium,Resolved
-ALT00225,Quality Issue,High,Open
-ALT00226,Low Inventory,Medium,Open
-ALT00227,High Energy Consumption,Medium,Resolved
-ALT00228,Quality Issue,Medium,Open
-ALT00229,Low Inventory,High,Resolved
-ALT00230,Low Inventory,High,Open
-ALT00231,High Energy Consumption,Medium,Open
-ALT00232,Quality Issue,Medium,Open
-ALT00233,Production Delay,High,Open
-ALT00234,Low Inventory,High,Open
-ALT00235,Production Delay,Low,Open
-ALT00236,Quality Issue,High,Resolved
-ALT00237,Quality Issue,High,Resolved
-ALT00238,Low Inventory,Medium,Resolved
-ALT00239,Low Inventory,Low,Open
-ALT00240,Low Inventory,Low,Open
-ALT00241,Quality Issue,Low,Resolved
-ALT00242,High Energy Consumption,Low,Resolved
-ALT00243,Production Delay,Low,Open
-ALT00244,Low Inventory,Medium,Resolved
-ALT00245,Quality Issue,Medium,Resolved
-ALT00246,Quality Issue,Low,Resolved
-ALT00247,High Energy Consumption,Low,Open
-ALT00248,Production Delay,Medium,Resolved
-ALT00249,Production Delay,Low,Resolved
-ALT00250,Low Inventory,High,Resolved
-ALT00251,Production Delay,Low,Open
-ALT00252,Low Inventory,Low,Resolved
-ALT00253,Low Inventory,Low,Resolved
-ALT00254,Quality Issue,High,Resolved
-ALT00255,Low Inventory,High,Open
-ALT00256,Production Delay,Medium,Open
-ALT00257,Quality Issue,Medium,Resolved
-ALT00258,Quality Issue,Medium,Resolved
-ALT00259,Quality Issue,Low,Open
-ALT00260,Quality Issue,High,Resolved
-ALT00261,Production Delay,Low,Open
-ALT00262,Quality Issue,Medium,Resolved
-ALT00263,High Energy Consumption,High,Resolved
-ALT00264,Quality Issue,High,Resolved
-ALT00265,High Energy Consumption,Medium,Resolved
-ALT00266,Low Inventory,Medium,Resolved
-ALT00267,Quality Issue,Low,Resolved
-ALT00268,Production Delay,High,Open
-ALT00269,Quality Issue,High,Resolved
-ALT00270,Quality Issue,Medium,Resolved
-ALT00271,Production Delay,High,Resolved
-ALT00272,High Energy Consumption,Medium,Open
-ALT00273,Low Inventory,Low,Open
-ALT00274,High Energy Consumption,Medium,Open
-ALT00275,Low Inventory,Low,Open
-ALT00276,Quality Issue,High,Resolved
-ALT00277,High Energy Consumption,High,Resolved
-ALT00278,Production Delay,High,Open
-ALT00279,Low Inventory,Low,Resolved
-ALT00280,Quality Issue,High,Resolved
-ALT00281,High Energy Consumption,Low,Open
-ALT00282,Production Delay,Medium,Open
-ALT00283,High Energy Consumption,Medium,Resolved
-ALT00284,High Energy Consumption,Low,Resolved
-ALT00285,Quality Issue,Low,Open
-ALT00286,Low Inventory,Medium,Open
-ALT00287,Low Inventory,High,Resolved
-ALT00288,Quality Issue,Low,Resolved
-ALT00289,High Energy Consumption,High,Resolved
-ALT00290,Low Inventory,High,Resolved
-ALT00291,Low Inventory,High,Open
-ALT00292,Quality Issue,Low,Resolved
-ALT00293,Production Delay,Medium,Resolved
-ALT00294,Low Inventory,Low,Open
-ALT00295,Low Inventory,Medium,Resolved
-ALT00296,Quality Issue,Medium,Open
-ALT00297,High Energy Consumption,Low,Open
-ALT00298,Low Inventory,High,Open
-ALT00299,Production Delay,High,Open
-ALT00300,High Energy Consumption,High,Resolved
-ALT00301,Production Delay,Medium,Open
-ALT00302,Low Inventory,Low,Open
-ALT00303,High Energy Consumption,Low,Resolved
-ALT00304,Low Inventory,High,Open
-ALT00305,High Energy Consumption,High,Open
-ALT00306,Quality Issue,Low,Resolved
-ALT00307,Low Inventory,High,Open
-ALT00308,Low Inventory,High,Resolved
-ALT00309,Quality Issue,Low,Open
-ALT00310,Quality Issue,Low,Resolved
-ALT00311,Low Inventory,Medium,Open
-ALT00312,Low Inventory,Low,Open
-ALT00313,Quality Issue,High,Open
-ALT00314,Quality Issue,Low,Open
-ALT00315,Quality Issue,High,Open
-ALT00316,Low Inventory,High,Open
-ALT00317,Production Delay,Low,Resolved
-ALT00318,Quality Issue,Medium,Open
-ALT00319,Production Delay,Medium,Resolved
-ALT00320,High Energy Consumption,Low,Resolved
-ALT00321,Low Inventory,Low,Resolved
-ALT00322,Production Delay,High,Resolved
-ALT00323,High Energy Consumption,Medium,Open
-ALT00324,Production Delay,High,Open
-ALT00325,Production Delay,High,Resolved
-ALT00326,High Energy Consumption,High,Open
-ALT00327,Quality Issue,Low,Resolved
-ALT00328,Low Inventory,Medium,Open
-ALT00329,High Energy Consumption,Medium,Open
-ALT00330,Low Inventory,Medium,Resolved
-ALT00331,High Energy Consumption,Medium,Open
-ALT00332,High Energy Consumption,Medium,Resolved
-ALT00333,High Energy Consumption,High,Resolved
-ALT00334,Quality Issue,Low,Open
-ALT00335,Production Delay,Medium,Open
-ALT00336,Low Inventory,Medium,Open
-ALT00337,Quality Issue,Medium,Resolved
-ALT00338,Production Delay,High,Open
-ALT00339,Production Delay,Medium,Open
-ALT00340,Production Delay,Low,Resolved
-ALT00341,Quality Issue,Low,Open
-ALT00342,Low Inventory,Low,Resolved
-ALT00343,High Energy Consumption,Medium,Open
-ALT00344,Production Delay,Low,Open
-ALT00345,High Energy Consumption,Low,Resolved
-ALT00346,Quality Issue,Medium,Open
-ALT00347,Production Delay,Low,Resolved
-ALT00348,High Energy Consumption,Medium,Open
-ALT00349,High Energy Consumption,High,Open
-ALT00350,High Energy Consumption,Low,Resolved
-ALT00351,Quality Issue,Low,Resolved
-ALT00352,Quality Issue,Low,Open
-ALT00353,Quality Issue,High,Resolved
-ALT00354,High Energy Consumption,Low,Resolved
-ALT00355,Quality Issue,Medium,Open
-ALT00356,Quality Issue,Medium,Open
-ALT00357,Low Inventory,Medium,Open
-ALT00358,Quality Issue,High,Resolved
-ALT00359,High Energy Consumption,Low,Open
-ALT00360,Low Inventory,High,Resolved
-ALT00361,High Energy Consumption,Medium,Resolved
-ALT00362,High Energy Consumption,Low,Resolved
-ALT00363,Low Inventory,Medium,Resolved
-ALT00364,High Energy Consumption,Medium,Open
-ALT00365,Low Inventory,Low,Resolved
-ALT00366,Production Delay,Medium,Open
-ALT00367,Low Inventory,Low,Resolved
-ALT00368,Quality Issue,Medium,Resolved
-ALT00369,Quality Issue,Low,Resolved
-ALT00370,Quality Issue,Medium,Resolved
-ALT00371,Quality Issue,Low,Resolved
-ALT00372,Low Inventory,Medium,Resolved
-ALT00373,Production Delay,High,Resolved
-ALT00374,High Energy Consumption,High,Resolved
-ALT00375,Production Delay,Medium,Open
-ALT00376,High Energy Consumption,Medium,Open
-ALT00377,Production Delay,High,Resolved
-ALT00378,Low Inventory,High,Resolved
-ALT00379,High Energy Consumption,High,Resolved
-ALT00380,Low Inventory,High,Resolved
-ALT00381,Quality Issue,High,Open
-ALT00382,Quality Issue,High,Open
-ALT00383,Quality Issue,Medium,Resolved
-ALT00384,Quality Issue,High,Resolved
-ALT00385,Quality Issue,Medium,Resolved
-ALT00386,High Energy Consumption,Medium,Resolved
-ALT00387,Low Inventory,High,Resolved
-ALT00388,High Energy Consumption,Medium,Resolved
-ALT00389,Quality Issue,High,Open
-ALT00390,High Energy Consumption,Medium,Open
-ALT00391,Low Inventory,Low,Resolved
-ALT00392,High Energy Consumption,Medium,Open
-ALT00393,High Energy Consumption,Low,Resolved
-ALT00394,Quality Issue,Medium,Resolved
-ALT00395,Quality Issue,Medium,Open
-ALT00396,Quality Issue,High,Resolved
-ALT00397,Low Inventory,Medium,Open
-ALT00398,Production Delay,Low,Open
-ALT00399,Production Delay,Medium,Open
-ALT00400,Low Inventory,Medium,Resolved
-ALT00401,High Energy Consumption,Medium,Open
-ALT00402,Quality Issue,Low,Resolved
-ALT00403,Production Delay,Low,Resolved
-ALT00404,High Energy Consumption,Medium,Open
-ALT00405,Quality Issue,Medium,Resolved
-ALT00406,Low Inventory,High,Resolved
-ALT00407,High Energy Consumption,Low,Resolved
-ALT00408,High Energy Consumption,Medium,Open
-ALT00409,High Energy Consumption,Low,Resolved
-ALT00410,High Energy Consumption,Medium,Open
-ALT00411,High Energy Consumption,Low,Resolved
-ALT00412,High Energy Consumption,Medium,Open
-ALT00413,Low Inventory,Low,Open
-ALT00414,Production Delay,Low,Open
-ALT00415,Low Inventory,Medium,Open
-ALT00416,Quality Issue,Low,Resolved
-ALT00417,Quality Issue,Medium,Resolved
-ALT00418,Quality Issue,Medium,Resolved
-ALT00419,Production Delay,Low,Resolved
-ALT00420,Quality Issue,Low,Open
-ALT00421,High Energy Consumption,Low,Open
-ALT00422,Production Delay,High,Resolved
-ALT00423,Low Inventory,High,Open
-ALT00424,Low Inventory,Medium,Resolved
-ALT00425,Production Delay,Low,Resolved
-ALT00426,Low Inventory,Low,Resolved
-ALT00427,Low Inventory,High,Resolved
-ALT00428,Quality Issue,High,Open
-ALT00429,Production Delay,Medium,Open
-ALT00430,Low Inventory,High,Resolved
-ALT00431,Quality Issue,High,Open
-ALT00432,Quality Issue,Low,Resolved
-ALT00433,High Energy Consumption,Low,Open
-ALT00434,Production Delay,Low,Open
-ALT00435,High Energy Consumption,Low,Resolved
-ALT00436,High Energy Consumption,Medium,Resolved
-ALT00437,Quality Issue,High,Open
-ALT00438,Low Inventory,Medium,Resolved
-ALT00439,Quality Issue,Medium,Resolved
-ALT00440,Quality Issue,Low,Open
-ALT00441,Production Delay,High,Resolved
-ALT00442,High Energy Consumption,Medium,Open
-ALT00443,Quality Issue,Medium,Open
-ALT00444,Production Delay,High,Resolved
-ALT00445,Production Delay,High,Resolved
-ALT00446,Low Inventory,Low,Resolved
-ALT00447,Production Delay,Low,Open
-ALT00448,Quality Issue,Medium,Open
-ALT00449,Low Inventory,High,Open
-ALT00450,Production Delay,Medium,Open
-ALT00451,Production Delay,Low,Resolved
-ALT00452,Production Delay,Low,Resolved
-ALT00453,Low Inventory,Low,Resolved
-ALT00454,Low Inventory,High,Open
-ALT00455,Low Inventory,Low,Open
-ALT00456,Quality Issue,High,Resolved
-ALT00457,Production Delay,Medium,Resolved
-ALT00458,Production Delay,Low,Resolved
-ALT00459,Low Inventory,High,Resolved
-ALT00460,Low Inventory,Low,Resolved
-ALT00461,Low Inventory,Low,Open
-ALT00462,Production Delay,Low,Resolved
-ALT00463,Quality Issue,Low,Resolved
-ALT00464,Low Inventory,High,Open
-ALT00465,Low Inventory,High,Open
-ALT00466,High Energy Consumption,Low,Open
-ALT00467,High Energy Consumption,Medium,Resolved
-ALT00468,High Energy Consumption,High,Open
-ALT00469,Low Inventory,Medium,Resolved
-ALT00470,Low Inventory,Low,Open
-ALT00471,Production Delay,High,Resolved
-ALT00472,Low Inventory,Medium,Open
-ALT00473,Quality Issue,Low,Open
-ALT00474,Quality Issue,Medium,Resolved
-ALT00475,Quality Issue,High,Resolved
-ALT00476,Low Inventory,High,Resolved
-ALT00477,Quality Issue,High,Open
-ALT00478,Production Delay,Medium,Open
-ALT00479,Production Delay,Medium,Open
-ALT00480,Production Delay,Low,Resolved
-ALT00481,Production Delay,Medium,Open
-ALT00482,Low Inventory,Low,Open
-ALT00483,Low Inventory,High,Resolved
-ALT00484,Quality Issue,Medium,Resolved
-ALT00485,Production Delay,High,Resolved
-ALT00486,Low Inventory,High,Open
-ALT00487,Quality Issue,High,Open
-ALT00488,High Energy Consumption,Low,Resolved
-ALT00489,Quality Issue,Medium,Resolved
-ALT00490,Quality Issue,Medium,Open
-ALT00491,Quality Issue,Low,Open
-ALT00492,Quality Issue,Low,Open
-ALT00493,Production Delay,Low,Resolved
-ALT00494,Quality Issue,Low,Open
-ALT00495,Low Inventory,Low,Open
-ALT00496,Quality Issue,Medium,Resolved
-ALT00497,Low Inventory,High,Open
-ALT00498,Production Delay,Low,Open
-ALT00499,Production Delay,Medium,Open
-ALT00500,Quality Issue,Medium,Open
+alert_id,day,alert_type,priority
+ALT00001,1.0,High Downtime,High
+ALT00002,1.0,High Reject Rate,Medium
+ALT00003,2.0,High Reject Rate,Medium
+ALT00004,3.0,High Downtime,High
+ALT00005,3.0,High Reject Rate,Medium
+ALT00006,4.0,High Reject Rate,Medium
+ALT00007,5.0,High Downtime,High
+ALT00008,5.0,High Reject Rate,Medium
+ALT00009,6.0,High Downtime,High
+ALT00010,6.0,High Reject Rate,Medium
+ALT00011,7.0,High Downtime,High
+ALT00012,7.0,High Reject Rate,Medium
+ALT00013,8.0,High Downtime,High
+ALT00014,8.0,High Reject Rate,Medium
+ALT00015,9.0,High Reject Rate,Medium
+ALT00016,10.0,High Downtime,High
+ALT00017,10.0,High Reject Rate,Medium
+ALT00018,11.0,High Downtime,High
+ALT00019,11.0,High Reject Rate,Medium
+ALT00020,12.0,High Downtime,High
+ALT00021,12.0,High Reject Rate,Medium
+ALT00022,13.0,High Downtime,High
+ALT00023,13.0,High Reject Rate,Medium
+ALT00024,14.0,High Downtime,High
+ALT00025,14.0,High Reject Rate,Medium
+ALT00026,15.0,High Reject Rate,Medium
+ALT00027,16.0,High Downtime,High
+ALT00028,16.0,High Reject Rate,Medium
+ALT00029,17.0,High Downtime,High
+ALT00030,17.0,High Reject Rate,Medium
+ALT00031,18.0,High Downtime,High
+ALT00032,18.0,High Reject Rate,Medium
+ALT00033,19.0,High Reject Rate,Medium
+ALT00034,20.0,High Downtime,High
+ALT00035,20.0,High Reject Rate,Medium
+ALT00036,21.0,High Downtime,High
+ALT00037,21.0,High Reject Rate,Medium
+ALT00038,22.0,High Downtime,High
+ALT00039,22.0,High Reject Rate,Medium
+ALT00040,23.0,High Downtime,High
+ALT00041,23.0,High Reject Rate,Medium
+ALT00042,24.0,High Downtime,High
+ALT00043,24.0,High Reject Rate,Medium
+ALT00044,25.0,High Downtime,High
+ALT00045,25.0,High Reject Rate,Medium
+ALT00046,26.0,High Downtime,High
+ALT00047,26.0,High Reject Rate,Medium
+ALT00048,27.0,High Downtime,High
+ALT00049,27.0,High Reject Rate,Medium
+ALT00050,28.0,High Downtime,High
+ALT00051,28.0,High Reject Rate,Medium
+ALT00052,29.0,High Downtime,High
+ALT00053,29.0,High Reject Rate,Medium
+ALT00054,30.0,High Downtime,High
+ALT00055,30.0,High Reject Rate,Medium
+ALT00056,31.0,High Downtime,High
+ALT00057,31.0,High Reject Rate,Medium
+ALT00058,32.0,High Downtime,High
+ALT00059,32.0,High Reject Rate,Medium
+ALT00060,33.0,High Downtime,High
+ALT00061,33.0,High Reject Rate,Medium
+ALT00062,34.0,High Downtime,High
+ALT00063,34.0,High Reject Rate,Medium
+ALT00064,35.0,High Downtime,High
+ALT00065,35.0,High Reject Rate,Medium
+ALT00066,36.0,High Downtime,High
+ALT00067,36.0,High Reject Rate,Medium
+ALT00068,37.0,High Downtime,High
+ALT00069,37.0,High Reject Rate,Medium
+ALT00070,38.0,High Downtime,High
+ALT00071,38.0,High Reject Rate,Medium
+ALT00072,39.0,High Downtime,High
+ALT00073,39.0,High Reject Rate,Medium
+ALT00074,40.0,High Downtime,High
+ALT00075,40.0,High Reject Rate,Medium
+ALT00076,41.0,High Downtime,High
+ALT00077,41.0,High Reject Rate,Medium
+ALT00078,42.0,High Downtime,High
+ALT00079,42.0,High Reject Rate,Medium
+ALT00080,43.0,High Downtime,High
+ALT00081,43.0,High Reject Rate,Medium
+ALT00082,44.0,High Downtime,High
+ALT00083,44.0,High Reject Rate,Medium
+ALT00084,45.0,High Downtime,High
+ALT00085,45.0,High Reject Rate,Medium
+ALT00086,46.0,High Downtime,High
+ALT00087,46.0,High Reject Rate,Medium
+ALT00088,47.0,High Downtime,High
+ALT00089,47.0,High Reject Rate,Medium
+ALT00090,48.0,High Downtime,High
+ALT00091,48.0,High Reject Rate,Medium
+ALT00092,49.0,High Downtime,High
+ALT00093,49.0,High Reject Rate,Medium
+ALT00094,50.0,High Downtime,High
+ALT00095,50.0,High Reject Rate,Medium
+ALT00096,51.0,High Downtime,High
+ALT00097,51.0,High Reject Rate,Medium
+ALT00098,52.0,High Downtime,High
+ALT00099,52.0,High Reject Rate,Medium
+ALT00100,53.0,High Downtime,High
+ALT00101,53.0,High Reject Rate,Medium
+ALT00102,54.0,High Downtime,High
+ALT00103,54.0,High Reject Rate,Medium
+ALT00104,55.0,High Downtime,High
+ALT00105,55.0,High Reject Rate,Medium
+ALT00106,56.0,High Downtime,High
+ALT00107,56.0,High Reject Rate,Medium
+ALT00108,57.0,High Downtime,High
+ALT00109,57.0,High Reject Rate,Medium
+ALT00110,58.0,High Downtime,High
+ALT00111,58.0,High Reject Rate,Medium
+ALT00112,59.0,High Downtime,High
+ALT00113,59.0,High Reject Rate,Medium
+ALT00114,60.0,High Downtime,High
+ALT00115,60.0,High Reject Rate,Medium
+ALT00116,61.0,High Downtime,High
+ALT00117,61.0,High Reject Rate,Medium
+ALT00118,62.0,High Downtime,High
+ALT00119,62.0,High Reject Rate,Medium
+ALT00120,63.0,High Downtime,High
+ALT00121,63.0,High Reject Rate,Medium
+ALT00122,64.0,High Downtime,High
+ALT00123,64.0,High Reject Rate,Medium
+ALT00124,65.0,High Downtime,High
+ALT00125,65.0,High Reject Rate,Medium
+ALT00126,66.0,High Downtime,High
+ALT00127,66.0,High Reject Rate,Medium
+ALT00128,67.0,High Downtime,High
+ALT00129,67.0,High Reject Rate,Medium
+ALT00130,68.0,High Downtime,High
+ALT00131,68.0,High Reject Rate,Medium
+ALT00132,69.0,High Downtime,High
+ALT00133,69.0,High Reject Rate,Medium
+ALT00134,70.0,High Downtime,High
+ALT00135,70.0,High Reject Rate,Medium
+ALT00136,71.0,High Downtime,High
+ALT00137,71.0,High Reject Rate,Medium
+ALT00138,72.0,High Downtime,High
+ALT00139,72.0,High Reject Rate,Medium
+ALT00140,73.0,High Downtime,High
+ALT00141,73.0,High Reject Rate,Medium
+ALT00142,74.0,High Downtime,High
+ALT00143,74.0,High Reject Rate,Medium
+ALT00144,75.0,High Downtime,High
+ALT00145,75.0,High Reject Rate,Medium
+ALT00146,76.0,High Downtime,High
+ALT00147,76.0,High Reject Rate,Medium
+ALT00148,77.0,High Downtime,High
+ALT00149,77.0,High Reject Rate,Medium
+ALT00150,78.0,High Downtime,High
+ALT00151,78.0,High Reject Rate,Medium
+ALT00152,79.0,High Downtime,High
+ALT00153,79.0,High Reject Rate,Medium
+ALT00154,80.0,High Downtime,High
+ALT00155,80.0,High Reject Rate,Medium
+ALT00156,81.0,High Downtime,High
+ALT00157,81.0,High Reject Rate,Medium
+ALT00158,82.0,High Downtime,High
+ALT00159,82.0,High Reject Rate,Medium
+ALT00160,83.0,High Downtime,High
+ALT00161,83.0,High Reject Rate,Medium
+ALT00162,84.0,High Downtime,High
+ALT00163,84.0,High Reject Rate,Medium
+ALT00164,85.0,High Downtime,High
+ALT00165,85.0,High Reject Rate,Medium
+ALT00166,86.0,High Downtime,High
+ALT00167,86.0,High Reject Rate,Medium
+ALT00168,87.0,High Reject Rate,Medium
+ALT00169,88.0,High Downtime,High
+ALT00170,88.0,High Reject Rate,Medium
+ALT00171,89.0,High Downtime,High
+ALT00172,89.0,High Reject Rate,Medium
+ALT00173,90.0,High Downtime,High
+ALT00174,90.0,High Reject Rate,Medium
+ALT00175,91.0,High Downtime,High
+ALT00176,91.0,High Reject Rate,Medium
+ALT00177,92.0,High Downtime,High
+ALT00178,92.0,High Reject Rate,Medium
+ALT00179,93.0,High Downtime,High
+ALT00180,93.0,High Reject Rate,Medium
+ALT00181,94.0,High Downtime,High
+ALT00182,94.0,High Reject Rate,Medium
+ALT00183,95.0,High Downtime,High
+ALT00184,95.0,High Reject Rate,Medium
+ALT00185,96.0,High Downtime,High
+ALT00186,96.0,High Reject Rate,Medium
+ALT00187,97.0,High Downtime,High
+ALT00188,97.0,High Reject Rate,Medium
+ALT00189,98.0,High Reject Rate,Medium
+ALT00190,99.0,High Downtime,High
+ALT00191,99.0,High Reject Rate,Medium
+ALT00192,100.0,High Downtime,High
+ALT00193,100.0,High Reject Rate,Medium
+ALT00194,101.0,High Downtime,High
+ALT00195,101.0,High Reject Rate,Medium
+ALT00196,102.0,High Downtime,High
+ALT00197,102.0,High Reject Rate,Medium
+ALT00198,103.0,High Reject Rate,Medium
+ALT00199,104.0,High Downtime,High
+ALT00200,104.0,High Reject Rate,Medium
+ALT00201,105.0,High Downtime,High
+ALT00202,105.0,High Reject Rate,Medium
+ALT00203,106.0,High Downtime,High
+ALT00204,106.0,High Reject Rate,Medium
+ALT00205,107.0,High Downtime,High
+ALT00206,107.0,High Reject Rate,Medium
+ALT00207,108.0,High Downtime,High
+ALT00208,108.0,High Reject Rate,Medium
+ALT00209,109.0,High Downtime,High
+ALT00210,109.0,High Reject Rate,Medium
+ALT00211,110.0,High Downtime,High
+ALT00212,110.0,High Reject Rate,Medium
+ALT00213,111.0,High Downtime,High
+ALT00214,111.0,High Reject Rate,Medium
+ALT00215,112.0,High Downtime,High
+ALT00216,112.0,High Reject Rate,Medium
+ALT00217,113.0,High Downtime,High
+ALT00218,113.0,High Reject Rate,Medium
+ALT00219,114.0,High Reject Rate,Medium
+ALT00220,115.0,High Downtime,High
+ALT00221,115.0,High Reject Rate,Medium
+ALT00222,116.0,High Downtime,High
+ALT00223,116.0,High Reject Rate,Medium
+ALT00224,117.0,High Downtime,High
+ALT00225,117.0,High Reject Rate,Medium
+ALT00226,118.0,High Downtime,High
+ALT00227,118.0,High Reject Rate,Medium
+ALT00228,119.0,High Downtime,High
+ALT00229,119.0,High Reject Rate,Medium
+ALT00230,120.0,High Downtime,High
+ALT00231,120.0,High Reject Rate,Medium
+ALT00232,121.0,High Downtime,High
+ALT00233,121.0,High Reject Rate,Medium
+ALT00234,122.0,High Downtime,High
+ALT00235,122.0,High Reject Rate,Medium
+ALT00236,123.0,High Downtime,High
+ALT00237,123.0,High Reject Rate,Medium
+ALT00238,124.0,High Downtime,High
+ALT00239,124.0,High Reject Rate,Medium
+ALT00240,125.0,High Reject Rate,Medium
+ALT00241,126.0,High Downtime,High
+ALT00242,126.0,High Reject Rate,Medium
+ALT00243,127.0,High Downtime,High
+ALT00244,127.0,High Reject Rate,Medium
+ALT00245,128.0,High Downtime,High
+ALT00246,128.0,High Reject Rate,Medium
+ALT00247,129.0,High Reject Rate,Medium
+ALT00248,130.0,High Downtime,High
+ALT00249,130.0,High Reject Rate,Medium
+ALT00250,131.0,High Downtime,High
+ALT00251,131.0,High Reject Rate,Medium
+ALT00252,132.0,High Downtime,High
+ALT00253,132.0,High Reject Rate,Medium
+ALT00254,133.0,High Downtime,High
+ALT00255,133.0,High Reject Rate,Medium
+ALT00256,134.0,High Reject Rate,Medium
+ALT00257,135.0,High Downtime,High
+ALT00258,135.0,High Reject Rate,Medium
+ALT00259,136.0,High Downtime,High
+ALT00260,136.0,High Reject Rate,Medium
+ALT00261,137.0,High Downtime,High
+ALT00262,137.0,High Reject Rate,Medium
+ALT00263,138.0,High Downtime,High
+ALT00264,138.0,High Reject Rate,Medium
+ALT00265,139.0,High Downtime,High
+ALT00266,139.0,High Reject Rate,Medium
+ALT00267,140.0,High Downtime,High
+ALT00268,140.0,High Reject Rate,Medium
+ALT00269,141.0,High Downtime,High
+ALT00270,141.0,High Reject Rate,Medium
+ALT00271,142.0,High Downtime,High
+ALT00272,142.0,High Reject Rate,Medium
+ALT00273,143.0,High Downtime,High
+ALT00274,143.0,High Reject Rate,Medium
+ALT00275,144.0,High Downtime,High
+ALT00276,144.0,High Reject Rate,Medium
+ALT00277,145.0,High Downtime,High
+ALT00278,145.0,High Reject Rate,Medium
+ALT00279,146.0,High Downtime,High
+ALT00280,146.0,High Reject Rate,Medium
+ALT00281,147.0,High Downtime,High
+ALT00282,147.0,High Reject Rate,Medium
+ALT00283,148.0,High Downtime,High
+ALT00284,148.0,High Reject Rate,Medium
+ALT00285,149.0,High Downtime,High
+ALT00286,149.0,High Reject Rate,Medium
+ALT00287,150.0,High Reject Rate,Medium
+ALT00288,151.0,High Downtime,High
+ALT00289,151.0,High Reject Rate,Medium
+ALT00290,152.0,High Downtime,High
+ALT00291,152.0,High Reject Rate,Medium
+ALT00292,153.0,High Downtime,High
+ALT00293,153.0,High Reject Rate,Medium
+ALT00294,154.0,High Downtime,High
+ALT00295,154.0,High Reject Rate,Medium
+ALT00296,155.0,High Downtime,High
+ALT00297,155.0,High Reject Rate,Medium
+ALT00298,156.0,High Reject Rate,Medium
+ALT00299,157.0,High Downtime,High
+ALT00300,157.0,High Reject Rate,Medium
+ALT00301,158.0,High Downtime,High
+ALT00302,158.0,High Reject Rate,Medium
+ALT00303,159.0,High Reject Rate,Medium
+ALT00304,160.0,High Downtime,High
+ALT00305,160.0,High Reject Rate,Medium
+ALT00306,161.0,High Downtime,High
+ALT00307,161.0,High Reject Rate,Medium
+ALT00308,162.0,High Downtime,High
+ALT00309,162.0,High Reject Rate,Medium
+ALT00310,163.0,High Downtime,High
+ALT00311,163.0,High Reject Rate,Medium
+ALT00312,164.0,High Downtime,High
+ALT00313,164.0,High Reject Rate,Medium
+ALT00314,165.0,High Downtime,High
+ALT00315,165.0,High Reject Rate,Medium
+ALT00316,166.0,High Reject Rate,Medium
+ALT00317,167.0,High Reject Rate,Medium
+ALT00318,168.0,High Downtime,High
+ALT00319,168.0,High Reject Rate,Medium
+ALT00320,169.0,High Downtime,High
+ALT00321,169.0,High Reject Rate,Medium
+ALT00322,170.0,High Downtime,High
+ALT00323,170.0,High Reject Rate,Medium
+ALT00324,171.0,High Downtime,High
+ALT00325,171.0,High Reject Rate,Medium
+ALT00326,172.0,High Downtime,High
+ALT00327,172.0,High Reject Rate,Medium
+ALT00328,173.0,High Downtime,High
+ALT00329,173.0,High Reject Rate,Medium
+ALT00330,174.0,High Downtime,High
+ALT00331,174.0,High Reject Rate,Medium
+ALT00332,175.0,High Downtime,High
+ALT00333,175.0,High Reject Rate,Medium
+ALT00334,176.0,High Downtime,High
+ALT00335,176.0,High Reject Rate,Medium
+ALT00336,177.0,High Downtime,High
+ALT00337,177.0,High Reject Rate,Medium
+ALT00338,178.0,High Downtime,High
+ALT00339,178.0,High Reject Rate,Medium
+ALT00340,179.0,High Downtime,High
+ALT00341,179.0,High Reject Rate,Medium
+ALT00342,180.0,High Downtime,High
+ALT00343,180.0,High Reject Rate,Medium
+ALT00344,181.0,High Downtime,High
+ALT00345,181.0,High Reject Rate,Medium
+ALT00346,182.0,High Downtime,High
+ALT00347,182.0,High Reject Rate,Medium
+ALT00348,183.0,High Downtime,High
+ALT00349,183.0,High Reject Rate,Medium
+ALT00350,184.0,High Downtime,High
+ALT00351,184.0,High Reject Rate,Medium
+ALT00352,185.0,High Downtime,High
+ALT00353,185.0,High Reject Rate,Medium
+ALT00354,186.0,High Downtime,High
+ALT00355,186.0,High Reject Rate,Medium
+ALT00356,187.0,High Downtime,High
+ALT00357,187.0,High Reject Rate,Medium
+ALT00358,188.0,High Downtime,High
+ALT00359,188.0,High Reject Rate,Medium
+ALT00360,189.0,High Downtime,High
+ALT00361,189.0,High Reject Rate,Medium
+ALT00362,190.0,High Downtime,High
+ALT00363,190.0,High Reject Rate,Medium
+ALT00364,191.0,High Downtime,High
+ALT00365,191.0,High Reject Rate,Medium
+ALT00366,192.0,High Downtime,High
+ALT00367,192.0,High Reject Rate,Medium
+ALT00368,193.0,High Downtime,High
+ALT00369,193.0,High Reject Rate,Medium
+ALT00370,194.0,High Downtime,High
+ALT00371,194.0,High Reject Rate,Medium
+ALT00372,195.0,High Reject Rate,Medium
+ALT00373,196.0,High Downtime,High
+ALT00374,196.0,High Reject Rate,Medium
+ALT00375,197.0,High Downtime,High
+ALT00376,197.0,High Reject Rate,Medium
+ALT00377,198.0,High Downtime,High
+ALT00378,198.0,High Reject Rate,Medium
+ALT00379,199.0,High Downtime,High
+ALT00380,199.0,High Reject Rate,Medium
+ALT00381,200.0,High Downtime,High
+ALT00382,200.0,High Reject Rate,Medium
+ALT00383,201.0,High Downtime,High
+ALT00384,201.0,High Reject Rate,Medium
+ALT00385,202.0,High Downtime,High
+ALT00386,202.0,High Reject Rate,Medium
+ALT00387,203.0,High Downtime,High
+ALT00388,203.0,High Reject Rate,Medium
+ALT00389,204.0,High Downtime,High
+ALT00390,204.0,High Reject Rate,Medium
+ALT00391,205.0,High Downtime,High
+ALT00392,205.0,High Reject Rate,Medium
+ALT00393,206.0,High Downtime,High
+ALT00394,206.0,High Reject Rate,Medium
+ALT00395,207.0,High Downtime,High
+ALT00396,207.0,High Reject Rate,Medium
+ALT00397,208.0,High Downtime,High
+ALT00398,208.0,High Reject Rate,Medium
+ALT00399,209.0,High Downtime,High
+ALT00400,209.0,High Reject Rate,Medium
+ALT00401,210.0,High Downtime,High
+ALT00402,210.0,High Reject Rate,Medium
+ALT00403,211.0,High Downtime,High
+ALT00404,211.0,High Reject Rate,Medium
+ALT00405,212.0,High Downtime,High
+ALT00406,212.0,High Reject Rate,Medium
+ALT00407,213.0,High Downtime,High
+ALT00408,213.0,High Reject Rate,Medium
+ALT00409,214.0,High Downtime,High
+ALT00410,214.0,High Reject Rate,Medium
+ALT00411,215.0,High Downtime,High
+ALT00412,215.0,High Reject Rate,Medium
+ALT00413,216.0,High Downtime,High
+ALT00414,216.0,High Reject Rate,Medium
+ALT00415,217.0,High Downtime,High
+ALT00416,217.0,High Reject Rate,Medium
+ALT00417,218.0,High Downtime,High
+ALT00418,218.0,High Reject Rate,Medium
+ALT00419,219.0,High Downtime,High
+ALT00420,219.0,High Reject Rate,Medium
+ALT00421,220.0,High Downtime,High
+ALT00422,220.0,High Reject Rate,Medium
+ALT00423,221.0,High Downtime,High
+ALT00424,221.0,High Reject Rate,Medium
+ALT00425,222.0,High Downtime,High
+ALT00426,222.0,High Reject Rate,Medium
+ALT00427,223.0,High Downtime,High
+ALT00428,223.0,High Reject Rate,Medium
+ALT00429,224.0,High Downtime,High
+ALT00430,224.0,High Reject Rate,Medium
+ALT00431,225.0,High Downtime,High
+ALT00432,225.0,High Reject Rate,Medium
+ALT00433,226.0,High Downtime,High
+ALT00434,226.0,High Reject Rate,Medium
+ALT00435,227.0,High Downtime,High
+ALT00436,227.0,High Reject Rate,Medium
+ALT00437,228.0,High Downtime,High
+ALT00438,228.0,High Reject Rate,Medium
+ALT00439,229.0,High Downtime,High
+ALT00440,229.0,High Reject Rate,Medium
+ALT00441,230.0,High Downtime,High
+ALT00442,230.0,High Reject Rate,Medium
+ALT00443,231.0,High Downtime,High
+ALT00444,231.0,High Reject Rate,Medium
+ALT00445,232.0,High Downtime,High
+ALT00446,232.0,High Reject Rate,Medium
+ALT00447,233.0,High Downtime,High
+ALT00448,233.0,High Reject Rate,Medium
+ALT00449,234.0,High Downtime,High
+ALT00450,234.0,High Reject Rate,Medium
+ALT00451,235.0,High Downtime,High
+ALT00452,235.0,High Reject Rate,Medium
+ALT00453,236.0,High Downtime,High
+ALT00454,236.0,High Reject Rate,Medium
+ALT00455,237.0,High Downtime,High
+ALT00456,237.0,High Reject Rate,Medium
+ALT00457,238.0,High Downtime,High
+ALT00458,238.0,High Reject Rate,Medium
+ALT00459,239.0,High Downtime,High
+ALT00460,239.0,High Reject Rate,Medium
+ALT00461,240.0,High Downtime,High
+ALT00462,240.0,High Reject Rate,Medium
+ALT00463,241.0,High Downtime,High
+ALT00464,241.0,High Reject Rate,Medium
+ALT00465,242.0,High Downtime,High
+ALT00466,242.0,High Reject Rate,Medium
+ALT00467,243.0,High Downtime,High
+ALT00468,243.0,High Reject Rate,Medium
+ALT00469,244.0,High Downtime,High
+ALT00470,244.0,High Reject Rate,Medium
+ALT00471,245.0,High Downtime,High
+ALT00472,245.0,High Reject Rate,Medium
+ALT00473,246.0,High Downtime,High
+ALT00474,246.0,High Reject Rate,Medium
+ALT00475,247.0,High Reject Rate,Medium
+ALT00476,248.0,High Downtime,High
+ALT00477,248.0,High Reject Rate,Medium
+ALT00478,249.0,High Downtime,High
+ALT00479,249.0,High Reject Rate,Medium
+ALT00480,250.0,High Downtime,High
+ALT00481,250.0,High Reject Rate,Medium
+ALT00482,251.0,High Downtime,High
+ALT00483,251.0,High Reject Rate,Medium
+ALT00484,252.0,High Downtime,High
+ALT00485,252.0,High Reject Rate,Medium
+ALT00486,253.0,High Downtime,High
+ALT00487,253.0,High Reject Rate,Medium
+ALT00488,254.0,High Downtime,High
+ALT00489,254.0,High Reject Rate,Medium
+ALT00490,255.0,High Downtime,High
+ALT00491,255.0,High Reject Rate,Medium
+ALT00492,256.0,High Downtime,High
+ALT00493,256.0,High Reject Rate,Medium
+ALT00494,257.0,High Downtime,High
+ALT00495,257.0,High Reject Rate,Medium
+ALT00496,258.0,High Reject Rate,Medium
+ALT00497,259.0,High Downtime,High
+ALT00498,259.0,High Reject Rate,Medium
+ALT00499,260.0,High Downtime,High
+ALT00500,260.0,High Reject Rate,Medium
+ALT00501,261.0,High Downtime,High
+ALT00502,261.0,High Reject Rate,Medium
+ALT00503,262.0,High Downtime,High
+ALT00504,262.0,High Reject Rate,Medium
+ALT00505,263.0,High Downtime,High
+ALT00506,263.0,High Reject Rate,Medium
+ALT00507,264.0,High Downtime,High
+ALT00508,264.0,High Reject Rate,Medium
+ALT00509,265.0,High Downtime,High
+ALT00510,265.0,High Reject Rate,Medium
+ALT00511,266.0,High Downtime,High
+ALT00512,266.0,High Reject Rate,Medium
+ALT00513,267.0,High Downtime,High
+ALT00514,267.0,High Reject Rate,Medium
+ALT00515,268.0,High Downtime,High
+ALT00516,268.0,High Reject Rate,Medium
+ALT00517,269.0,High Downtime,High
+ALT00518,269.0,High Reject Rate,Medium
+ALT00519,270.0,High Downtime,High
+ALT00520,270.0,High Reject Rate,Medium
+ALT00521,271.0,High Downtime,High
+ALT00522,271.0,High Reject Rate,Medium
+ALT00523,272.0,High Downtime,High
+ALT00524,272.0,High Reject Rate,Medium
+ALT00525,273.0,High Downtime,High
+ALT00526,273.0,High Reject Rate,Medium
+ALT00527,274.0,High Downtime,High
+ALT00528,274.0,High Reject Rate,Medium
+ALT00529,275.0,High Downtime,High
+ALT00530,275.0,High Reject Rate,Medium
+ALT00531,276.0,High Downtime,High
+ALT00532,276.0,High Reject Rate,Medium
+ALT00533,277.0,High Downtime,High
+ALT00534,277.0,High Reject Rate,Medium
+ALT00535,278.0,High Downtime,High
+ALT00536,278.0,High Reject Rate,Medium
+ALT00537,279.0,High Downtime,High
+ALT00538,279.0,High Reject Rate,Medium
+ALT00539,280.0,High Downtime,High
+ALT00540,280.0,High Reject Rate,Medium
+ALT00541,281.0,High Reject Rate,Medium
+ALT00542,282.0,High Downtime,High
+ALT00543,282.0,High Reject Rate,Medium
+ALT00544,283.0,High Downtime,High
+ALT00545,283.0,High Reject Rate,Medium
+ALT00546,284.0,High Downtime,High
+ALT00547,284.0,High Reject Rate,Medium
+ALT00548,285.0,High Downtime,High
+ALT00549,285.0,High Reject Rate,Medium
+ALT00550,286.0,High Downtime,High
+ALT00551,286.0,High Reject Rate,Medium
+ALT00552,287.0,High Downtime,High
+ALT00553,287.0,High Reject Rate,Medium
+ALT00554,288.0,High Downtime,High
+ALT00555,288.0,High Reject Rate,Medium
+ALT00556,289.0,High Downtime,High
+ALT00557,289.0,High Reject Rate,Medium
+ALT00558,290.0,High Downtime,High
+ALT00559,290.0,High Reject Rate,Medium
+ALT00560,291.0,High Downtime,High
+ALT00561,291.0,High Reject Rate,Medium
+ALT00562,292.0,High Downtime,High
+ALT00563,292.0,High Reject Rate,Medium
+ALT00564,293.0,High Downtime,High
+ALT00565,293.0,High Reject Rate,Medium
+ALT00566,294.0,High Downtime,High
+ALT00567,294.0,High Reject Rate,Medium
+ALT00568,295.0,High Downtime,High
+ALT00569,295.0,High Reject Rate,Medium
+ALT00570,296.0,High Downtime,High
+ALT00571,296.0,High Reject Rate,Medium
+ALT00572,297.0,High Downtime,High
+ALT00573,297.0,High Reject Rate,Medium
+ALT00574,298.0,High Downtime,High
+ALT00575,298.0,High Reject Rate,Medium
+ALT00576,299.0,High Downtime,High
+ALT00577,299.0,High Reject Rate,Medium
+ALT00578,300.0,High Downtime,High
+ALT00579,300.0,High Reject Rate,Medium
+ALT00580,301.0,High Downtime,High
+ALT00581,301.0,High Reject Rate,Medium
+ALT00582,302.0,High Downtime,High
+ALT00583,302.0,High Reject Rate,Medium
+ALT00584,303.0,High Downtime,High
+ALT00585,303.0,High Reject Rate,Medium
+ALT00586,304.0,High Downtime,High
+ALT00587,304.0,High Reject Rate,Medium
+ALT00588,305.0,High Downtime,High
+ALT00589,305.0,High Reject Rate,Medium
+ALT00590,306.0,High Downtime,High
+ALT00591,306.0,High Reject Rate,Medium
+ALT00592,307.0,High Downtime,High
+ALT00593,307.0,High Reject Rate,Medium
+ALT00594,308.0,High Downtime,High
+ALT00595,308.0,High Reject Rate,Medium
+ALT00596,309.0,High Downtime,High
+ALT00597,309.0,High Reject Rate,Medium
+ALT00598,310.0,High Reject Rate,Medium
+ALT00599,311.0,High Downtime,High
+ALT00600,311.0,High Reject Rate,Medium
+ALT00601,312.0,High Downtime,High
+ALT00602,312.0,High Reject Rate,Medium
+ALT00603,313.0,High Downtime,High
+ALT00604,313.0,High Reject Rate,Medium
+ALT00605,314.0,High Downtime,High
+ALT00606,314.0,High Reject Rate,Medium
+ALT00607,315.0,High Reject Rate,Medium
+ALT00608,316.0,High Downtime,High
+ALT00609,316.0,High Reject Rate,Medium
+ALT00610,317.0,High Downtime,High
+ALT00611,317.0,High Reject Rate,Medium
+ALT00612,318.0,High Downtime,High
+ALT00613,318.0,High Reject Rate,Medium
+ALT00614,319.0,High Downtime,High
+ALT00615,319.0,High Reject Rate,Medium
+ALT00616,320.0,High Downtime,High
+ALT00617,320.0,High Reject Rate,Medium
+ALT00618,321.0,High Downtime,High
+ALT00619,321.0,High Reject Rate,Medium
+ALT00620,322.0,High Downtime,High
+ALT00621,322.0,High Reject Rate,Medium
+ALT00622,323.0,High Downtime,High
+ALT00623,323.0,High Reject Rate,Medium
+ALT00624,324.0,High Downtime,High
+ALT00625,324.0,High Reject Rate,Medium
+ALT00626,325.0,High Downtime,High
+ALT00627,325.0,High Reject Rate,Medium
+ALT00628,326.0,High Downtime,High
+ALT00629,326.0,High Reject Rate,Medium
+ALT00630,327.0,High Downtime,High
+ALT00631,327.0,High Reject Rate,Medium
+ALT00632,328.0,High Downtime,High
+ALT00633,328.0,High Reject Rate,Medium
+ALT00634,329.0,High Reject Rate,Medium
+ALT00635,330.0,High Downtime,High
+ALT00636,330.0,High Reject Rate,Medium
+ALT00637,331.0,High Downtime,High
+ALT00638,331.0,High Reject Rate,Medium
+ALT00639,332.0,High Reject Rate,Medium
+ALT00640,333.0,High Downtime,High
+ALT00641,333.0,High Reject Rate,Medium
+ALT00642,334.0,High Downtime,High
+ALT00643,334.0,High Reject Rate,Medium
+ALT00644,335.0,High Downtime,High
+ALT00645,335.0,High Reject Rate,Medium
+ALT00646,336.0,High Downtime,High
+ALT00647,336.0,High Reject Rate,Medium
+ALT00648,337.0,High Downtime,High
+ALT00649,337.0,High Reject Rate,Medium
+ALT00650,338.0,High Downtime,High
+ALT00651,338.0,High Reject Rate,Medium
+ALT00652,339.0,High Reject Rate,Medium
+ALT00653,340.0,High Downtime,High
+ALT00654,340.0,High Reject Rate,Medium
+ALT00655,341.0,High Downtime,High
+ALT00656,341.0,High Reject Rate,Medium
+ALT00657,342.0,High Downtime,High
+ALT00658,342.0,High Reject Rate,Medium
+ALT00659,343.0,High Downtime,High
+ALT00660,343.0,High Reject Rate,Medium
+ALT00661,344.0,High Downtime,High
+ALT00662,344.0,High Reject Rate,Medium
+ALT00663,345.0,High Downtime,High
+ALT00664,345.0,High Reject Rate,Medium
+ALT00665,346.0,High Downtime,High
+ALT00666,346.0,High Reject Rate,Medium
+ALT00667,347.0,High Downtime,High
+ALT00668,347.0,High Reject Rate,Medium
+ALT00669,348.0,High Downtime,High
+ALT00670,348.0,High Reject Rate,Medium
+ALT00671,349.0,High Downtime,High
+ALT00672,349.0,High Reject Rate,Medium
+ALT00673,350.0,High Downtime,High
+ALT00674,350.0,High Reject Rate,Medium
+ALT00675,351.0,High Downtime,High
+ALT00676,351.0,High Reject Rate,Medium
+ALT00677,352.0,High Downtime,High
+ALT00678,352.0,High Reject Rate,Medium
+ALT00679,353.0,High Downtime,High
+ALT00680,353.0,High Reject Rate,Medium
+ALT00681,354.0,High Downtime,High
+ALT00682,354.0,High Reject Rate,Medium
+ALT00683,355.0,High Downtime,High
+ALT00684,355.0,High Reject Rate,Medium
+ALT00685,356.0,High Downtime,High
+ALT00686,356.0,High Reject Rate,Medium
+ALT00687,357.0,High Downtime,High
+ALT00688,357.0,High Reject Rate,Medium
+ALT00689,358.0,High Downtime,High
+ALT00690,358.0,High Reject Rate,Medium
+ALT00691,359.0,High Downtime,High
+ALT00692,359.0,High Reject Rate,Medium
+ALT00693,360.0,High Downtime,High
+ALT00694,360.0,High Reject Rate,Medium
+ALT00695,361.0,High Downtime,High
+ALT00696,361.0,High Reject Rate,Medium
+ALT00697,362.0,High Downtime,High
+ALT00698,362.0,High Reject Rate,Medium
+ALT00699,363.0,High Downtime,High
+ALT00700,363.0,High Reject Rate,Medium
+ALT00701,364.0,High Downtime,High
+ALT00702,364.0,High Reject Rate,Medium
+ALT00703,365.0,High Downtime,High
+ALT00704,365.0,High Reject Rate,Medium

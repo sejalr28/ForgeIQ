@@ -1,5 +1,11 @@
+"""
+ForgeIQ Procurement Generator
+Part 1
+"""
+
 import json
 import random
+import sys
 from pathlib import Path
 
 import pandas as pd
@@ -10,7 +16,15 @@ import pandas as pd
 
 BASE_DIR = Path(__file__).resolve().parents[2]
 
+if str(BASE_DIR) not in sys.path:
+    sys.path.append(str(BASE_DIR))
+
+from config import RANDOM_SEED
+
+random.seed(RANDOM_SEED)
+
 METADATA_DIR = BASE_DIR / "data" / "metadata"
+INVENTORY_DIR = BASE_DIR / "data" / "raw" / "inventory"
 OUTPUT_DIR = BASE_DIR / "data" / "raw" / "procurement"
 
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
@@ -19,11 +33,16 @@ OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 # Load Metadata
 # ---------------------------------------------------------
 
-with open(METADATA_DIR / "suppliers.json", "r") as f:
+with open(METADATA_DIR / "suppliers.json") as f:
     suppliers = json.load(f)
 
-with open(METADATA_DIR / "materials.json", "r") as f:
-    materials = json.load(f)
+materials = pd.read_csv(
+    INVENTORY_DIR / "materials.csv"
+)
+
+inventory = pd.read_csv(
+    INVENTORY_DIR / "inventory.csv"
+)
 
 # ---------------------------------------------------------
 # Suppliers
@@ -44,26 +63,39 @@ print("suppliers.csv created")
 
 purchase_orders = []
 
-for i in range(1, 1001):
+order_number = 1
 
-    supplier = random.choice(suppliers)
+for _, item in inventory.iterrows():
 
-    purchase_orders.append(
-        {
-            "purchase_order_id": f"PO{i:05}",
-            "supplier_id": supplier["supplier_id"],
-            "order_status": random.choice(
-                [
-                    "Ordered",
-                    "Delivered",
-                    "In Transit"
-                ]
-            ),
-            "lead_time_days": supplier["lead_time_days"]
-        }
-    )
+    orders_for_material = random.randint(40, 80)
 
-purchase_orders_df = pd.DataFrame(purchase_orders)
+    for _ in range(orders_for_material):
+
+        supplier = random.choice(suppliers)
+
+        purchase_orders.append(
+            {
+                "purchase_order_id": f"PO{order_number:06}",
+                "supplier_id": supplier["supplier_id"],
+                "supplier_name": supplier["supplier_name"],
+                "material_id": item["material_id"],
+                "warehouse_id": item["warehouse_id"],
+                "order_quantity": random.randint(500, 3000),
+                "status": random.choice(
+                    [
+                        "Delivered",
+                        "In Transit",
+                        "Pending"
+                    ]
+                )
+            }
+        )
+
+        order_number += 1
+
+purchase_orders_df = pd.DataFrame(
+    purchase_orders
+)
 
 purchase_orders_df.to_csv(
     OUTPUT_DIR / "purchase_orders.csv",
@@ -76,37 +108,59 @@ print("purchase_orders.csv created")
 # Purchase Order Items
 # ---------------------------------------------------------
 
-items = []
+purchase_items = []
 
-item_no = 1
+item_number = 1
 
-for order in purchase_orders:
+for _, po in purchase_orders_df.iterrows():
 
-    total_items = random.randint(2, 5)
+    unit_price = round(
+        random.uniform(50, 1200),
+        2
+    )
 
-    for _ in range(total_items):
+    total_cost = round(
+        po["order_quantity"] * unit_price,
+        2
+    )
 
-        material = random.choice(materials)
+    purchase_items.append(
+        {
+            "purchase_order_item_id":
+                f"POI{item_number:07}",
+            "purchase_order_id":
+                po["purchase_order_id"],
+            "material_id":
+                po["material_id"],
+            "quantity":
+                po["order_quantity"],
+            "unit_price":
+                unit_price,
+            "total_cost":
+                total_cost
+        }
+    )
 
-        items.append(
-            {
-                "purchase_order_item_id": f"POI{item_no:06}",
-                "purchase_order_id": order["purchase_order_id"],
-                "material_id": material["material_id"],
-                "quantity": random.randint(100, 2000),
-                "unit_price": material["average_unit_cost"]
-            }
-        )
+    item_number += 1
 
-        item_no += 1
+purchase_items_df = pd.DataFrame(
+    purchase_items
+)
 
-items_df = pd.DataFrame(items)
-
-items_df.to_csv(
+purchase_items_df.to_csv(
     OUTPUT_DIR / "purchase_order_items.csv",
     index=False
 )
 
 print("purchase_order_items.csv created")
 
-print("\nProcurement data generated successfully.")
+
+print()
+
+print("======================================")
+print("ForgeIQ Procurement Module")
+print("======================================")
+
+print(f"Suppliers              : {len(suppliers_df)}")
+print(f"Purchase Orders        : {len(purchase_orders_df)}")
+print(f"Purchase Order Items   : {len(purchase_items_df)}")

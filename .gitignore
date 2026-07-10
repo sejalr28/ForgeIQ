@@ -1,29 +1,35 @@
 # Python
+.venv/
+venv/
 __pycache__/
 *.py[cod]
 *.pyo
 
-# Virtual Environment
-.venv/
-venv/
-env/
+# Environment
+.env
+
+# Node
+node_modules/
+dist/
+build/
 
 # VS Code
 .vscode/
 
-# Environment Variables
-.env
-
-# OS Files
+# OS
 .DS_Store
 Thumbs.db
 
 # Logs
 *.log
 
+# Python caches
+.pytest_cache/
+.mypy_cache/
+
 # Jupyter
 .ipynb_checkpoints/
 
-# Python cache
-.pytest_cache/
-.mypy_cache/
+# Coverage
+.coverage
+htmlcov/

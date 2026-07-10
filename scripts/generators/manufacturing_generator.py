@@ -309,32 +309,44 @@ print("production_records.csv created")
 # Generate Machine Status History
 # ---------------------------------------------------------
 
+# ---------------------------------------------------------
+# Generate Machine Status History
+# ---------------------------------------------------------
+
 machine_status = []
 
-from config import SIMULATION_DAYS
 for day in range(1, SIMULATION_DAYS + 1):
+
+    age_factor = day / SIMULATION_DAYS
 
     for machine in machines:
 
-        runtime = random.randint(350, 720)
+        # Runtime
+        runtime = random.randint(420, 720)
 
         utilization = round(
             runtime / 720 * 100,
             2
         )
 
+        # Machine aging
         health = round(
-            random.uniform(82, 99),
+            random.uniform(88, 99)
+            - age_factor * random.uniform(8, 20),
             2
         )
 
+        health = max(55, health)
+
         vibration = round(
-            random.uniform(0.8, 3.2),
+            random.uniform(0.8, 2.2)
+            + age_factor * random.uniform(0.3, 2.5),
             2
         )
 
         temperature = round(
-            random.uniform(45, 82),
+            random.uniform(45, 65)
+            + age_factor * random.uniform(5, 22),
             1
         )
 
@@ -342,6 +354,28 @@ for day in range(1, SIMULATION_DAYS + 1):
             machine["power_kw"] *
             random.uniform(0.60, 0.95),
             2
+        )
+
+        # -------------------------------------------------
+        # Simulate Failure Event
+        # -------------------------------------------------
+
+        failure_probability = 0.01
+
+        if health < 80:
+            failure_probability += 0.25
+
+        if vibration > 2.8:
+            failure_probability += 0.20
+
+        if temperature > 75:
+            failure_probability += 0.15
+
+        if utilization > 90:
+            failure_probability += 0.10
+
+        failure_event = int(
+            random.random() < failure_probability
         )
 
         machine_status.append(
@@ -353,7 +387,8 @@ for day in range(1, SIMULATION_DAYS + 1):
                 "health_score": health,
                 "temperature_c": temperature,
                 "vibration_mm_s": vibration,
-                "power_consumption_kw": power
+                "power_consumption_kw": power,
+                "failure_event": failure_event
             }
         )
 
@@ -367,12 +402,9 @@ machine_status_df.to_csv(
 print("machine_status.csv created")
 
 
-# ---------------------------------------------------------
-# Summary
-# ---------------------------------------------------------
+
 
 print()
-
 print("======================================")
 print("ForgeIQ Manufacturing Module")
 print("======================================")

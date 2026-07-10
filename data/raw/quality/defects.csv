@@ -1,238 +1,2191 @@
-defect_id,inspection_id,defect_category_id,defect_name,severity
-D000001,QI000014,DC003,Scratch,Medium
-D000002,QI000020,DC003,Scratch,Medium
-D000003,QI000038,DC010,Incomplete Machining,Medium
-D000004,QI000045,DC003,Scratch,Medium
-D000005,QI000057,DC009,Material Defect,High
-D000006,QI000065,DC003,Scratch,Medium
-D000007,QI000069,DC009,Material Defect,High
-D000008,QI000106,DC006,Misalignment,High
-D000009,QI000111,DC009,Material Defect,High
-D000010,QI000114,DC004,Dent,Medium
-D000011,QI000157,DC001,Surface Crack,High
-D000012,QI000163,DC002,Dimension Mismatch,High
-D000013,QI000167,DC009,Material Defect,High
-D000014,QI000237,DC002,Dimension Mismatch,High
-D000015,QI000318,DC003,Scratch,Medium
-D000016,QI000349,DC009,Material Defect,High
-D000017,QI000366,DC001,Surface Crack,High
-D000018,QI000368,DC010,Incomplete Machining,Medium
-D000019,QI000371,DC009,Material Defect,High
-D000020,QI000384,DC008,Coating Defect,Low
-D000021,QI000421,DC005,Porosity,High
-D000022,QI000440,DC007,Assembly Error,Medium
-D000023,QI000445,DC001,Surface Crack,High
-D000024,QI000448,DC007,Assembly Error,Medium
-D000025,QI000449,DC004,Dent,Medium
-D000026,QI000453,DC005,Porosity,High
-D000027,QI000459,DC007,Assembly Error,Medium
-D000028,QI000474,DC003,Scratch,Medium
-D000029,QI000562,DC001,Surface Crack,High
-D000030,QI000578,DC008,Coating Defect,Low
-D000031,QI000605,DC010,Incomplete Machining,Medium
-D000032,QI000627,DC004,Dent,Medium
-D000033,QI000647,DC005,Porosity,High
-D000034,QI000671,DC006,Misalignment,High
-D000035,QI000672,DC009,Material Defect,High
-D000036,QI000692,DC002,Dimension Mismatch,High
-D000037,QI000712,DC006,Misalignment,High
-D000038,QI000736,DC004,Dent,Medium
-D000039,QI000739,DC005,Porosity,High
-D000040,QI000746,DC007,Assembly Error,Medium
-D000041,QI000771,DC010,Incomplete Machining,Medium
-D000042,QI000805,DC001,Surface Crack,High
-D000043,QI000815,DC009,Material Defect,High
-D000044,QI000842,DC004,Dent,Medium
-D000045,QI000876,DC008,Coating Defect,Low
-D000046,QI000899,DC004,Dent,Medium
-D000047,QI000903,DC008,Coating Defect,Low
-D000048,QI000921,DC005,Porosity,High
-D000049,QI000946,DC007,Assembly Error,Medium
-D000050,QI000955,DC004,Dent,Medium
-D000051,QI000994,DC003,Scratch,Medium
-D000052,QI001030,DC003,Scratch,Medium
-D000053,QI001076,DC006,Misalignment,High
-D000054,QI001087,DC010,Incomplete Machining,Medium
-D000055,QI001110,DC007,Assembly Error,Medium
-D000056,QI001111,DC002,Dimension Mismatch,High
-D000057,QI001167,DC002,Dimension Mismatch,High
-D000058,QI001175,DC001,Surface Crack,High
-D000059,QI001186,DC007,Assembly Error,Medium
-D000060,QI001223,DC008,Coating Defect,Low
-D000061,QI001227,DC007,Assembly Error,Medium
-D000062,QI001229,DC008,Coating Defect,Low
-D000063,QI001259,DC004,Dent,Medium
-D000064,QI001260,DC005,Porosity,High
-D000065,QI001268,DC009,Material Defect,High
-D000066,QI001311,DC002,Dimension Mismatch,High
-D000067,QI001412,DC001,Surface Crack,High
-D000068,QI001418,DC002,Dimension Mismatch,High
-D000069,QI001426,DC002,Dimension Mismatch,High
-D000070,QI001434,DC001,Surface Crack,High
-D000071,QI001448,DC006,Misalignment,High
-D000072,QI001480,DC007,Assembly Error,Medium
-D000073,QI001485,DC007,Assembly Error,Medium
-D000074,QI001499,DC009,Material Defect,High
-D000075,QI001557,DC004,Dent,Medium
-D000076,QI001576,DC006,Misalignment,High
-D000077,QI001585,DC008,Coating Defect,Low
-D000078,QI001621,DC009,Material Defect,High
-D000079,QI001643,DC009,Material Defect,High
-D000080,QI001644,DC010,Incomplete Machining,Medium
-D000081,QI001687,DC008,Coating Defect,Low
-D000082,QI001694,DC008,Coating Defect,Low
-D000083,QI001697,DC002,Dimension Mismatch,High
-D000084,QI001701,DC001,Surface Crack,High
-D000085,QI001713,DC005,Porosity,High
-D000086,QI001716,DC007,Assembly Error,Medium
-D000087,QI001736,DC001,Surface Crack,High
-D000088,QI001786,DC004,Dent,Medium
-D000089,QI001813,DC010,Incomplete Machining,Medium
-D000090,QI001824,DC004,Dent,Medium
-D000091,QI001865,DC005,Porosity,High
-D000092,QI001869,DC002,Dimension Mismatch,High
-D000093,QI001877,DC005,Porosity,High
-D000094,QI001879,DC010,Incomplete Machining,Medium
-D000095,QI001889,DC004,Dent,Medium
-D000096,QI001905,DC009,Material Defect,High
-D000097,QI001917,DC007,Assembly Error,Medium
-D000098,QI001923,DC008,Coating Defect,Low
-D000099,QI001954,DC005,Porosity,High
-D000100,QI001972,DC007,Assembly Error,Medium
-D000101,QI001994,DC009,Material Defect,High
-D000102,QI002012,DC002,Dimension Mismatch,High
-D000103,QI002089,DC002,Dimension Mismatch,High
-D000104,QI002101,DC009,Material Defect,High
-D000105,QI002124,DC009,Material Defect,High
-D000106,QI002129,DC006,Misalignment,High
-D000107,QI002149,DC009,Material Defect,High
-D000108,QI002155,DC007,Assembly Error,Medium
-D000109,QI002159,DC007,Assembly Error,Medium
-D000110,QI002160,DC002,Dimension Mismatch,High
-D000111,QI002202,DC003,Scratch,Medium
-D000112,QI002209,DC004,Dent,Medium
-D000113,QI002233,DC005,Porosity,High
-D000114,QI002310,DC003,Scratch,Medium
-D000115,QI002319,DC008,Coating Defect,Low
-D000116,QI002359,DC005,Porosity,High
-D000117,QI002405,DC002,Dimension Mismatch,High
-D000118,QI002434,DC006,Misalignment,High
-D000119,QI002513,DC004,Dent,Medium
-D000120,QI002575,DC005,Porosity,High
-D000121,QI002584,DC008,Coating Defect,Low
-D000122,QI002637,DC009,Material Defect,High
-D000123,QI002666,DC005,Porosity,High
-D000124,QI002673,DC001,Surface Crack,High
-D000125,QI002695,DC010,Incomplete Machining,Medium
-D000126,QI002699,DC009,Material Defect,High
-D000127,QI002715,DC009,Material Defect,High
-D000128,QI002735,DC004,Dent,Medium
-D000129,QI002753,DC001,Surface Crack,High
-D000130,QI002758,DC008,Coating Defect,Low
-D000131,QI002785,DC002,Dimension Mismatch,High
-D000132,QI002794,DC004,Dent,Medium
-D000133,QI002816,DC002,Dimension Mismatch,High
-D000134,QI002831,DC003,Scratch,Medium
-D000135,QI002841,DC004,Dent,Medium
-D000136,QI002860,DC010,Incomplete Machining,Medium
-D000137,QI002911,DC001,Surface Crack,High
-D000138,QI002940,DC006,Misalignment,High
-D000139,QI002949,DC003,Scratch,Medium
-D000140,QI002980,DC001,Surface Crack,High
-D000141,QI002986,DC004,Dent,Medium
-D000142,QI002988,DC002,Dimension Mismatch,High
-D000143,QI002997,DC004,Dent,Medium
-D000144,QI003032,DC006,Misalignment,High
-D000145,QI003037,DC006,Misalignment,High
-D000146,QI003041,DC005,Porosity,High
-D000147,QI003074,DC005,Porosity,High
-D000148,QI003075,DC010,Incomplete Machining,Medium
-D000149,QI003081,DC002,Dimension Mismatch,High
-D000150,QI003122,DC008,Coating Defect,Low
-D000151,QI003148,DC005,Porosity,High
-D000152,QI003151,DC005,Porosity,High
-D000153,QI003160,DC001,Surface Crack,High
-D000154,QI003175,DC007,Assembly Error,Medium
-D000155,QI003177,DC001,Surface Crack,High
-D000156,QI003239,DC005,Porosity,High
-D000157,QI003263,DC004,Dent,Medium
-D000158,QI003298,DC010,Incomplete Machining,Medium
-D000159,QI003322,DC005,Porosity,High
-D000160,QI003333,DC006,Misalignment,High
-D000161,QI003341,DC001,Surface Crack,High
-D000162,QI003345,DC001,Surface Crack,High
-D000163,QI003366,DC008,Coating Defect,Low
-D000164,QI003367,DC006,Misalignment,High
-D000165,QI003373,DC007,Assembly Error,Medium
-D000166,QI003414,DC008,Coating Defect,Low
-D000167,QI003430,DC001,Surface Crack,High
-D000168,QI003489,DC006,Misalignment,High
-D000169,QI003502,DC003,Scratch,Medium
-D000170,QI003508,DC009,Material Defect,High
-D000171,QI003518,DC004,Dent,Medium
-D000172,QI003542,DC007,Assembly Error,Medium
-D000173,QI003543,DC006,Misalignment,High
-D000174,QI003552,DC010,Incomplete Machining,Medium
-D000175,QI003580,DC002,Dimension Mismatch,High
-D000176,QI003607,DC010,Incomplete Machining,Medium
-D000177,QI003665,DC005,Porosity,High
-D000178,QI003693,DC003,Scratch,Medium
-D000179,QI003698,DC003,Scratch,Medium
-D000180,QI003704,DC002,Dimension Mismatch,High
-D000181,QI003714,DC005,Porosity,High
-D000182,QI003841,DC001,Surface Crack,High
-D000183,QI003846,DC007,Assembly Error,Medium
-D000184,QI003893,DC002,Dimension Mismatch,High
-D000185,QI003927,DC008,Coating Defect,Low
-D000186,QI003936,DC004,Dent,Medium
-D000187,QI003940,DC007,Assembly Error,Medium
-D000188,QI004007,DC001,Surface Crack,High
-D000189,QI004010,DC002,Dimension Mismatch,High
-D000190,QI004034,DC003,Scratch,Medium
-D000191,QI004054,DC009,Material Defect,High
-D000192,QI004091,DC006,Misalignment,High
-D000193,QI004117,DC008,Coating Defect,Low
-D000194,QI004128,DC008,Coating Defect,Low
-D000195,QI004148,DC006,Misalignment,High
-D000196,QI004152,DC010,Incomplete Machining,Medium
-D000197,QI004164,DC010,Incomplete Machining,Medium
-D000198,QI004170,DC007,Assembly Error,Medium
-D000199,QI004198,DC004,Dent,Medium
-D000200,QI004205,DC006,Misalignment,High
-D000201,QI004222,DC002,Dimension Mismatch,High
-D000202,QI004223,DC003,Scratch,Medium
-D000203,QI004225,DC009,Material Defect,High
-D000204,QI004232,DC009,Material Defect,High
-D000205,QI004242,DC007,Assembly Error,Medium
-D000206,QI004249,DC002,Dimension Mismatch,High
-D000207,QI004288,DC006,Misalignment,High
-D000208,QI004300,DC010,Incomplete Machining,Medium
-D000209,QI004355,DC001,Surface Crack,High
-D000210,QI004380,DC008,Coating Defect,Low
-D000211,QI004402,DC009,Material Defect,High
-D000212,QI004425,DC002,Dimension Mismatch,High
-D000213,QI004430,DC001,Surface Crack,High
-D000214,QI004471,DC002,Dimension Mismatch,High
-D000215,QI004496,DC006,Misalignment,High
-D000216,QI004534,DC001,Surface Crack,High
-D000217,QI004553,DC006,Misalignment,High
-D000218,QI004603,DC006,Misalignment,High
-D000219,QI004609,DC004,Dent,Medium
-D000220,QI004650,DC005,Porosity,High
-D000221,QI004659,DC010,Incomplete Machining,Medium
-D000222,QI004660,DC005,Porosity,High
-D000223,QI004714,DC002,Dimension Mismatch,High
-D000224,QI004765,DC007,Assembly Error,Medium
-D000225,QI004771,DC003,Scratch,Medium
-D000226,QI004832,DC006,Misalignment,High
-D000227,QI004833,DC007,Assembly Error,Medium
-D000228,QI004865,DC010,Incomplete Machining,Medium
-D000229,QI004874,DC010,Incomplete Machining,Medium
-D000230,QI004877,DC005,Porosity,High
-D000231,QI004887,DC007,Assembly Error,Medium
-D000232,QI004906,DC005,Porosity,High
-D000233,QI004921,DC009,Material Defect,High
-D000234,QI004922,DC004,Dent,Medium
-D000235,QI004933,DC004,Dent,Medium
-D000236,QI004934,DC002,Dimension Mismatch,High
-D000237,QI004997,DC003,Scratch,Medium
+defect_id,production_order_id,machine_id,defect_category_id,defect_name,severity,inspection_department,quantity
+DEF000001,PO000001,M003,DC002,Dimension Mismatch,High,Quality Assurance,6
+DEF000001,PO000002,M006,DC001,Surface Crack,High,Quality Assurance,4
+DEF000001,PO000003,M007,DC005,Porosity,High,Quality Assurance,6
+DEF000001,PO000004,M010,DC004,Dent,Medium,Quality Assurance,5
+DEF000001,PO000005,M015,DC004,Dent,Medium,Quality Assurance,4
+DEF000001,PO000006,M017,DC003,Scratch,Medium,Quality Assurance,4
+DEF000001,PO000007,M001,DC002,Dimension Mismatch,High,Quality Assurance,6
+DEF000001,PO000008,M006,DC009,Material Defect,High,Quality Assurance,3
+DEF000001,PO000009,M007,DC002,Dimension Mismatch,High,Quality Assurance,6
+DEF000001,PO000010,M012,DC010,Incomplete Machining,Medium,Quality Assurance,3
+DEF000001,PO000011,M014,DC007,Assembly Error,Medium,Quality Assurance,4
+DEF000001,PO000012,M016,DC001,Surface Crack,High,Quality Assurance,4
+DEF000001,PO000013,M002,DC001,Surface Crack,High,Quality Assurance,7
+DEF000001,PO000014,M004,DC002,Dimension Mismatch,High,Quality Assurance,4
+DEF000001,PO000015,M007,DC004,Dent,Medium,Quality Assurance,8
+DEF000001,PO000016,M011,DC004,Dent,Medium,Quality Assurance,4
+DEF000001,PO000017,M014,DC009,Material Defect,High,Quality Assurance,3
+DEF000001,PO000018,M017,DC010,Incomplete Machining,Medium,Quality Assurance,5
+DEF000001,PO000019,M002,DC001,Surface Crack,High,Quality Assurance,6
+DEF000001,PO000020,M005,DC009,Material Defect,High,Quality Assurance,4
+DEF000001,PO000021,M007,DC004,Dent,Medium,Quality Assurance,7
+DEF000001,PO000022,M012,DC009,Material Defect,High,Quality Assurance,4
+DEF000001,PO000023,M013,DC007,Assembly Error,Medium,Quality Assurance,4
+DEF000001,PO000024,M017,DC004,Dent,Medium,Quality Assurance,6
+DEF000001,PO000025,M003,DC008,Coating Defect,Low,Quality Assurance,7
+DEF000001,PO000026,M005,DC010,Incomplete Machining,Medium,Quality Assurance,4
+DEF000001,PO000027,M009,DC005,Porosity,High,Quality Assurance,6
+DEF000001,PO000028,M012,DC001,Surface Crack,High,Quality Assurance,4
+DEF000001,PO000029,M015,DC003,Scratch,Medium,Quality Assurance,3
+DEF000001,PO000030,M018,DC007,Assembly Error,Medium,Quality Assurance,6
+DEF000001,PO000031,M002,DC006,Misalignment,High,Quality Assurance,6
+DEF000001,PO000032,M006,DC005,Porosity,High,Quality Assurance,4
+DEF000001,PO000033,M009,DC003,Scratch,Medium,Quality Assurance,6
+DEF000001,PO000034,M010,DC004,Dent,Medium,Quality Assurance,4
+DEF000001,PO000035,M014,DC006,Misalignment,High,Quality Assurance,4
+DEF000001,PO000036,M016,DC002,Dimension Mismatch,High,Quality Assurance,7
+DEF000001,PO000037,M003,DC002,Dimension Mismatch,High,Quality Assurance,7
+DEF000001,PO000038,M006,DC007,Assembly Error,Medium,Quality Assurance,4
+DEF000001,PO000039,M009,DC002,Dimension Mismatch,High,Quality Assurance,6
+DEF000001,PO000040,M011,DC006,Misalignment,High,Quality Assurance,5
+DEF000001,PO000041,M015,DC006,Misalignment,High,Quality Assurance,5
+DEF000001,PO000042,M018,DC010,Incomplete Machining,Medium,Quality Assurance,6
+DEF000001,PO000043,M003,DC005,Porosity,High,Quality Assurance,7
+DEF000001,PO000044,M004,DC001,Surface Crack,High,Quality Assurance,3
+DEF000001,PO000045,M008,DC008,Coating Defect,Low,Quality Assurance,6
+DEF000001,PO000046,M010,DC009,Material Defect,High,Quality Assurance,4
+DEF000001,PO000047,M013,DC002,Dimension Mismatch,High,Quality Assurance,4
+DEF000001,PO000048,M016,DC007,Assembly Error,Medium,Quality Assurance,5
+DEF000001,PO000049,M003,DC002,Dimension Mismatch,High,Quality Assurance,5
+DEF000001,PO000050,M005,DC009,Material Defect,High,Quality Assurance,3
+DEF000001,PO000051,M009,DC005,Porosity,High,Quality Assurance,6
+DEF000001,PO000052,M012,DC010,Incomplete Machining,Medium,Quality Assurance,4
+DEF000001,PO000053,M015,DC006,Misalignment,High,Quality Assurance,4
+DEF000001,PO000054,M017,DC010,Incomplete Machining,Medium,Quality Assurance,4
+DEF000001,PO000055,M002,DC004,Dent,Medium,Quality Assurance,4
+DEF000001,PO000056,M006,DC002,Dimension Mismatch,High,Quality Assurance,3
+DEF000001,PO000057,M007,DC001,Surface Crack,High,Quality Assurance,7
+DEF000001,PO000058,M012,DC004,Dent,Medium,Quality Assurance,4
+DEF000001,PO000059,M015,DC005,Porosity,High,Quality Assurance,5
+DEF000001,PO000060,M017,DC002,Dimension Mismatch,High,Quality Assurance,7
+DEF000001,PO000061,M003,DC004,Dent,Medium,Quality Assurance,5
+DEF000001,PO000062,M006,DC002,Dimension Mismatch,High,Quality Assurance,5
+DEF000001,PO000063,M007,DC007,Assembly Error,Medium,Quality Assurance,7
+DEF000001,PO000064,M011,DC005,Porosity,High,Quality Assurance,5
+DEF000001,PO000065,M013,DC008,Coating Defect,Low,Quality Assurance,4
+DEF000001,PO000066,M018,DC006,Misalignment,High,Quality Assurance,4
+DEF000001,PO000067,M003,DC003,Scratch,Medium,Quality Assurance,6
+DEF000001,PO000068,M006,DC006,Misalignment,High,Quality Assurance,4
+DEF000001,PO000069,M007,DC006,Misalignment,High,Quality Assurance,6
+DEF000001,PO000070,M012,DC004,Dent,Medium,Quality Assurance,4
+DEF000001,PO000071,M015,DC005,Porosity,High,Quality Assurance,5
+DEF000001,PO000072,M017,DC002,Dimension Mismatch,High,Quality Assurance,4
+DEF000001,PO000073,M003,DC010,Incomplete Machining,Medium,Quality Assurance,7
+DEF000001,PO000074,M006,DC003,Scratch,Medium,Quality Assurance,4
+DEF000001,PO000075,M007,DC009,Material Defect,High,Quality Assurance,6
+DEF000001,PO000076,M011,DC004,Dent,Medium,Quality Assurance,4
+DEF000001,PO000077,M015,DC003,Scratch,Medium,Quality Assurance,3
+DEF000001,PO000078,M016,DC008,Coating Defect,Low,Quality Assurance,4
+DEF000001,PO000079,M003,DC007,Assembly Error,Medium,Quality Assurance,7
+DEF000001,PO000080,M004,DC005,Porosity,High,Quality Assurance,4
+DEF000001,PO000081,M008,DC009,Material Defect,High,Quality Assurance,5
+DEF000001,PO000082,M010,DC004,Dent,Medium,Quality Assurance,4
+DEF000001,PO000083,M014,DC006,Misalignment,High,Quality Assurance,4
+DEF000001,PO000084,M016,DC001,Surface Crack,High,Quality Assurance,4
+DEF000001,PO000085,M003,DC004,Dent,Medium,Quality Assurance,6
+DEF000001,PO000086,M005,DC001,Surface Crack,High,Quality Assurance,3
+DEF000001,PO000087,M007,DC006,Misalignment,High,Quality Assurance,6
+DEF000001,PO000088,M011,DC007,Assembly Error,Medium,Quality Assurance,4
+DEF000001,PO000089,M014,DC005,Porosity,High,Quality Assurance,5
+DEF000001,PO000090,M016,DC002,Dimension Mismatch,High,Quality Assurance,6
+DEF000001,PO000091,M003,DC004,Dent,Medium,Quality Assurance,7
+DEF000001,PO000092,M005,DC010,Incomplete Machining,Medium,Quality Assurance,5
+DEF000001,PO000093,M007,DC006,Misalignment,High,Quality Assurance,7
+DEF000001,PO000094,M012,DC004,Dent,Medium,Quality Assurance,5
+DEF000001,PO000095,M014,DC008,Coating Defect,Low,Quality Assurance,4
+DEF000001,PO000096,M017,DC007,Assembly Error,Medium,Quality Assurance,6
+DEF000001,PO000097,M002,DC008,Coating Defect,Low,Quality Assurance,8
+DEF000001,PO000098,M004,DC003,Scratch,Medium,Quality Assurance,5
+DEF000001,PO000099,M007,DC005,Porosity,High,Quality Assurance,7
+DEF000001,PO000100,M011,DC003,Scratch,Medium,Quality Assurance,5
+DEF000001,PO000101,M013,DC004,Dent,Medium,Quality Assurance,5
+DEF000001,PO000102,M016,DC009,Material Defect,High,Quality Assurance,5
+DEF000001,PO000103,M002,DC009,Material Defect,High,Quality Assurance,5
+DEF000001,PO000104,M005,DC005,Porosity,High,Quality Assurance,5
+DEF000001,PO000105,M009,DC010,Incomplete Machining,Medium,Quality Assurance,8
+DEF000001,PO000106,M012,DC007,Assembly Error,Medium,Quality Assurance,3
+DEF000001,PO000107,M013,DC010,Incomplete Machining,Medium,Quality Assurance,4
+DEF000001,PO000108,M016,DC007,Assembly Error,Medium,Quality Assurance,4
+DEF000001,PO000109,M003,DC006,Misalignment,High,Quality Assurance,5
+DEF000001,PO000110,M005,DC004,Dent,Medium,Quality Assurance,3
+DEF000001,PO000111,M009,DC003,Scratch,Medium,Quality Assurance,8
+DEF000001,PO000112,M012,DC009,Material Defect,High,Quality Assurance,5
+DEF000001,PO000113,M015,DC008,Coating Defect,Low,Quality Assurance,3
+DEF000001,PO000114,M016,DC002,Dimension Mismatch,High,Quality Assurance,6
+DEF000001,PO000115,M003,DC001,Surface Crack,High,Quality Assurance,6
+DEF000001,PO000116,M004,DC002,Dimension Mismatch,High,Quality Assurance,5
+DEF000001,PO000117,M009,DC003,Scratch,Medium,Quality Assurance,6
+DEF000001,PO000118,M012,DC003,Scratch,Medium,Quality Assurance,3
+DEF000001,PO000119,M015,DC007,Assembly Error,Medium,Quality Assurance,4
+DEF000001,PO000120,M017,DC010,Incomplete Machining,Medium,Quality Assurance,4
+DEF000001,PO000121,M003,DC002,Dimension Mismatch,High,Quality Assurance,6
+DEF000001,PO000122,M005,DC007,Assembly Error,Medium,Quality Assurance,4
+DEF000001,PO000123,M009,DC007,Assembly Error,Medium,Quality Assurance,9
+DEF000001,PO000124,M011,DC010,Incomplete Machining,Medium,Quality Assurance,3
+DEF000001,PO000125,M013,DC008,Coating Defect,Low,Quality Assurance,4
+DEF000001,PO000126,M018,DC009,Material Defect,High,Quality Assurance,4
+DEF000001,PO000127,M003,DC005,Porosity,High,Quality Assurance,4
+DEF000001,PO000128,M005,DC009,Material Defect,High,Quality Assurance,4
+DEF000001,PO000129,M007,DC001,Surface Crack,High,Quality Assurance,7
+DEF000001,PO000130,M011,DC002,Dimension Mismatch,High,Quality Assurance,4
+DEF000001,PO000131,M015,DC009,Material Defect,High,Quality Assurance,5
+DEF000001,PO000132,M018,DC005,Porosity,High,Quality Assurance,4
+DEF000001,PO000133,M003,DC006,Misalignment,High,Quality Assurance,5
+DEF000001,PO000134,M006,DC002,Dimension Mismatch,High,Quality Assurance,3
+DEF000001,PO000135,M008,DC005,Porosity,High,Quality Assurance,7
+DEF000001,PO000136,M012,DC007,Assembly Error,Medium,Quality Assurance,5
+DEF000001,PO000137,M014,DC003,Scratch,Medium,Quality Assurance,4
+DEF000001,PO000138,M016,DC008,Coating Defect,Low,Quality Assurance,5
+DEF000001,PO000139,M001,DC001,Surface Crack,High,Quality Assurance,6
+DEF000001,PO000140,M005,DC005,Porosity,High,Quality Assurance,4
+DEF000001,PO000141,M008,DC009,Material Defect,High,Quality Assurance,7
+DEF000001,PO000142,M012,DC003,Scratch,Medium,Quality Assurance,4
+DEF000001,PO000143,M013,DC009,Material Defect,High,Quality Assurance,4
+DEF000001,PO000144,M016,DC002,Dimension Mismatch,High,Quality Assurance,4
+DEF000001,PO000145,M001,DC005,Porosity,High,Quality Assurance,6
+DEF000001,PO000146,M006,DC009,Material Defect,High,Quality Assurance,3
+DEF000001,PO000147,M007,DC010,Incomplete Machining,Medium,Quality Assurance,7
+DEF000001,PO000148,M012,DC004,Dent,Medium,Quality Assurance,5
+DEF000001,PO000149,M013,DC003,Scratch,Medium,Quality Assurance,4
+DEF000001,PO000150,M018,DC006,Misalignment,High,Quality Assurance,4
+DEF000001,PO000151,M001,DC003,Scratch,Medium,Quality Assurance,6
+DEF000001,PO000152,M005,DC009,Material Defect,High,Quality Assurance,4
+DEF000001,PO000153,M007,DC009,Material Defect,High,Quality Assurance,5
+DEF000001,PO000154,M010,DC001,Surface Crack,High,Quality Assurance,4
+DEF000001,PO000155,M014,DC010,Incomplete Machining,Medium,Quality Assurance,3
+DEF000001,PO000156,M016,DC006,Misalignment,High,Quality Assurance,7
+DEF000001,PO000157,M002,DC008,Coating Defect,Low,Quality Assurance,6
+DEF000001,PO000158,M006,DC001,Surface Crack,High,Quality Assurance,4
+DEF000001,PO000159,M009,DC002,Dimension Mismatch,High,Quality Assurance,7
+DEF000001,PO000160,M010,DC006,Misalignment,High,Quality Assurance,4
+DEF000001,PO000161,M013,DC005,Porosity,High,Quality Assurance,3
+DEF000001,PO000162,M017,DC004,Dent,Medium,Quality Assurance,6
+DEF000001,PO000163,M002,DC001,Surface Crack,High,Quality Assurance,5
+DEF000001,PO000164,M004,DC004,Dent,Medium,Quality Assurance,3
+DEF000001,PO000165,M009,DC010,Incomplete Machining,Medium,Quality Assurance,5
+DEF000001,PO000166,M011,DC002,Dimension Mismatch,High,Quality Assurance,4
+DEF000001,PO000167,M014,DC002,Dimension Mismatch,High,Quality Assurance,4
+DEF000001,PO000168,M018,DC008,Coating Defect,Low,Quality Assurance,4
+DEF000001,PO000169,M003,DC002,Dimension Mismatch,High,Quality Assurance,5
+DEF000001,PO000170,M004,DC009,Material Defect,High,Quality Assurance,3
+DEF000001,PO000171,M009,DC003,Scratch,Medium,Quality Assurance,8
+DEF000001,PO000172,M010,DC003,Scratch,Medium,Quality Assurance,4
+DEF000001,PO000173,M014,DC008,Coating Defect,Low,Quality Assurance,5
+DEF000001,PO000174,M018,DC009,Material Defect,High,Quality Assurance,4
+DEF000001,PO000175,M002,DC003,Scratch,Medium,Quality Assurance,6
+DEF000001,PO000176,M005,DC005,Porosity,High,Quality Assurance,4
+DEF000001,PO000177,M008,DC009,Material Defect,High,Quality Assurance,5
+DEF000001,PO000178,M012,DC010,Incomplete Machining,Medium,Quality Assurance,4
+DEF000001,PO000179,M015,DC007,Assembly Error,Medium,Quality Assurance,3
+DEF000001,PO000180,M017,DC004,Dent,Medium,Quality Assurance,5
+DEF000001,PO000181,M002,DC009,Material Defect,High,Quality Assurance,7
+DEF000001,PO000182,M006,DC004,Dent,Medium,Quality Assurance,3
+DEF000001,PO000183,M008,DC005,Porosity,High,Quality Assurance,7
+DEF000001,PO000184,M012,DC007,Assembly Error,Medium,Quality Assurance,5
+DEF000001,PO000185,M014,DC006,Misalignment,High,Quality Assurance,4
+DEF000001,PO000186,M016,DC008,Coating Defect,Low,Quality Assurance,5
+DEF000001,PO000187,M003,DC009,Material Defect,High,Quality Assurance,6
+DEF000001,PO000188,M006,DC008,Coating Defect,Low,Quality Assurance,4
+DEF000001,PO000189,M009,DC002,Dimension Mismatch,High,Quality Assurance,8
+DEF000001,PO000190,M012,DC004,Dent,Medium,Quality Assurance,4
+DEF000001,PO000191,M014,DC004,Dent,Medium,Quality Assurance,4
+DEF000001,PO000192,M018,DC002,Dimension Mismatch,High,Quality Assurance,4
+DEF000001,PO000193,M002,DC006,Misalignment,High,Quality Assurance,6
+DEF000001,PO000194,M005,DC001,Surface Crack,High,Quality Assurance,3
+DEF000001,PO000195,M008,DC010,Incomplete Machining,Medium,Quality Assurance,7
+DEF000001,PO000196,M010,DC009,Material Defect,High,Quality Assurance,3
+DEF000001,PO000197,M015,DC004,Dent,Medium,Quality Assurance,4
+DEF000001,PO000198,M016,DC010,Incomplete Machining,Medium,Quality Assurance,4
+DEF000001,PO000199,M001,DC004,Dent,Medium,Quality Assurance,7
+DEF000001,PO000200,M004,DC001,Surface Crack,High,Quality Assurance,3
+DEF000001,PO000201,M008,DC002,Dimension Mismatch,High,Quality Assurance,8
+DEF000001,PO000202,M011,DC001,Surface Crack,High,Quality Assurance,4
+DEF000001,PO000203,M015,DC004,Dent,Medium,Quality Assurance,4
+DEF000001,PO000204,M018,DC002,Dimension Mismatch,High,Quality Assurance,6
+DEF000001,PO000205,M002,DC001,Surface Crack,High,Quality Assurance,4
+DEF000001,PO000206,M006,DC006,Misalignment,High,Quality Assurance,3
+DEF000001,PO000207,M008,DC002,Dimension Mismatch,High,Quality Assurance,6
+DEF000001,PO000208,M012,DC009,Material Defect,High,Quality Assurance,4
+DEF000001,PO000209,M013,DC004,Dent,Medium,Quality Assurance,4
+DEF000001,PO000210,M017,DC005,Porosity,High,Quality Assurance,5
+DEF000001,PO000211,M003,DC008,Coating Defect,Low,Quality Assurance,6
+DEF000001,PO000212,M006,DC004,Dent,Medium,Quality Assurance,4
+DEF000001,PO000213,M009,DC009,Material Defect,High,Quality Assurance,6
+DEF000001,PO000214,M012,DC003,Scratch,Medium,Quality Assurance,4
+DEF000001,PO000215,M015,DC010,Incomplete Machining,Medium,Quality Assurance,5
+DEF000001,PO000216,M017,DC010,Incomplete Machining,Medium,Quality Assurance,6
+DEF000001,PO000217,M003,DC008,Coating Defect,Low,Quality Assurance,4
+DEF000001,PO000218,M005,DC004,Dent,Medium,Quality Assurance,3
+DEF000001,PO000219,M008,DC008,Coating Defect,Low,Quality Assurance,7
+DEF000001,PO000220,M011,DC007,Assembly Error,Medium,Quality Assurance,3
+DEF000001,PO000221,M014,DC004,Dent,Medium,Quality Assurance,4
+DEF000001,PO000222,M016,DC002,Dimension Mismatch,High,Quality Assurance,5
+DEF000001,PO000223,M001,DC002,Dimension Mismatch,High,Quality Assurance,6
+DEF000001,PO000224,M004,DC007,Assembly Error,Medium,Quality Assurance,3
+DEF000001,PO000225,M008,DC006,Misalignment,High,Quality Assurance,6
+DEF000001,PO000226,M012,DC007,Assembly Error,Medium,Quality Assurance,4
+DEF000001,PO000227,M013,DC007,Assembly Error,Medium,Quality Assurance,3
+DEF000001,PO000228,M017,DC008,Coating Defect,Low,Quality Assurance,6
+DEF000001,PO000229,M003,DC001,Surface Crack,High,Quality Assurance,5
+DEF000001,PO000230,M005,DC002,Dimension Mismatch,High,Quality Assurance,3
+DEF000001,PO000231,M008,DC001,Surface Crack,High,Quality Assurance,7
+DEF000001,PO000232,M011,DC007,Assembly Error,Medium,Quality Assurance,5
+DEF000001,PO000233,M015,DC006,Misalignment,High,Quality Assurance,4
+DEF000001,PO000234,M016,DC002,Dimension Mismatch,High,Quality Assurance,5
+DEF000001,PO000235,M002,DC004,Dent,Medium,Quality Assurance,4
+DEF000001,PO000236,M005,DC004,Dent,Medium,Quality Assurance,4
+DEF000001,PO000237,M007,DC004,Dent,Medium,Quality Assurance,6
+DEF000001,PO000238,M012,DC009,Material Defect,High,Quality Assurance,5
+DEF000001,PO000239,M014,DC008,Coating Defect,Low,Quality Assurance,3
+DEF000001,PO000240,M018,DC003,Scratch,Medium,Quality Assurance,5
+DEF000001,PO000241,M002,DC007,Assembly Error,Medium,Quality Assurance,5
+DEF000001,PO000242,M005,DC003,Scratch,Medium,Quality Assurance,4
+DEF000001,PO000243,M007,DC005,Porosity,High,Quality Assurance,8
+DEF000001,PO000244,M011,DC008,Coating Defect,Low,Quality Assurance,4
+DEF000001,PO000245,M014,DC004,Dent,Medium,Quality Assurance,4
+DEF000001,PO000246,M016,DC002,Dimension Mismatch,High,Quality Assurance,4
+DEF000001,PO000247,M003,DC008,Coating Defect,Low,Quality Assurance,6
+DEF000001,PO000248,M005,DC009,Material Defect,High,Quality Assurance,4
+DEF000001,PO000249,M007,DC002,Dimension Mismatch,High,Quality Assurance,7
+DEF000001,PO000250,M010,DC001,Surface Crack,High,Quality Assurance,5
+DEF000001,PO000251,M013,DC009,Material Defect,High,Quality Assurance,3
+DEF000001,PO000252,M016,DC001,Surface Crack,High,Quality Assurance,5
+DEF000001,PO000253,M001,DC002,Dimension Mismatch,High,Quality Assurance,7
+DEF000001,PO000254,M005,DC004,Dent,Medium,Quality Assurance,4
+DEF000001,PO000255,M007,DC003,Scratch,Medium,Quality Assurance,8
+DEF000001,PO000256,M012,DC007,Assembly Error,Medium,Quality Assurance,6
+DEF000001,PO000257,M013,DC008,Coating Defect,Low,Quality Assurance,5
+DEF000001,PO000258,M018,DC008,Coating Defect,Low,Quality Assurance,4
+DEF000001,PO000259,M003,DC004,Dent,Medium,Quality Assurance,6
+DEF000001,PO000260,M005,DC007,Assembly Error,Medium,Quality Assurance,3
+DEF000001,PO000261,M009,DC001,Surface Crack,High,Quality Assurance,7
+DEF000001,PO000262,M010,DC003,Scratch,Medium,Quality Assurance,3
+DEF000001,PO000263,M015,DC007,Assembly Error,Medium,Quality Assurance,3
+DEF000001,PO000264,M016,DC001,Surface Crack,High,Quality Assurance,6
+DEF000001,PO000265,M002,DC007,Assembly Error,Medium,Quality Assurance,6
+DEF000001,PO000266,M004,DC005,Porosity,High,Quality Assurance,4
+DEF000001,PO000267,M008,DC008,Coating Defect,Low,Quality Assurance,7
+DEF000001,PO000268,M011,DC005,Porosity,High,Quality Assurance,3
+DEF000001,PO000269,M014,DC007,Assembly Error,Medium,Quality Assurance,5
+DEF000001,PO000270,M016,DC009,Material Defect,High,Quality Assurance,4
+DEF000001,PO000271,M003,DC008,Coating Defect,Low,Quality Assurance,5
+DEF000001,PO000272,M005,DC003,Scratch,Medium,Quality Assurance,5
+DEF000001,PO000273,M008,DC004,Dent,Medium,Quality Assurance,5
+DEF000001,PO000274,M012,DC005,Porosity,High,Quality Assurance,5
+DEF000001,PO000275,M013,DC004,Dent,Medium,Quality Assurance,4
+DEF000001,PO000276,M017,DC001,Surface Crack,High,Quality Assurance,4
+DEF000001,PO000277,M003,DC010,Incomplete Machining,Medium,Quality Assurance,7
+DEF000001,PO000278,M005,DC009,Material Defect,High,Quality Assurance,3
+DEF000001,PO000279,M008,DC001,Surface Crack,High,Quality Assurance,7
+DEF000001,PO000280,M011,DC006,Misalignment,High,Quality Assurance,3
+DEF000001,PO000281,M014,DC001,Surface Crack,High,Quality Assurance,4
+DEF000001,PO000282,M018,DC001,Surface Crack,High,Quality Assurance,5
+DEF000001,PO000283,M003,DC010,Incomplete Machining,Medium,Quality Assurance,5
+DEF000001,PO000284,M004,DC008,Coating Defect,Low,Quality Assurance,4
+DEF000001,PO000285,M009,DC009,Material Defect,High,Quality Assurance,8
+DEF000001,PO000286,M012,DC009,Material Defect,High,Quality Assurance,4
+DEF000001,PO000287,M015,DC003,Scratch,Medium,Quality Assurance,5
+DEF000001,PO000288,M018,DC001,Surface Crack,High,Quality Assurance,6
+DEF000001,PO000289,M001,DC009,Material Defect,High,Quality Assurance,4
+DEF000001,PO000290,M004,DC002,Dimension Mismatch,High,Quality Assurance,3
+DEF000001,PO000291,M007,DC003,Scratch,Medium,Quality Assurance,6
+DEF000001,PO000292,M012,DC002,Dimension Mismatch,High,Quality Assurance,4
+DEF000001,PO000293,M015,DC010,Incomplete Machining,Medium,Quality Assurance,4
+DEF000001,PO000294,M017,DC002,Dimension Mismatch,High,Quality Assurance,5
+DEF000001,PO000295,M002,DC004,Dent,Medium,Quality Assurance,7
+DEF000001,PO000296,M005,DC007,Assembly Error,Medium,Quality Assurance,3
+DEF000001,PO000297,M008,DC002,Dimension Mismatch,High,Quality Assurance,8
+DEF000001,PO000298,M012,DC010,Incomplete Machining,Medium,Quality Assurance,4
+DEF000001,PO000299,M013,DC004,Dent,Medium,Quality Assurance,4
+DEF000001,PO000300,M016,DC010,Incomplete Machining,Medium,Quality Assurance,4
+DEF000001,PO000301,M003,DC010,Incomplete Machining,Medium,Quality Assurance,5
+DEF000001,PO000302,M006,DC001,Surface Crack,High,Quality Assurance,5
+DEF000001,PO000303,M009,DC010,Incomplete Machining,Medium,Quality Assurance,8
+DEF000001,PO000304,M010,DC002,Dimension Mismatch,High,Quality Assurance,4
+DEF000001,PO000305,M014,DC007,Assembly Error,Medium,Quality Assurance,5
+DEF000001,PO000306,M016,DC010,Incomplete Machining,Medium,Quality Assurance,4
+DEF000001,PO000307,M001,DC010,Incomplete Machining,Medium,Quality Assurance,6
+DEF000001,PO000308,M004,DC009,Material Defect,High,Quality Assurance,5
+DEF000001,PO000309,M009,DC006,Misalignment,High,Quality Assurance,8
+DEF000001,PO000310,M011,DC005,Porosity,High,Quality Assurance,4
+DEF000001,PO000311,M015,DC004,Dent,Medium,Quality Assurance,4
+DEF000001,PO000312,M017,DC006,Misalignment,High,Quality Assurance,5
+DEF000001,PO000313,M001,DC004,Dent,Medium,Quality Assurance,7
+DEF000001,PO000314,M005,DC005,Porosity,High,Quality Assurance,3
+DEF000001,PO000315,M008,DC007,Assembly Error,Medium,Quality Assurance,7
+DEF000001,PO000316,M012,DC003,Scratch,Medium,Quality Assurance,5
+DEF000001,PO000317,M013,DC005,Porosity,High,Quality Assurance,4
+DEF000001,PO000318,M018,DC008,Coating Defect,Low,Quality Assurance,5
+DEF000001,PO000319,M001,DC006,Misalignment,High,Quality Assurance,6
+DEF000001,PO000320,M006,DC002,Dimension Mismatch,High,Quality Assurance,4
+DEF000001,PO000321,M009,DC001,Surface Crack,High,Quality Assurance,7
+DEF000001,PO000322,M012,DC008,Coating Defect,Low,Quality Assurance,3
+DEF000001,PO000323,M014,DC010,Incomplete Machining,Medium,Quality Assurance,4
+DEF000001,PO000324,M017,DC010,Incomplete Machining,Medium,Quality Assurance,5
+DEF000001,PO000325,M003,DC002,Dimension Mismatch,High,Quality Assurance,6
+DEF000001,PO000326,M006,DC002,Dimension Mismatch,High,Quality Assurance,3
+DEF000001,PO000327,M009,DC009,Material Defect,High,Quality Assurance,5
+DEF000001,PO000328,M012,DC004,Dent,Medium,Quality Assurance,4
+DEF000001,PO000329,M013,DC009,Material Defect,High,Quality Assurance,5
+DEF000001,PO000330,M016,DC005,Porosity,High,Quality Assurance,5
+DEF000001,PO000331,M002,DC003,Scratch,Medium,Quality Assurance,7
+DEF000001,PO000332,M006,DC006,Misalignment,High,Quality Assurance,5
+DEF000001,PO000333,M007,DC002,Dimension Mismatch,High,Quality Assurance,5
+DEF000001,PO000334,M012,DC004,Dent,Medium,Quality Assurance,3
+DEF000001,PO000335,M014,DC006,Misalignment,High,Quality Assurance,4
+DEF000001,PO000336,M016,DC005,Porosity,High,Quality Assurance,5
+DEF000001,PO000337,M003,DC003,Scratch,Medium,Quality Assurance,6
+DEF000001,PO000338,M004,DC008,Coating Defect,Low,Quality Assurance,5
+DEF000001,PO000339,M009,DC009,Material Defect,High,Quality Assurance,7
+DEF000001,PO000340,M010,DC005,Porosity,High,Quality Assurance,4
+DEF000001,PO000341,M013,DC010,Incomplete Machining,Medium,Quality Assurance,3
+DEF000001,PO000342,M017,DC009,Material Defect,High,Quality Assurance,7
+DEF000001,PO000343,M003,DC001,Surface Crack,High,Quality Assurance,5
+DEF000001,PO000344,M004,DC009,Material Defect,High,Quality Assurance,5
+DEF000001,PO000345,M008,DC005,Porosity,High,Quality Assurance,7
+DEF000001,PO000346,M012,DC002,Dimension Mismatch,High,Quality Assurance,5
+DEF000001,PO000347,M014,DC003,Scratch,Medium,Quality Assurance,4
+DEF000001,PO000348,M016,DC005,Porosity,High,Quality Assurance,4
+DEF000001,PO000349,M003,DC002,Dimension Mismatch,High,Quality Assurance,7
+DEF000001,PO000350,M005,DC002,Dimension Mismatch,High,Quality Assurance,3
+DEF000001,PO000351,M007,DC009,Material Defect,High,Quality Assurance,9
+DEF000001,PO000352,M010,DC003,Scratch,Medium,Quality Assurance,5
+DEF000001,PO000353,M014,DC005,Porosity,High,Quality Assurance,3
+DEF000001,PO000354,M017,DC005,Porosity,High,Quality Assurance,4
+DEF000001,PO000355,M002,DC010,Incomplete Machining,Medium,Quality Assurance,5
+DEF000001,PO000356,M006,DC004,Dent,Medium,Quality Assurance,4
+DEF000001,PO000357,M008,DC006,Misalignment,High,Quality Assurance,5
+DEF000001,PO000358,M011,DC004,Dent,Medium,Quality Assurance,5
+DEF000001,PO000359,M014,DC005,Porosity,High,Quality Assurance,4
+DEF000001,PO000360,M017,DC009,Material Defect,High,Quality Assurance,6
+DEF000001,PO000361,M002,DC008,Coating Defect,Low,Quality Assurance,5
+DEF000001,PO000362,M005,DC005,Porosity,High,Quality Assurance,4
+DEF000001,PO000363,M008,DC001,Surface Crack,High,Quality Assurance,6
+DEF000001,PO000364,M011,DC002,Dimension Mismatch,High,Quality Assurance,5
+DEF000001,PO000365,M014,DC007,Assembly Error,Medium,Quality Assurance,4
+DEF000001,PO000366,M018,DC005,Porosity,High,Quality Assurance,5
+DEF000001,PO000367,M002,DC001,Surface Crack,High,Quality Assurance,4
+DEF000001,PO000368,M004,DC001,Surface Crack,High,Quality Assurance,4
+DEF000001,PO000369,M009,DC006,Misalignment,High,Quality Assurance,8
+DEF000001,PO000370,M011,DC003,Scratch,Medium,Quality Assurance,4
+DEF000001,PO000371,M013,DC005,Porosity,High,Quality Assurance,3
+DEF000001,PO000372,M016,DC003,Scratch,Medium,Quality Assurance,6
+DEF000001,PO000373,M002,DC008,Coating Defect,Low,Quality Assurance,6
+DEF000001,PO000374,M004,DC009,Material Defect,High,Quality Assurance,2
+DEF000001,PO000375,M009,DC007,Assembly Error,Medium,Quality Assurance,7
+DEF000001,PO000376,M010,DC009,Material Defect,High,Quality Assurance,4
+DEF000001,PO000377,M013,DC001,Surface Crack,High,Quality Assurance,4
+DEF000001,PO000378,M016,DC002,Dimension Mismatch,High,Quality Assurance,6
+DEF000001,PO000379,M002,DC002,Dimension Mismatch,High,Quality Assurance,5
+DEF000001,PO000380,M004,DC003,Scratch,Medium,Quality Assurance,5
+DEF000001,PO000381,M008,DC009,Material Defect,High,Quality Assurance,6
+DEF000001,PO000382,M011,DC001,Surface Crack,High,Quality Assurance,4
+DEF000001,PO000383,M014,DC006,Misalignment,High,Quality Assurance,5
+DEF000001,PO000384,M018,DC010,Incomplete Machining,Medium,Quality Assurance,4
+DEF000001,PO000385,M001,DC009,Material Defect,High,Quality Assurance,5
+DEF000001,PO000386,M006,DC003,Scratch,Medium,Quality Assurance,4
+DEF000001,PO000387,M008,DC007,Assembly Error,Medium,Quality Assurance,8
+DEF000001,PO000388,M012,DC003,Scratch,Medium,Quality Assurance,5
+DEF000001,PO000389,M014,DC001,Surface Crack,High,Quality Assurance,5
+DEF000001,PO000390,M018,DC005,Porosity,High,Quality Assurance,4
+DEF000001,PO000391,M001,DC006,Misalignment,High,Quality Assurance,5
+DEF000001,PO000392,M005,DC001,Surface Crack,High,Quality Assurance,5
+DEF000001,PO000393,M009,DC006,Misalignment,High,Quality Assurance,6
+DEF000001,PO000394,M011,DC004,Dent,Medium,Quality Assurance,4
+DEF000001,PO000395,M015,DC004,Dent,Medium,Quality Assurance,4
+DEF000001,PO000396,M017,DC002,Dimension Mismatch,High,Quality Assurance,5
+DEF000001,PO000397,M001,DC006,Misalignment,High,Quality Assurance,6
+DEF000001,PO000398,M005,DC009,Material Defect,High,Quality Assurance,4
+DEF000001,PO000399,M009,DC007,Assembly Error,Medium,Quality Assurance,8
+DEF000001,PO000400,M011,DC010,Incomplete Machining,Medium,Quality Assurance,3
+DEF000001,PO000401,M015,DC003,Scratch,Medium,Quality Assurance,4
+DEF000001,PO000402,M017,DC004,Dent,Medium,Quality Assurance,5
+DEF000001,PO000403,M002,DC003,Scratch,Medium,Quality Assurance,6
+DEF000001,PO000404,M004,DC003,Scratch,Medium,Quality Assurance,3
+DEF000001,PO000405,M007,DC007,Assembly Error,Medium,Quality Assurance,7
+DEF000001,PO000406,M011,DC001,Surface Crack,High,Quality Assurance,5
+DEF000001,PO000407,M015,DC003,Scratch,Medium,Quality Assurance,5
+DEF000001,PO000408,M016,DC006,Misalignment,High,Quality Assurance,5
+DEF000001,PO000409,M003,DC007,Assembly Error,Medium,Quality Assurance,6
+DEF000001,PO000410,M005,DC004,Dent,Medium,Quality Assurance,5
+DEF000001,PO000411,M007,DC005,Porosity,High,Quality Assurance,7
+DEF000001,PO000412,M010,DC003,Scratch,Medium,Quality Assurance,4
+DEF000001,PO000413,M014,DC002,Dimension Mismatch,High,Quality Assurance,5
+DEF000001,PO000414,M016,DC007,Assembly Error,Medium,Quality Assurance,5
+DEF000001,PO000415,M003,DC001,Surface Crack,High,Quality Assurance,6
+DEF000001,PO000416,M005,DC008,Coating Defect,Low,Quality Assurance,3
+DEF000001,PO000417,M008,DC004,Dent,Medium,Quality Assurance,7
+DEF000001,PO000418,M011,DC004,Dent,Medium,Quality Assurance,3
+DEF000001,PO000419,M014,DC008,Coating Defect,Low,Quality Assurance,4
+DEF000001,PO000420,M016,DC006,Misalignment,High,Quality Assurance,5
+DEF000001,PO000421,M002,DC005,Porosity,High,Quality Assurance,6
+DEF000001,PO000422,M004,DC004,Dent,Medium,Quality Assurance,4
+DEF000001,PO000423,M007,DC004,Dent,Medium,Quality Assurance,7
+DEF000001,PO000424,M012,DC001,Surface Crack,High,Quality Assurance,5
+DEF000001,PO000425,M014,DC004,Dent,Medium,Quality Assurance,3
+DEF000001,PO000426,M017,DC007,Assembly Error,Medium,Quality Assurance,6
+DEF000001,PO000427,M002,DC006,Misalignment,High,Quality Assurance,6
+DEF000001,PO000428,M004,DC005,Porosity,High,Quality Assurance,4
+DEF000001,PO000429,M009,DC002,Dimension Mismatch,High,Quality Assurance,5
+DEF000001,PO000430,M010,DC005,Porosity,High,Quality Assurance,3
+DEF000001,PO000431,M015,DC006,Misalignment,High,Quality Assurance,3
+DEF000001,PO000432,M017,DC009,Material Defect,High,Quality Assurance,7
+DEF000001,PO000433,M002,DC007,Assembly Error,Medium,Quality Assurance,5
+DEF000001,PO000434,M005,DC009,Material Defect,High,Quality Assurance,4
+DEF000001,PO000435,M007,DC006,Misalignment,High,Quality Assurance,6
+DEF000001,PO000436,M011,DC001,Surface Crack,High,Quality Assurance,4
+DEF000001,PO000437,M015,DC002,Dimension Mismatch,High,Quality Assurance,3
+DEF000001,PO000438,M018,DC005,Porosity,High,Quality Assurance,6
+DEF000001,PO000439,M001,DC003,Scratch,Medium,Quality Assurance,6
+DEF000001,PO000440,M006,DC010,Incomplete Machining,Medium,Quality Assurance,3
+DEF000001,PO000441,M009,DC005,Porosity,High,Quality Assurance,6
+DEF000001,PO000442,M010,DC001,Surface Crack,High,Quality Assurance,4
+DEF000001,PO000443,M013,DC002,Dimension Mismatch,High,Quality Assurance,4
+DEF000001,PO000444,M017,DC010,Incomplete Machining,Medium,Quality Assurance,5
+DEF000001,PO000445,M003,DC007,Assembly Error,Medium,Quality Assurance,6
+DEF000001,PO000446,M006,DC006,Misalignment,High,Quality Assurance,3
+DEF000001,PO000447,M009,DC006,Misalignment,High,Quality Assurance,5
+DEF000001,PO000448,M011,DC007,Assembly Error,Medium,Quality Assurance,4
+DEF000001,PO000449,M014,DC010,Incomplete Machining,Medium,Quality Assurance,3
+DEF000001,PO000450,M017,DC009,Material Defect,High,Quality Assurance,6
+DEF000001,PO000451,M002,DC002,Dimension Mismatch,High,Quality Assurance,6
+DEF000001,PO000452,M004,DC007,Assembly Error,Medium,Quality Assurance,4
+DEF000001,PO000453,M009,DC010,Incomplete Machining,Medium,Quality Assurance,8
+DEF000001,PO000454,M010,DC004,Dent,Medium,Quality Assurance,4
+DEF000001,PO000455,M014,DC005,Porosity,High,Quality Assurance,5
+DEF000001,PO000456,M017,DC001,Surface Crack,High,Quality Assurance,5
+DEF000001,PO000457,M001,DC007,Assembly Error,Medium,Quality Assurance,8
+DEF000001,PO000458,M006,DC001,Surface Crack,High,Quality Assurance,5
+DEF000001,PO000459,M008,DC009,Material Defect,High,Quality Assurance,7
+DEF000001,PO000460,M010,DC009,Material Defect,High,Quality Assurance,3
+DEF000001,PO000461,M013,DC004,Dent,Medium,Quality Assurance,4
+DEF000001,PO000462,M018,DC006,Misalignment,High,Quality Assurance,7
+DEF000001,PO000463,M002,DC007,Assembly Error,Medium,Quality Assurance,7
+DEF000001,PO000464,M006,DC002,Dimension Mismatch,High,Quality Assurance,3
+DEF000001,PO000465,M009,DC006,Misalignment,High,Quality Assurance,8
+DEF000001,PO000466,M010,DC010,Incomplete Machining,Medium,Quality Assurance,4
+DEF000001,PO000467,M014,DC006,Misalignment,High,Quality Assurance,4
+DEF000001,PO000468,M016,DC002,Dimension Mismatch,High,Quality Assurance,6
+DEF000001,PO000469,M003,DC005,Porosity,High,Quality Assurance,5
+DEF000001,PO000470,M005,DC009,Material Defect,High,Quality Assurance,4
+DEF000001,PO000471,M007,DC005,Porosity,High,Quality Assurance,7
+DEF000001,PO000472,M011,DC007,Assembly Error,Medium,Quality Assurance,3
+DEF000001,PO000473,M013,DC006,Misalignment,High,Quality Assurance,5
+DEF000001,PO000474,M017,DC007,Assembly Error,Medium,Quality Assurance,6
+DEF000001,PO000475,M003,DC005,Porosity,High,Quality Assurance,8
+DEF000001,PO000476,M005,DC009,Material Defect,High,Quality Assurance,3
+DEF000001,PO000477,M009,DC003,Scratch,Medium,Quality Assurance,7
+DEF000001,PO000478,M012,DC004,Dent,Medium,Quality Assurance,3
+DEF000001,PO000479,M015,DC007,Assembly Error,Medium,Quality Assurance,4
+DEF000001,PO000480,M016,DC007,Assembly Error,Medium,Quality Assurance,5
+DEF000001,PO000481,M001,DC003,Scratch,Medium,Quality Assurance,5
+DEF000001,PO000482,M004,DC010,Incomplete Machining,Medium,Quality Assurance,5
+DEF000001,PO000483,M009,DC010,Incomplete Machining,Medium,Quality Assurance,7
+DEF000001,PO000484,M012,DC005,Porosity,High,Quality Assurance,4
+DEF000001,PO000485,M014,DC007,Assembly Error,Medium,Quality Assurance,5
+DEF000001,PO000486,M016,DC009,Material Defect,High,Quality Assurance,7
+DEF000001,PO000487,M001,DC001,Surface Crack,High,Quality Assurance,5
+DEF000001,PO000488,M006,DC005,Porosity,High,Quality Assurance,5
+DEF000001,PO000489,M007,DC005,Porosity,High,Quality Assurance,8
+DEF000001,PO000490,M010,DC004,Dent,Medium,Quality Assurance,4
+DEF000001,PO000491,M013,DC007,Assembly Error,Medium,Quality Assurance,3
+DEF000001,PO000492,M016,DC010,Incomplete Machining,Medium,Quality Assurance,6
+DEF000001,PO000493,M001,DC010,Incomplete Machining,Medium,Quality Assurance,7
+DEF000001,PO000494,M006,DC006,Misalignment,High,Quality Assurance,4
+DEF000001,PO000495,M007,DC008,Coating Defect,Low,Quality Assurance,6
+DEF000001,PO000496,M011,DC008,Coating Defect,Low,Quality Assurance,4
+DEF000001,PO000497,M015,DC008,Coating Defect,Low,Quality Assurance,3
+DEF000001,PO000498,M016,DC004,Dent,Medium,Quality Assurance,4
+DEF000001,PO000499,M003,DC009,Material Defect,High,Quality Assurance,5
+DEF000001,PO000500,M004,DC008,Coating Defect,Low,Quality Assurance,3
+DEF000001,PO000501,M007,DC003,Scratch,Medium,Quality Assurance,5
+DEF000001,PO000502,M010,DC002,Dimension Mismatch,High,Quality Assurance,4
+DEF000001,PO000503,M014,DC005,Porosity,High,Quality Assurance,3
+DEF000001,PO000504,M018,DC009,Material Defect,High,Quality Assurance,7
+DEF000001,PO000505,M002,DC010,Incomplete Machining,Medium,Quality Assurance,6
+DEF000001,PO000506,M006,DC006,Misalignment,High,Quality Assurance,3
+DEF000001,PO000507,M009,DC002,Dimension Mismatch,High,Quality Assurance,8
+DEF000001,PO000508,M011,DC004,Dent,Medium,Quality Assurance,4
+DEF000001,PO000509,M013,DC005,Porosity,High,Quality Assurance,5
+DEF000001,PO000510,M017,DC004,Dent,Medium,Quality Assurance,4
+DEF000001,PO000511,M002,DC004,Dent,Medium,Quality Assurance,5
+DEF000001,PO000512,M004,DC003,Scratch,Medium,Quality Assurance,4
+DEF000001,PO000513,M007,DC001,Surface Crack,High,Quality Assurance,5
+DEF000001,PO000514,M011,DC001,Surface Crack,High,Quality Assurance,4
+DEF000001,PO000515,M015,DC004,Dent,Medium,Quality Assurance,4
+DEF000001,PO000516,M018,DC008,Coating Defect,Low,Quality Assurance,6
+DEF000001,PO000517,M002,DC010,Incomplete Machining,Medium,Quality Assurance,6
+DEF000001,PO000518,M005,DC002,Dimension Mismatch,High,Quality Assurance,3
+DEF000001,PO000519,M007,DC008,Coating Defect,Low,Quality Assurance,6
+DEF000001,PO000520,M012,DC007,Assembly Error,Medium,Quality Assurance,4
+DEF000001,PO000521,M014,DC010,Incomplete Machining,Medium,Quality Assurance,4
+DEF000001,PO000522,M017,DC004,Dent,Medium,Quality Assurance,4
+DEF000001,PO000523,M002,DC007,Assembly Error,Medium,Quality Assurance,5
+DEF000001,PO000524,M004,DC008,Coating Defect,Low,Quality Assurance,4
+DEF000001,PO000525,M008,DC007,Assembly Error,Medium,Quality Assurance,8
+DEF000001,PO000526,M010,DC004,Dent,Medium,Quality Assurance,4
+DEF000001,PO000527,M013,DC003,Scratch,Medium,Quality Assurance,4
+DEF000001,PO000528,M016,DC001,Surface Crack,High,Quality Assurance,6
+DEF000001,PO000529,M003,DC002,Dimension Mismatch,High,Quality Assurance,6
+DEF000001,PO000530,M006,DC007,Assembly Error,Medium,Quality Assurance,3
+DEF000001,PO000531,M009,DC004,Dent,Medium,Quality Assurance,8
+DEF000001,PO000532,M012,DC003,Scratch,Medium,Quality Assurance,4
+DEF000001,PO000533,M014,DC009,Material Defect,High,Quality Assurance,5
+DEF000001,PO000534,M016,DC008,Coating Defect,Low,Quality Assurance,5
+DEF000001,PO000535,M002,DC001,Surface Crack,High,Quality Assurance,7
+DEF000001,PO000536,M006,DC009,Material Defect,High,Quality Assurance,3
+DEF000001,PO000537,M007,DC004,Dent,Medium,Quality Assurance,8
+DEF000001,PO000538,M010,DC002,Dimension Mismatch,High,Quality Assurance,4
+DEF000001,PO000539,M015,DC008,Coating Defect,Low,Quality Assurance,4
+DEF000001,PO000540,M017,DC003,Scratch,Medium,Quality Assurance,6
+DEF000001,PO000541,M002,DC008,Coating Defect,Low,Quality Assurance,6
+DEF000001,PO000542,M006,DC009,Material Defect,High,Quality Assurance,4
+DEF000001,PO000543,M009,DC009,Material Defect,High,Quality Assurance,8
+DEF000001,PO000544,M011,DC010,Incomplete Machining,Medium,Quality Assurance,4
+DEF000001,PO000545,M014,DC006,Misalignment,High,Quality Assurance,3
+DEF000001,PO000546,M017,DC008,Coating Defect,Low,Quality Assurance,6
+DEF000001,PO000547,M001,DC010,Incomplete Machining,Medium,Quality Assurance,5
+DEF000001,PO000548,M005,DC009,Material Defect,High,Quality Assurance,3
+DEF000001,PO000549,M009,DC007,Assembly Error,Medium,Quality Assurance,7
+DEF000001,PO000550,M010,DC009,Material Defect,High,Quality Assurance,4
+DEF000001,PO000551,M013,DC008,Coating Defect,Low,Quality Assurance,5
+DEF000001,PO000552,M017,DC003,Scratch,Medium,Quality Assurance,5
+DEF000001,PO000553,M002,DC008,Coating Defect,Low,Quality Assurance,7
+DEF000001,PO000554,M005,DC008,Coating Defect,Low,Quality Assurance,4
+DEF000001,PO000555,M007,DC005,Porosity,High,Quality Assurance,6
+DEF000001,PO000556,M010,DC004,Dent,Medium,Quality Assurance,4
+DEF000001,PO000557,M013,DC005,Porosity,High,Quality Assurance,3
+DEF000001,PO000558,M017,DC009,Material Defect,High,Quality Assurance,6
+DEF000001,PO000559,M002,DC008,Coating Defect,Low,Quality Assurance,5
+DEF000001,PO000560,M005,DC004,Dent,Medium,Quality Assurance,4
+DEF000001,PO000561,M009,DC005,Porosity,High,Quality Assurance,6
+DEF000001,PO000562,M011,DC008,Coating Defect,Low,Quality Assurance,3
+DEF000001,PO000563,M015,DC002,Dimension Mismatch,High,Quality Assurance,4
+DEF000001,PO000564,M018,DC005,Porosity,High,Quality Assurance,5
+DEF000001,PO000565,M001,DC004,Dent,Medium,Quality Assurance,7
+DEF000001,PO000566,M004,DC005,Porosity,High,Quality Assurance,4
+DEF000001,PO000567,M008,DC006,Misalignment,High,Quality Assurance,7
+DEF000001,PO000568,M011,DC006,Misalignment,High,Quality Assurance,5
+DEF000001,PO000569,M013,DC009,Material Defect,High,Quality Assurance,3
+DEF000001,PO000570,M018,DC002,Dimension Mismatch,High,Quality Assurance,6
+DEF000001,PO000571,M001,DC003,Scratch,Medium,Quality Assurance,5
+DEF000001,PO000572,M006,DC003,Scratch,Medium,Quality Assurance,4
+DEF000001,PO000573,M009,DC004,Dent,Medium,Quality Assurance,7
+DEF000001,PO000574,M011,DC007,Assembly Error,Medium,Quality Assurance,4
+DEF000001,PO000575,M014,DC003,Scratch,Medium,Quality Assurance,3
+DEF000001,PO000576,M016,DC004,Dent,Medium,Quality Assurance,6
+DEF000001,PO000577,M003,DC002,Dimension Mismatch,High,Quality Assurance,6
+DEF000001,PO000578,M005,DC007,Assembly Error,Medium,Quality Assurance,5
+DEF000001,PO000579,M007,DC007,Assembly Error,Medium,Quality Assurance,7
+DEF000001,PO000580,M011,DC006,Misalignment,High,Quality Assurance,5
+DEF000001,PO000581,M014,DC009,Material Defect,High,Quality Assurance,4
+DEF000001,PO000582,M017,DC008,Coating Defect,Low,Quality Assurance,6
+DEF000001,PO000583,M001,DC007,Assembly Error,Medium,Quality Assurance,7
+DEF000001,PO000584,M005,DC001,Surface Crack,High,Quality Assurance,4
+DEF000001,PO000585,M008,DC004,Dent,Medium,Quality Assurance,6
+DEF000001,PO000586,M011,DC007,Assembly Error,Medium,Quality Assurance,4
+DEF000001,PO000587,M013,DC007,Assembly Error,Medium,Quality Assurance,4
+DEF000001,PO000588,M018,DC010,Incomplete Machining,Medium,Quality Assurance,4
+DEF000001,PO000589,M003,DC001,Surface Crack,High,Quality Assurance,6
+DEF000001,PO000590,M005,DC010,Incomplete Machining,Medium,Quality Assurance,3
+DEF000001,PO000591,M007,DC007,Assembly Error,Medium,Quality Assurance,7
+DEF000001,PO000592,M010,DC008,Coating Defect,Low,Quality Assurance,3
+DEF000001,PO000593,M013,DC001,Surface Crack,High,Quality Assurance,5
+DEF000001,PO000594,M018,DC006,Misalignment,High,Quality Assurance,5
+DEF000001,PO000595,M003,DC005,Porosity,High,Quality Assurance,7
+DEF000001,PO000596,M006,DC007,Assembly Error,Medium,Quality Assurance,5
+DEF000001,PO000597,M009,DC007,Assembly Error,Medium,Quality Assurance,8
+DEF000001,PO000598,M012,DC009,Material Defect,High,Quality Assurance,4
+DEF000001,PO000599,M014,DC009,Material Defect,High,Quality Assurance,3
+DEF000001,PO000600,M017,DC010,Incomplete Machining,Medium,Quality Assurance,6
+DEF000001,PO000601,M002,DC004,Dent,Medium,Quality Assurance,6
+DEF000001,PO000602,M005,DC008,Coating Defect,Low,Quality Assurance,5
+DEF000001,PO000603,M008,DC004,Dent,Medium,Quality Assurance,7
+DEF000001,PO000604,M010,DC005,Porosity,High,Quality Assurance,4
+DEF000001,PO000605,M014,DC007,Assembly Error,Medium,Quality Assurance,4
+DEF000001,PO000606,M016,DC008,Coating Defect,Low,Quality Assurance,5
+DEF000001,PO000607,M003,DC001,Surface Crack,High,Quality Assurance,6
+DEF000001,PO000608,M006,DC007,Assembly Error,Medium,Quality Assurance,5
+DEF000001,PO000609,M007,DC006,Misalignment,High,Quality Assurance,6
+DEF000001,PO000610,M012,DC007,Assembly Error,Medium,Quality Assurance,4
+DEF000001,PO000611,M015,DC003,Scratch,Medium,Quality Assurance,5
+DEF000001,PO000612,M016,DC008,Coating Defect,Low,Quality Assurance,6
+DEF000001,PO000613,M001,DC003,Scratch,Medium,Quality Assurance,6
+DEF000001,PO000614,M004,DC010,Incomplete Machining,Medium,Quality Assurance,4
+DEF000001,PO000615,M007,DC009,Material Defect,High,Quality Assurance,5
+DEF000001,PO000616,M012,DC001,Surface Crack,High,Quality Assurance,5
+DEF000001,PO000617,M015,DC007,Assembly Error,Medium,Quality Assurance,5
+DEF000001,PO000618,M016,DC010,Incomplete Machining,Medium,Quality Assurance,4
+DEF000001,PO000619,M002,DC010,Incomplete Machining,Medium,Quality Assurance,7
+DEF000001,PO000620,M005,DC001,Surface Crack,High,Quality Assurance,4
+DEF000001,PO000621,M009,DC002,Dimension Mismatch,High,Quality Assurance,6
+DEF000001,PO000622,M010,DC007,Assembly Error,Medium,Quality Assurance,5
+DEF000001,PO000623,M015,DC003,Scratch,Medium,Quality Assurance,5
+DEF000001,PO000624,M017,DC008,Coating Defect,Low,Quality Assurance,4
+DEF000001,PO000625,M003,DC003,Scratch,Medium,Quality Assurance,6
+DEF000001,PO000626,M004,DC001,Surface Crack,High,Quality Assurance,5
+DEF000001,PO000627,M007,DC005,Porosity,High,Quality Assurance,7
+DEF000001,PO000628,M012,DC007,Assembly Error,Medium,Quality Assurance,5
+DEF000001,PO000629,M014,DC006,Misalignment,High,Quality Assurance,3
+DEF000001,PO000630,M018,DC004,Dent,Medium,Quality Assurance,5
+DEF000001,PO000631,M002,DC008,Coating Defect,Low,Quality Assurance,6
+DEF000001,PO000632,M006,DC006,Misalignment,High,Quality Assurance,3
+DEF000001,PO000633,M009,DC006,Misalignment,High,Quality Assurance,7
+DEF000001,PO000634,M012,DC007,Assembly Error,Medium,Quality Assurance,5
+DEF000001,PO000635,M015,DC005,Porosity,High,Quality Assurance,5
+DEF000001,PO000636,M017,DC007,Assembly Error,Medium,Quality Assurance,5
+DEF000001,PO000637,M001,DC005,Porosity,High,Quality Assurance,6
+DEF000001,PO000638,M004,DC002,Dimension Mismatch,High,Quality Assurance,3
+DEF000001,PO000639,M007,DC008,Coating Defect,Low,Quality Assurance,5
+DEF000001,PO000640,M010,DC001,Surface Crack,High,Quality Assurance,4
+DEF000001,PO000641,M015,DC009,Material Defect,High,Quality Assurance,4
+DEF000001,PO000642,M018,DC001,Surface Crack,High,Quality Assurance,6
+DEF000001,PO000643,M001,DC006,Misalignment,High,Quality Assurance,6
+DEF000001,PO000644,M004,DC004,Dent,Medium,Quality Assurance,4
+DEF000001,PO000645,M009,DC002,Dimension Mismatch,High,Quality Assurance,7
+DEF000001,PO000646,M012,DC001,Surface Crack,High,Quality Assurance,5
+DEF000001,PO000647,M014,DC001,Surface Crack,High,Quality Assurance,4
+DEF000001,PO000648,M018,DC004,Dent,Medium,Quality Assurance,5
+DEF000001,PO000649,M003,DC004,Dent,Medium,Quality Assurance,5
+DEF000001,PO000650,M005,DC001,Surface Crack,High,Quality Assurance,4
+DEF000001,PO000651,M007,DC010,Incomplete Machining,Medium,Quality Assurance,5
+DEF000001,PO000652,M010,DC003,Scratch,Medium,Quality Assurance,4
+DEF000001,PO000653,M015,DC004,Dent,Medium,Quality Assurance,5
+DEF000001,PO000654,M017,DC003,Scratch,Medium,Quality Assurance,6
+DEF000001,PO000655,M003,DC008,Coating Defect,Low,Quality Assurance,7
+DEF000001,PO000656,M004,DC002,Dimension Mismatch,High,Quality Assurance,3
+DEF000001,PO000657,M007,DC010,Incomplete Machining,Medium,Quality Assurance,5
+DEF000001,PO000658,M012,DC004,Dent,Medium,Quality Assurance,4
+DEF000001,PO000659,M015,DC008,Coating Defect,Low,Quality Assurance,3
+DEF000001,PO000660,M018,DC005,Porosity,High,Quality Assurance,7
+DEF000001,PO000661,M002,DC006,Misalignment,High,Quality Assurance,6
+DEF000001,PO000662,M005,DC003,Scratch,Medium,Quality Assurance,3
+DEF000001,PO000663,M007,DC010,Incomplete Machining,Medium,Quality Assurance,6
+DEF000001,PO000664,M010,DC010,Incomplete Machining,Medium,Quality Assurance,4
+DEF000001,PO000665,M013,DC002,Dimension Mismatch,High,Quality Assurance,4
+DEF000001,PO000666,M017,DC003,Scratch,Medium,Quality Assurance,5
+DEF000001,PO000667,M001,DC005,Porosity,High,Quality Assurance,6
+DEF000001,PO000668,M005,DC002,Dimension Mismatch,High,Quality Assurance,5
+DEF000001,PO000669,M008,DC010,Incomplete Machining,Medium,Quality Assurance,5
+DEF000001,PO000670,M012,DC001,Surface Crack,High,Quality Assurance,4
+DEF000001,PO000671,M013,DC005,Porosity,High,Quality Assurance,4
+DEF000001,PO000672,M017,DC010,Incomplete Machining,Medium,Quality Assurance,5
+DEF000001,PO000673,M003,DC007,Assembly Error,Medium,Quality Assurance,5
+DEF000001,PO000674,M006,DC007,Assembly Error,Medium,Quality Assurance,4
+DEF000001,PO000675,M007,DC004,Dent,Medium,Quality Assurance,6
+DEF000001,PO000676,M010,DC002,Dimension Mismatch,High,Quality Assurance,5
+DEF000001,PO000677,M015,DC010,Incomplete Machining,Medium,Quality Assurance,4
+DEF000001,PO000678,M016,DC004,Dent,Medium,Quality Assurance,6
+DEF000001,PO000679,M001,DC002,Dimension Mismatch,High,Quality Assurance,7
+DEF000001,PO000680,M004,DC005,Porosity,High,Quality Assurance,4
+DEF000001,PO000681,M009,DC010,Incomplete Machining,Medium,Quality Assurance,8
+DEF000001,PO000682,M010,DC002,Dimension Mismatch,High,Quality Assurance,3
+DEF000001,PO000683,M015,DC010,Incomplete Machining,Medium,Quality Assurance,4
+DEF000001,PO000684,M018,DC001,Surface Crack,High,Quality Assurance,4
+DEF000001,PO000685,M001,DC006,Misalignment,High,Quality Assurance,5
+DEF000001,PO000686,M005,DC009,Material Defect,High,Quality Assurance,4
+DEF000001,PO000687,M008,DC007,Assembly Error,Medium,Quality Assurance,6
+DEF000001,PO000688,M011,DC006,Misalignment,High,Quality Assurance,4
+DEF000001,PO000689,M015,DC002,Dimension Mismatch,High,Quality Assurance,5
+DEF000001,PO000690,M017,DC009,Material Defect,High,Quality Assurance,3
+DEF000001,PO000691,M003,DC006,Misalignment,High,Quality Assurance,7
+DEF000001,PO000692,M006,DC001,Surface Crack,High,Quality Assurance,4
+DEF000001,PO000693,M008,DC007,Assembly Error,Medium,Quality Assurance,5
+DEF000001,PO000694,M011,DC008,Coating Defect,Low,Quality Assurance,3
+DEF000001,PO000695,M015,DC002,Dimension Mismatch,High,Quality Assurance,3
+DEF000001,PO000696,M016,DC007,Assembly Error,Medium,Quality Assurance,6
+DEF000001,PO000697,M003,DC006,Misalignment,High,Quality Assurance,7
+DEF000001,PO000698,M004,DC008,Coating Defect,Low,Quality Assurance,5
+DEF000001,PO000699,M008,DC003,Scratch,Medium,Quality Assurance,7
+DEF000001,PO000700,M011,DC007,Assembly Error,Medium,Quality Assurance,5
+DEF000001,PO000701,M015,DC003,Scratch,Medium,Quality Assurance,4
+DEF000001,PO000702,M017,DC009,Material Defect,High,Quality Assurance,5
+DEF000001,PO000703,M003,DC005,Porosity,High,Quality Assurance,6
+DEF000001,PO000704,M004,DC010,Incomplete Machining,Medium,Quality Assurance,5
+DEF000001,PO000705,M008,DC009,Material Defect,High,Quality Assurance,6
+DEF000001,PO000706,M010,DC008,Coating Defect,Low,Quality Assurance,4
+DEF000001,PO000707,M014,DC008,Coating Defect,Low,Quality Assurance,6
+DEF000001,PO000708,M018,DC007,Assembly Error,Medium,Quality Assurance,4
+DEF000001,PO000709,M001,DC010,Incomplete Machining,Medium,Quality Assurance,5
+DEF000001,PO000710,M005,DC005,Porosity,High,Quality Assurance,3
+DEF000001,PO000711,M009,DC006,Misalignment,High,Quality Assurance,8
+DEF000001,PO000712,M010,DC004,Dent,Medium,Quality Assurance,4
+DEF000001,PO000713,M014,DC002,Dimension Mismatch,High,Quality Assurance,3
+DEF000001,PO000714,M017,DC005,Porosity,High,Quality Assurance,6
+DEF000001,PO000715,M003,DC008,Coating Defect,Low,Quality Assurance,7
+DEF000001,PO000716,M006,DC004,Dent,Medium,Quality Assurance,3
+DEF000001,PO000717,M009,DC008,Coating Defect,Low,Quality Assurance,7
+DEF000001,PO000718,M011,DC010,Incomplete Machining,Medium,Quality Assurance,5
+DEF000001,PO000719,M015,DC010,Incomplete Machining,Medium,Quality Assurance,4
+DEF000001,PO000720,M016,DC007,Assembly Error,Medium,Quality Assurance,5
+DEF000001,PO000721,M003,DC006,Misalignment,High,Quality Assurance,5
+DEF000001,PO000722,M005,DC001,Surface Crack,High,Quality Assurance,5
+DEF000001,PO000723,M009,DC008,Coating Defect,Low,Quality Assurance,6
+DEF000001,PO000724,M011,DC006,Misalignment,High,Quality Assurance,3
+DEF000001,PO000725,M014,DC003,Scratch,Medium,Quality Assurance,4
+DEF000001,PO000726,M018,DC008,Coating Defect,Low,Quality Assurance,6
+DEF000001,PO000727,M001,DC004,Dent,Medium,Quality Assurance,6
+DEF000001,PO000728,M005,DC006,Misalignment,High,Quality Assurance,3
+DEF000001,PO000729,M009,DC005,Porosity,High,Quality Assurance,5
+DEF000001,PO000730,M010,DC006,Misalignment,High,Quality Assurance,4
+DEF000001,PO000731,M014,DC005,Porosity,High,Quality Assurance,4
+DEF000001,PO000732,M016,DC010,Incomplete Machining,Medium,Quality Assurance,5
+DEF000001,PO000733,M002,DC005,Porosity,High,Quality Assurance,5
+DEF000001,PO000734,M006,DC009,Material Defect,High,Quality Assurance,4
+DEF000001,PO000735,M007,DC001,Surface Crack,High,Quality Assurance,6
+DEF000001,PO000736,M011,DC009,Material Defect,High,Quality Assurance,5
+DEF000001,PO000737,M015,DC004,Dent,Medium,Quality Assurance,3
+DEF000001,PO000738,M017,DC002,Dimension Mismatch,High,Quality Assurance,4
+DEF000001,PO000739,M003,DC004,Dent,Medium,Quality Assurance,5
+DEF000001,PO000740,M004,DC007,Assembly Error,Medium,Quality Assurance,3
+DEF000001,PO000741,M007,DC008,Coating Defect,Low,Quality Assurance,6
+DEF000001,PO000742,M011,DC009,Material Defect,High,Quality Assurance,4
+DEF000001,PO000743,M014,DC004,Dent,Medium,Quality Assurance,5
+DEF000001,PO000744,M017,DC008,Coating Defect,Low,Quality Assurance,4
+DEF000001,PO000745,M002,DC008,Coating Defect,Low,Quality Assurance,8
+DEF000001,PO000746,M004,DC008,Coating Defect,Low,Quality Assurance,3
+DEF000001,PO000747,M007,DC001,Surface Crack,High,Quality Assurance,7
+DEF000001,PO000748,M012,DC002,Dimension Mismatch,High,Quality Assurance,5
+DEF000001,PO000749,M015,DC005,Porosity,High,Quality Assurance,5
+DEF000001,PO000750,M017,DC004,Dent,Medium,Quality Assurance,6
+DEF000001,PO000751,M003,DC007,Assembly Error,Medium,Quality Assurance,7
+DEF000001,PO000752,M005,DC004,Dent,Medium,Quality Assurance,4
+DEF000001,PO000753,M009,DC005,Porosity,High,Quality Assurance,9
+DEF000001,PO000754,M011,DC010,Incomplete Machining,Medium,Quality Assurance,4
+DEF000001,PO000755,M013,DC006,Misalignment,High,Quality Assurance,5
+DEF000001,PO000756,M016,DC008,Coating Defect,Low,Quality Assurance,6
+DEF000001,PO000757,M001,DC009,Material Defect,High,Quality Assurance,6
+DEF000001,PO000758,M006,DC009,Material Defect,High,Quality Assurance,4
+DEF000001,PO000759,M009,DC006,Misalignment,High,Quality Assurance,5
+DEF000001,PO000760,M010,DC007,Assembly Error,Medium,Quality Assurance,3
+DEF000001,PO000761,M014,DC009,Material Defect,High,Quality Assurance,4
+DEF000001,PO000762,M017,DC006,Misalignment,High,Quality Assurance,5
+DEF000001,PO000763,M003,DC006,Misalignment,High,Quality Assurance,4
+DEF000001,PO000764,M005,DC008,Coating Defect,Low,Quality Assurance,4
+DEF000001,PO000765,M008,DC005,Porosity,High,Quality Assurance,6
+DEF000001,PO000766,M010,DC005,Porosity,High,Quality Assurance,5
+DEF000001,PO000767,M015,DC005,Porosity,High,Quality Assurance,5
+DEF000001,PO000768,M017,DC004,Dent,Medium,Quality Assurance,6
+DEF000001,PO000769,M001,DC002,Dimension Mismatch,High,Quality Assurance,7
+DEF000001,PO000770,M005,DC004,Dent,Medium,Quality Assurance,4
+DEF000001,PO000771,M008,DC006,Misalignment,High,Quality Assurance,7
+DEF000001,PO000772,M012,DC002,Dimension Mismatch,High,Quality Assurance,3
+DEF000001,PO000773,M014,DC009,Material Defect,High,Quality Assurance,4
+DEF000001,PO000774,M018,DC003,Scratch,Medium,Quality Assurance,4
+DEF000001,PO000775,M003,DC004,Dent,Medium,Quality Assurance,7
+DEF000001,PO000776,M006,DC004,Dent,Medium,Quality Assurance,3
+DEF000001,PO000777,M009,DC008,Coating Defect,Low,Quality Assurance,7
+DEF000001,PO000778,M012,DC005,Porosity,High,Quality Assurance,3
+DEF000001,PO000779,M015,DC010,Incomplete Machining,Medium,Quality Assurance,5
+DEF000001,PO000780,M016,DC009,Material Defect,High,Quality Assurance,4
+DEF000001,PO000781,M001,DC010,Incomplete Machining,Medium,Quality Assurance,5
+DEF000001,PO000782,M006,DC005,Porosity,High,Quality Assurance,4
+DEF000001,PO000783,M007,DC002,Dimension Mismatch,High,Quality Assurance,7
+DEF000001,PO000784,M012,DC004,Dent,Medium,Quality Assurance,5
+DEF000001,PO000785,M014,DC005,Porosity,High,Quality Assurance,3
+DEF000001,PO000786,M017,DC004,Dent,Medium,Quality Assurance,4
+DEF000001,PO000787,M003,DC006,Misalignment,High,Quality Assurance,5
+DEF000001,PO000788,M005,DC003,Scratch,Medium,Quality Assurance,3
+DEF000001,PO000789,M007,DC005,Porosity,High,Quality Assurance,8
+DEF000001,PO000790,M011,DC001,Surface Crack,High,Quality Assurance,4
+DEF000001,PO000791,M013,DC009,Material Defect,High,Quality Assurance,4
+DEF000001,PO000792,M016,DC003,Scratch,Medium,Quality Assurance,5
+DEF000001,PO000793,M002,DC005,Porosity,High,Quality Assurance,6
+DEF000001,PO000794,M004,DC001,Surface Crack,High,Quality Assurance,5
+DEF000001,PO000795,M009,DC001,Surface Crack,High,Quality Assurance,6
+DEF000001,PO000796,M010,DC009,Material Defect,High,Quality Assurance,3
+DEF000001,PO000797,M014,DC005,Porosity,High,Quality Assurance,5
+DEF000001,PO000798,M016,DC003,Scratch,Medium,Quality Assurance,6
+DEF000001,PO000799,M002,DC008,Coating Defect,Low,Quality Assurance,6
+DEF000001,PO000800,M005,DC002,Dimension Mismatch,High,Quality Assurance,3
+DEF000001,PO000801,M008,DC001,Surface Crack,High,Quality Assurance,6
+DEF000001,PO000802,M011,DC010,Incomplete Machining,Medium,Quality Assurance,3
+DEF000001,PO000803,M014,DC005,Porosity,High,Quality Assurance,4
+DEF000001,PO000804,M017,DC008,Coating Defect,Low,Quality Assurance,6
+DEF000001,PO000805,M002,DC008,Coating Defect,Low,Quality Assurance,4
+DEF000001,PO000806,M005,DC008,Coating Defect,Low,Quality Assurance,4
+DEF000001,PO000807,M007,DC006,Misalignment,High,Quality Assurance,6
+DEF000001,PO000808,M011,DC003,Scratch,Medium,Quality Assurance,4
+DEF000001,PO000809,M014,DC001,Surface Crack,High,Quality Assurance,4
+DEF000001,PO000810,M018,DC005,Porosity,High,Quality Assurance,5
+DEF000001,PO000811,M002,DC008,Coating Defect,Low,Quality Assurance,7
+DEF000001,PO000812,M004,DC002,Dimension Mismatch,High,Quality Assurance,5
+DEF000001,PO000813,M008,DC002,Dimension Mismatch,High,Quality Assurance,6
+DEF000001,PO000814,M011,DC007,Assembly Error,Medium,Quality Assurance,5
+DEF000001,PO000815,M013,DC008,Coating Defect,Low,Quality Assurance,4
+DEF000001,PO000816,M018,DC002,Dimension Mismatch,High,Quality Assurance,4
+DEF000001,PO000817,M002,DC010,Incomplete Machining,Medium,Quality Assurance,5
+DEF000001,PO000818,M006,DC001,Surface Crack,High,Quality Assurance,5
+DEF000001,PO000819,M009,DC003,Scratch,Medium,Quality Assurance,6
+DEF000001,PO000820,M010,DC003,Scratch,Medium,Quality Assurance,5
+DEF000001,PO000821,M014,DC010,Incomplete Machining,Medium,Quality Assurance,5
+DEF000001,PO000822,M017,DC005,Porosity,High,Quality Assurance,5
+DEF000001,PO000823,M001,DC002,Dimension Mismatch,High,Quality Assurance,6
+DEF000001,PO000824,M005,DC004,Dent,Medium,Quality Assurance,4
+DEF000001,PO000825,M007,DC002,Dimension Mismatch,High,Quality Assurance,5
+DEF000001,PO000826,M012,DC009,Material Defect,High,Quality Assurance,4
+DEF000001,PO000827,M015,DC007,Assembly Error,Medium,Quality Assurance,5
+DEF000001,PO000828,M018,DC010,Incomplete Machining,Medium,Quality Assurance,7
+DEF000001,PO000829,M001,DC010,Incomplete Machining,Medium,Quality Assurance,5
+DEF000001,PO000830,M005,DC010,Incomplete Machining,Medium,Quality Assurance,4
+DEF000001,PO000831,M009,DC004,Dent,Medium,Quality Assurance,7
+DEF000001,PO000832,M011,DC009,Material Defect,High,Quality Assurance,3
+DEF000001,PO000833,M015,DC007,Assembly Error,Medium,Quality Assurance,4
+DEF000001,PO000834,M018,DC008,Coating Defect,Low,Quality Assurance,4
+DEF000001,PO000835,M001,DC008,Coating Defect,Low,Quality Assurance,5
+DEF000001,PO000836,M006,DC005,Porosity,High,Quality Assurance,3
+DEF000001,PO000837,M009,DC010,Incomplete Machining,Medium,Quality Assurance,7
+DEF000001,PO000838,M012,DC007,Assembly Error,Medium,Quality Assurance,4
+DEF000001,PO000839,M015,DC005,Porosity,High,Quality Assurance,5
+DEF000001,PO000840,M018,DC010,Incomplete Machining,Medium,Quality Assurance,6
+DEF000001,PO000841,M003,DC010,Incomplete Machining,Medium,Quality Assurance,5
+DEF000001,PO000842,M004,DC001,Surface Crack,High,Quality Assurance,5
+DEF000001,PO000843,M007,DC010,Incomplete Machining,Medium,Quality Assurance,8
+DEF000001,PO000844,M012,DC002,Dimension Mismatch,High,Quality Assurance,3
+DEF000001,PO000845,M013,DC004,Dent,Medium,Quality Assurance,5
+DEF000001,PO000846,M018,DC004,Dent,Medium,Quality Assurance,6
+DEF000001,PO000847,M001,DC005,Porosity,High,Quality Assurance,5
+DEF000001,PO000848,M005,DC002,Dimension Mismatch,High,Quality Assurance,4
+DEF000001,PO000849,M007,DC003,Scratch,Medium,Quality Assurance,8
+DEF000001,PO000850,M010,DC004,Dent,Medium,Quality Assurance,5
+DEF000001,PO000851,M015,DC003,Scratch,Medium,Quality Assurance,4
+DEF000001,PO000852,M018,DC009,Material Defect,High,Quality Assurance,6
+DEF000001,PO000853,M001,DC002,Dimension Mismatch,High,Quality Assurance,5
+DEF000001,PO000854,M006,DC003,Scratch,Medium,Quality Assurance,4
+DEF000001,PO000855,M008,DC001,Surface Crack,High,Quality Assurance,6
+DEF000001,PO000856,M011,DC007,Assembly Error,Medium,Quality Assurance,4
+DEF000001,PO000857,M015,DC008,Coating Defect,Low,Quality Assurance,5
+DEF000001,PO000858,M017,DC010,Incomplete Machining,Medium,Quality Assurance,5
+DEF000001,PO000859,M003,DC008,Coating Defect,Low,Quality Assurance,6
+DEF000001,PO000860,M005,DC005,Porosity,High,Quality Assurance,5
+DEF000001,PO000861,M007,DC001,Surface Crack,High,Quality Assurance,7
+DEF000001,PO000862,M011,DC004,Dent,Medium,Quality Assurance,4
+DEF000001,PO000863,M014,DC005,Porosity,High,Quality Assurance,3
+DEF000001,PO000864,M018,DC005,Porosity,High,Quality Assurance,5
+DEF000001,PO000865,M002,DC008,Coating Defect,Low,Quality Assurance,4
+DEF000001,PO000866,M006,DC002,Dimension Mismatch,High,Quality Assurance,5
+DEF000001,PO000867,M007,DC004,Dent,Medium,Quality Assurance,8
+DEF000001,PO000868,M012,DC005,Porosity,High,Quality Assurance,5
+DEF000001,PO000869,M014,DC010,Incomplete Machining,Medium,Quality Assurance,3
+DEF000001,PO000870,M016,DC004,Dent,Medium,Quality Assurance,5
+DEF000001,PO000871,M001,DC007,Assembly Error,Medium,Quality Assurance,7
+DEF000001,PO000872,M006,DC002,Dimension Mismatch,High,Quality Assurance,5
+DEF000001,PO000873,M008,DC009,Material Defect,High,Quality Assurance,7
+DEF000001,PO000874,M012,DC004,Dent,Medium,Quality Assurance,5
+DEF000001,PO000875,M015,DC003,Scratch,Medium,Quality Assurance,4
+DEF000001,PO000876,M016,DC005,Porosity,High,Quality Assurance,5
+DEF000001,PO000877,M003,DC003,Scratch,Medium,Quality Assurance,5
+DEF000001,PO000878,M004,DC002,Dimension Mismatch,High,Quality Assurance,3
+DEF000001,PO000879,M009,DC001,Surface Crack,High,Quality Assurance,7
+DEF000001,PO000880,M010,DC003,Scratch,Medium,Quality Assurance,5
+DEF000001,PO000881,M015,DC005,Porosity,High,Quality Assurance,5
+DEF000001,PO000882,M018,DC010,Incomplete Machining,Medium,Quality Assurance,4
+DEF000001,PO000883,M001,DC010,Incomplete Machining,Medium,Quality Assurance,7
+DEF000001,PO000884,M005,DC005,Porosity,High,Quality Assurance,4
+DEF000001,PO000885,M009,DC008,Coating Defect,Low,Quality Assurance,7
+DEF000001,PO000886,M011,DC002,Dimension Mismatch,High,Quality Assurance,4
+DEF000001,PO000887,M013,DC008,Coating Defect,Low,Quality Assurance,3
+DEF000001,PO000888,M018,DC005,Porosity,High,Quality Assurance,4
+DEF000001,PO000889,M003,DC007,Assembly Error,Medium,Quality Assurance,7
+DEF000001,PO000890,M005,DC005,Porosity,High,Quality Assurance,4
+DEF000001,PO000891,M008,DC009,Material Defect,High,Quality Assurance,5
+DEF000001,PO000892,M012,DC009,Material Defect,High,Quality Assurance,5
+DEF000001,PO000893,M013,DC008,Coating Defect,Low,Quality Assurance,5
+DEF000001,PO000894,M018,DC008,Coating Defect,Low,Quality Assurance,5
+DEF000001,PO000895,M002,DC002,Dimension Mismatch,High,Quality Assurance,7
+DEF000001,PO000896,M006,DC010,Incomplete Machining,Medium,Quality Assurance,4
+DEF000001,PO000897,M007,DC001,Surface Crack,High,Quality Assurance,7
+DEF000001,PO000898,M011,DC007,Assembly Error,Medium,Quality Assurance,4
+DEF000001,PO000899,M014,DC006,Misalignment,High,Quality Assurance,4
+DEF000001,PO000900,M017,DC010,Incomplete Machining,Medium,Quality Assurance,6
+DEF000001,PO000901,M003,DC005,Porosity,High,Quality Assurance,4
+DEF000001,PO000902,M006,DC001,Surface Crack,High,Quality Assurance,4
+DEF000001,PO000903,M009,DC002,Dimension Mismatch,High,Quality Assurance,6
+DEF000001,PO000904,M012,DC004,Dent,Medium,Quality Assurance,5
+DEF000001,PO000905,M014,DC010,Incomplete Machining,Medium,Quality Assurance,5
+DEF000001,PO000906,M016,DC010,Incomplete Machining,Medium,Quality Assurance,6
+DEF000001,PO000907,M001,DC001,Surface Crack,High,Quality Assurance,6
+DEF000001,PO000908,M005,DC005,Porosity,High,Quality Assurance,4
+DEF000001,PO000909,M007,DC010,Incomplete Machining,Medium,Quality Assurance,8
+DEF000001,PO000910,M010,DC001,Surface Crack,High,Quality Assurance,5
+DEF000001,PO000911,M014,DC003,Scratch,Medium,Quality Assurance,5
+DEF000001,PO000912,M018,DC008,Coating Defect,Low,Quality Assurance,5
+DEF000001,PO000913,M002,DC009,Material Defect,High,Quality Assurance,5
+DEF000001,PO000914,M006,DC008,Coating Defect,Low,Quality Assurance,3
+DEF000001,PO000915,M009,DC005,Porosity,High,Quality Assurance,6
+DEF000001,PO000916,M011,DC003,Scratch,Medium,Quality Assurance,4
+DEF000001,PO000917,M015,DC010,Incomplete Machining,Medium,Quality Assurance,5
+DEF000001,PO000918,M017,DC007,Assembly Error,Medium,Quality Assurance,6
+DEF000001,PO000919,M003,DC008,Coating Defect,Low,Quality Assurance,5
+DEF000001,PO000920,M006,DC002,Dimension Mismatch,High,Quality Assurance,4
+DEF000001,PO000921,M007,DC008,Coating Defect,Low,Quality Assurance,6
+DEF000001,PO000922,M011,DC006,Misalignment,High,Quality Assurance,6
+DEF000001,PO000923,M014,DC007,Assembly Error,Medium,Quality Assurance,4
+DEF000001,PO000924,M018,DC006,Misalignment,High,Quality Assurance,5
+DEF000001,PO000925,M003,DC006,Misalignment,High,Quality Assurance,6
+DEF000001,PO000926,M004,DC002,Dimension Mismatch,High,Quality Assurance,5
+DEF000001,PO000927,M009,DC003,Scratch,Medium,Quality Assurance,8
+DEF000001,PO000928,M012,DC006,Misalignment,High,Quality Assurance,4
+DEF000001,PO000929,M015,DC007,Assembly Error,Medium,Quality Assurance,3
+DEF000001,PO000930,M018,DC008,Coating Defect,Low,Quality Assurance,6
+DEF000001,PO000931,M001,DC005,Porosity,High,Quality Assurance,7
+DEF000001,PO000932,M004,DC007,Assembly Error,Medium,Quality Assurance,3
+DEF000001,PO000933,M009,DC009,Material Defect,High,Quality Assurance,7
+DEF000001,PO000934,M012,DC001,Surface Crack,High,Quality Assurance,3
+DEF000001,PO000935,M015,DC008,Coating Defect,Low,Quality Assurance,3
+DEF000001,PO000936,M018,DC002,Dimension Mismatch,High,Quality Assurance,6
+DEF000001,PO000937,M002,DC006,Misalignment,High,Quality Assurance,5
+DEF000001,PO000938,M005,DC005,Porosity,High,Quality Assurance,4
+DEF000001,PO000939,M007,DC006,Misalignment,High,Quality Assurance,8
+DEF000001,PO000940,M012,DC002,Dimension Mismatch,High,Quality Assurance,4
+DEF000001,PO000941,M013,DC007,Assembly Error,Medium,Quality Assurance,5
+DEF000001,PO000942,M016,DC009,Material Defect,High,Quality Assurance,5
+DEF000001,PO000943,M003,DC001,Surface Crack,High,Quality Assurance,5
+DEF000001,PO000944,M005,DC009,Material Defect,High,Quality Assurance,4
+DEF000001,PO000945,M007,DC008,Coating Defect,Low,Quality Assurance,9
+DEF000001,PO000946,M010,DC007,Assembly Error,Medium,Quality Assurance,5
+DEF000001,PO000947,M014,DC001,Surface Crack,High,Quality Assurance,4
+DEF000001,PO000948,M016,DC004,Dent,Medium,Quality Assurance,7
+DEF000001,PO000949,M003,DC009,Material Defect,High,Quality Assurance,6
+DEF000001,PO000950,M005,DC006,Misalignment,High,Quality Assurance,3
+DEF000001,PO000951,M008,DC010,Incomplete Machining,Medium,Quality Assurance,7
+DEF000001,PO000952,M012,DC008,Coating Defect,Low,Quality Assurance,4
+DEF000001,PO000953,M013,DC008,Coating Defect,Low,Quality Assurance,4
+DEF000001,PO000954,M016,DC001,Surface Crack,High,Quality Assurance,6
+DEF000001,PO000955,M003,DC004,Dent,Medium,Quality Assurance,4
+DEF000001,PO000956,M004,DC005,Porosity,High,Quality Assurance,3
+DEF000001,PO000957,M008,DC009,Material Defect,High,Quality Assurance,5
+DEF000001,PO000958,M012,DC003,Scratch,Medium,Quality Assurance,5
+DEF000001,PO000959,M015,DC005,Porosity,High,Quality Assurance,5
+DEF000001,PO000960,M016,DC008,Coating Defect,Low,Quality Assurance,6
+DEF000001,PO000961,M001,DC008,Coating Defect,Low,Quality Assurance,5
+DEF000001,PO000962,M006,DC002,Dimension Mismatch,High,Quality Assurance,4
+DEF000001,PO000963,M009,DC001,Surface Crack,High,Quality Assurance,7
+DEF000001,PO000964,M010,DC010,Incomplete Machining,Medium,Quality Assurance,3
+DEF000001,PO000965,M013,DC004,Dent,Medium,Quality Assurance,5
+DEF000001,PO000966,M016,DC003,Scratch,Medium,Quality Assurance,5
+DEF000001,PO000967,M003,DC005,Porosity,High,Quality Assurance,7
+DEF000001,PO000968,M004,DC009,Material Defect,High,Quality Assurance,4
+DEF000001,PO000969,M008,DC001,Surface Crack,High,Quality Assurance,8
+DEF000001,PO000970,M010,DC009,Material Defect,High,Quality Assurance,5
+DEF000001,PO000971,M013,DC007,Assembly Error,Medium,Quality Assurance,5
+DEF000001,PO000972,M016,DC002,Dimension Mismatch,High,Quality Assurance,5
+DEF000001,PO000973,M003,DC004,Dent,Medium,Quality Assurance,7
+DEF000001,PO000974,M006,DC002,Dimension Mismatch,High,Quality Assurance,5
+DEF000001,PO000975,M008,DC008,Coating Defect,Low,Quality Assurance,6
+DEF000001,PO000976,M012,DC002,Dimension Mismatch,High,Quality Assurance,3
+DEF000001,PO000977,M014,DC003,Scratch,Medium,Quality Assurance,3
+DEF000001,PO000978,M018,DC008,Coating Defect,Low,Quality Assurance,6
+DEF000001,PO000979,M003,DC005,Porosity,High,Quality Assurance,5
+DEF000001,PO000980,M006,DC009,Material Defect,High,Quality Assurance,3
+DEF000001,PO000981,M008,DC005,Porosity,High,Quality Assurance,6
+DEF000001,PO000982,M012,DC007,Assembly Error,Medium,Quality Assurance,4
+DEF000001,PO000983,M015,DC008,Coating Defect,Low,Quality Assurance,4
+DEF000001,PO000984,M017,DC008,Coating Defect,Low,Quality Assurance,6
+DEF000001,PO000985,M002,DC004,Dent,Medium,Quality Assurance,5
+DEF000001,PO000986,M006,DC008,Coating Defect,Low,Quality Assurance,4
+DEF000001,PO000987,M007,DC009,Material Defect,High,Quality Assurance,7
+DEF000001,PO000988,M010,DC003,Scratch,Medium,Quality Assurance,5
+DEF000001,PO000989,M015,DC007,Assembly Error,Medium,Quality Assurance,5
+DEF000001,PO000990,M018,DC004,Dent,Medium,Quality Assurance,6
+DEF000001,PO000991,M002,DC010,Incomplete Machining,Medium,Quality Assurance,5
+DEF000001,PO000992,M004,DC009,Material Defect,High,Quality Assurance,4
+DEF000001,PO000993,M007,DC003,Scratch,Medium,Quality Assurance,8
+DEF000001,PO000994,M010,DC002,Dimension Mismatch,High,Quality Assurance,3
+DEF000001,PO000995,M013,DC005,Porosity,High,Quality Assurance,4
+DEF000001,PO000996,M017,DC007,Assembly Error,Medium,Quality Assurance,4
+DEF000001,PO000997,M003,DC006,Misalignment,High,Quality Assurance,4
+DEF000001,PO000998,M004,DC009,Material Defect,High,Quality Assurance,5
+DEF000001,PO000999,M009,DC005,Porosity,High,Quality Assurance,7
+DEF000001,PO001000,M011,DC001,Surface Crack,High,Quality Assurance,4
+DEF000001,PO001001,M014,DC005,Porosity,High,Quality Assurance,4
+DEF000001,PO001002,M016,DC005,Porosity,High,Quality Assurance,7
+DEF000001,PO001003,M003,DC010,Incomplete Machining,Medium,Quality Assurance,5
+DEF000001,PO001004,M006,DC010,Incomplete Machining,Medium,Quality Assurance,3
+DEF000001,PO001005,M007,DC008,Coating Defect,Low,Quality Assurance,7
+DEF000001,PO001006,M011,DC003,Scratch,Medium,Quality Assurance,3
+DEF000001,PO001007,M015,DC008,Coating Defect,Low,Quality Assurance,4
+DEF000001,PO001008,M017,DC009,Material Defect,High,Quality Assurance,4
+DEF000001,PO001009,M002,DC008,Coating Defect,Low,Quality Assurance,5
+DEF000001,PO001010,M006,DC006,Misalignment,High,Quality Assurance,5
+DEF000001,PO001011,M007,DC006,Misalignment,High,Quality Assurance,6
+DEF000001,PO001012,M011,DC009,Material Defect,High,Quality Assurance,5
+DEF000001,PO001013,M013,DC009,Material Defect,High,Quality Assurance,4
+DEF000001,PO001014,M017,DC007,Assembly Error,Medium,Quality Assurance,6
+DEF000001,PO001015,M003,DC008,Coating Defect,Low,Quality Assurance,7
+DEF000001,PO001016,M004,DC006,Misalignment,High,Quality Assurance,4
+DEF000001,PO001017,M007,DC004,Dent,Medium,Quality Assurance,7
+DEF000001,PO001018,M010,DC004,Dent,Medium,Quality Assurance,5
+DEF000001,PO001019,M015,DC010,Incomplete Machining,Medium,Quality Assurance,3
+DEF000001,PO001020,M017,DC007,Assembly Error,Medium,Quality Assurance,5
+DEF000001,PO001021,M003,DC004,Dent,Medium,Quality Assurance,7
+DEF000001,PO001022,M004,DC007,Assembly Error,Medium,Quality Assurance,4
+DEF000001,PO001023,M007,DC001,Surface Crack,High,Quality Assurance,6
+DEF000001,PO001024,M010,DC006,Misalignment,High,Quality Assurance,4
+DEF000001,PO001025,M013,DC008,Coating Defect,Low,Quality Assurance,4
+DEF000001,PO001026,M016,DC007,Assembly Error,Medium,Quality Assurance,5
+DEF000001,PO001027,M001,DC007,Assembly Error,Medium,Quality Assurance,4
+DEF000001,PO001028,M004,DC003,Scratch,Medium,Quality Assurance,3
+DEF000001,PO001029,M009,DC008,Coating Defect,Low,Quality Assurance,7
+DEF000001,PO001030,M010,DC001,Surface Crack,High,Quality Assurance,3
+DEF000001,PO001031,M014,DC003,Scratch,Medium,Quality Assurance,3
+DEF000001,PO001032,M018,DC009,Material Defect,High,Quality Assurance,5
+DEF000001,PO001033,M002,DC010,Incomplete Machining,Medium,Quality Assurance,7
+DEF000001,PO001034,M004,DC006,Misalignment,High,Quality Assurance,4
+DEF000001,PO001035,M009,DC002,Dimension Mismatch,High,Quality Assurance,6
+DEF000001,PO001036,M010,DC008,Coating Defect,Low,Quality Assurance,3
+DEF000001,PO001037,M014,DC002,Dimension Mismatch,High,Quality Assurance,6
+DEF000001,PO001038,M016,DC009,Material Defect,High,Quality Assurance,5
+DEF000001,PO001039,M003,DC008,Coating Defect,Low,Quality Assurance,5
+DEF000001,PO001040,M004,DC001,Surface Crack,High,Quality Assurance,3
+DEF000001,PO001041,M007,DC003,Scratch,Medium,Quality Assurance,8
+DEF000001,PO001042,M012,DC007,Assembly Error,Medium,Quality Assurance,4
+DEF000001,PO001043,M014,DC003,Scratch,Medium,Quality Assurance,4
+DEF000001,PO001044,M016,DC002,Dimension Mismatch,High,Quality Assurance,6
+DEF000001,PO001045,M002,DC008,Coating Defect,Low,Quality Assurance,6
+DEF000001,PO001046,M006,DC005,Porosity,High,Quality Assurance,3
+DEF000001,PO001047,M009,DC006,Misalignment,High,Quality Assurance,6
+DEF000001,PO001048,M012,DC010,Incomplete Machining,Medium,Quality Assurance,5
+DEF000001,PO001049,M013,DC007,Assembly Error,Medium,Quality Assurance,3
+DEF000001,PO001050,M017,DC002,Dimension Mismatch,High,Quality Assurance,6
+DEF000001,PO001051,M001,DC006,Misalignment,High,Quality Assurance,6
+DEF000001,PO001052,M006,DC009,Material Defect,High,Quality Assurance,3
+DEF000001,PO001053,M008,DC007,Assembly Error,Medium,Quality Assurance,7
+DEF000001,PO001054,M011,DC006,Misalignment,High,Quality Assurance,5
+DEF000001,PO001055,M015,DC008,Coating Defect,Low,Quality Assurance,3
+DEF000001,PO001056,M016,DC009,Material Defect,High,Quality Assurance,7
+DEF000001,PO001057,M003,DC001,Surface Crack,High,Quality Assurance,5
+DEF000001,PO001058,M004,DC010,Incomplete Machining,Medium,Quality Assurance,4
+DEF000001,PO001059,M008,DC002,Dimension Mismatch,High,Quality Assurance,8
+DEF000001,PO001060,M012,DC004,Dent,Medium,Quality Assurance,4
+DEF000001,PO001061,M014,DC005,Porosity,High,Quality Assurance,4
+DEF000001,PO001062,M018,DC004,Dent,Medium,Quality Assurance,5
+DEF000001,PO001063,M002,DC002,Dimension Mismatch,High,Quality Assurance,5
+DEF000001,PO001064,M004,DC007,Assembly Error,Medium,Quality Assurance,4
+DEF000001,PO001065,M009,DC002,Dimension Mismatch,High,Quality Assurance,6
+DEF000001,PO001066,M012,DC002,Dimension Mismatch,High,Quality Assurance,5
+DEF000001,PO001067,M015,DC008,Coating Defect,Low,Quality Assurance,3
+DEF000001,PO001068,M018,DC003,Scratch,Medium,Quality Assurance,5
+DEF000001,PO001069,M003,DC005,Porosity,High,Quality Assurance,6
+DEF000001,PO001070,M004,DC001,Surface Crack,High,Quality Assurance,5
+DEF000001,PO001071,M007,DC001,Surface Crack,High,Quality Assurance,5
+DEF000001,PO001072,M012,DC006,Misalignment,High,Quality Assurance,5
+DEF000001,PO001073,M014,DC001,Surface Crack,High,Quality Assurance,3
+DEF000001,PO001074,M017,DC005,Porosity,High,Quality Assurance,4
+DEF000001,PO001075,M002,DC006,Misalignment,High,Quality Assurance,7
+DEF000001,PO001076,M006,DC006,Misalignment,High,Quality Assurance,5
+DEF000001,PO001077,M007,DC007,Assembly Error,Medium,Quality Assurance,6
+DEF000001,PO001078,M011,DC003,Scratch,Medium,Quality Assurance,3
+DEF000001,PO001079,M014,DC004,Dent,Medium,Quality Assurance,5
+DEF000001,PO001080,M016,DC009,Material Defect,High,Quality Assurance,4
+DEF000001,PO001081,M001,DC007,Assembly Error,Medium,Quality Assurance,7
+DEF000001,PO001082,M006,DC010,Incomplete Machining,Medium,Quality Assurance,4
+DEF000001,PO001083,M008,DC003,Scratch,Medium,Quality Assurance,8
+DEF000001,PO001084,M010,DC003,Scratch,Medium,Quality Assurance,4
+DEF000001,PO001085,M014,DC003,Scratch,Medium,Quality Assurance,4
+DEF000001,PO001086,M017,DC002,Dimension Mismatch,High,Quality Assurance,4
+DEF000001,PO001087,M001,DC010,Incomplete Machining,Medium,Quality Assurance,5
+DEF000001,PO001088,M005,DC007,Assembly Error,Medium,Quality Assurance,4
+DEF000001,PO001089,M009,DC010,Incomplete Machining,Medium,Quality Assurance,8
+DEF000001,PO001090,M010,DC004,Dent,Medium,Quality Assurance,3
+DEF000001,PO001091,M015,DC008,Coating Defect,Low,Quality Assurance,5
+DEF000001,PO001092,M018,DC010,Incomplete Machining,Medium,Quality Assurance,6
+DEF000001,PO001093,M002,DC003,Scratch,Medium,Quality Assurance,6
+DEF000001,PO001094,M005,DC004,Dent,Medium,Quality Assurance,5
+DEF000001,PO001095,M009,DC008,Coating Defect,Low,Quality Assurance,9
+DEF000001,PO001096,M012,DC005,Porosity,High,Quality Assurance,4
+DEF000001,PO001097,M015,DC008,Coating Defect,Low,Quality Assurance,3
+DEF000001,PO001098,M016,DC005,Porosity,High,Quality Assurance,6
+DEF000001,PO001099,M002,DC001,Surface Crack,High,Quality Assurance,5
+DEF000001,PO001100,M004,DC008,Coating Defect,Low,Quality Assurance,3
+DEF000001,PO001101,M008,DC005,Porosity,High,Quality Assurance,8
+DEF000001,PO001102,M011,DC009,Material Defect,High,Quality Assurance,6
+DEF000001,PO001103,M014,DC003,Scratch,Medium,Quality Assurance,3
+DEF000001,PO001104,M018,DC002,Dimension Mismatch,High,Quality Assurance,6
+DEF000001,PO001105,M003,DC008,Coating Defect,Low,Quality Assurance,6
+DEF000001,PO001106,M005,DC006,Misalignment,High,Quality Assurance,3
+DEF000001,PO001107,M008,DC010,Incomplete Machining,Medium,Quality Assurance,5
+DEF000001,PO001108,M011,DC005,Porosity,High,Quality Assurance,4
+DEF000001,PO001109,M014,DC007,Assembly Error,Medium,Quality Assurance,4
+DEF000001,PO001110,M017,DC005,Porosity,High,Quality Assurance,5
+DEF000001,PO001111,M003,DC008,Coating Defect,Low,Quality Assurance,4
+DEF000001,PO001112,M005,DC005,Porosity,High,Quality Assurance,3
+DEF000001,PO001113,M008,DC004,Dent,Medium,Quality Assurance,6
+DEF000001,PO001114,M011,DC007,Assembly Error,Medium,Quality Assurance,4
+DEF000001,PO001115,M015,DC008,Coating Defect,Low,Quality Assurance,3
+DEF000001,PO001116,M016,DC002,Dimension Mismatch,High,Quality Assurance,5
+DEF000001,PO001117,M002,DC004,Dent,Medium,Quality Assurance,7
+DEF000001,PO001118,M004,DC007,Assembly Error,Medium,Quality Assurance,4
+DEF000001,PO001119,M009,DC010,Incomplete Machining,Medium,Quality Assurance,6
+DEF000001,PO001120,M012,DC006,Misalignment,High,Quality Assurance,4
+DEF000001,PO001121,M013,DC010,Incomplete Machining,Medium,Quality Assurance,4
+DEF000001,PO001122,M016,DC005,Porosity,High,Quality Assurance,4
+DEF000001,PO001123,M003,DC005,Porosity,High,Quality Assurance,6
+DEF000001,PO001124,M006,DC001,Surface Crack,High,Quality Assurance,3
+DEF000001,PO001125,M009,DC007,Assembly Error,Medium,Quality Assurance,5
+DEF000001,PO001126,M011,DC005,Porosity,High,Quality Assurance,6
+DEF000001,PO001127,M015,DC001,Surface Crack,High,Quality Assurance,4
+DEF000001,PO001128,M016,DC010,Incomplete Machining,Medium,Quality Assurance,6
+DEF000001,PO001129,M002,DC001,Surface Crack,High,Quality Assurance,5
+DEF000001,PO001130,M006,DC010,Incomplete Machining,Medium,Quality Assurance,3
+DEF000001,PO001131,M008,DC008,Coating Defect,Low,Quality Assurance,8
+DEF000001,PO001132,M011,DC005,Porosity,High,Quality Assurance,5
+DEF000001,PO001133,M015,DC004,Dent,Medium,Quality Assurance,4
+DEF000001,PO001134,M016,DC010,Incomplete Machining,Medium,Quality Assurance,6
+DEF000001,PO001135,M002,DC006,Misalignment,High,Quality Assurance,6
+DEF000001,PO001136,M006,DC004,Dent,Medium,Quality Assurance,4
+DEF000001,PO001137,M009,DC004,Dent,Medium,Quality Assurance,9
+DEF000001,PO001138,M011,DC010,Incomplete Machining,Medium,Quality Assurance,3
+DEF000001,PO001139,M013,DC005,Porosity,High,Quality Assurance,4
+DEF000001,PO001140,M016,DC003,Scratch,Medium,Quality Assurance,4
+DEF000001,PO001141,M003,DC002,Dimension Mismatch,High,Quality Assurance,6
+DEF000001,PO001142,M006,DC001,Surface Crack,High,Quality Assurance,5
+DEF000001,PO001143,M008,DC005,Porosity,High,Quality Assurance,8
+DEF000001,PO001144,M011,DC008,Coating Defect,Low,Quality Assurance,4
+DEF000001,PO001145,M015,DC001,Surface Crack,High,Quality Assurance,5
+DEF000001,PO001146,M017,DC010,Incomplete Machining,Medium,Quality Assurance,4
+DEF000001,PO001147,M001,DC006,Misalignment,High,Quality Assurance,7
+DEF000001,PO001148,M004,DC003,Scratch,Medium,Quality Assurance,3
+DEF000001,PO001149,M007,DC002,Dimension Mismatch,High,Quality Assurance,6
+DEF000001,PO001150,M011,DC005,Porosity,High,Quality Assurance,5
+DEF000001,PO001151,M015,DC006,Misalignment,High,Quality Assurance,4
+DEF000001,PO001152,M017,DC007,Assembly Error,Medium,Quality Assurance,4
+DEF000001,PO001153,M003,DC003,Scratch,Medium,Quality Assurance,6
+DEF000001,PO001154,M005,DC004,Dent,Medium,Quality Assurance,3
+DEF000001,PO001155,M007,DC003,Scratch,Medium,Quality Assurance,5
+DEF000001,PO001156,M011,DC009,Material Defect,High,Quality Assurance,4
+DEF000001,PO001157,M015,DC006,Misalignment,High,Quality Assurance,4
+DEF000001,PO001158,M016,DC009,Material Defect,High,Quality Assurance,7
+DEF000001,PO001159,M003,DC009,Material Defect,High,Quality Assurance,6
+DEF000001,PO001160,M006,DC005,Porosity,High,Quality Assurance,3
+DEF000001,PO001161,M007,DC003,Scratch,Medium,Quality Assurance,7
+DEF000001,PO001162,M010,DC005,Porosity,High,Quality Assurance,3
+DEF000001,PO001163,M015,DC008,Coating Defect,Low,Quality Assurance,5
+DEF000001,PO001164,M016,DC005,Porosity,High,Quality Assurance,5
+DEF000001,PO001165,M001,DC006,Misalignment,High,Quality Assurance,6
+DEF000001,PO001166,M005,DC002,Dimension Mismatch,High,Quality Assurance,4
+DEF000001,PO001167,M009,DC008,Coating Defect,Low,Quality Assurance,7
+DEF000001,PO001168,M011,DC002,Dimension Mismatch,High,Quality Assurance,5
+DEF000001,PO001169,M013,DC003,Scratch,Medium,Quality Assurance,4
+DEF000001,PO001170,M016,DC004,Dent,Medium,Quality Assurance,6
+DEF000001,PO001171,M001,DC007,Assembly Error,Medium,Quality Assurance,8
+DEF000001,PO001172,M005,DC009,Material Defect,High,Quality Assurance,4
+DEF000001,PO001173,M009,DC006,Misalignment,High,Quality Assurance,6
+DEF000001,PO001174,M011,DC002,Dimension Mismatch,High,Quality Assurance,4
+DEF000001,PO001175,M015,DC007,Assembly Error,Medium,Quality Assurance,5
+DEF000001,PO001176,M017,DC001,Surface Crack,High,Quality Assurance,5
+DEF000001,PO001177,M003,DC005,Porosity,High,Quality Assurance,7
+DEF000001,PO001178,M006,DC009,Material Defect,High,Quality Assurance,4
+DEF000001,PO001179,M009,DC002,Dimension Mismatch,High,Quality Assurance,6
+DEF000001,PO001180,M010,DC008,Coating Defect,Low,Quality Assurance,4
+DEF000001,PO001181,M013,DC006,Misalignment,High,Quality Assurance,4
+DEF000001,PO001182,M016,DC005,Porosity,High,Quality Assurance,4
+DEF000001,PO001183,M001,DC010,Incomplete Machining,Medium,Quality Assurance,5
+DEF000001,PO001184,M005,DC007,Assembly Error,Medium,Quality Assurance,5
+DEF000001,PO001185,M009,DC006,Misalignment,High,Quality Assurance,8
+DEF000001,PO001186,M010,DC002,Dimension Mismatch,High,Quality Assurance,5
+DEF000001,PO001187,M015,DC004,Dent,Medium,Quality Assurance,5
+DEF000001,PO001188,M016,DC008,Coating Defect,Low,Quality Assurance,6
+DEF000001,PO001189,M001,DC001,Surface Crack,High,Quality Assurance,7
+DEF000001,PO001190,M005,DC010,Incomplete Machining,Medium,Quality Assurance,4
+DEF000001,PO001191,M007,DC009,Material Defect,High,Quality Assurance,8
+DEF000001,PO001192,M010,DC006,Misalignment,High,Quality Assurance,3
+DEF000001,PO001193,M015,DC010,Incomplete Machining,Medium,Quality Assurance,5
+DEF000001,PO001194,M018,DC004,Dent,Medium,Quality Assurance,5
+DEF000001,PO001195,M003,DC002,Dimension Mismatch,High,Quality Assurance,6
+DEF000001,PO001196,M004,DC008,Coating Defect,Low,Quality Assurance,4
+DEF000001,PO001197,M007,DC005,Porosity,High,Quality Assurance,6
+DEF000001,PO001198,M010,DC007,Assembly Error,Medium,Quality Assurance,3
+DEF000001,PO001199,M015,DC002,Dimension Mismatch,High,Quality Assurance,5
+DEF000001,PO001200,M017,DC003,Scratch,Medium,Quality Assurance,5
+DEF000001,PO001201,M002,DC001,Surface Crack,High,Quality Assurance,7
+DEF000001,PO001202,M004,DC001,Surface Crack,High,Quality Assurance,5
+DEF000001,PO001203,M008,DC005,Porosity,High,Quality Assurance,9
+DEF000001,PO001204,M012,DC008,Coating Defect,Low,Quality Assurance,5
+DEF000001,PO001205,M015,DC002,Dimension Mismatch,High,Quality Assurance,5
+DEF000001,PO001206,M016,DC002,Dimension Mismatch,High,Quality Assurance,4
+DEF000001,PO001207,M003,DC004,Dent,Medium,Quality Assurance,8
+DEF000001,PO001208,M005,DC009,Material Defect,High,Quality Assurance,3
+DEF000001,PO001209,M008,DC003,Scratch,Medium,Quality Assurance,5
+DEF000001,PO001210,M011,DC007,Assembly Error,Medium,Quality Assurance,3
+DEF000001,PO001211,M013,DC008,Coating Defect,Low,Quality Assurance,4
+DEF000001,PO001212,M018,DC006,Misalignment,High,Quality Assurance,6
+DEF000001,PO001213,M001,DC009,Material Defect,High,Quality Assurance,8
+DEF000001,PO001214,M004,DC007,Assembly Error,Medium,Quality Assurance,3
+DEF000001,PO001215,M009,DC010,Incomplete Machining,Medium,Quality Assurance,7
+DEF000001,PO001216,M011,DC003,Scratch,Medium,Quality Assurance,4
+DEF000001,PO001217,M013,DC007,Assembly Error,Medium,Quality Assurance,5
+DEF000001,PO001218,M017,DC002,Dimension Mismatch,High,Quality Assurance,4
+DEF000001,PO001219,M002,DC008,Coating Defect,Low,Quality Assurance,5
+DEF000001,PO001220,M004,DC010,Incomplete Machining,Medium,Quality Assurance,4
+DEF000001,PO001221,M007,DC007,Assembly Error,Medium,Quality Assurance,6
+DEF000001,PO001222,M010,DC005,Porosity,High,Quality Assurance,4
+DEF000001,PO001223,M013,DC001,Surface Crack,High,Quality Assurance,3
+DEF000001,PO001224,M017,DC006,Misalignment,High,Quality Assurance,5
+DEF000001,PO001225,M003,DC004,Dent,Medium,Quality Assurance,6
+DEF000001,PO001226,M004,DC008,Coating Defect,Low,Quality Assurance,4
+DEF000001,PO001227,M008,DC008,Coating Defect,Low,Quality Assurance,9
+DEF000001,PO001228,M011,DC004,Dent,Medium,Quality Assurance,4
+DEF000001,PO001229,M015,DC006,Misalignment,High,Quality Assurance,5
+DEF000001,PO001230,M018,DC002,Dimension Mismatch,High,Quality Assurance,6
+DEF000001,PO001231,M003,DC006,Misalignment,High,Quality Assurance,5
+DEF000001,PO001232,M005,DC009,Material Defect,High,Quality Assurance,3
+DEF000001,PO001233,M007,DC006,Misalignment,High,Quality Assurance,6
+DEF000001,PO001234,M011,DC001,Surface Crack,High,Quality Assurance,4
+DEF000001,PO001235,M015,DC007,Assembly Error,Medium,Quality Assurance,5
+DEF000001,PO001236,M018,DC005,Porosity,High,Quality Assurance,5
+DEF000001,PO001237,M002,DC004,Dent,Medium,Quality Assurance,7
+DEF000001,PO001238,M005,DC002,Dimension Mismatch,High,Quality Assurance,3
+DEF000001,PO001239,M008,DC008,Coating Defect,Low,Quality Assurance,8
+DEF000001,PO001240,M010,DC002,Dimension Mismatch,High,Quality Assurance,3
+DEF000001,PO001241,M014,DC004,Dent,Medium,Quality Assurance,4
+DEF000001,PO001242,M016,DC010,Incomplete Machining,Medium,Quality Assurance,5
+DEF000001,PO001243,M001,DC001,Surface Crack,High,Quality Assurance,5
+DEF000001,PO001244,M005,DC001,Surface Crack,High,Quality Assurance,4
+DEF000001,PO001245,M008,DC006,Misalignment,High,Quality Assurance,6
+DEF000001,PO001246,M010,DC004,Dent,Medium,Quality Assurance,5
+DEF000001,PO001247,M013,DC003,Scratch,Medium,Quality Assurance,5
+DEF000001,PO001248,M018,DC010,Incomplete Machining,Medium,Quality Assurance,4
+DEF000001,PO001249,M001,DC004,Dent,Medium,Quality Assurance,5
+DEF000001,PO001250,M006,DC002,Dimension Mismatch,High,Quality Assurance,4
+DEF000001,PO001251,M008,DC009,Material Defect,High,Quality Assurance,6
+DEF000001,PO001252,M012,DC004,Dent,Medium,Quality Assurance,4
+DEF000001,PO001253,M014,DC010,Incomplete Machining,Medium,Quality Assurance,3
+DEF000001,PO001254,M016,DC004,Dent,Medium,Quality Assurance,4
+DEF000001,PO001255,M002,DC004,Dent,Medium,Quality Assurance,6
+DEF000001,PO001256,M006,DC006,Misalignment,High,Quality Assurance,4
+DEF000001,PO001257,M009,DC003,Scratch,Medium,Quality Assurance,6
+DEF000001,PO001258,M010,DC010,Incomplete Machining,Medium,Quality Assurance,5
+DEF000001,PO001259,M013,DC001,Surface Crack,High,Quality Assurance,4
+DEF000001,PO001260,M016,DC005,Porosity,High,Quality Assurance,4
+DEF000001,PO001261,M001,DC003,Scratch,Medium,Quality Assurance,6
+DEF000001,PO001262,M006,DC003,Scratch,Medium,Quality Assurance,4
+DEF000001,PO001263,M008,DC009,Material Defect,High,Quality Assurance,8
+DEF000001,PO001264,M010,DC005,Porosity,High,Quality Assurance,3
+DEF000001,PO001265,M015,DC003,Scratch,Medium,Quality Assurance,4
+DEF000001,PO001266,M018,DC002,Dimension Mismatch,High,Quality Assurance,4
+DEF000001,PO001267,M003,DC001,Surface Crack,High,Quality Assurance,7
+DEF000001,PO001268,M005,DC003,Scratch,Medium,Quality Assurance,3
+DEF000001,PO001269,M007,DC001,Surface Crack,High,Quality Assurance,7
+DEF000001,PO001270,M010,DC006,Misalignment,High,Quality Assurance,4
+DEF000001,PO001271,M015,DC004,Dent,Medium,Quality Assurance,4
+DEF000001,PO001272,M016,DC010,Incomplete Machining,Medium,Quality Assurance,4
+DEF000001,PO001273,M001,DC006,Misalignment,High,Quality Assurance,5
+DEF000001,PO001274,M006,DC001,Surface Crack,High,Quality Assurance,4
+DEF000001,PO001275,M008,DC003,Scratch,Medium,Quality Assurance,5
+DEF000001,PO001276,M010,DC005,Porosity,High,Quality Assurance,3
+DEF000001,PO001277,M013,DC001,Surface Crack,High,Quality Assurance,4
+DEF000001,PO001278,M018,DC003,Scratch,Medium,Quality Assurance,6
+DEF000001,PO001279,M003,DC007,Assembly Error,Medium,Quality Assurance,5
+DEF000001,PO001280,M004,DC009,Material Defect,High,Quality Assurance,3
+DEF000001,PO001281,M009,DC002,Dimension Mismatch,High,Quality Assurance,8
+DEF000001,PO001282,M010,DC002,Dimension Mismatch,High,Quality Assurance,5
+DEF000001,PO001283,M014,DC008,Coating Defect,Low,Quality Assurance,4
+DEF000001,PO001284,M017,DC008,Coating Defect,Low,Quality Assurance,6
+DEF000001,PO001285,M001,DC006,Misalignment,High,Quality Assurance,5
+DEF000001,PO001286,M006,DC009,Material Defect,High,Quality Assurance,4
+DEF000001,PO001287,M007,DC010,Incomplete Machining,Medium,Quality Assurance,7
+DEF000001,PO001288,M010,DC002,Dimension Mismatch,High,Quality Assurance,5
+DEF000001,PO001289,M014,DC008,Coating Defect,Low,Quality Assurance,4
+DEF000001,PO001290,M018,DC009,Material Defect,High,Quality Assurance,5
+DEF000001,PO001291,M001,DC004,Dent,Medium,Quality Assurance,5
+DEF000001,PO001292,M004,DC010,Incomplete Machining,Medium,Quality Assurance,4
+DEF000001,PO001293,M007,DC001,Surface Crack,High,Quality Assurance,6
+DEF000001,PO001294,M011,DC009,Material Defect,High,Quality Assurance,4
+DEF000001,PO001295,M015,DC005,Porosity,High,Quality Assurance,5
+DEF000001,PO001296,M017,DC008,Coating Defect,Low,Quality Assurance,4
+DEF000001,PO001297,M001,DC001,Surface Crack,High,Quality Assurance,6
+DEF000001,PO001298,M006,DC001,Surface Crack,High,Quality Assurance,5
+DEF000001,PO001299,M007,DC008,Coating Defect,Low,Quality Assurance,6
+DEF000001,PO001300,M012,DC007,Assembly Error,Medium,Quality Assurance,3
+DEF000001,PO001301,M015,DC007,Assembly Error,Medium,Quality Assurance,5
+DEF000001,PO001302,M018,DC002,Dimension Mismatch,High,Quality Assurance,6
+DEF000001,PO001303,M003,DC008,Coating Defect,Low,Quality Assurance,8
+DEF000001,PO001304,M005,DC008,Coating Defect,Low,Quality Assurance,4
+DEF000001,PO001305,M007,DC002,Dimension Mismatch,High,Quality Assurance,5
+DEF000001,PO001306,M010,DC002,Dimension Mismatch,High,Quality Assurance,5
+DEF000001,PO001307,M014,DC006,Misalignment,High,Quality Assurance,3
+DEF000001,PO001308,M018,DC010,Incomplete Machining,Medium,Quality Assurance,7
+DEF000001,PO001309,M003,DC003,Scratch,Medium,Quality Assurance,6
+DEF000001,PO001310,M004,DC002,Dimension Mismatch,High,Quality Assurance,4
+DEF000001,PO001311,M007,DC003,Scratch,Medium,Quality Assurance,5
+DEF000001,PO001312,M011,DC005,Porosity,High,Quality Assurance,4
+DEF000001,PO001313,M015,DC010,Incomplete Machining,Medium,Quality Assurance,5
+DEF000001,PO001314,M017,DC010,Incomplete Machining,Medium,Quality Assurance,6
+DEF000001,PO001315,M002,DC009,Material Defect,High,Quality Assurance,5
+DEF000001,PO001316,M005,DC006,Misalignment,High,Quality Assurance,4
+DEF000001,PO001317,M009,DC007,Assembly Error,Medium,Quality Assurance,7
+DEF000001,PO001318,M012,DC010,Incomplete Machining,Medium,Quality Assurance,5
+DEF000001,PO001319,M013,DC009,Material Defect,High,Quality Assurance,4
+DEF000001,PO001320,M018,DC005,Porosity,High,Quality Assurance,6
+DEF000001,PO001321,M002,DC008,Coating Defect,Low,Quality Assurance,5
+DEF000001,PO001322,M005,DC009,Material Defect,High,Quality Assurance,3
+DEF000001,PO001323,M007,DC010,Incomplete Machining,Medium,Quality Assurance,6
+DEF000001,PO001324,M012,DC007,Assembly Error,Medium,Quality Assurance,4
+DEF000001,PO001325,M015,DC002,Dimension Mismatch,High,Quality Assurance,3
+DEF000001,PO001326,M016,DC002,Dimension Mismatch,High,Quality Assurance,6
+DEF000001,PO001327,M001,DC009,Material Defect,High,Quality Assurance,6
+DEF000001,PO001328,M005,DC004,Dent,Medium,Quality Assurance,4
+DEF000001,PO001329,M007,DC007,Assembly Error,Medium,Quality Assurance,7
+DEF000001,PO001330,M012,DC008,Coating Defect,Low,Quality Assurance,4
+DEF000001,PO001331,M014,DC004,Dent,Medium,Quality Assurance,5
+DEF000001,PO001332,M016,DC007,Assembly Error,Medium,Quality Assurance,4
+DEF000001,PO001333,M002,DC006,Misalignment,High,Quality Assurance,5
+DEF000001,PO001334,M006,DC008,Coating Defect,Low,Quality Assurance,5
+DEF000001,PO001335,M009,DC007,Assembly Error,Medium,Quality Assurance,5
+DEF000001,PO001336,M010,DC007,Assembly Error,Medium,Quality Assurance,4
+DEF000001,PO001337,M014,DC002,Dimension Mismatch,High,Quality Assurance,3
+DEF000001,PO001338,M017,DC006,Misalignment,High,Quality Assurance,6
+DEF000001,PO001339,M002,DC007,Assembly Error,Medium,Quality Assurance,5
+DEF000001,PO001340,M005,DC006,Misalignment,High,Quality Assurance,3
+DEF000001,PO001341,M007,DC005,Porosity,High,Quality Assurance,8
+DEF000001,PO001342,M011,DC006,Misalignment,High,Quality Assurance,4
+DEF000001,PO001343,M013,DC003,Scratch,Medium,Quality Assurance,5
+DEF000001,PO001344,M018,DC008,Coating Defect,Low,Quality Assurance,4
+DEF000001,PO001345,M003,DC002,Dimension Mismatch,High,Quality Assurance,5
+DEF000001,PO001346,M004,DC002,Dimension Mismatch,High,Quality Assurance,4
+DEF000001,PO001347,M007,DC002,Dimension Mismatch,High,Quality Assurance,5
+DEF000001,PO001348,M011,DC002,Dimension Mismatch,High,Quality Assurance,5
+DEF000001,PO001349,M013,DC007,Assembly Error,Medium,Quality Assurance,5
+DEF000001,PO001350,M018,DC002,Dimension Mismatch,High,Quality Assurance,6
+DEF000001,PO001351,M003,DC006,Misalignment,High,Quality Assurance,6
+DEF000001,PO001352,M004,DC003,Scratch,Medium,Quality Assurance,4
+DEF000001,PO001353,M008,DC009,Material Defect,High,Quality Assurance,5
+DEF000001,PO001354,M010,DC001,Surface Crack,High,Quality Assurance,5
+DEF000001,PO001355,M013,DC010,Incomplete Machining,Medium,Quality Assurance,3
+DEF000001,PO001356,M018,DC009,Material Defect,High,Quality Assurance,4
+DEF000001,PO001357,M002,DC009,Material Defect,High,Quality Assurance,8
+DEF000001,PO001358,M004,DC006,Misalignment,High,Quality Assurance,3
+DEF000001,PO001359,M009,DC002,Dimension Mismatch,High,Quality Assurance,7
+DEF000001,PO001360,M011,DC007,Assembly Error,Medium,Quality Assurance,4
+DEF000001,PO001361,M015,DC006,Misalignment,High,Quality Assurance,3
+DEF000001,PO001362,M018,DC007,Assembly Error,Medium,Quality Assurance,5
+DEF000001,PO001363,M002,DC001,Surface Crack,High,Quality Assurance,4
+DEF000001,PO001364,M005,DC005,Porosity,High,Quality Assurance,3
+DEF000001,PO001365,M008,DC010,Incomplete Machining,Medium,Quality Assurance,7
+DEF000001,PO001366,M010,DC005,Porosity,High,Quality Assurance,5
+DEF000001,PO001367,M015,DC006,Misalignment,High,Quality Assurance,3
+DEF000001,PO001368,M016,DC002,Dimension Mismatch,High,Quality Assurance,6
+DEF000001,PO001369,M002,DC010,Incomplete Machining,Medium,Quality Assurance,6
+DEF000001,PO001370,M004,DC009,Material Defect,High,Quality Assurance,4
+DEF000001,PO001371,M007,DC004,Dent,Medium,Quality Assurance,7
+DEF000001,PO001372,M011,DC003,Scratch,Medium,Quality Assurance,5
+DEF000001,PO001373,M013,DC008,Coating Defect,Low,Quality Assurance,3
+DEF000001,PO001374,M017,DC004,Dent,Medium,Quality Assurance,6
+DEF000001,PO001375,M003,DC002,Dimension Mismatch,High,Quality Assurance,7
+DEF000001,PO001376,M004,DC006,Misalignment,High,Quality Assurance,5
+DEF000001,PO001377,M007,DC009,Material Defect,High,Quality Assurance,5
+DEF000001,PO001378,M011,DC006,Misalignment,High,Quality Assurance,5
+DEF000001,PO001379,M015,DC002,Dimension Mismatch,High,Quality Assurance,3
+DEF000001,PO001380,M016,DC005,Porosity,High,Quality Assurance,5
+DEF000001,PO001381,M002,DC010,Incomplete Machining,Medium,Quality Assurance,5
+DEF000001,PO001382,M006,DC004,Dent,Medium,Quality Assurance,4
+DEF000001,PO001383,M008,DC007,Assembly Error,Medium,Quality Assurance,5
+DEF000001,PO001384,M010,DC009,Material Defect,High,Quality Assurance,4
+DEF000001,PO001385,M013,DC010,Incomplete Machining,Medium,Quality Assurance,5
+DEF000001,PO001386,M017,DC010,Incomplete Machining,Medium,Quality Assurance,5
+DEF000001,PO001387,M003,DC009,Material Defect,High,Quality Assurance,6
+DEF000001,PO001388,M006,DC001,Surface Crack,High,Quality Assurance,5
+DEF000001,PO001389,M007,DC010,Incomplete Machining,Medium,Quality Assurance,6
+DEF000001,PO001390,M010,DC005,Porosity,High,Quality Assurance,6
+DEF000001,PO001391,M013,DC001,Surface Crack,High,Quality Assurance,3
+DEF000001,PO001392,M016,DC003,Scratch,Medium,Quality Assurance,3
+DEF000001,PO001393,M001,DC005,Porosity,High,Quality Assurance,4
+DEF000001,PO001394,M005,DC005,Porosity,High,Quality Assurance,4
+DEF000001,PO001395,M007,DC006,Misalignment,High,Quality Assurance,5
+DEF000001,PO001396,M011,DC006,Misalignment,High,Quality Assurance,3
+DEF000001,PO001397,M013,DC001,Surface Crack,High,Quality Assurance,4
+DEF000001,PO001398,M017,DC003,Scratch,Medium,Quality Assurance,5
+DEF000001,PO001399,M001,DC003,Scratch,Medium,Quality Assurance,6
+DEF000001,PO001400,M006,DC010,Incomplete Machining,Medium,Quality Assurance,3
+DEF000001,PO001401,M008,DC007,Assembly Error,Medium,Quality Assurance,7
+DEF000001,PO001402,M012,DC002,Dimension Mismatch,High,Quality Assurance,4
+DEF000001,PO001403,M013,DC003,Scratch,Medium,Quality Assurance,4
+DEF000001,PO001404,M016,DC001,Surface Crack,High,Quality Assurance,5
+DEF000001,PO001405,M003,DC002,Dimension Mismatch,High,Quality Assurance,7
+DEF000001,PO001406,M006,DC009,Material Defect,High,Quality Assurance,5
+DEF000001,PO001407,M008,DC004,Dent,Medium,Quality Assurance,5
+DEF000001,PO001408,M012,DC007,Assembly Error,Medium,Quality Assurance,4
+DEF000001,PO001409,M014,DC007,Assembly Error,Medium,Quality Assurance,3
+DEF000001,PO001410,M017,DC008,Coating Defect,Low,Quality Assurance,6
+DEF000001,PO001411,M001,DC006,Misalignment,High,Quality Assurance,7
+DEF000001,PO001412,M004,DC003,Scratch,Medium,Quality Assurance,4
+DEF000001,PO001413,M007,DC006,Misalignment,High,Quality Assurance,8
+DEF000001,PO001414,M011,DC005,Porosity,High,Quality Assurance,6
+DEF000001,PO001415,M013,DC006,Misalignment,High,Quality Assurance,4
+DEF000001,PO001416,M016,DC010,Incomplete Machining,Medium,Quality Assurance,7
+DEF000001,PO001417,M002,DC010,Incomplete Machining,Medium,Quality Assurance,8
+DEF000001,PO001418,M004,DC002,Dimension Mismatch,High,Quality Assurance,5
+DEF000001,PO001419,M008,DC001,Surface Crack,High,Quality Assurance,5
+DEF000001,PO001420,M010,DC003,Scratch,Medium,Quality Assurance,4
+DEF000001,PO001421,M014,DC003,Scratch,Medium,Quality Assurance,5
+DEF000001,PO001422,M016,DC010,Incomplete Machining,Medium,Quality Assurance,4
+DEF000001,PO001423,M002,DC001,Surface Crack,High,Quality Assurance,7
+DEF000001,PO001424,M004,DC002,Dimension Mismatch,High,Quality Assurance,3
+DEF000001,PO001425,M008,DC005,Porosity,High,Quality Assurance,7
+DEF000001,PO001426,M010,DC008,Coating Defect,Low,Quality Assurance,4
+DEF000001,PO001427,M013,DC007,Assembly Error,Medium,Quality Assurance,4
+DEF000001,PO001428,M018,DC008,Coating Defect,Low,Quality Assurance,5
+DEF000001,PO001429,M003,DC010,Incomplete Machining,Medium,Quality Assurance,5
+DEF000001,PO001430,M005,DC008,Coating Defect,Low,Quality Assurance,3
+DEF000001,PO001431,M008,DC007,Assembly Error,Medium,Quality Assurance,5
+DEF000001,PO001432,M010,DC005,Porosity,High,Quality Assurance,3
+DEF000001,PO001433,M015,DC004,Dent,Medium,Quality Assurance,4
+DEF000001,PO001434,M018,DC009,Material Defect,High,Quality Assurance,5
+DEF000001,PO001435,M001,DC002,Dimension Mismatch,High,Quality Assurance,7
+DEF000001,PO001436,M006,DC006,Misalignment,High,Quality Assurance,4
+DEF000001,PO001437,M007,DC007,Assembly Error,Medium,Quality Assurance,5
+DEF000001,PO001438,M011,DC002,Dimension Mismatch,High,Quality Assurance,3
+DEF000001,PO001439,M015,DC005,Porosity,High,Quality Assurance,5
+DEF000001,PO001440,M017,DC010,Incomplete Machining,Medium,Quality Assurance,6
+DEF000001,PO001441,M001,DC008,Coating Defect,Low,Quality Assurance,8
+DEF000001,PO001442,M006,DC009,Material Defect,High,Quality Assurance,5
+DEF000001,PO001443,M009,DC005,Porosity,High,Quality Assurance,6
+DEF000001,PO001444,M011,DC001,Surface Crack,High,Quality Assurance,4
+DEF000001,PO001445,M015,DC004,Dent,Medium,Quality Assurance,4
+DEF000001,PO001446,M016,DC007,Assembly Error,Medium,Quality Assurance,7
+DEF000001,PO001447,M003,DC010,Incomplete Machining,Medium,Quality Assurance,7
+DEF000001,PO001448,M006,DC001,Surface Crack,High,Quality Assurance,3
+DEF000001,PO001449,M009,DC001,Surface Crack,High,Quality Assurance,7
+DEF000001,PO001450,M010,DC004,Dent,Medium,Quality Assurance,5
+DEF000001,PO001451,M013,DC005,Porosity,High,Quality Assurance,5
+DEF000001,PO001452,M017,DC004,Dent,Medium,Quality Assurance,6
+DEF000001,PO001453,M001,DC003,Scratch,Medium,Quality Assurance,6
+DEF000001,PO001454,M004,DC005,Porosity,High,Quality Assurance,3
+DEF000001,PO001455,M009,DC005,Porosity,High,Quality Assurance,7
+DEF000001,PO001456,M011,DC006,Misalignment,High,Quality Assurance,3
+DEF000001,PO001457,M014,DC002,Dimension Mismatch,High,Quality Assurance,3
+DEF000001,PO001458,M018,DC001,Surface Crack,High,Quality Assurance,4
+DEF000001,PO001459,M002,DC008,Coating Defect,Low,Quality Assurance,5
+DEF000001,PO001460,M004,DC007,Assembly Error,Medium,Quality Assurance,3
+DEF000001,PO001461,M008,DC003,Scratch,Medium,Quality Assurance,5
+DEF000001,PO001462,M011,DC003,Scratch,Medium,Quality Assurance,5
+DEF000001,PO001463,M014,DC007,Assembly Error,Medium,Quality Assurance,5
+DEF000001,PO001464,M017,DC009,Material Defect,High,Quality Assurance,7
+DEF000001,PO001465,M003,DC004,Dent,Medium,Quality Assurance,7
+DEF000001,PO001466,M004,DC009,Material Defect,High,Quality Assurance,3
+DEF000001,PO001467,M007,DC009,Material Defect,High,Quality Assurance,6
+DEF000001,PO001468,M011,DC006,Misalignment,High,Quality Assurance,4
+DEF000001,PO001469,M013,DC002,Dimension Mismatch,High,Quality Assurance,4
+DEF000001,PO001470,M017,DC007,Assembly Error,Medium,Quality Assurance,6
+DEF000001,PO001471,M001,DC001,Surface Crack,High,Quality Assurance,6
+DEF000001,PO001472,M005,DC007,Assembly Error,Medium,Quality Assurance,4
+DEF000001,PO001473,M008,DC001,Surface Crack,High,Quality Assurance,5
+DEF000001,PO001474,M012,DC008,Coating Defect,Low,Quality Assurance,3
+DEF000001,PO001475,M014,DC002,Dimension Mismatch,High,Quality Assurance,4
+DEF000001,PO001476,M016,DC006,Misalignment,High,Quality Assurance,4
+DEF000001,PO001477,M001,DC010,Incomplete Machining,Medium,Quality Assurance,6
+DEF000001,PO001478,M006,DC007,Assembly Error,Medium,Quality Assurance,5
+DEF000001,PO001479,M009,DC010,Incomplete Machining,Medium,Quality Assurance,6
+DEF000001,PO001480,M010,DC007,Assembly Error,Medium,Quality Assurance,3
+DEF000001,PO001481,M014,DC007,Assembly Error,Medium,Quality Assurance,4
+DEF000001,PO001482,M016,DC005,Porosity,High,Quality Assurance,6
+DEF000001,PO001483,M002,DC002,Dimension Mismatch,High,Quality Assurance,4
+DEF000001,PO001484,M006,DC007,Assembly Error,Medium,Quality Assurance,5
+DEF000001,PO001485,M007,DC001,Surface Crack,High,Quality Assurance,5
+DEF000001,PO001486,M010,DC006,Misalignment,High,Quality Assurance,3
+DEF000001,PO001487,M014,DC003,Scratch,Medium,Quality Assurance,5
+DEF000001,PO001488,M016,DC010,Incomplete Machining,Medium,Quality Assurance,6
+DEF000001,PO001489,M002,DC008,Coating Defect,Low,Quality Assurance,6
+DEF000001,PO001490,M005,DC006,Misalignment,High,Quality Assurance,4
+DEF000001,PO001491,M009,DC002,Dimension Mismatch,High,Quality Assurance,6
+DEF000001,PO001492,M011,DC007,Assembly Error,Medium,Quality Assurance,5
+DEF000001,PO001493,M013,DC002,Dimension Mismatch,High,Quality Assurance,5
+DEF000001,PO001494,M017,DC004,Dent,Medium,Quality Assurance,6
+DEF000001,PO001495,M002,DC007,Assembly Error,Medium,Quality Assurance,6
+DEF000001,PO001496,M006,DC010,Incomplete Machining,Medium,Quality Assurance,3
+DEF000001,PO001497,M009,DC007,Assembly Error,Medium,Quality Assurance,7
+DEF000001,PO001498,M012,DC009,Material Defect,High,Quality Assurance,4
+DEF000001,PO001499,M014,DC002,Dimension Mismatch,High,Quality Assurance,4
+DEF000001,PO001500,M016,DC007,Assembly Error,Medium,Quality Assurance,7
+DEF000001,PO001501,M003,DC005,Porosity,High,Quality Assurance,7
+DEF000001,PO001502,M006,DC006,Misalignment,High,Quality Assurance,5
+DEF000001,PO001503,M007,DC004,Dent,Medium,Quality Assurance,8
+DEF000001,PO001504,M010,DC006,Misalignment,High,Quality Assurance,4
+DEF000001,PO001505,M013,DC003,Scratch,Medium,Quality Assurance,5
+DEF000001,PO001506,M018,DC002,Dimension Mismatch,High,Quality Assurance,7
+DEF000001,PO001507,M003,DC009,Material Defect,High,Quality Assurance,8
+DEF000001,PO001508,M004,DC002,Dimension Mismatch,High,Quality Assurance,5
+DEF000001,PO001509,M007,DC009,Material Defect,High,Quality Assurance,6
+DEF000001,PO001510,M010,DC009,Material Defect,High,Quality Assurance,3
+DEF000001,PO001511,M013,DC004,Dent,Medium,Quality Assurance,5
+DEF000001,PO001512,M018,DC006,Misalignment,High,Quality Assurance,4
+DEF000001,PO001513,M002,DC006,Misalignment,High,Quality Assurance,5
+DEF000001,PO001514,M004,DC003,Scratch,Medium,Quality Assurance,4
+DEF000001,PO001515,M009,DC004,Dent,Medium,Quality Assurance,6
+DEF000001,PO001516,M011,DC002,Dimension Mismatch,High,Quality Assurance,3
+DEF000001,PO001517,M014,DC003,Scratch,Medium,Quality Assurance,3
+DEF000001,PO001518,M018,DC005,Porosity,High,Quality Assurance,4
+DEF000001,PO001519,M002,DC004,Dent,Medium,Quality Assurance,4
+DEF000001,PO001520,M004,DC003,Scratch,Medium,Quality Assurance,3
+DEF000001,PO001521,M009,DC010,Incomplete Machining,Medium,Quality Assurance,9
+DEF000001,PO001522,M010,DC003,Scratch,Medium,Quality Assurance,4
+DEF000001,PO001523,M014,DC002,Dimension Mismatch,High,Quality Assurance,5
+DEF000001,PO001524,M017,DC003,Scratch,Medium,Quality Assurance,5
+DEF000001,PO001525,M003,DC008,Coating Defect,Low,Quality Assurance,6
+DEF000001,PO001526,M006,DC008,Coating Defect,Low,Quality Assurance,5
+DEF000001,PO001527,M007,DC010,Incomplete Machining,Medium,Quality Assurance,7
+DEF000001,PO001528,M010,DC010,Incomplete Machining,Medium,Quality Assurance,4
+DEF000001,PO001529,M015,DC008,Coating Defect,Low,Quality Assurance,5
+DEF000001,PO001530,M017,DC010,Incomplete Machining,Medium,Quality Assurance,7
+DEF000001,PO001531,M003,DC010,Incomplete Machining,Medium,Quality Assurance,7
+DEF000001,PO001532,M006,DC006,Misalignment,High,Quality Assurance,3
+DEF000001,PO001533,M008,DC006,Misalignment,High,Quality Assurance,7
+DEF000001,PO001534,M011,DC003,Scratch,Medium,Quality Assurance,5
+DEF000001,PO001535,M014,DC008,Coating Defect,Low,Quality Assurance,4
+DEF000001,PO001536,M016,DC002,Dimension Mismatch,High,Quality Assurance,5
+DEF000001,PO001537,M002,DC008,Coating Defect,Low,Quality Assurance,7
+DEF000001,PO001538,M006,DC008,Coating Defect,Low,Quality Assurance,3
+DEF000001,PO001539,M009,DC005,Porosity,High,Quality Assurance,5
+DEF000001,PO001540,M011,DC005,Porosity,High,Quality Assurance,4
+DEF000001,PO001541,M015,DC010,Incomplete Machining,Medium,Quality Assurance,5
+DEF000001,PO001542,M017,DC001,Surface Crack,High,Quality Assurance,7
+DEF000001,PO001543,M003,DC006,Misalignment,High,Quality Assurance,5
+DEF000001,PO001544,M005,DC009,Material Defect,High,Quality Assurance,4
+DEF000001,PO001545,M007,DC002,Dimension Mismatch,High,Quality Assurance,7
+DEF000001,PO001546,M010,DC005,Porosity,High,Quality Assurance,4
+DEF000001,PO001547,M013,DC008,Coating Defect,Low,Quality Assurance,3
+DEF000001,PO001548,M016,DC008,Coating Defect,Low,Quality Assurance,4
+DEF000001,PO001549,M002,DC001,Surface Crack,High,Quality Assurance,7
+DEF000001,PO001550,M005,DC001,Surface Crack,High,Quality Assurance,3
+DEF000001,PO001551,M009,DC006,Misalignment,High,Quality Assurance,7
+DEF000001,PO001552,M010,DC005,Porosity,High,Quality Assurance,4
+DEF000001,PO001553,M013,DC002,Dimension Mismatch,High,Quality Assurance,5
+DEF000001,PO001554,M018,DC002,Dimension Mismatch,High,Quality Assurance,5
+DEF000001,PO001555,M002,DC010,Incomplete Machining,Medium,Quality Assurance,5
+DEF000001,PO001556,M005,DC010,Incomplete Machining,Medium,Quality Assurance,3
+DEF000001,PO001557,M008,DC009,Material Defect,High,Quality Assurance,6
+DEF000001,PO001558,M010,DC007,Assembly Error,Medium,Quality Assurance,5
+DEF000001,PO001559,M013,DC008,Coating Defect,Low,Quality Assurance,3
+DEF000001,PO001560,M018,DC010,Incomplete Machining,Medium,Quality Assurance,5
+DEF000001,PO001561,M001,DC009,Material Defect,High,Quality Assurance,4
+DEF000001,PO001562,M005,DC001,Surface Crack,High,Quality Assurance,4
+DEF000001,PO001563,M009,DC008,Coating Defect,Low,Quality Assurance,5
+DEF000001,PO001564,M010,DC010,Incomplete Machining,Medium,Quality Assurance,4
+DEF000001,PO001565,M015,DC004,Dent,Medium,Quality Assurance,4
+DEF000001,PO001566,M017,DC006,Misalignment,High,Quality Assurance,5
+DEF000001,PO001567,M003,DC010,Incomplete Machining,Medium,Quality Assurance,7
+DEF000001,PO001568,M005,DC008,Coating Defect,Low,Quality Assurance,4
+DEF000001,PO001569,M008,DC009,Material Defect,High,Quality Assurance,8
+DEF000001,PO001570,M010,DC003,Scratch,Medium,Quality Assurance,5
+DEF000001,PO001571,M015,DC001,Surface Crack,High,Quality Assurance,5
+DEF000001,PO001572,M017,DC008,Coating Defect,Low,Quality Assurance,4
+DEF000001,PO001573,M001,DC002,Dimension Mismatch,High,Quality Assurance,8
+DEF000001,PO001574,M005,DC006,Misalignment,High,Quality Assurance,5
+DEF000001,PO001575,M009,DC002,Dimension Mismatch,High,Quality Assurance,8
+DEF000001,PO001576,M011,DC009,Material Defect,High,Quality Assurance,3
+DEF000001,PO001577,M014,DC003,Scratch,Medium,Quality Assurance,4
+DEF000001,PO001578,M017,DC001,Surface Crack,High,Quality Assurance,6
+DEF000001,PO001579,M002,DC004,Dent,Medium,Quality Assurance,6
+DEF000001,PO001580,M006,DC008,Coating Defect,Low,Quality Assurance,3
+DEF000001,PO001581,M007,DC008,Coating Defect,Low,Quality Assurance,8
+DEF000001,PO001582,M010,DC009,Material Defect,High,Quality Assurance,5
+DEF000001,PO001583,M015,DC009,Material Defect,High,Quality Assurance,4
+DEF000001,PO001584,M016,DC010,Incomplete Machining,Medium,Quality Assurance,7
+DEF000001,PO001585,M003,DC003,Scratch,Medium,Quality Assurance,7
+DEF000001,PO001586,M005,DC006,Misalignment,High,Quality Assurance,3
+DEF000001,PO001587,M008,DC006,Misalignment,High,Quality Assurance,5
+DEF000001,PO001588,M012,DC005,Porosity,High,Quality Assurance,4
+DEF000001,PO001589,M014,DC007,Assembly Error,Medium,Quality Assurance,4
+DEF000001,PO001590,M018,DC007,Assembly Error,Medium,Quality Assurance,6
+DEF000001,PO001591,M003,DC006,Misalignment,High,Quality Assurance,7
+DEF000001,PO001592,M005,DC010,Incomplete Machining,Medium,Quality Assurance,4
+DEF000001,PO001593,M009,DC001,Surface Crack,High,Quality Assurance,7
+DEF000001,PO001594,M010,DC006,Misalignment,High,Quality Assurance,4
+DEF000001,PO001595,M015,DC002,Dimension Mismatch,High,Quality Assurance,5
+DEF000001,PO001596,M018,DC006,Misalignment,High,Quality Assurance,5
+DEF000001,PO001597,M003,DC002,Dimension Mismatch,High,Quality Assurance,7
+DEF000001,PO001598,M004,DC009,Material Defect,High,Quality Assurance,3
+DEF000001,PO001599,M007,DC007,Assembly Error,Medium,Quality Assurance,6
+DEF000001,PO001600,M011,DC005,Porosity,High,Quality Assurance,5
+DEF000001,PO001601,M015,DC005,Porosity,High,Quality Assurance,3
+DEF000001,PO001602,M016,DC010,Incomplete Machining,Medium,Quality Assurance,6
+DEF000001,PO001603,M003,DC003,Scratch,Medium,Quality Assurance,8
+DEF000001,PO001604,M006,DC006,Misalignment,High,Quality Assurance,3
+DEF000001,PO001605,M007,DC002,Dimension Mismatch,High,Quality Assurance,9
+DEF000001,PO001606,M012,DC010,Incomplete Machining,Medium,Quality Assurance,4
+DEF000001,PO001607,M014,DC003,Scratch,Medium,Quality Assurance,5
+DEF000001,PO001608,M016,DC006,Misalignment,High,Quality Assurance,6
+DEF000001,PO001609,M002,DC005,Porosity,High,Quality Assurance,7
+DEF000001,PO001610,M005,DC007,Assembly Error,Medium,Quality Assurance,4
+DEF000001,PO001611,M009,DC003,Scratch,Medium,Quality Assurance,7
+DEF000001,PO001612,M011,DC010,Incomplete Machining,Medium,Quality Assurance,4
+DEF000001,PO001613,M013,DC002,Dimension Mismatch,High,Quality Assurance,4
+DEF000001,PO001614,M016,DC005,Porosity,High,Quality Assurance,6
+DEF000001,PO001615,M002,DC009,Material Defect,High,Quality Assurance,5
+DEF000001,PO001616,M006,DC007,Assembly Error,Medium,Quality Assurance,3
+DEF000001,PO001617,M007,DC006,Misalignment,High,Quality Assurance,6
+DEF000001,PO001618,M011,DC003,Scratch,Medium,Quality Assurance,5
+DEF000001,PO001619,M014,DC009,Material Defect,High,Quality Assurance,5
+DEF000001,PO001620,M017,DC002,Dimension Mismatch,High,Quality Assurance,4
+DEF000001,PO001621,M003,DC007,Assembly Error,Medium,Quality Assurance,5
+DEF000001,PO001622,M005,DC009,Material Defect,High,Quality Assurance,4
+DEF000001,PO001623,M009,DC006,Misalignment,High,Quality Assurance,5
+DEF000001,PO001624,M012,DC001,Surface Crack,High,Quality Assurance,3
+DEF000001,PO001625,M015,DC006,Misalignment,High,Quality Assurance,4
+DEF000001,PO001626,M018,DC005,Porosity,High,Quality Assurance,5
+DEF000001,PO001627,M002,DC003,Scratch,Medium,Quality Assurance,5
+DEF000001,PO001628,M005,DC004,Dent,Medium,Quality Assurance,4
+DEF000001,PO001629,M008,DC006,Misalignment,High,Quality Assurance,5
+DEF000001,PO001630,M010,DC008,Coating Defect,Low,Quality Assurance,4
+DEF000001,PO001631,M014,DC004,Dent,Medium,Quality Assurance,4
+DEF000001,PO001632,M018,DC004,Dent,Medium,Quality Assurance,4
+DEF000001,PO001633,M003,DC003,Scratch,Medium,Quality Assurance,5
+DEF000001,PO001634,M005,DC003,Scratch,Medium,Quality Assurance,4
+DEF000001,PO001635,M007,DC002,Dimension Mismatch,High,Quality Assurance,6
+DEF000001,PO001636,M010,DC005,Porosity,High,Quality Assurance,4
+DEF000001,PO001637,M013,DC002,Dimension Mismatch,High,Quality Assurance,5
+DEF000001,PO001638,M016,DC009,Material Defect,High,Quality Assurance,6
+DEF000001,PO001639,M001,DC009,Material Defect,High,Quality Assurance,5
+DEF000001,PO001640,M006,DC009,Material Defect,High,Quality Assurance,3
+DEF000001,PO001641,M009,DC001,Surface Crack,High,Quality Assurance,7
+DEF000001,PO001642,M012,DC006,Misalignment,High,Quality Assurance,3
+DEF000001,PO001643,M013,DC010,Incomplete Machining,Medium,Quality Assurance,4
+DEF000001,PO001644,M016,DC003,Scratch,Medium,Quality Assurance,5
+DEF000001,PO001645,M001,DC010,Incomplete Machining,Medium,Quality Assurance,7
+DEF000001,PO001646,M005,DC007,Assembly Error,Medium,Quality Assurance,4
+DEF000001,PO001647,M008,DC003,Scratch,Medium,Quality Assurance,7
+DEF000001,PO001648,M010,DC003,Scratch,Medium,Quality Assurance,3
+DEF000001,PO001649,M015,DC003,Scratch,Medium,Quality Assurance,3
+DEF000001,PO001650,M017,DC010,Incomplete Machining,Medium,Quality Assurance,6
+DEF000001,PO001651,M003,DC003,Scratch,Medium,Quality Assurance,6
+DEF000001,PO001652,M006,DC008,Coating Defect,Low,Quality Assurance,4
+DEF000001,PO001653,M007,DC001,Surface Crack,High,Quality Assurance,9
+DEF000001,PO001654,M012,DC007,Assembly Error,Medium,Quality Assurance,4
+DEF000001,PO001655,M013,DC006,Misalignment,High,Quality Assurance,4
+DEF000001,PO001656,M016,DC004,Dent,Medium,Quality Assurance,5
+DEF000001,PO001657,M002,DC008,Coating Defect,Low,Quality Assurance,6
+DEF000001,PO001658,M005,DC010,Incomplete Machining,Medium,Quality Assurance,4
+DEF000001,PO001659,M007,DC005,Porosity,High,Quality Assurance,7
+DEF000001,PO001660,M011,DC008,Coating Defect,Low,Quality Assurance,4
+DEF000001,PO001661,M014,DC004,Dent,Medium,Quality Assurance,3
+DEF000001,PO001662,M016,DC009,Material Defect,High,Quality Assurance,4
+DEF000001,PO001663,M001,DC004,Dent,Medium,Quality Assurance,4
+DEF000001,PO001664,M006,DC005,Porosity,High,Quality Assurance,3
+DEF000001,PO001665,M007,DC008,Coating Defect,Low,Quality Assurance,6
+DEF000001,PO001666,M012,DC004,Dent,Medium,Quality Assurance,4
+DEF000001,PO001667,M014,DC006,Misalignment,High,Quality Assurance,4
+DEF000001,PO001668,M017,DC010,Incomplete Machining,Medium,Quality Assurance,5
+DEF000001,PO001669,M001,DC008,Coating Defect,Low,Quality Assurance,6
+DEF000001,PO001670,M004,DC008,Coating Defect,Low,Quality Assurance,3
+DEF000001,PO001671,M009,DC005,Porosity,High,Quality Assurance,5
+DEF000001,PO001672,M012,DC007,Assembly Error,Medium,Quality Assurance,4
+DEF000001,PO001673,M013,DC009,Material Defect,High,Quality Assurance,3
+DEF000001,PO001674,M018,DC009,Material Defect,High,Quality Assurance,6
+DEF000001,PO001675,M002,DC007,Assembly Error,Medium,Quality Assurance,6
+DEF000001,PO001676,M006,DC003,Scratch,Medium,Quality Assurance,4
+DEF000001,PO001677,M007,DC004,Dent,Medium,Quality Assurance,8
+DEF000001,PO001678,M010,DC010,Incomplete Machining,Medium,Quality Assurance,5
+DEF000001,PO001679,M014,DC003,Scratch,Medium,Quality Assurance,3
+DEF000001,PO001680,M017,DC005,Porosity,High,Quality Assurance,7
+DEF000001,PO001681,M002,DC001,Surface Crack,High,Quality Assurance,6
+DEF000001,PO001682,M004,DC008,Coating Defect,Low,Quality Assurance,4
+DEF000001,PO001683,M009,DC006,Misalignment,High,Quality Assurance,6
+DEF000001,PO001684,M010,DC009,Material Defect,High,Quality Assurance,4
+DEF000001,PO001685,M014,DC002,Dimension Mismatch,High,Quality Assurance,4
+DEF000001,PO001686,M018,DC009,Material Defect,High,Quality Assurance,6
+DEF000001,PO001687,M003,DC002,Dimension Mismatch,High,Quality Assurance,4
+DEF000001,PO001688,M006,DC005,Porosity,High,Quality Assurance,3
+DEF000001,PO001689,M008,DC002,Dimension Mismatch,High,Quality Assurance,6
+DEF000001,PO001690,M011,DC003,Scratch,Medium,Quality Assurance,3
+DEF000001,PO001691,M014,DC005,Porosity,High,Quality Assurance,4
+DEF000001,PO001692,M018,DC008,Coating Defect,Low,Quality Assurance,7
+DEF000001,PO001693,M003,DC009,Material Defect,High,Quality Assurance,8
+DEF000001,PO001694,M006,DC003,Scratch,Medium,Quality Assurance,4
+DEF000001,PO001695,M008,DC007,Assembly Error,Medium,Quality Assurance,6
+DEF000001,PO001696,M012,DC002,Dimension Mismatch,High,Quality Assurance,5
+DEF000001,PO001697,M013,DC004,Dent,Medium,Quality Assurance,4
+DEF000001,PO001698,M018,DC008,Coating Defect,Low,Quality Assurance,6
+DEF000001,PO001699,M002,DC006,Misalignment,High,Quality Assurance,5
+DEF000001,PO001700,M006,DC001,Surface Crack,High,Quality Assurance,4
+DEF000001,PO001701,M009,DC007,Assembly Error,Medium,Quality Assurance,9
+DEF000001,PO001702,M010,DC001,Surface Crack,High,Quality Assurance,5
+DEF000001,PO001703,M015,DC007,Assembly Error,Medium,Quality Assurance,5
+DEF000001,PO001704,M016,DC009,Material Defect,High,Quality Assurance,5
+DEF000001,PO001705,M002,DC006,Misalignment,High,Quality Assurance,6
+DEF000001,PO001706,M005,DC004,Dent,Medium,Quality Assurance,4
+DEF000001,PO001707,M007,DC007,Assembly Error,Medium,Quality Assurance,8
+DEF000001,PO001708,M011,DC002,Dimension Mismatch,High,Quality Assurance,4
+DEF000001,PO001709,M013,DC006,Misalignment,High,Quality Assurance,5
+DEF000001,PO001710,M018,DC004,Dent,Medium,Quality Assurance,6
+DEF000001,PO001711,M002,DC001,Surface Crack,High,Quality Assurance,6
+DEF000001,PO001712,M004,DC006,Misalignment,High,Quality Assurance,3
+DEF000001,PO001713,M009,DC002,Dimension Mismatch,High,Quality Assurance,6
+DEF000001,PO001714,M011,DC006,Misalignment,High,Quality Assurance,4
+DEF000001,PO001715,M015,DC003,Scratch,Medium,Quality Assurance,3
+DEF000001,PO001716,M018,DC003,Scratch,Medium,Quality Assurance,6
+DEF000001,PO001717,M002,DC001,Surface Crack,High,Quality Assurance,6
+DEF000001,PO001718,M004,DC005,Porosity,High,Quality Assurance,4
+DEF000001,PO001719,M008,DC008,Coating Defect,Low,Quality Assurance,7
+DEF000001,PO001720,M011,DC003,Scratch,Medium,Quality Assurance,4
+DEF000001,PO001721,M015,DC008,Coating Defect,Low,Quality Assurance,5
+DEF000001,PO001722,M018,DC008,Coating Defect,Low,Quality Assurance,5
+DEF000001,PO001723,M002,DC010,Incomplete Machining,Medium,Quality Assurance,5
+DEF000001,PO001724,M006,DC001,Surface Crack,High,Quality Assurance,3
+DEF000001,PO001725,M008,DC002,Dimension Mismatch,High,Quality Assurance,7
+DEF000001,PO001726,M011,DC001,Surface Crack,High,Quality Assurance,5
+DEF000001,PO001727,M014,DC005,Porosity,High,Quality Assurance,3
+DEF000001,PO001728,M016,DC004,Dent,Medium,Quality Assurance,5
+DEF000001,PO001729,M003,DC003,Scratch,Medium,Quality Assurance,5
+DEF000001,PO001730,M005,DC009,Material Defect,High,Quality Assurance,3
+DEF000001,PO001731,M007,DC010,Incomplete Machining,Medium,Quality Assurance,8
+DEF000001,PO001732,M011,DC009,Material Defect,High,Quality Assurance,6
+DEF000001,PO001733,M015,DC007,Assembly Error,Medium,Quality Assurance,5
+DEF000001,PO001734,M017,DC002,Dimension Mismatch,High,Quality Assurance,4
+DEF000001,PO001735,M003,DC005,Porosity,High,Quality Assurance,6
+DEF000001,PO001736,M005,DC004,Dent,Medium,Quality Assurance,5
+DEF000001,PO001737,M009,DC005,Porosity,High,Quality Assurance,7
+DEF000001,PO001738,M011,DC002,Dimension Mismatch,High,Quality Assurance,3
+DEF000001,PO001739,M015,DC001,Surface Crack,High,Quality Assurance,4
+DEF000001,PO001740,M017,DC004,Dent,Medium,Quality Assurance,6
+DEF000001,PO001741,M002,DC007,Assembly Error,Medium,Quality Assurance,6
+DEF000001,PO001742,M006,DC010,Incomplete Machining,Medium,Quality Assurance,4
+DEF000001,PO001743,M009,DC008,Coating Defect,Low,Quality Assurance,6
+DEF000001,PO001744,M011,DC002,Dimension Mismatch,High,Quality Assurance,5
+DEF000001,PO001745,M015,DC002,Dimension Mismatch,High,Quality Assurance,3
+DEF000001,PO001746,M017,DC008,Coating Defect,Low,Quality Assurance,4
+DEF000001,PO001747,M003,DC010,Incomplete Machining,Medium,Quality Assurance,7
+DEF000001,PO001748,M005,DC009,Material Defect,High,Quality Assurance,3
+DEF000001,PO001749,M008,DC001,Surface Crack,High,Quality Assurance,6
+DEF000001,PO001750,M011,DC009,Material Defect,High,Quality Assurance,6
+DEF000001,PO001751,M015,DC010,Incomplete Machining,Medium,Quality Assurance,4
+DEF000001,PO001752,M018,DC004,Dent,Medium,Quality Assurance,6
+DEF000001,PO001753,M003,DC003,Scratch,Medium,Quality Assurance,7
+DEF000001,PO001754,M004,DC005,Porosity,High,Quality Assurance,3
+DEF000001,PO001755,M009,DC007,Assembly Error,Medium,Quality Assurance,6
+DEF000001,PO001756,M011,DC001,Surface Crack,High,Quality Assurance,4
+DEF000001,PO001757,M015,DC010,Incomplete Machining,Medium,Quality Assurance,5
+DEF000001,PO001758,M018,DC006,Misalignment,High,Quality Assurance,4
+DEF000001,PO001759,M002,DC004,Dent,Medium,Quality Assurance,6
+DEF000001,PO001760,M005,DC010,Incomplete Machining,Medium,Quality Assurance,3
+DEF000001,PO001761,M009,DC007,Assembly Error,Medium,Quality Assurance,8
+DEF000001,PO001762,M012,DC003,Scratch,Medium,Quality Assurance,4
+DEF000001,PO001763,M015,DC002,Dimension Mismatch,High,Quality Assurance,6
+DEF000001,PO001764,M017,DC009,Material Defect,High,Quality Assurance,6
+DEF000001,PO001765,M003,DC006,Misalignment,High,Quality Assurance,5
+DEF000001,PO001766,M005,DC002,Dimension Mismatch,High,Quality Assurance,3
+DEF000001,PO001767,M009,DC009,Material Defect,High,Quality Assurance,5
+DEF000001,PO001768,M011,DC009,Material Defect,High,Quality Assurance,6
+DEF000001,PO001769,M014,DC009,Material Defect,High,Quality Assurance,4
+DEF000001,PO001770,M016,DC009,Material Defect,High,Quality Assurance,5
+DEF000001,PO001771,M001,DC009,Material Defect,High,Quality Assurance,7
+DEF000001,PO001772,M005,DC001,Surface Crack,High,Quality Assurance,5
+DEF000001,PO001773,M009,DC007,Assembly Error,Medium,Quality Assurance,7
+DEF000001,PO001774,M012,DC008,Coating Defect,Low,Quality Assurance,4
+DEF000001,PO001775,M014,DC001,Surface Crack,High,Quality Assurance,5
+DEF000001,PO001776,M018,DC007,Assembly Error,Medium,Quality Assurance,4
+DEF000001,PO001777,M003,DC006,Misalignment,High,Quality Assurance,6
+DEF000001,PO001778,M005,DC005,Porosity,High,Quality Assurance,4
+DEF000001,PO001779,M008,DC001,Surface Crack,High,Quality Assurance,9
+DEF000001,PO001780,M010,DC006,Misalignment,High,Quality Assurance,4
+DEF000001,PO001781,M013,DC002,Dimension Mismatch,High,Quality Assurance,4
+DEF000001,PO001782,M018,DC006,Misalignment,High,Quality Assurance,6
+DEF000001,PO001783,M003,DC004,Dent,Medium,Quality Assurance,5
+DEF000001,PO001784,M006,DC002,Dimension Mismatch,High,Quality Assurance,4
+DEF000001,PO001785,M007,DC010,Incomplete Machining,Medium,Quality Assurance,6
+DEF000001,PO001786,M010,DC006,Misalignment,High,Quality Assurance,5
+DEF000001,PO001787,M013,DC003,Scratch,Medium,Quality Assurance,4
+DEF000001,PO001788,M018,DC001,Surface Crack,High,Quality Assurance,3
+DEF000001,PO001789,M001,DC006,Misalignment,High,Quality Assurance,6
+DEF000001,PO001790,M006,DC009,Material Defect,High,Quality Assurance,3
+DEF000001,PO001791,M007,DC006,Misalignment,High,Quality Assurance,8
+DEF000001,PO001792,M010,DC003,Scratch,Medium,Quality Assurance,4
+DEF000001,PO001793,M015,DC008,Coating Defect,Low,Quality Assurance,3
+DEF000001,PO001794,M016,DC008,Coating Defect,Low,Quality Assurance,7
+DEF000001,PO001795,M003,DC003,Scratch,Medium,Quality Assurance,4
+DEF000001,PO001796,M006,DC003,Scratch,Medium,Quality Assurance,4
+DEF000001,PO001797,M009,DC002,Dimension Mismatch,High,Quality Assurance,6
+DEF000001,PO001798,M010,DC008,Coating Defect,Low,Quality Assurance,6
+DEF000001,PO001799,M014,DC001,Surface Crack,High,Quality Assurance,4
+DEF000001,PO001800,M016,DC005,Porosity,High,Quality Assurance,7
+DEF000001,PO001801,M003,DC004,Dent,Medium,Quality Assurance,5
+DEF000001,PO001802,M006,DC001,Surface Crack,High,Quality Assurance,4
+DEF000001,PO001803,M007,DC004,Dent,Medium,Quality Assurance,5
+DEF000001,PO001804,M010,DC001,Surface Crack,High,Quality Assurance,6
+DEF000001,PO001805,M014,DC006,Misalignment,High,Quality Assurance,5
+DEF000001,PO001806,M016,DC005,Porosity,High,Quality Assurance,4
+DEF000001,PO001807,M003,DC009,Material Defect,High,Quality Assurance,7
+DEF000001,PO001808,M006,DC007,Assembly Error,Medium,Quality Assurance,2
+DEF000001,PO001809,M009,DC009,Material Defect,High,Quality Assurance,5
+DEF000001,PO001810,M010,DC008,Coating Defect,Low,Quality Assurance,5
+DEF000001,PO001811,M015,DC005,Porosity,High,Quality Assurance,4
+DEF000001,PO001812,M018,DC001,Surface Crack,High,Quality Assurance,6
+DEF000001,PO001813,M002,DC004,Dent,Medium,Quality Assurance,5
+DEF000001,PO001814,M005,DC005,Porosity,High,Quality Assurance,4
+DEF000001,PO001815,M008,DC006,Misalignment,High,Quality Assurance,5
+DEF000001,PO001816,M011,DC001,Surface Crack,High,Quality Assurance,5
+DEF000001,PO001817,M014,DC006,Misalignment,High,Quality Assurance,4
+DEF000001,PO001818,M017,DC005,Porosity,High,Quality Assurance,6
+DEF000001,PO001819,M001,DC002,Dimension Mismatch,High,Quality Assurance,5
+DEF000001,PO001820,M004,DC006,Misalignment,High,Quality Assurance,3
+DEF000001,PO001821,M009,DC007,Assembly Error,Medium,Quality Assurance,9
+DEF000001,PO001822,M012,DC007,Assembly Error,Medium,Quality Assurance,3
+DEF000001,PO001823,M015,DC008,Coating Defect,Low,Quality Assurance,4
+DEF000001,PO001824,M017,DC007,Assembly Error,Medium,Quality Assurance,4
+DEF000001,PO001825,M001,DC006,Misalignment,High,Quality Assurance,5
+DEF000001,PO001826,M006,DC003,Scratch,Medium,Quality Assurance,4
+DEF000001,PO001827,M007,DC008,Coating Defect,Low,Quality Assurance,7
+DEF000001,PO001828,M011,DC008,Coating Defect,Low,Quality Assurance,4
+DEF000001,PO001829,M013,DC006,Misalignment,High,Quality Assurance,4
+DEF000001,PO001830,M016,DC009,Material Defect,High,Quality Assurance,4
+DEF000001,PO001831,M003,DC005,Porosity,High,Quality Assurance,6
+DEF000001,PO001832,M004,DC002,Dimension Mismatch,High,Quality Assurance,4
+DEF000001,PO001833,M008,DC007,Assembly Error,Medium,Quality Assurance,8
+DEF000001,PO001834,M011,DC002,Dimension Mismatch,High,Quality Assurance,4
+DEF000001,PO001835,M013,DC007,Assembly Error,Medium,Quality Assurance,5
+DEF000001,PO001836,M016,DC010,Incomplete Machining,Medium,Quality Assurance,5
+DEF000001,PO001837,M003,DC003,Scratch,Medium,Quality Assurance,6
+DEF000001,PO001838,M006,DC009,Material Defect,High,Quality Assurance,4
+DEF000001,PO001839,M009,DC005,Porosity,High,Quality Assurance,5
+DEF000001,PO001840,M012,DC006,Misalignment,High,Quality Assurance,4
+DEF000001,PO001841,M015,DC002,Dimension Mismatch,High,Quality Assurance,3
+DEF000001,PO001842,M016,DC002,Dimension Mismatch,High,Quality Assurance,5
+DEF000001,PO001843,M002,DC006,Misalignment,High,Quality Assurance,6
+DEF000001,PO001844,M004,DC005,Porosity,High,Quality Assurance,3
+DEF000001,PO001845,M009,DC005,Porosity,High,Quality Assurance,5
+DEF000001,PO001846,M012,DC008,Coating Defect,Low,Quality Assurance,5
+DEF000001,PO001847,M014,DC010,Incomplete Machining,Medium,Quality Assurance,4
+DEF000001,PO001848,M018,DC007,Assembly Error,Medium,Quality Assurance,6
+DEF000001,PO001849,M003,DC003,Scratch,Medium,Quality Assurance,6
+DEF000001,PO001850,M006,DC008,Coating Defect,Low,Quality Assurance,5
+DEF000001,PO001851,M007,DC006,Misalignment,High,Quality Assurance,6
+DEF000001,PO001852,M012,DC008,Coating Defect,Low,Quality Assurance,4
+DEF000001,PO001853,M015,DC001,Surface Crack,High,Quality Assurance,4
+DEF000001,PO001854,M016,DC006,Misalignment,High,Quality Assurance,4
+DEF000001,PO001855,M003,DC010,Incomplete Machining,Medium,Quality Assurance,7
+DEF000001,PO001856,M005,DC007,Assembly Error,Medium,Quality Assurance,3
+DEF000001,PO001857,M007,DC005,Porosity,High,Quality Assurance,8
+DEF000001,PO001858,M012,DC001,Surface Crack,High,Quality Assurance,4
+DEF000001,PO001859,M013,DC002,Dimension Mismatch,High,Quality Assurance,3
+DEF000001,PO001860,M018,DC007,Assembly Error,Medium,Quality Assurance,6
+DEF000001,PO001861,M003,DC006,Misalignment,High,Quality Assurance,5
+DEF000001,PO001862,M006,DC009,Material Defect,High,Quality Assurance,3
+DEF000001,PO001863,M009,DC003,Scratch,Medium,Quality Assurance,5
+DEF000001,PO001864,M010,DC001,Surface Crack,High,Quality Assurance,4
+DEF000001,PO001865,M015,DC003,Scratch,Medium,Quality Assurance,5
+DEF000001,PO001866,M017,DC010,Incomplete Machining,Medium,Quality Assurance,6
+DEF000001,PO001867,M003,DC008,Coating Defect,Low,Quality Assurance,5
+DEF000001,PO001868,M005,DC001,Surface Crack,High,Quality Assurance,3
+DEF000001,PO001869,M008,DC003,Scratch,Medium,Quality Assurance,9
+DEF000001,PO001870,M011,DC002,Dimension Mismatch,High,Quality Assurance,5
+DEF000001,PO001871,M014,DC004,Dent,Medium,Quality Assurance,3
+DEF000001,PO001872,M018,DC006,Misalignment,High,Quality Assurance,6
+DEF000001,PO001873,M002,DC006,Misalignment,High,Quality Assurance,5
+DEF000001,PO001874,M005,DC007,Assembly Error,Medium,Quality Assurance,4
+DEF000001,PO001875,M009,DC010,Incomplete Machining,Medium,Quality Assurance,7
+DEF000001,PO001876,M011,DC001,Surface Crack,High,Quality Assurance,4
+DEF000001,PO001877,M015,DC010,Incomplete Machining,Medium,Quality Assurance,4
+DEF000001,PO001878,M017,DC003,Scratch,Medium,Quality Assurance,6
+DEF000001,PO001879,M002,DC008,Coating Defect,Low,Quality Assurance,5
+DEF000001,PO001880,M004,DC006,Misalignment,High,Quality Assurance,4
+DEF000001,PO001881,M009,DC006,Misalignment,High,Quality Assurance,6
+DEF000001,PO001882,M010,DC008,Coating Defect,Low,Quality Assurance,4
+DEF000001,PO001883,M014,DC002,Dimension Mismatch,High,Quality Assurance,4
+DEF000001,PO001884,M016,DC010,Incomplete Machining,Medium,Quality Assurance,5
+DEF000001,PO001885,M003,DC003,Scratch,Medium,Quality Assurance,6
+DEF000001,PO001886,M006,DC009,Material Defect,High,Quality Assurance,4
+DEF000001,PO001887,M009,DC006,Misalignment,High,Quality Assurance,6
+DEF000001,PO001888,M012,DC007,Assembly Error,Medium,Quality Assurance,3
+DEF000001,PO001889,M015,DC006,Misalignment,High,Quality Assurance,5
+DEF000001,PO001890,M016,DC005,Porosity,High,Quality Assurance,5
+DEF000001,PO001891,M001,DC004,Dent,Medium,Quality Assurance,7
+DEF000001,PO001892,M005,DC002,Dimension Mismatch,High,Quality Assurance,4
+DEF000001,PO001893,M009,DC001,Surface Crack,High,Quality Assurance,8
+DEF000001,PO001894,M011,DC003,Scratch,Medium,Quality Assurance,4
+DEF000001,PO001895,M013,DC008,Coating Defect,Low,Quality Assurance,3
+DEF000001,PO001896,M018,DC009,Material Defect,High,Quality Assurance,4
+DEF000001,PO001897,M001,DC007,Assembly Error,Medium,Quality Assurance,6
+DEF000001,PO001898,M004,DC009,Material Defect,High,Quality Assurance,3
+DEF000001,PO001899,M009,DC002,Dimension Mismatch,High,Quality Assurance,7
+DEF000001,PO001900,M012,DC005,Porosity,High,Quality Assurance,3
+DEF000001,PO001901,M013,DC005,Porosity,High,Quality Assurance,5
+DEF000001,PO001902,M016,DC008,Coating Defect,Low,Quality Assurance,4
+DEF000001,PO001903,M002,DC004,Dent,Medium,Quality Assurance,5
+DEF000001,PO001904,M006,DC010,Incomplete Machining,Medium,Quality Assurance,4
+DEF000001,PO001905,M008,DC005,Porosity,High,Quality Assurance,8
+DEF000001,PO001906,M011,DC008,Coating Defect,Low,Quality Assurance,4
+DEF000001,PO001907,M015,DC004,Dent,Medium,Quality Assurance,5
+DEF000001,PO001908,M018,DC002,Dimension Mismatch,High,Quality Assurance,5
+DEF000001,PO001909,M002,DC003,Scratch,Medium,Quality Assurance,5
+DEF000001,PO001910,M006,DC002,Dimension Mismatch,High,Quality Assurance,4
+DEF000001,PO001911,M008,DC008,Coating Defect,Low,Quality Assurance,8
+DEF000001,PO001912,M011,DC003,Scratch,Medium,Quality Assurance,5
+DEF000001,PO001913,M013,DC008,Coating Defect,Low,Quality Assurance,4
+DEF000001,PO001914,M017,DC002,Dimension Mismatch,High,Quality Assurance,6
+DEF000001,PO001915,M003,DC006,Misalignment,High,Quality Assurance,6
+DEF000001,PO001916,M005,DC006,Misalignment,High,Quality Assurance,4
+DEF000001,PO001917,M009,DC002,Dimension Mismatch,High,Quality Assurance,6
+DEF000001,PO001918,M010,DC009,Material Defect,High,Quality Assurance,3
+DEF000001,PO001919,M013,DC009,Material Defect,High,Quality Assurance,4
+DEF000001,PO001920,M018,DC005,Porosity,High,Quality Assurance,6
+DEF000001,PO001921,M001,DC005,Porosity,High,Quality Assurance,4
+DEF000001,PO001922,M005,DC003,Scratch,Medium,Quality Assurance,3
+DEF000001,PO001923,M007,DC003,Scratch,Medium,Quality Assurance,8
+DEF000001,PO001924,M012,DC006,Misalignment,High,Quality Assurance,4
+DEF000001,PO001925,M015,DC009,Material Defect,High,Quality Assurance,5
+DEF000001,PO001926,M016,DC004,Dent,Medium,Quality Assurance,6
+DEF000001,PO001927,M003,DC002,Dimension Mismatch,High,Quality Assurance,5
+DEF000001,PO001928,M004,DC004,Dent,Medium,Quality Assurance,4
+DEF000001,PO001929,M009,DC003,Scratch,Medium,Quality Assurance,6
+DEF000001,PO001930,M010,DC004,Dent,Medium,Quality Assurance,4
+DEF000001,PO001931,M013,DC008,Coating Defect,Low,Quality Assurance,4
+DEF000001,PO001932,M016,DC001,Surface Crack,High,Quality Assurance,4
+DEF000001,PO001933,M003,DC006,Misalignment,High,Quality Assurance,5
+DEF000001,PO001934,M006,DC009,Material Defect,High,Quality Assurance,3
+DEF000001,PO001935,M009,DC010,Incomplete Machining,Medium,Quality Assurance,6
+DEF000001,PO001936,M010,DC006,Misalignment,High,Quality Assurance,4
+DEF000001,PO001937,M015,DC008,Coating Defect,Low,Quality Assurance,6
+DEF000001,PO001938,M016,DC009,Material Defect,High,Quality Assurance,6
+DEF000001,PO001939,M003,DC003,Scratch,Medium,Quality Assurance,5
+DEF000001,PO001940,M004,DC010,Incomplete Machining,Medium,Quality Assurance,5
+DEF000001,PO001941,M007,DC002,Dimension Mismatch,High,Quality Assurance,6
+DEF000001,PO001942,M012,DC002,Dimension Mismatch,High,Quality Assurance,5
+DEF000001,PO001943,M013,DC005,Porosity,High,Quality Assurance,4
+DEF000001,PO001944,M016,DC007,Assembly Error,Medium,Quality Assurance,4
+DEF000001,PO001945,M001,DC008,Coating Defect,Low,Quality Assurance,7
+DEF000001,PO001946,M006,DC009,Material Defect,High,Quality Assurance,3
+DEF000001,PO001947,M009,DC007,Assembly Error,Medium,Quality Assurance,6
+DEF000001,PO001948,M011,DC007,Assembly Error,Medium,Quality Assurance,6
+DEF000001,PO001949,M013,DC010,Incomplete Machining,Medium,Quality Assurance,4
+DEF000001,PO001950,M016,DC002,Dimension Mismatch,High,Quality Assurance,4
+DEF000001,PO001951,M003,DC003,Scratch,Medium,Quality Assurance,6
+DEF000001,PO001952,M006,DC006,Misalignment,High,Quality Assurance,4
+DEF000001,PO001953,M009,DC002,Dimension Mismatch,High,Quality Assurance,7
+DEF000001,PO001954,M011,DC008,Coating Defect,Low,Quality Assurance,5
+DEF000001,PO001955,M015,DC008,Coating Defect,Low,Quality Assurance,4
+DEF000001,PO001956,M016,DC009,Material Defect,High,Quality Assurance,6
+DEF000001,PO001957,M002,DC006,Misalignment,High,Quality Assurance,6
+DEF000001,PO001958,M006,DC003,Scratch,Medium,Quality Assurance,5
+DEF000001,PO001959,M008,DC009,Material Defect,High,Quality Assurance,5
+DEF000001,PO001960,M011,DC010,Incomplete Machining,Medium,Quality Assurance,4
+DEF000001,PO001961,M013,DC003,Scratch,Medium,Quality Assurance,5
+DEF000001,PO001962,M018,DC003,Scratch,Medium,Quality Assurance,6
+DEF000001,PO001963,M001,DC007,Assembly Error,Medium,Quality Assurance,6
+DEF000001,PO001964,M006,DC009,Material Defect,High,Quality Assurance,3
+DEF000001,PO001965,M009,DC001,Surface Crack,High,Quality Assurance,6
+DEF000001,PO001966,M010,DC002,Dimension Mismatch,High,Quality Assurance,4
+DEF000001,PO001967,M013,DC009,Material Defect,High,Quality Assurance,3
+DEF000001,PO001968,M017,DC003,Scratch,Medium,Quality Assurance,6
+DEF000001,PO001969,M002,DC005,Porosity,High,Quality Assurance,6
+DEF000001,PO001970,M005,DC003,Scratch,Medium,Quality Assurance,4
+DEF000001,PO001971,M008,DC003,Scratch,Medium,Quality Assurance,8
+DEF000001,PO001972,M012,DC006,Misalignment,High,Quality Assurance,5
+DEF000001,PO001973,M014,DC004,Dent,Medium,Quality Assurance,3
+DEF000001,PO001974,M018,DC006,Misalignment,High,Quality Assurance,5
+DEF000001,PO001975,M002,DC009,Material Defect,High,Quality Assurance,6
+DEF000001,PO001976,M006,DC005,Porosity,High,Quality Assurance,5
+DEF000001,PO001977,M008,DC002,Dimension Mismatch,High,Quality Assurance,8
+DEF000001,PO001978,M011,DC005,Porosity,High,Quality Assurance,5
+DEF000001,PO001979,M014,DC004,Dent,Medium,Quality Assurance,3
+DEF000001,PO001980,M016,DC009,Material Defect,High,Quality Assurance,6
+DEF000001,PO001981,M002,DC005,Porosity,High,Quality Assurance,5
+DEF000001,PO001982,M004,DC003,Scratch,Medium,Quality Assurance,3
+DEF000001,PO001983,M008,DC005,Porosity,High,Quality Assurance,6
+DEF000001,PO001984,M012,DC010,Incomplete Machining,Medium,Quality Assurance,4
+DEF000001,PO001985,M015,DC009,Material Defect,High,Quality Assurance,4
+DEF000001,PO001986,M017,DC002,Dimension Mismatch,High,Quality Assurance,6
+DEF000001,PO001987,M001,DC009,Material Defect,High,Quality Assurance,4
+DEF000001,PO001988,M006,DC003,Scratch,Medium,Quality Assurance,4
+DEF000001,PO001989,M007,DC010,Incomplete Machining,Medium,Quality Assurance,8
+DEF000001,PO001990,M011,DC010,Incomplete Machining,Medium,Quality Assurance,3
+DEF000001,PO001991,M013,DC003,Scratch,Medium,Quality Assurance,5
+DEF000001,PO001992,M018,DC003,Scratch,Medium,Quality Assurance,6
+DEF000001,PO001993,M002,DC010,Incomplete Machining,Medium,Quality Assurance,6
+DEF000001,PO001994,M004,DC010,Incomplete Machining,Medium,Quality Assurance,4
+DEF000001,PO001995,M007,DC006,Misalignment,High,Quality Assurance,5
+DEF000001,PO001996,M012,DC010,Incomplete Machining,Medium,Quality Assurance,4
+DEF000001,PO001997,M013,DC001,Surface Crack,High,Quality Assurance,5
+DEF000001,PO001998,M018,DC001,Surface Crack,High,Quality Assurance,5
+DEF000001,PO001999,M001,DC002,Dimension Mismatch,High,Quality Assurance,8
+DEF000001,PO002000,M005,DC001,Surface Crack,High,Quality Assurance,5
+DEF000001,PO002001,M007,DC010,Incomplete Machining,Medium,Quality Assurance,6
+DEF000001,PO002002,M011,DC005,Porosity,High,Quality Assurance,5
+DEF000001,PO002003,M014,DC004,Dent,Medium,Quality Assurance,3
+DEF000001,PO002004,M018,DC010,Incomplete Machining,Medium,Quality Assurance,4
+DEF000001,PO002005,M001,DC007,Assembly Error,Medium,Quality Assurance,8
+DEF000001,PO002006,M004,DC010,Incomplete Machining,Medium,Quality Assurance,4
+DEF000001,PO002007,M009,DC001,Surface Crack,High,Quality Assurance,9
+DEF000001,PO002008,M011,DC008,Coating Defect,Low,Quality Assurance,3
+DEF000001,PO002009,M013,DC009,Material Defect,High,Quality Assurance,4
+DEF000001,PO002010,M017,DC005,Porosity,High,Quality Assurance,5
+DEF000001,PO002011,M002,DC005,Porosity,High,Quality Assurance,5
+DEF000001,PO002012,M006,DC008,Coating Defect,Low,Quality Assurance,4
+DEF000001,PO002013,M007,DC004,Dent,Medium,Quality Assurance,8
+DEF000001,PO002014,M011,DC007,Assembly Error,Medium,Quality Assurance,5
+DEF000001,PO002015,M014,DC005,Porosity,High,Quality Assurance,6
+DEF000001,PO002016,M017,DC008,Coating Defect,Low,Quality Assurance,5
+DEF000001,PO002017,M002,DC002,Dimension Mismatch,High,Quality Assurance,7
+DEF000001,PO002018,M004,DC001,Surface Crack,High,Quality Assurance,3
+DEF000001,PO002019,M009,DC003,Scratch,Medium,Quality Assurance,7
+DEF000001,PO002020,M010,DC008,Coating Defect,Low,Quality Assurance,5
+DEF000001,PO002021,M014,DC007,Assembly Error,Medium,Quality Assurance,3
+DEF000001,PO002022,M018,DC008,Coating Defect,Low,Quality Assurance,4
+DEF000001,PO002023,M003,DC008,Coating Defect,Low,Quality Assurance,8
+DEF000001,PO002024,M005,DC004,Dent,Medium,Quality Assurance,4
+DEF000001,PO002025,M009,DC006,Misalignment,High,Quality Assurance,6
+DEF000001,PO002026,M012,DC010,Incomplete Machining,Medium,Quality Assurance,5
+DEF000001,PO002027,M014,DC003,Scratch,Medium,Quality Assurance,3
+DEF000001,PO002028,M018,DC006,Misalignment,High,Quality Assurance,5
+DEF000001,PO002029,M001,DC006,Misalignment,High,Quality Assurance,8
+DEF000001,PO002030,M005,DC006,Misalignment,High,Quality Assurance,5
+DEF000001,PO002031,M007,DC007,Assembly Error,Medium,Quality Assurance,8
+DEF000001,PO002032,M010,DC003,Scratch,Medium,Quality Assurance,5
+DEF000001,PO002033,M013,DC006,Misalignment,High,Quality Assurance,5
+DEF000001,PO002034,M016,DC009,Material Defect,High,Quality Assurance,5
+DEF000001,PO002035,M001,DC009,Material Defect,High,Quality Assurance,7
+DEF000001,PO002036,M004,DC002,Dimension Mismatch,High,Quality Assurance,3
+DEF000001,PO002037,M009,DC006,Misalignment,High,Quality Assurance,8
+DEF000001,PO002038,M010,DC004,Dent,Medium,Quality Assurance,4
+DEF000001,PO002039,M015,DC008,Coating Defect,Low,Quality Assurance,4
+DEF000001,PO002040,M016,DC002,Dimension Mismatch,High,Quality Assurance,4
+DEF000001,PO002041,M001,DC005,Porosity,High,Quality Assurance,7
+DEF000001,PO002042,M006,DC008,Coating Defect,Low,Quality Assurance,3
+DEF000001,PO002043,M009,DC004,Dent,Medium,Quality Assurance,6
+DEF000001,PO002044,M010,DC003,Scratch,Medium,Quality Assurance,4
+DEF000001,PO002045,M014,DC002,Dimension Mismatch,High,Quality Assurance,4
+DEF000001,PO002046,M018,DC001,Surface Crack,High,Quality Assurance,4
+DEF000001,PO002047,M003,DC005,Porosity,High,Quality Assurance,6
+DEF000001,PO002048,M006,DC007,Assembly Error,Medium,Quality Assurance,3
+DEF000001,PO002049,M008,DC010,Incomplete Machining,Medium,Quality Assurance,7
+DEF000001,PO002050,M010,DC007,Assembly Error,Medium,Quality Assurance,5
+DEF000001,PO002051,M015,DC004,Dent,Medium,Quality Assurance,5
+DEF000001,PO002052,M017,DC003,Scratch,Medium,Quality Assurance,6
+DEF000001,PO002053,M001,DC006,Misalignment,High,Quality Assurance,7
+DEF000001,PO002054,M005,DC010,Incomplete Machining,Medium,Quality Assurance,3
+DEF000001,PO002055,M008,DC006,Misalignment,High,Quality Assurance,7
+DEF000001,PO002056,M011,DC004,Dent,Medium,Quality Assurance,3
+DEF000001,PO002057,M014,DC003,Scratch,Medium,Quality Assurance,3
+DEF000001,PO002058,M017,DC008,Coating Defect,Low,Quality Assurance,6
+DEF000001,PO002059,M002,DC009,Material Defect,High,Quality Assurance,6
+DEF000001,PO002060,M005,DC008,Coating Defect,Low,Quality Assurance,4
+DEF000001,PO002061,M009,DC008,Coating Defect,Low,Quality Assurance,7
+DEF000001,PO002062,M011,DC005,Porosity,High,Quality Assurance,3
+DEF000001,PO002063,M013,DC008,Coating Defect,Low,Quality Assurance,4
+DEF000001,PO002064,M018,DC001,Surface Crack,High,Quality Assurance,4
+DEF000001,PO002065,M003,DC002,Dimension Mismatch,High,Quality Assurance,5
+DEF000001,PO002066,M006,DC007,Assembly Error,Medium,Quality Assurance,4
+DEF000001,PO002067,M007,DC009,Material Defect,High,Quality Assurance,5
+DEF000001,PO002068,M010,DC008,Coating Defect,Low,Quality Assurance,4
+DEF000001,PO002069,M013,DC004,Dent,Medium,Quality Assurance,5
+DEF000001,PO002070,M016,DC004,Dent,Medium,Quality Assurance,6
+DEF000001,PO002071,M003,DC010,Incomplete Machining,Medium,Quality Assurance,7
+DEF000001,PO002072,M005,DC006,Misalignment,High,Quality Assurance,5
+DEF000001,PO002073,M008,DC001,Surface Crack,High,Quality Assurance,8
+DEF000001,PO002074,M010,DC001,Surface Crack,High,Quality Assurance,4
+DEF000001,PO002075,M015,DC005,Porosity,High,Quality Assurance,4
+DEF000001,PO002076,M016,DC008,Coating Defect,Low,Quality Assurance,5
+DEF000001,PO002077,M002,DC010,Incomplete Machining,Medium,Quality Assurance,8
+DEF000001,PO002078,M005,DC008,Coating Defect,Low,Quality Assurance,3
+DEF000001,PO002079,M008,DC005,Porosity,High,Quality Assurance,8
+DEF000001,PO002080,M012,DC009,Material Defect,High,Quality Assurance,3
+DEF000001,PO002081,M013,DC001,Surface Crack,High,Quality Assurance,5
+DEF000001,PO002082,M017,DC002,Dimension Mismatch,High,Quality Assurance,4
+DEF000001,PO002083,M003,DC007,Assembly Error,Medium,Quality Assurance,6
+DEF000001,PO002084,M006,DC003,Scratch,Medium,Quality Assurance,4
+DEF000001,PO002085,M008,DC005,Porosity,High,Quality Assurance,6
+DEF000001,PO002086,M012,DC006,Misalignment,High,Quality Assurance,4
+DEF000001,PO002087,M015,DC007,Assembly Error,Medium,Quality Assurance,5
+DEF000001,PO002088,M017,DC006,Misalignment,High,Quality Assurance,5
+DEF000001,PO002089,M002,DC001,Surface Crack,High,Quality Assurance,6
+DEF000001,PO002090,M004,DC007,Assembly Error,Medium,Quality Assurance,4
+DEF000001,PO002091,M009,DC001,Surface Crack,High,Quality Assurance,8
+DEF000001,PO002092,M011,DC010,Incomplete Machining,Medium,Quality Assurance,3
+DEF000001,PO002093,M013,DC009,Material Defect,High,Quality Assurance,5
+DEF000001,PO002094,M017,DC004,Dent,Medium,Quality Assurance,6
+DEF000001,PO002095,M002,DC006,Misalignment,High,Quality Assurance,8
+DEF000001,PO002096,M006,DC009,Material Defect,High,Quality Assurance,5
+DEF000001,PO002097,M008,DC005,Porosity,High,Quality Assurance,7
+DEF000001,PO002098,M012,DC002,Dimension Mismatch,High,Quality Assurance,5
+DEF000001,PO002099,M014,DC007,Assembly Error,Medium,Quality Assurance,3
+DEF000001,PO002100,M016,DC009,Material Defect,High,Quality Assurance,6
+DEF000001,PO002101,M001,DC008,Coating Defect,Low,Quality Assurance,6
+DEF000001,PO002102,M006,DC009,Material Defect,High,Quality Assurance,3
+DEF000001,PO002103,M007,DC005,Porosity,High,Quality Assurance,5
+DEF000001,PO002104,M010,DC010,Incomplete Machining,Medium,Quality Assurance,4
+DEF000001,PO002105,M015,DC010,Incomplete Machining,Medium,Quality Assurance,4
+DEF000001,PO002106,M017,DC002,Dimension Mismatch,High,Quality Assurance,6
+DEF000001,PO002107,M001,DC003,Scratch,Medium,Quality Assurance,7
+DEF000001,PO002108,M004,DC002,Dimension Mismatch,High,Quality Assurance,3
+DEF000001,PO002109,M008,DC007,Assembly Error,Medium,Quality Assurance,6
+DEF000001,PO002110,M010,DC006,Misalignment,High,Quality Assurance,4
+DEF000001,PO002111,M014,DC006,Misalignment,High,Quality Assurance,4
+DEF000001,PO002112,M018,DC009,Material Defect,High,Quality Assurance,5
+DEF000001,PO002113,M001,DC006,Misalignment,High,Quality Assurance,6
+DEF000001,PO002114,M005,DC003,Scratch,Medium,Quality Assurance,3
+DEF000001,PO002115,M008,DC004,Dent,Medium,Quality Assurance,6
+DEF000001,PO002116,M012,DC010,Incomplete Machining,Medium,Quality Assurance,4
+DEF000001,PO002117,M015,DC009,Material Defect,High,Quality Assurance,4
+DEF000001,PO002118,M018,DC007,Assembly Error,Medium,Quality Assurance,4
+DEF000001,PO002119,M003,DC009,Material Defect,High,Quality Assurance,6
+DEF000001,PO002120,M005,DC001,Surface Crack,High,Quality Assurance,3
+DEF000001,PO002121,M009,DC001,Surface Crack,High,Quality Assurance,7
+DEF000001,PO002122,M011,DC001,Surface Crack,High,Quality Assurance,4
+DEF000001,PO002123,M013,DC003,Scratch,Medium,Quality Assurance,4
+DEF000001,PO002124,M017,DC006,Misalignment,High,Quality Assurance,4
+DEF000001,PO002125,M002,DC008,Coating Defect,Low,Quality Assurance,4
+DEF000001,PO002126,M004,DC009,Material Defect,High,Quality Assurance,4
+DEF000001,PO002127,M007,DC008,Coating Defect,Low,Quality Assurance,8
+DEF000001,PO002128,M011,DC003,Scratch,Medium,Quality Assurance,4
+DEF000001,PO002129,M015,DC010,Incomplete Machining,Medium,Quality Assurance,4
+DEF000001,PO002130,M017,DC009,Material Defect,High,Quality Assurance,4
+DEF000001,PO002131,M002,DC003,Scratch,Medium,Quality Assurance,6
+DEF000001,PO002132,M004,DC006,Misalignment,High,Quality Assurance,4
+DEF000001,PO002133,M007,DC010,Incomplete Machining,Medium,Quality Assurance,5
+DEF000001,PO002134,M011,DC006,Misalignment,High,Quality Assurance,4
+DEF000001,PO002135,M013,DC003,Scratch,Medium,Quality Assurance,4
+DEF000001,PO002136,M016,DC007,Assembly Error,Medium,Quality Assurance,5
+DEF000001,PO002137,M002,DC010,Incomplete Machining,Medium,Quality Assurance,7
+DEF000001,PO002138,M006,DC005,Porosity,High,Quality Assurance,4
+DEF000001,PO002139,M009,DC010,Incomplete Machining,Medium,Quality Assurance,8
+DEF000001,PO002140,M011,DC006,Misalignment,High,Quality Assurance,3
+DEF000001,PO002141,M013,DC009,Material Defect,High,Quality Assurance,4
+DEF000001,PO002142,M016,DC009,Material Defect,High,Quality Assurance,5
+DEF000001,PO002143,M003,DC009,Material Defect,High,Quality Assurance,7
+DEF000001,PO002144,M006,DC008,Coating Defect,Low,Quality Assurance,4
+DEF000001,PO002145,M008,DC010,Incomplete Machining,Medium,Quality Assurance,6
+DEF000001,PO002146,M010,DC005,Porosity,High,Quality Assurance,5
+DEF000001,PO002147,M013,DC008,Coating Defect,Low,Quality Assurance,4
+DEF000001,PO002148,M017,DC001,Surface Crack,High,Quality Assurance,6
+DEF000001,PO002149,M002,DC006,Misalignment,High,Quality Assurance,4
+DEF000001,PO002150,M004,DC006,Misalignment,High,Quality Assurance,3
+DEF000001,PO002151,M008,DC002,Dimension Mismatch,High,Quality Assurance,5
+DEF000001,PO002152,M011,DC007,Assembly Error,Medium,Quality Assurance,4
+DEF000001,PO002153,M014,DC010,Incomplete Machining,Medium,Quality Assurance,4
+DEF000001,PO002154,M016,DC005,Porosity,High,Quality Assurance,4
+DEF000001,PO002155,M001,DC001,Surface Crack,High,Quality Assurance,4
+DEF000001,PO002156,M005,DC010,Incomplete Machining,Medium,Quality Assurance,4
+DEF000001,PO002157,M008,DC008,Coating Defect,Low,Quality Assurance,7
+DEF000001,PO002158,M011,DC005,Porosity,High,Quality Assurance,3
+DEF000001,PO002159,M013,DC010,Incomplete Machining,Medium,Quality Assurance,5
+DEF000001,PO002160,M017,DC010,Incomplete Machining,Medium,Quality Assurance,6
+DEF000001,PO002161,M001,DC004,Dent,Medium,Quality Assurance,6
+DEF000001,PO002162,M006,DC001,Surface Crack,High,Quality Assurance,3
+DEF000001,PO002163,M009,DC010,Incomplete Machining,Medium,Quality Assurance,8
+DEF000001,PO002164,M011,DC008,Coating Defect,Low,Quality Assurance,5
+DEF000001,PO002165,M014,DC003,Scratch,Medium,Quality Assurance,4
+DEF000001,PO002166,M018,DC009,Material Defect,High,Quality Assurance,4
+DEF000001,PO002167,M003,DC010,Incomplete Machining,Medium,Quality Assurance,5
+DEF000001,PO002168,M005,DC007,Assembly Error,Medium,Quality Assurance,4
+DEF000001,PO002169,M008,DC003,Scratch,Medium,Quality Assurance,7
+DEF000001,PO002170,M010,DC004,Dent,Medium,Quality Assurance,4
+DEF000001,PO002171,M013,DC001,Surface Crack,High,Quality Assurance,4
+DEF000001,PO002172,M017,DC010,Incomplete Machining,Medium,Quality Assurance,6
+DEF000001,PO002173,M001,DC002,Dimension Mismatch,High,Quality Assurance,7
+DEF000001,PO002174,M004,DC004,Dent,Medium,Quality Assurance,5
+DEF000001,PO002175,M007,DC001,Surface Crack,High,Quality Assurance,7
+DEF000001,PO002176,M012,DC008,Coating Defect,Low,Quality Assurance,4
+DEF000001,PO002177,M015,DC006,Misalignment,High,Quality Assurance,3
+DEF000001,PO002178,M016,DC007,Assembly Error,Medium,Quality Assurance,4
+DEF000001,PO002179,M002,DC003,Scratch,Medium,Quality Assurance,4
+DEF000001,PO002180,M006,DC007,Assembly Error,Medium,Quality Assurance,4
+DEF000001,PO002181,M007,DC004,Dent,Medium,Quality Assurance,7
+DEF000001,PO002182,M012,DC007,Assembly Error,Medium,Quality Assurance,4
+DEF000001,PO002183,M015,DC009,Material Defect,High,Quality Assurance,4
+DEF000001,PO002184,M017,DC010,Incomplete Machining,Medium,Quality Assurance,5
+DEF000001,PO002185,M003,DC008,Coating Defect,Low,Quality Assurance,7
+DEF000001,PO002186,M005,DC001,Surface Crack,High,Quality Assurance,5
+DEF000001,PO002187,M009,DC003,Scratch,Medium,Quality Assurance,6
+DEF000001,PO002188,M012,DC009,Material Defect,High,Quality Assurance,4
+DEF000001,PO002189,M013,DC004,Dent,Medium,Quality Assurance,3
+DEF000001,PO002190,M017,DC009,Material Defect,High,Quality Assurance,5

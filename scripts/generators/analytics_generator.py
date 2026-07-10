@@ -1,74 +1,129 @@
+"""
+ForgeIQ Analytics Generator
+Part 1
+"""
+
 import random
+import sys
 from pathlib import Path
 
 import pandas as pd
 
-# ---------------------------------------------------------
-# Paths
-# ---------------------------------------------------------
-
 BASE_DIR = Path(__file__).resolve().parents[2]
 
+if str(BASE_DIR) not in sys.path:
+    sys.path.append(str(BASE_DIR))
+
+from config import RANDOM_SEED
+
+random.seed(RANDOM_SEED)
+
 MANUFACTURING_DIR = BASE_DIR / "data" / "raw" / "manufacturing"
+QUALITY_DIR = BASE_DIR / "data" / "raw" / "quality"
+ENERGY_DIR = BASE_DIR / "data" / "raw" / "energy"
 OUTPUT_DIR = BASE_DIR / "data" / "raw" / "analytics"
 
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-
-# ---------------------------------------------------------
-# Load Production Records
-# ---------------------------------------------------------
 
 production = pd.read_csv(
     MANUFACTURING_DIR / "production_records.csv"
 )
 
+quality = pd.read_csv(
+    QUALITY_DIR / "quality_inspections.csv"
+)
+
+energy = pd.read_csv(
+    ENERGY_DIR / "energy_usage.csv"
+)
+
 # ---------------------------------------------------------
-# KPIs
+# Daily KPIs
 # ---------------------------------------------------------
 
 kpis = []
 
-for index, row in production.iterrows():
+for day in sorted(energy["day"].unique()):
+
+    day_energy = energy[
+        energy["day"] == day
+    ]
+
+    production_day = production.iloc[
+        (day - 1) * 6 : day * 6
+    ]
+
+    total_units = production_day[
+        "actual_quantity"
+    ].sum()
+
+    rejected = production_day[
+        "rejected_quantity"
+    ].sum()
+
+    runtime = production_day[
+        "runtime_minutes"
+    ].sum()
+
+    downtime = production_day[
+        "downtime_minutes"
+    ].sum()
+
+    total_energy = round(
+        day_energy["energy_consumed_kwh"].sum(),
+        2
+    )
 
     kpis.append(
         {
-            "kpi_id": f"KPI{index+1:06}",
-            "record_id": row["record_id"],
-            "production_efficiency": row["efficiency_percent"],
-            "machine_utilization": random.randint(70, 98),
-            "quality_score": round(random.uniform(90, 100), 2)
+            "day": day,
+            "production_units": total_units,
+            "rejected_units": rejected,
+            "runtime_minutes": runtime,
+            "downtime_minutes": downtime,
+            "energy_kwh": total_energy
         }
     )
 
-kpi_df = pd.DataFrame(kpis)
+kpis_df = pd.DataFrame(kpis)
 
-kpi_df.to_csv(
+kpis_df.to_csv(
     OUTPUT_DIR / "kpis.csv",
     index=False
 )
 
 print("kpis.csv created")
 
+
 # ---------------------------------------------------------
-# Forecasts
+# Production Forecast
 # ---------------------------------------------------------
 
 forecasts = []
 
-for i in range(1, 366):
+for _, row in kpis_df.iterrows():
+
+    forecast = int(
+        row["production_units"] *
+        random.uniform(0.97, 1.05)
+    )
 
     forecasts.append(
         {
-            "forecast_id": f"FC{i:04}",
-            "forecast_day": i,
-            "predicted_production": random.randint(3500, 5000),
-            "predicted_inventory_demand": random.randint(1200, 2500)
+            "day": row["day"],
+            "actual_production": row["production_units"],
+            "forecast_production": forecast,
+            "forecast_error_percent": round(
+                abs(forecast - row["production_units"])
+                / row["production_units"] * 100,
+                2
+            )
         }
     )
 
-forecast_df = pd.DataFrame(forecasts)
+forecasts_df = pd.DataFrame(forecasts)
 
-forecast_df.to_csv(
+forecasts_df.to_csv(
     OUTPUT_DIR / "forecasts.csv",
     index=False
 )
@@ -81,34 +136,35 @@ print("forecasts.csv created")
 
 alerts = []
 
-for i in range(1, 501):
+alert_number = 1
 
-    alerts.append(
-        {
-            "alert_id": f"ALT{i:05}",
-            "alert_type": random.choice(
-                [
-                    "Low Inventory",
-                    "High Energy Consumption",
-                    "Production Delay",
-                    "Quality Issue"
-                ]
-            ),
-            "priority": random.choice(
-                [
-                    "Low",
-                    "Medium",
-                    "High"
-                ]
-            ),
-            "status": random.choice(
-                [
-                    "Open",
-                    "Resolved"
-                ]
-            )
-        }
-    )
+for _, row in kpis_df.iterrows():
+
+    if row["downtime_minutes"] > 60:
+
+        alerts.append(
+            {
+                "alert_id": f"ALT{alert_number:05}",
+                "day": row["day"],
+                "alert_type": "High Downtime",
+                "priority": "High"
+            }
+        )
+
+        alert_number += 1
+
+    if row["rejected_units"] > 20:
+
+        alerts.append(
+            {
+                "alert_id": f"ALT{alert_number:05}",
+                "day": row["day"],
+                "alert_type": "High Reject Rate",
+                "priority": "Medium"
+            }
+        )
+
+        alert_number += 1
 
 alerts_df = pd.DataFrame(alerts)
 
@@ -119,4 +175,13 @@ alerts_df.to_csv(
 
 print("alerts.csv created")
 
-print("\nAnalytics data generated successfully.")
+
+print()
+
+print("======================================")
+print("ForgeIQ Analytics Module")
+print("======================================")
+
+print(f"KPIs            : {len(kpis_df)}")
+print(f"Forecasts       : {len(forecasts_df)}")
+print(f"Alerts          : {len(alerts_df)}")

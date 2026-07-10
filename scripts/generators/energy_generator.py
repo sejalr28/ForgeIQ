@@ -1,46 +1,56 @@
+"""
+ForgeIQ Energy Generator
+Part 1
+"""
+
 import random
+import sys
 from pathlib import Path
 
 import pandas as pd
 
-# ---------------------------------------------------------
-# Paths
-# ---------------------------------------------------------
-
 BASE_DIR = Path(__file__).resolve().parents[2]
+
+if str(BASE_DIR) not in sys.path:
+    sys.path.append(str(BASE_DIR))
+
+from config import RANDOM_SEED
+
+random.seed(RANDOM_SEED)
 
 MANUFACTURING_DIR = BASE_DIR / "data" / "raw" / "manufacturing"
 OUTPUT_DIR = BASE_DIR / "data" / "raw" / "energy"
 
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
-# ---------------------------------------------------------
-# Load Machines
-# ---------------------------------------------------------
-
 machines = pd.read_csv(
     MANUFACTURING_DIR / "machines.csv"
 )
+
+machine_status = pd.read_csv(
+    MANUFACTURING_DIR / "machine_status.csv"
+)
+
 
 # ---------------------------------------------------------
 # Energy Meters
 # ---------------------------------------------------------
 
-meters = []
+energy_meters = []
 
-for index, row in machines.iterrows():
+for _, machine in machines.iterrows():
 
-    meters.append(
+    energy_meters.append(
         {
-            "meter_id": f"EM{index+1:04}",
-            "machine_id": row["machine_id"],
-            "meter_type": "Electricity"
+            "meter_id": f"EM{machine['machine_id']}",
+            "machine_id": machine["machine_id"],
+            "power_rating_kw": machine["power_kw"]
         }
     )
 
-meters_df = pd.DataFrame(meters)
+energy_meters_df = pd.DataFrame(energy_meters)
 
-meters_df.to_csv(
+energy_meters_df.to_csv(
     OUTPUT_DIR / "energy_meters.csv",
     index=False
 )
@@ -51,27 +61,58 @@ print("energy_meters.csv created")
 # Energy Usage
 # ---------------------------------------------------------
 
-usage = []
+energy_usage = []
 
-for index, row in meters_df.iterrows():
+ELECTRICITY_RATE = 8.50   # ₹ per kWh
 
-    usage.append(
+for _, status in machine_status.iterrows():
+
+    machine = machines[
+        machines["machine_id"] == status["machine_id"]
+    ].iloc[0]
+
+    runtime_hours = status["runtime_minutes"] / 60
+
+    energy_consumed = round(
+        runtime_hours *
+        machine["power_kw"] *
+        random.uniform(0.90, 1.05),
+        2
+    )
+
+    energy_cost = round(
+        energy_consumed * ELECTRICITY_RATE,
+        2
+    )
+
+    energy_usage.append(
         {
-            "usage_id": f"EU{index+1:05}",
-            "meter_id": row["meter_id"],
-            "energy_consumption_kwh": round(random.uniform(50, 500), 2),
-            "operating_hours": random.randint(6, 24),
-            "energy_cost_inr": round(random.uniform(500, 6000), 2)
+            "machine_id": status["machine_id"],
+            "day": status["day"],
+            "runtime_minutes": status["runtime_minutes"],
+            "power_rating_kw": machine["power_kw"],
+            "energy_consumed_kwh": energy_consumed,
+            "energy_cost_inr": energy_cost
         }
     )
 
-usage_df = pd.DataFrame(usage)
+energy_usage_df = pd.DataFrame(
+    energy_usage
+)
 
-usage_df.to_csv(
+energy_usage_df.to_csv(
     OUTPUT_DIR / "energy_usage.csv",
     index=False
 )
 
 print("energy_usage.csv created")
 
-print("\nEnergy data generated successfully.")
+
+print()
+
+print("======================================")
+print("ForgeIQ Energy Module")
+print("======================================")
+
+print(f"Energy Meters      : {len(energy_meters_df)}")
+print(f"Energy Usage Rows  : {len(energy_usage_df)}")
