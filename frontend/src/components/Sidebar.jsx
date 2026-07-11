@@ -1,118 +1,101 @@
+// frontend/src/components/Sidebar.jsx
+import { NavLink } from "react-router-dom";
 import {
-    Menu,
-    LayoutDashboard,
-    Cpu,
-    Bot,
-    TriangleAlert,
-    Settings,
-    Factory
+  LayoutDashboard,
+  Cpu,
+  Bot,
+  TriangleAlert,
+  ChevronsLeft,
+  ChevronsRight,
 } from "lucide-react";
 
 const menu = [
-    {
-        icon: LayoutDashboard,
-        label: "Dashboard"
-    },
-    {
-        icon: Cpu,
-        label: "Machines"
-    },
-    {
-        icon: Bot,
-        label: "AI Prediction"
-    },
-    {
-        icon: TriangleAlert,
-        label: "Alerts"
-    }
+  { to: "/", icon: LayoutDashboard, label: "Dashboard", end: true },
+  { to: "/machines", icon: Cpu, label: "Machines" },
+  { to: "/prediction", icon: Bot, label: "AI Prediction" },
+  { to: "/alerts", icon: TriangleAlert, label: "Alerts" },
 ];
 
-function Sidebar(){
+function Sidebar({ collapsed, onToggle }) {
+  return (
+    <aside
+      className={`h-screen shrink-0 bg-surface border-r border-border flex flex-col transition-[width] duration-300 ease-[cubic-bezier(0.4,0,0.2,1)] ${
+        collapsed ? "w-[72px]" : "w-64"
+      }`}
+    >
+      <div className="flex items-center gap-3 px-4 h-16 border-b border-border">
+        <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-accent to-accent-hover flex items-center justify-center shrink-0 shadow-sm shadow-accent/30">
+          <span className="text-white text-sm font-bold tracking-tight">F</span>
+        </div>
+        {!collapsed && (
+          <div className="min-w-0">
+            <p className="text-sm font-semibold text-ink leading-tight truncate tracking-tight">
+              ForgeIQ
+            </p>
+            <p className="text-[11px] text-muted leading-tight truncate">
+              Manufacturing AI
+            </p>
+          </div>
+        )}
+      </div>
 
-    return(
+      <nav className="flex-1 px-3 py-5 space-y-1">
+        {menu.map((item) => {
+          const Icon = item.icon;
+          return (
+            <NavLink
+              key={item.to}
+              to={item.to}
+              end={item.end}
+              title={collapsed ? item.label : undefined}
+              className={({ isActive }) =>
+                `group relative flex items-center gap-3 rounded-lg px-3 py-2.5 text-sm font-medium transition-all duration-150 ${
+                  isActive
+                    ? "bg-accent-soft text-accent"
+                    : "text-muted hover:bg-surface-alt hover:text-ink"
+                } ${collapsed ? "justify-center" : ""}`
+              }
+            >
+              {({ isActive }) => (
+                <>
+                  <span
+                    className={`absolute left-0 top-1/2 -translate-y-1/2 w-[3px] rounded-full bg-accent transition-all duration-200 ${
+                      isActive ? "h-5 opacity-100" : "h-0 opacity-0"
+                    }`}
+                  />
+                  <Icon
+                    size={18}
+                    strokeWidth={2}
+                    className="shrink-0 transition-transform duration-150 group-hover:scale-105"
+                  />
+                  {!collapsed && <span className="truncate">{item.label}</span>}
+                </>
+              )}
+            </NavLink>
+          );
+        })}
+      </nav>
 
-<div className="w-64 bg-white border-r border-slate-200 flex flex-col">
-
-<div className="flex items-center justify-between px-6 py-6">
-
-<div className="flex items-center gap-3">
-
-<div className="w-10 h-10 rounded-xl bg-blue-600 flex items-center justify-center">
-
-<Factory className="text-white" size={20}/>
-
-</div>
-
-<div>
-
-<h2 className="font-bold text-lg">
-ForgeIQ
-</h2>
-
-<p className="text-xs text-slate-500">
-Manufacturing AI
-</p>
-
-</div>
-
-</div>
-
-<Menu className="text-slate-500 cursor-pointer"/>
-
-</div>
-
-<nav className="flex-1 mt-8 px-4">
-
-{
-
-menu.map((item)=>{
-
-const Icon=item.icon;
-
-return(
-
-<div
-key={item.label}
-className="flex items-center gap-4 px-4 py-3 rounded-xl mb-2 cursor-pointer hover:bg-blue-50 hover:text-blue-600 transition">
-
-<Icon size={20}/>
-
-<span className="font-medium">
-
-{item.label}
-
-</span>
-
-</div>
-
-)
-
-})
-
-}
-
-</nav>
-
-<div className="p-4">
-
-<div className="flex items-center gap-4 px-4 py-3 rounded-xl hover:bg-slate-100 cursor-pointer">
-
-<Settings size={20}/>
-
-<span>
-
-Settings
-
-</span>
-
-</div>
-
-</div>
-
-</div>
-
-)
-
+      <div className="p-3 border-t border-border">
+        <button
+          type="button"
+          onClick={onToggle}
+          className={`flex items-center gap-3 w-full rounded-lg px-3 py-2.5 text-sm font-medium text-muted hover:bg-surface-alt hover:text-ink transition-colors duration-150 ${
+            collapsed ? "justify-center" : ""
+          }`}
+        >
+          {collapsed ? (
+            <ChevronsRight size={18} />
+          ) : (
+            <>
+              <ChevronsLeft size={18} />
+              <span>Collapse</span>
+            </>
+          )}
+        </button>
+      </div>
+    </aside>
+  );
 }
 
 export default Sidebar;
